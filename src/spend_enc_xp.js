@@ -12,17 +12,42 @@ export function spendEncounterBudget(totalXP, levels, partySize) {
   const methodIndex = Math.floor(Math.random() * 3);
 
   // Method 1: Buy as many monsters of CR == the lowest party level
+  //           If we can't afford any, fallback to lower CRs (1/2, 1/4, 1/8, 0)
   if (methodIndex === 0) {
     const lowestLevel = Math.min(...levels);
-    // Because your CR table keys are strings, we’ll convert the level to a string
-    // (assuming your lowest party level corresponds exactly to a CR in your CR table).
-    const crKey = String(lowestLevel);  
-    const costPerMonster = CR_XP_TABLE[crKey] || 0;
-    if (costPerMonster === 0) {
-      return `No matching CR for level ${lowestLevel} in the CR table.`;
+    const crKey = String(lowestLevel);
+
+    // Potential fallback CRs in descending order of "power" from the "lowestLevel"
+    // For a real CR fallback, you'd want a full CR ordering, but let's do a simple array:
+    const fallbackOrder = ["1/2", "1/4", "1/8", "0"];
+
+    // We'll combine them: first we try the exact 'lowestLevel', then fallback
+    const crCandidates = [crKey, ...fallbackOrder];
+
+    let chosenCR = null;
+    let chosenCRXP = 0;
+
+    // Attempt each CR in order. As soon as we find a CR that fits at least 1 monster, we stop.
+    for (const candidate of crCandidates) {
+      const cost = CR_XP_TABLE[candidate];
+      if (cost) {
+        const maxCount = Math.floor(totalXP / cost);
+        if (maxCount >= 1) {
+          chosenCR = candidate;
+          chosenCRXP = cost;
+          break;
+        }
+      }
     }
-    const maxCount = Math.floor(totalXP / costPerMonster);
-    return `${maxCount} × CR${lowestLevel}`;
+
+    // If we never found a CR that fits, return a "no monster" message
+    if (!chosenCR) {
+      return `No monster fits within the budget for CR${lowestLevel} or lower.`;
+    }
+
+    // Otherwise, buy as many as we can of the chosen CR
+    const maxCount = Math.floor(totalXP / chosenCRXP);
+    return `${maxCount} × CR${chosenCR}`;
   }
 
   // Method 2: Single highest CR that fits in the total budget
