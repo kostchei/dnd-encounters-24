@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 
 function App() {
-  // Difficulty table (level -> { Low, Moderate, High })
-  // Excludes "Random" because that's a special case
+  // The XP table for each level and difficulty
   const XP_TABLE = {
     1:  { Low: 50,   Moderate: 75,   High: 100 },
     2:  { Low: 100,  Moderate: 150,  High: 200 },
@@ -26,72 +25,75 @@ function App() {
     20: { Low: 6400, Moderate: 13200,High: 22000 },
   };
 
-  // Each "line" is { level: 1..20, count: 1..8 }
-  const [lines, setLines] = useState([
-    { level: 1, count: 1 },
-  ]);
+  // Store up to 3 "lines", each with { level, count }
+  const [lines, setLines] = useState([{ level: 1, count: 1 }]);
 
-  // Difficulty states: "Low", "Moderate", "High", "Random"
+  // The dropdown’s actual selection, which can be "Low", "Moderate", "High", or "Random"
   const [difficulty, setDifficulty] = useState('High');
 
-  // Add a new line if we have fewer than 3
+  // The *resolved* difficulty we use in calculations and display.
+  // If the user picks "Random", we pick one of Low/Moderate/High and store it here.
+  const [resolvedDifficulty, setResolvedDifficulty] = useState('High');
+
+  // Handle user changing difficulty in the dropdown
+  const handleDifficultyChange = (e) => {
+    const choice = e.target.value;  // "Low", "Moderate", "High", or "Random"
+    setDifficulty(choice);
+
+    if (choice === 'Random') {
+      // Pick one of the three difficulties
+      const possibilities = ['Low', 'Moderate', 'High'];
+      const randomPick = possibilities[Math.floor(Math.random() * possibilities.length)];
+      setResolvedDifficulty(randomPick);
+    } else {
+      // They picked Low/Moderate/High explicitly
+      setResolvedDifficulty(choice);
+    }
+  };
+
+  // Add a new line (up to 3)
   const addLine = () => {
     if (lines.length < 3) {
       setLines((prev) => [...prev, { level: 1, count: 1 }]);
     }
   };
 
-  // Handle changes in a line’s level or count
+  // Update a given line's level or count
   const handleLineChange = (index, field, value) => {
     const newLines = [...lines];
-    newLines[index][field] = parseInt(value, 10); 
+    newLines[index][field] = parseInt(value, 10);
     setLines(newLines);
   };
 
-  // Randomly pick one of [Low, Moderate, High] if difficulty === "Random"
-  const getDifficultyValue = () => {
-    if (difficulty === 'Random') {
-      const difficulties = ['Low', 'Moderate', 'High'];
-      const randomIndex = Math.floor(Math.random() * difficulties.length);
-      return difficulties[randomIndex];
-    }
-    return difficulty;
-  };
-
-  // Calculate total XP from all lines
+  // Calculate total XP based on the *resolved* difficulty
   const calculateTotalXP = () => {
-    const finalDifficulty = getDifficultyValue();
     let total = 0;
-
     lines.forEach((line) => {
       const xpRow = XP_TABLE[line.level];
-      if (!xpRow) return; // safety check
-      const xpValue = xpRow[finalDifficulty]; // e.g. xpRow["High"]
-      total += xpValue * line.count;
+      if (xpRow) {
+        // xpRow might be e.g. { Low: 100, Moderate: 150, High: 200 }
+        total += xpRow[resolvedDifficulty] * line.count;
+      }
     });
-
     return total;
   };
 
   const totalXP = calculateTotalXP();
 
+  // Format how we display the resolved difficulty
+  const difficultyLabel = resolvedDifficulty + ' XP Encounter';
+
   return (
     <div style={styles.container}>
       <h1>D&D Encounter XP Budget</h1>
-      <p>
-        Select up to 3 lines of party members. Pick the <strong>level</strong> and{' '}
-        <strong>number of characters</strong>. Also choose a <strong>difficulty</strong>.
-      </p>
 
       {/* Difficulty dropdown */}
       <div style={styles.row}>
-        <label htmlFor="difficulty" style={styles.label}>
-          Difficulty:
-        </label>
+        <label htmlFor="difficulty" style={styles.label}>Difficulty:</label>
         <select
           id="difficulty"
-          value={difficulty}
-          onChange={(e) => setDifficulty(e.target.value)}
+          value={difficulty} // user’s "selected" value
+          onChange={handleDifficultyChange}
           style={styles.select}
         >
           <option value="Low">Low</option>
@@ -101,10 +103,12 @@ function App() {
         </select>
       </div>
 
-      {/* Lines for level & count */}
+      {/* Show which difficulty is actually being used if user picks random */}
+      <p>Currently using: <strong>{difficultyLabel}</strong></p>
+
       {lines.map((line, index) => (
         <div key={index} style={styles.lineContainer}>
-          <label style={styles.label}>Level: </label>
+          <label style={styles.label}>Level:</label>
           <select
             value={line.level}
             onChange={(e) => handleLineChange(index, 'level', e.target.value)}
@@ -134,14 +138,12 @@ function App() {
         </div>
       ))}
 
-      {/* Button to add a new line (max 3) */}
       {lines.length < 3 && (
         <button onClick={addLine} style={styles.addButton}>
           + Add Another Line
         </button>
       )}
 
-      {/* Display total XP budget */}
       <div style={styles.resultContainer}>
         <h2>Total XP Budget: {totalXP.toLocaleString()}</h2>
       </div>
@@ -151,7 +153,6 @@ function App() {
 
 export default App;
 
-// Some inline styling just for demonstration
 const styles = {
   container: {
     margin: '2rem auto',
@@ -183,4 +184,3 @@ const styles = {
     borderRadius: '4px',
   },
 };
-
