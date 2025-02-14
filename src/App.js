@@ -1,26 +1,51 @@
 import React, { useState } from 'react';
 import XP_TABLE from './enc_xp.json';
-import { spendEncounterBudget } from './spend_enc_xp.js'; // <-- Our new function
-import styles from './styles'; // If you have the styles in a separate file or keep them inline
+import { spendEncounterBudget } from './spend_enc_xp.js'; // Your existing function
+import styles from './styles'; // Assuming you have a styles object
+
+// Simple dice roller: rollDice(2, 6) -> sum of 2d6
+function rollDice(numDice, sides) {
+  let total = 0;
+  for (let i = 0; i < numDice; i++) {
+    total += Math.floor(Math.random() * sides) + 1;
+  }
+  return total;
+}
+
+// Map each terrain to a function that returns a distance.
+// Multiply by 10 for your desired scale (e.g. 2d6 * 10 ft).
+const terrainDistanceMap = {
+  'Open/Desert/Arctic': () => rollDice(6, 6) * 10,
+  'Forest': () => rollDice(2, 8) * 10,
+  'Hills/Urban': () => rollDice(2, 10) * 10,
+  'Mountains': () => rollDice(4, 10) * 10,
+  'Jungle/Indoors': () => rollDice(2, 6) * 10,
+};
 
 function App() {
-  // lines: up to 3 lines => each { level, count }
+  // Up to 3 lines => each { level, count }
   const [lines, setLines] = useState([{ level: 1, count: 1 }]);
 
   // Difficulty states (existing logic)
   const [difficulty, setDifficulty] = useState('High');
   const [resolvedDifficulty, setResolvedDifficulty] = useState('High');
 
-  // The new "Encounter Type" dropdown
+  // The "Encounter Type" dropdown
   const [encounterType, setEncounterType] = useState('Any');
+
+  // New "Terrain" dropdown
+  const [terrain, setTerrain] = useState('Random');
 
   // We'll store the final result of "spending" the XP budget here
   const [spentEncounter, setSpentEncounter] = useState('');
 
-  // The rest of your existing logic...
+  // We'll store the calculated "Encounter Distance" here
+  const [encounterDistance, setEncounterDistance] = useState(null);
+
   const handleDifficultyChange = (e) => {
     const choice = e.target.value;
     setDifficulty(choice);
+
     if (choice === 'Random') {
       const possibilities = ['Low', 'Moderate', 'High'];
       setResolvedDifficulty(
@@ -43,6 +68,7 @@ function App() {
     setLines(newLines);
   };
 
+  // Calculate total XP from the party input
   const calculateTotalXP = () => {
     let total = 0;
     lines.forEach((line) => {
@@ -57,22 +83,31 @@ function App() {
   const totalXP = calculateTotalXP();
   const difficultyLabel = resolvedDifficulty + ' XP Encounter';
 
-  // *** New handler for the "Spend XP Budget" button ***
+  // Spend XP Budget button handler
   const handleSpendBudget = () => {
-    // We'll gather the data we need:
-    // 1) totalXP
-    // 2) array of levels
-    // 3) total party size (# of characters)
     const allLevels = lines.map((l) => l.level);
     const partySize = lines.reduce((sum, l) => sum + l.count, 0);
 
-    // We call our function from spend_enc_xp.js
+    // This uses your existing function from spend_enc_xp.js
     const result = spendEncounterBudget(totalXP, allLevels, partySize);
 
-    // Optionally incorporate the encounterType in the result
-    // e.g. "Lolth: 5x CR3" or "Any: 1x CR7"
+    // Choose or randomize the terrain
+    let chosenTerrain = terrain;
+    if (chosenTerrain === 'Random') {
+      // Filter out a "Random" key if you do not want it in the real list:
+      const terrainOptions = Object.keys(terrainDistanceMap);
+      chosenTerrain =
+        terrainOptions[Math.floor(Math.random() * terrainOptions.length)];
+    }
+
+    // Calculate the distance
+    const distanceFn = terrainDistanceMap[chosenTerrain];
+    const distance = distanceFn ? distanceFn() : 0;
+
+    // Store them in state
     const finalString = `${encounterType}: ${result}`;
     setSpentEncounter(finalString);
+    setEncounterDistance(distance);
   };
 
   return (
@@ -106,7 +141,9 @@ function App() {
             style={styles.select}
           >
             {Array.from({ length: 20 }, (_, i) => i + 1).map((lvl) => (
-              <option key={lvl} value={lvl}>{lvl}</option>
+              <option key={lvl} value={lvl}>
+                {lvl}
+              </option>
             ))}
           </select>
 
@@ -119,7 +156,9 @@ function App() {
             style={styles.select}
           >
             {Array.from({ length: 8 }, (_, i) => i + 1).map((c) => (
-              <option key={c} value={c}>{c}</option>
+              <option key={c} value={c}>
+                {c}
+              </option>
             ))}
           </select>
         </div>
@@ -136,7 +175,7 @@ function App() {
         <h2>Total XP Budget: {totalXP.toLocaleString()}</h2>
       </div>
 
-      {/* New Encounter Type dropdown */}
+      {/* Encounter Type dropdown */}
       <div style={styles.row}>
         <label style={styles.label}>Encounter Type:</label>
         <select
@@ -152,6 +191,23 @@ function App() {
         </select>
       </div>
 
+      {/* Terrain dropdown */}
+      <div style={styles.row}>
+        <label style={styles.label}>Terrain:</label>
+        <select
+          value={terrain}
+          onChange={(e) => setTerrain(e.target.value)}
+          style={styles.select}
+        >
+          <option value="Random">Random</option>
+          <option value="Open/Desert/Arctic">Open/Desert/Arctic</option>
+          <option value="Forest">Forest</option>
+          <option value="Hills/Urban">Hills/Urban</option>
+          <option value="Mountains">Mountains</option>
+          <option value="Jungle/Indoors">Jungle/Indoors</option>
+        </select>
+      </div>
+
       {/* Spend XP Budget button + result */}
       <button onClick={handleSpendBudget} style={styles.addButton}>
         Spend XP Budget
@@ -161,6 +217,13 @@ function App() {
       {spentEncounter && (
         <div style={{ marginTop: '1rem' }}>
           <p><strong>Encounter:</strong> {spentEncounter}</p>
+        </div>
+      )}
+
+      {/* Show the terrain-based encounter distance */}
+      {encounterDistance !== null && (
+        <div style={{ marginTop: '1rem' }}>
+          <p><strong>Encounter Distance:</strong> {encounterDistance} ft.</p>
         </div>
       )}
     </div>
