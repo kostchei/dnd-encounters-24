@@ -1,0 +1,218 @@
+[
+    {
+      "challenge_rating": "1/8",
+      "lolth": ["Drow Guard", "Warrior Infantry"],
+      "vecna": ["Cultist"],
+      "blood_war": ["Manes"],
+      "off_arc": ["Bandit", "Mastiff"],
+      "dragons": ["Kobold Warrior"]
+    },
+    {
+      "challenge_rating": "1/4",
+      "lolth": ["Drow Acolyte", "Giant Wolf Spider"],
+      "vecna": ["Zombie", "Skeleton"],
+      "blood_war": ["Dretch"],
+      "off_arc": ["Goblin"],
+      "dragons": ["Pseudodragon"]
+    },
+    {
+      "challenge_rating": "1/2",
+      "lolth": ["Drow Scout"],
+      "vecna": ["Shadow", "Skeleton Warhorse"],
+      "blood_war": ["Tough"],
+      "off_arc": ["Mycanoid Adult", "Hobgoblin Warrior", "darkmantle"],
+      "dragons": ["Giant Wasp"]
+    },
+    {
+      "challenge_rating": "1",
+      "lolth": ["Drow Spy"],
+      "vecna": ["Specter", "Ghoul", "Scarecrow"],
+      "blood_war": ["Imp"],
+      "off_arc": ["Tiger", "goblin boss"],
+      "dragons": ["Faerie Dragon Youth"]
+    },
+    {
+      "challenge_rating": "2",
+      "lolth": ["Preist (ess of Lolth)", "Ettercap"],
+      "vecna": ["Ghast", "Nothic"],
+      "blood_war": ["Spined Devil", "cultist fanatic"],
+      "off_arc": ["Gelatinous Cube", "Mimic", "Ogre"],
+      "dragons": ["White Dragon Wyrmling", "Black Dragon Wyrmling"]
+    },
+    {
+      "challenge_rating": "3",
+      "lolth": ["Phase Spider"],
+      "vecna": ["Wight", "Mummy"],
+      "blood_war": ["Nightmare", "Bearded Devil"],
+      "off_arc": ["Minotaur", "Knight"],
+      "dragons": ["Blue Dragon Wyrmling"]
+    },
+    {
+      "challenge_rating": "4",
+      "lolth": ["Shadow Demon"],
+      "vecna": ["Ghost", "Banshee"],
+      "blood_war": ["Succubus"],
+      "off_arc": ["Lamia", "Bone Naga"],
+      "dragons": ["Red Dragon Wrymling"]
+    },
+    {
+      "challenge_rating": "5",
+      "lolth": ["Drow Elite Warrior"],
+      "vecna": ["Wraith", "Sepulchral Stalker"],
+      "blood_war": ["Cambion"],
+      "off_arc": ["Troll"],
+      "dragons": ["Young Deep Dragon"]
+    },
+    {
+      "challenge_rating": "6",
+      "lolth": ["Drider"],
+      "vecna": ["Varghulf Courtier"],
+      "blood_war": ["Vrock"],
+      "off_arc": ["Ambitious Assassin"],
+      "dragons": ["Wyvern"]
+    },
+    {
+      "challenge_rating": "7",
+      "lolth": ["Drow Mage"],
+      "vecna": ["Skeletal High Priest"],
+      "blood_war": ["Unlife Wood Elf Wizard"],
+      "off_arc": ["Oni"],
+      "dragons": ["Young Black Dragon"]
+    },
+    {
+      "challenge_rating": "8",
+      "lolth": ["Drow Preistess"],
+      "vecna": ["Tomb King", "Nosferatu"],
+      "blood_war": ["Hezrou", "Blackguard"],
+      "off_arc": ["Frost Giant"],
+      "dragons": ["Young Sea Serpent"]
+    },
+    {
+      "challenge_rating": "9",
+      "lolth": ["Drow House Captain"],
+      "vecna": ["Shade Assassin"],
+      "blood_war": ["Glabrezu"],
+      "off_arc": ["Treant"],
+      "dragons": ["Young Ametheyst Dragon"]
+    },
+    {
+      "challenge_rating": "10",
+      "lolth": ["Jade Giant Spider"],
+      "vecna": ["Necrosphinx"],
+      "blood_war": ["Deva"],
+      "off_arc": [],
+      "dragons": ["Young Red Dragon"]
+    },
+    {
+      "challenge_rating": "11",
+      "lolth": ["Drow Shadowblade"],
+      "vecna": ["Zombie Dragon"],
+      "blood_war": ["Horned Devil"],
+      "off_arc": [],
+      "dragons": ["Spider Dragon"]
+    },
+    {
+      "challenge_rating": "12",
+      "lolth": ["Vizeran DeVir"],
+      "vecna": ["Necrolith Bone Dragon"],
+      "blood_war": ["Arcanaloth"],
+      "off_arc": [],
+      "dragons": ["Adult Crystal Dragon"]
+    },
+    {
+      "challenge_rating": "13",
+      "lolth": ["Viconia DeVir"],
+      "vecna": ["Vampire"],
+      "blood_war": ["Nalfeshnee"],
+      "off_arc": [],
+      "dragons": ["Jabberwock"]
+    },
+    {
+      "challenge_rating": "14",
+      "lolth": ["Drow Inquisitor"],
+      "vecna": ["Terrorgheist"],
+      "blood_war": ["Ice Devil"],
+      "off_arc": [],
+      "dragons": ["Ancient Sea Serpent"]
+    },
+    {
+      "challenge_rating": "15",
+      "lolth": ["Asteroid Spider"],
+      "vecna": ["Vampire Warrior", "Dread Abysall"],
+      "blood_war": ["Nabassu"],
+      "off_arc": [],
+      "dragons": ["Adult Green Dragon"]
+    },
+    {
+      "challenge_rating": "16",
+      "lolth": ["??"],
+      "vecna": ["Mortarch (sacrament, blood, greif)"],
+      "blood_war": ["Planetar"],
+      "off_arc": [],
+      "dragons": ["Adult Blue Dragon"]
+    },
+    {
+      "challenge_rating": "17",
+      "lolth": [],
+      "vecna": [],
+      "blood_war": [],
+      "off_arc": [],
+      "dragons": ["Adult Red Dragon"]
+    },
+    {
+      "challenge_rating": "18",
+      "lolth": [],
+      "vecna": [],
+      "blood_war": [],
+      "off_arc": [],
+      "dragons": []
+    },
+    {
+      "challenge_rating": "19",
+      "lolth": [],
+      "vecna": [],
+      "blood_war": ["Greater Demons start here"],
+      "off_arc": [],
+      "dragons": []
+    },
+    {
+      "challenge_rating": "20",
+      "lolth": [],
+      "vecna": [],
+      "blood_war": [],
+      "off_arc": [],
+      "dragons": []
+    },
+    {
+      "challenge_rating": "21",
+      "lolth": [],
+      "vecna": [],
+      "blood_war": [],
+      "off_arc": [],
+      "dragons": []
+    },
+    {
+      "challenge_rating": "22",
+      "lolth": [],
+      "vecna": ["Ushoran"],
+      "blood_war": [],
+      "off_arc": [],
+      "dragons": []
+    },
+    {
+      "challenge_rating": "23",
+      "lolth": [],
+      "vecna": [],
+      "blood_war": [],
+      "off_arc": [],
+      "dragons": ["Ancient Red"]
+    },
+    {
+      "challenge_rating": "24",
+      "lolth": [],
+      "vecna": [],
+      "blood_war": [],
+      "off_arc": [],
+      "dragons": []
+    }
+  ]

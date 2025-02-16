@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import XP_TABLE from './enc_xp.json';
-import { spendEncounterBudget } from './spend_enc_xp.js'; // Your existing function
-import styles from './styles'; // Assuming you have a styles object
+import MONSTERS_BY_CR from './enc_by_cr.json';
+import { spendEncounterBudget } from './spend_enc_xp.js';
+import styles from './styles';
 
 // Simple dice roller: rollDice(2, 6) -> sum of 2d6
 function rollDice(numDice, sides) {
@@ -22,25 +23,44 @@ const terrainDistanceMap = {
   'Jungle/Indoors': () => rollDice(2, 6) * 10,
 };
 
+// Helper function to parse CR from the spendEncounterBudget result
+function parseCRFromResult(result) {
+  // Result format is like "2 × CR3" or "1 × CR1/4"
+  const crMatch = result.match(/CR([\d/]+)/);
+  if (crMatch) {
+    return crMatch[1]; // Returns the CR value (e.g., "3" or "1/4")
+  }
+  return "1/8"; // Default to lowest CR if we can't parse
+}
+
+// Helper function to get random monster from array
+function getRandomMonster(monsters) {
+  if (!monsters || monsters.length === 0) return "No monster available";
+  return monsters[Math.floor(Math.random() * monsters.length)];
+}
+
 function App() {
   // Up to 3 lines => each { level, count }
   const [lines, setLines] = useState([{ level: 1, count: 1 }]);
 
-  // Difficulty states (existing logic)
+  // Difficulty states
   const [difficulty, setDifficulty] = useState('High');
   const [resolvedDifficulty, setResolvedDifficulty] = useState('High');
 
   // The "Encounter Type" dropdown
   const [encounterType, setEncounterType] = useState('Any');
 
-  // New "Terrain" dropdown
+  // "Terrain" dropdown
   const [terrain, setTerrain] = useState('Random');
 
-  // We'll store the final result of "spending" the XP budget here
+  // Store the final result of "spending" the XP budget here
   const [spentEncounter, setSpentEncounter] = useState('');
 
-  // We'll store the calculated "Encounter Distance" here
+  // Store the calculated "Encounter Distance" here
   const [encounterDistance, setEncounterDistance] = useState(null);
+
+  // Keep track of the final terrain chosen
+  const [finalTerrain, setFinalTerrain] = useState('');
 
   const handleDifficultyChange = (e) => {
     const choice = e.target.value;
@@ -83,30 +103,56 @@ function App() {
   const totalXP = calculateTotalXP();
   const difficultyLabel = resolvedDifficulty + ' XP Encounter';
 
-  // Spend XP Budget button handler
   const handleSpendBudget = () => {
     const allLevels = lines.map((l) => l.level);
     const partySize = lines.reduce((sum, l) => sum + l.count, 0);
 
-    // This uses your existing function from spend_enc_xp.js
-    const result = spendEncounterBudget(totalXP, allLevels, partySize);
-
-    // Choose or randomize the terrain
-    let chosenTerrain = terrain;
-    if (chosenTerrain === 'Random') {
-      // Filter out a "Random" key if you do not want it in the real list:
-      const terrainOptions = Object.keys(terrainDistanceMap);
-      chosenTerrain =
-        terrainOptions[Math.floor(Math.random() * terrainOptions.length)];
+    // Get the encounter string from spendEncounterBudget
+    const encounterResult = spendEncounterBudget(totalXP, allLevels, partySize);
+    
+    // Parse the CR from the result
+    const cr = parseCRFromResult(encounterResult);
+    
+    // Get the quantity of monsters (if needed)
+    const quantityMatch = encounterResult.match(/(\d+) ×/);
+    const quantity = quantityMatch ? parseInt(quantityMatch[1]) : 1;
+    
+    // Find monsters for this CR
+    const monstersForCR = MONSTERS_BY_CR.find(entry => entry.challenge_rating === cr);
+    
+    // Process Encounter Type
+    let chosenEncounterType = encounterType;
+    if (chosenEncounterType === 'Any') {
+      const encounterOptions = ['lolth', 'vecna', 'blood_war', 'off_arc', 'dragons'];
+      chosenEncounterType = encounterOptions[Math.floor(Math.random() * encounterOptions.length)];
     }
 
-    // Calculate the distance
+    // Convert encounter type to match JSON keys
+    let typeKey = chosenEncounterType.toLowerCase().replace(' ', '_');
+    if (typeKey === 'bloodwar') typeKey = 'blood_war';
+    if (typeKey === 'off_arc') typeKey = 'off_arc';
+    
+    // Get a random monster of the chosen type
+    let monster = "No suitable monster found";
+    if (monstersForCR && monstersForCR[typeKey] && monstersForCR[typeKey].length > 0) {
+      monster = getRandomMonster(monstersForCR[typeKey]);
+    }
+
+    // Process Terrain
+    let chosenTerrain = terrain;
+    if (chosenTerrain === 'Random') {
+      const terrainOptions = Object.keys(terrainDistanceMap);
+      chosenTerrain = terrainOptions[Math.floor(Math.random() * terrainOptions.length)];
+    }
+
     const distanceFn = terrainDistanceMap[chosenTerrain];
     const distance = distanceFn ? distanceFn() : 0;
 
-    // Store them in state
-    const finalString = `${encounterType}: ${result}`;
-    setSpentEncounter(finalString);
+    setFinalTerrain(chosenTerrain);
+    
+    // Format the final encounter string with quantity if more than 1
+    const monsterString = quantity > 1 ? `${quantity}× ${monster}` : monster;
+    setSpentEncounter(`${chosenEncounterType.toUpperCase()} (CR ${cr}): ${monsterString}`);
     setEncounterDistance(distance);
   };
 
@@ -116,7 +162,9 @@ function App() {
 
       {/* Difficulty dropdown */}
       <div style={styles.row}>
-        <label htmlFor="difficulty" style={styles.label}>Difficulty:</label>
+        <label htmlFor="difficulty" style={styles.label}>
+          Difficulty:
+        </label>
         <select
           id="difficulty"
           value={difficulty}
@@ -130,14 +178,18 @@ function App() {
         </select>
       </div>
 
-      <p>Currently using: <strong>{difficultyLabel}</strong></p>
+      <p>
+        Currently using: <strong>{difficultyLabel}</strong>
+      </p>
 
       {lines.map((line, index) => (
         <div key={index} style={styles.lineContainer}>
           <label style={styles.label}>Level:</label>
           <select
             value={line.level}
-            onChange={(e) => handleLineChange(index, 'level', e.target.value)}
+            onChange={(e) =>
+              handleLineChange(index, 'level', e.target.value)
+            }
             style={styles.select}
           >
             {Array.from({ length: 20 }, (_, i) => i + 1).map((lvl) => (
@@ -152,7 +204,9 @@ function App() {
           </label>
           <select
             value={line.count}
-            onChange={(e) => handleLineChange(index, 'count', e.target.value)}
+            onChange={(e) =>
+              handleLineChange(index, 'count', e.target.value)
+            }
             style={styles.select}
           >
             {Array.from({ length: 8 }, (_, i) => i + 1).map((c) => (
@@ -185,7 +239,7 @@ function App() {
         >
           <option value="Lolth">Lolth</option>
           <option value="Vecna">Vecna</option>
-          <option value="BloodWar">BloodWar</option>
+          <option value="BloodWar">Blood War</option>
           <option value="Off Arc">Off Arc</option>
           <option value="Any">Any</option>
         </select>
@@ -216,14 +270,19 @@ function App() {
       {/* Show the result of spending the budget */}
       {spentEncounter && (
         <div style={{ marginTop: '1rem' }}>
-          <p><strong>Encounter:</strong> {spentEncounter}</p>
+          <p>
+            <strong>Encounter:</strong> {spentEncounter}
+          </p>
         </div>
       )}
 
-      {/* Show the terrain-based encounter distance */}
-      {encounterDistance !== null && (
+      {/* Show the terrain-based encounter distance with the terrain listed */}
+      {encounterDistance !== null && finalTerrain && (
         <div style={{ marginTop: '1rem' }}>
-          <p><strong>Encounter Distance:</strong> {encounterDistance} ft.</p>
+          <p>
+            <strong>Encounter Distance:</strong> {encounterDistance} ft. (Terrain:{' '}
+            {finalTerrain})
+          </p>
         </div>
       )}
     </div>
