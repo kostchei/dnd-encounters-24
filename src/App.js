@@ -3,6 +3,7 @@ import XP_TABLE from './enc_xp.json';
 import MONSTERS_BY_CR from './enc_by_cr.json';
 import { spendEncounterBudget } from './spend_enc_xp.js';
 import styles from './styles';
+import banner from './banner.jpg';  // Import the banner image
 
 // Simple dice roller: rollDice(2, 6) -> sum of 2d6
 function rollDice(numDice, sides) {
@@ -123,19 +124,14 @@ function App() {
     // Process Encounter Type
     let chosenEncounterType = encounterType;
     if (chosenEncounterType === 'Any') {
-      const encounterOptions = ['lolth', 'vecna', 'blood_war', 'off_arc', 'dragons'];
+      const encounterOptions = ['Lolth', 'Vecna', 'BloodWar', 'Off Arc', 'Dragons'];
       chosenEncounterType = encounterOptions[Math.floor(Math.random() * encounterOptions.length)];
     }
-
-    // Convert encounter type to match JSON keys
-    let typeKey = chosenEncounterType.toLowerCase().replace(' ', '_');
-    if (typeKey === 'bloodwar') typeKey = 'blood_war';
-    if (typeKey === 'off_arc') typeKey = 'off_arc';
     
     // Get a random monster of the chosen type
     let monster = "No suitable monster found";
-    if (monstersForCR && monstersForCR[typeKey] && monstersForCR[typeKey].length > 0) {
-      monster = getRandomMonster(monstersForCR[typeKey]);
+    if (monstersForCR && monstersForCR[chosenEncounterType] && monstersForCR[chosenEncounterType].length > 0) {
+      monster = getRandomMonster(monstersForCR[chosenEncounterType]);
     }
 
     // Process Terrain
@@ -152,139 +148,141 @@ function App() {
     
     // Format the final encounter string with quantity if more than 1
     const monsterString = quantity > 1 ? `${quantity}× ${monster}` : monster;
-    setSpentEncounter(`${chosenEncounterType.toUpperCase()} (CR ${cr}): ${monsterString}`);
+    setSpentEncounter(`${chosenEncounterType} (CR ${cr}): ${monsterString}`);
     setEncounterDistance(distance);
   };
 
   return (
     <div style={styles.container}>
-      <h1>D&D Encounter XP Budget</h1>
-
-      {/* Difficulty dropdown */}
-      <div style={styles.row}>
-        <label htmlFor="difficulty" style={styles.label}>
-          Difficulty:
-        </label>
-        <select
-          id="difficulty"
-          value={difficulty}
-          onChange={handleDifficultyChange}
-          style={styles.select}
-        >
-          <option value="Low">Low</option>
-          <option value="Moderate">Moderate</option>
-          <option value="High">High</option>
-          <option value="Random">Random</option>
-        </select>
-      </div>
-
-      <p>
-        Currently using: <strong>{difficultyLabel}</strong>
-      </p>
-
-      {lines.map((line, index) => (
-        <div key={index} style={styles.lineContainer}>
-          <label style={styles.label}>Level:</label>
-          <select
-            value={line.level}
-            onChange={(e) =>
-              handleLineChange(index, 'level', e.target.value)
-            }
-            style={styles.select}
-          >
-            {Array.from({ length: 20 }, (_, i) => i + 1).map((lvl) => (
-              <option key={lvl} value={lvl}>
-                {lvl}
-              </option>
-            ))}
-          </select>
-
-          <label style={{ marginLeft: '1rem', marginRight: '0.5rem' }}>
-            # of Characters:
-          </label>
-          <select
-            value={line.count}
-            onChange={(e) =>
-              handleLineChange(index, 'count', e.target.value)
-            }
-            style={styles.select}
-          >
-            {Array.from({ length: 8 }, (_, i) => i + 1).map((c) => (
-              <option key={c} value={c}>
-                {c}
-              </option>
-            ))}
-          </select>
-        </div>
-      ))}
-
-      {lines.length < 3 && (
-        <button onClick={addLine} style={styles.addButton}>
-          + Add Another Line
-        </button>
-      )}
-
-      {/* Display total XP */}
-      <div style={styles.resultContainer}>
-        <h2>Total XP Budget: {totalXP.toLocaleString()}</h2>
-      </div>
-
-      {/* Encounter Type dropdown */}
-      <div style={styles.row}>
-        <label style={styles.label}>Encounter Type:</label>
-        <select
-          value={encounterType}
-          onChange={(e) => setEncounterType(e.target.value)}
-          style={styles.select}
-        >
-          <option value="Lolth">Lolth</option>
-          <option value="Vecna">Vecna</option>
-          <option value="BloodWar">Blood War</option>
-          <option value="Off Arc">Off Arc</option>
-          <option value="Any">Any</option>
-        </select>
-      </div>
-
-      {/* Terrain dropdown */}
-      <div style={styles.row}>
-        <label style={styles.label}>Terrain:</label>
-        <select
-          value={terrain}
-          onChange={(e) => setTerrain(e.target.value)}
-          style={styles.select}
-        >
-          <option value="Random">Random</option>
-          <option value="Open/Desert/Arctic">Open/Desert/Arctic</option>
-          <option value="Forest">Forest</option>
-          <option value="Hills/Urban">Hills/Urban</option>
-          <option value="Mountains">Mountains</option>
-          <option value="Jungle/Indoors">Jungle/Indoors</option>
-        </select>
-      </div>
-
-      {/* Spend XP Budget button + result */}
-      <button onClick={handleSpendBudget} style={styles.addButton}>
-        Spend XP Budget
-      </button>
-
-      {/* Show the result of spending the budget */}
-      {spentEncounter && (
-        <div style={{ marginTop: '1rem' }}>
-          <p>
-            <strong>Encounter:</strong> {spentEncounter}
+      <div style={styles.mistOverlay} />
+      <div style={styles.contentWrapper}>
+        <img src={banner} alt="D&D Banner" style={styles.banner} />
+        
+        <div style={styles.innerContainer}>
+          <h1 style={styles.title}>D&D Encounter Generator</h1>
+  
+          {/* Difficulty dropdown */}
+          <div style={styles.row}>
+            <label htmlFor="difficulty" style={styles.label}>
+              Difficulty:
+            </label>
+            <select
+              id="difficulty"
+              value={difficulty}
+              onChange={handleDifficultyChange}
+              style={styles.select}
+            >
+              <option value="Low">Low</option>
+              <option value="Moderate">Moderate</option>
+              <option value="High">High</option>
+              <option value="Random">Random</option>
+            </select>
+          </div>
+  
+          <p style={styles.emphasis}>
+            Currently using: <strong>{difficultyLabel}</strong>
           </p>
+  
+          {lines.map((line, index) => (
+            <div key={index} style={styles.lineContainer}>
+              <label style={styles.label}>Level:</label>
+              <select
+                value={line.level}
+                onChange={(e) => handleLineChange(index, 'level', e.target.value)}
+                style={styles.select}
+              >
+                {Array.from({ length: 20 }, (_, i) => i + 1).map((lvl) => (
+                  <option key={lvl} value={lvl}>
+                    {lvl}
+                  </option>
+                ))}
+              </select>
+  
+              <label style={styles.label}>
+                # of Characters:
+              </label>
+              <select
+                value={line.count}
+                onChange={(e) => handleLineChange(index, 'count', e.target.value)}
+                style={styles.select}
+              >
+                {Array.from({ length: 8 }, (_, i) => i + 1).map((c) => (
+                  <option key={c} value={c}>
+                    {c}
+                  </option>
+                ))}
+              </select>
+            </div>
+          ))}
+  
+          {lines.length < 3 && (
+            <button onClick={addLine} style={styles.addButton}>
+              + Add Another Line
+            </button>
+          )}
+  
+          {/* Display total XP */}
+          <div style={styles.resultContainer}>
+            <h2 style={styles.emphasis}>Total XP Budget: {totalXP.toLocaleString()}</h2>
+          </div>
+  
+          {/* Encounter Type dropdown */}
+          <div style={styles.row}>
+            <label style={styles.label}>Encounter Type:</label>
+            <select
+              value={encounterType}
+              onChange={(e) => setEncounterType(e.target.value)}
+              style={styles.select}
+            >
+              <option value="Lolth">Lolth</option>
+              <option value="Vecna">Vecna</option>
+              <option value="BloodWar">Blood War</option>
+              <option value="Off Arc">Off Arc</option>
+              <option value="Dragons">Dragons</option>
+              <option value="Any">Any</option>
+            </select>
+          </div>
+  
+          {/* Terrain dropdown */}
+          <div style={styles.row}>
+            <label style={styles.label}>Terrain:</label>
+            <select
+              value={terrain}
+              onChange={(e) => setTerrain(e.target.value)}
+              style={styles.select}
+            >
+              <option value="Random">Random</option>
+              <option value="Open/Desert/Arctic">Open/Desert/Arctic</option>
+              <option value="Forest">Forest</option>
+              <option value="Hills/Urban">Hills/Urban</option>
+              <option value="Mountains">Mountains</option>
+              <option value="Jungle/Indoors">Jungle/Indoors</option>
+            </select>
+          </div>
+  
+          {/* Spend XP Budget button + results */}
+          <button onClick={handleSpendBudget} style={styles.addButton}>
+            Spend XP Budget
+          </button>
+  
+          {/* Combined encounter results */}
+          {(spentEncounter || (encounterDistance !== null && finalTerrain)) && (
+            <div style={styles.encounterResult}>
+              {spentEncounter && (
+                <p>
+                  <span style={styles.emphasis}>Encounter:</span> {spentEncounter}
+                </p>
+              )}
+              {encounterDistance !== null && finalTerrain && (
+                <p>
+                  <span style={styles.emphasis}>Encounter Distance:</span>{' '}
+                  {encounterDistance} ft. (Terrain: {finalTerrain})
+                </p>
+              )}
+            </div>
+          )}
         </div>
-      )}
-
-      {/* Show the terrain-based encounter distance with the terrain listed */}
-      {encounterDistance !== null && finalTerrain && (
-        <div style={{ marginTop: '1rem' }}>
-          <p>
-            <strong>Encounter Distance:</strong> {encounterDistance} ft. (Terrain:{' '}
-            {finalTerrain})
-          </p>
-        </div>
-      )}
+      </div>
     </div>
   );
 }

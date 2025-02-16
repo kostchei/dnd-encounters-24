@@ -1,35 +1,124 @@
 // styles.js
 const styles = {
-    container: {
-      margin: '2rem auto',
-      maxWidth: '600px',
-      fontFamily: 'Arial, sans-serif',
-    },
-    row: {
-      marginBottom: '1rem',
-    },
-    label: {
-      marginRight: '0.5rem',
-    },
-    select: {
-      padding: '0.25rem',
-      fontSize: '1rem',
-    },
-    lineContainer: {
-      marginBottom: '1rem',
-    },
-    addButton: {
-      padding: '0.5rem 1rem',
-      fontSize: '1rem',
-      cursor: 'pointer',
-    },
-    resultContainer: {
-      marginTop: '2rem',
-      padding: '1rem',
-      backgroundColor: '#f2f2f2',
-      borderRadius: '4px',
-    },
-  };
-  
-  export default styles;
-  
+  container: {
+    minHeight: '100vh',
+    padding: '2rem',
+    position: 'relative',
+    color: '#E6D5AC',
+    fontFamily: "'EB Garamond', serif",
+    background: '#1C1917',
+  },
+  mistOverlay: {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    background: `
+      repeating-linear-gradient(
+        45deg,
+        rgba(38, 38, 38, 0.2) 0%,
+        rgba(38, 38, 38, 0.3) 10%,
+        rgba(38, 38, 38, 0.2) 20%
+      )
+    `,
+    opacity: 0.7,
+    pointerEvents: 'none',
+    zIndex: 1,
+  },
+  contentWrapper: {
+    position: 'relative',
+    zIndex: 2,
+    maxWidth: '800px',
+    margin: '0 auto',
+  },
+  banner: {
+    width: '100%',
+    maxWidth: '800px',
+    height: 'auto',
+    marginBottom: '2rem',
+    borderRadius: '8px',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.5)',
+  },
+  row: {
+    marginBottom: '1.5rem',
+    display: 'flex',
+    alignItems: 'center',
+    gap: '1rem',
+  },
+  label: {
+    fontSize: '1.1rem',
+    color: '#FFD700',
+    marginRight: '1rem',
+    fontWeight: '500',
+    minWidth: '120px',
+  },
+  select: {
+    padding: '0.5rem 1rem',
+    fontSize: '1rem',
+    backgroundColor: '#2C2527',
+    color: '#E6D5AC',
+    border: '1px solid #8B0000',
+    borderRadius: '4px',
+    cursor: 'pointer',
+    minWidth: '150px',
+  },
+  lineContainer: {
+    display: 'flex',
+    alignItems: 'center',
+    marginBottom: '1rem',
+    padding: '1rem',
+    backgroundColor: 'rgba(44, 37, 39, 0.5)',
+    borderRadius: '4px',
+    border: '1px solid #8B0000',
+  },
+  addButton: {
+    padding: '0.75rem 1.5rem',
+    fontSize: '1rem',
+    backgroundColor: '#8B0000',
+    color: '#E6D5AC',
+    border: 'none',
+    borderRadius: '4px',
+    cursor: 'pointer',
+    transition: 'background-color 0.2s',
+    fontFamily: "'EB Garamond', serif",
+    margin: '1rem 0',
+  },
+  resultContainer: {
+    marginTop: '2rem',
+    padding: '1.5rem',
+    backgroundColor: 'rgba(139, 0, 0, 0.1)',
+    borderRadius: '8px',
+    border: '1px solid #8B0000',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
+  },
+  title: {
+    fontSize: '2.5rem',
+    textAlign: 'center',
+    color: '#FFD700',
+    marginBottom: '2rem',
+    fontFamily: "'MedievalSharp', cursive",
+    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+  },
+  innerContainer: {
+    background: 'rgba(28, 25, 23, 0.95)',
+    padding: '2rem',
+    borderRadius: '8px',
+    boxShadow: '0 4px 15px rgba(0, 0, 0, 0.3)',
+    border: '1px solid #8B0000',
+  },
+  encounterResult: {
+    marginTop: '1.5rem',
+    padding: '1.5rem',
+    backgroundColor: 'rgba(44, 37, 39, 0.7)',
+    borderRadius: '8px',
+    border: '1px solid #8B0000',
+    boxShadow: '0 2px 8px rgba(0, 0, 0, 0.2)',
+  },
+  emphasis: {
+    color: '#FFD700',
+    fontWeight: '500',
+  },
+};
+
+export default styles;
