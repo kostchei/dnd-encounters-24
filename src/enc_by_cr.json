@@ -153,16 +153,16 @@
     },
     {
       "challenge_rating": "17",
-      "Lolth": [],
-      "Vecna": [],
-      "BloodWar": [],
-      "Off Arc": [],
+      "Lolth": ["Death Knight"],
+      "Vecna": ["Dracolich"],
+      "BloodWar": ["Sphinx of Valor"],
+      "Off Arc": ["Goristo", "Dragon Turtle"],
       "Dragons": ["Adult Red Dragon"]
     },
     {
       "challenge_rating": "18",
       "Lolth": [],
-      "Vecna": [],
+      "Vecna": ["Demilich"],
       "BloodWar": [],
       "Off Arc": [],
       "Dragons": []
@@ -171,7 +171,7 @@
       "challenge_rating": "19",
       "Lolth": [],
       "Vecna": [],
-      "BloodWar": ["Greater Demons start here"],
+      "BloodWar": ["Balor"],
       "Off Arc": [],
       "Dragons": []
     },
@@ -179,33 +179,33 @@
       "challenge_rating": "20",
       "Lolth": [],
       "Vecna": [],
-      "BloodWar": [],
-      "Off Arc": [],
-      "Dragons": []
+      "BloodWar": ["Pit Fiend"],
+      "Off Arc": ["Animal Lord"],
+      "Dragons": ["Ancient White Dragon"]
     },
     {
       "challenge_rating": "21",
-      "Lolth": [],
-      "Vecna": [],
+      "Lolth": ["Arch-hag"],
+      "Vecna": ["Lich"],
       "BloodWar": [],
       "Off Arc": [],
-      "Dragons": []
+      "Dragons": ["Ancient Black Dragon"]
     },
     {
       "challenge_rating": "22",
       "Lolth": [],
       "Vecna": ["Ushoran"],
-      "BloodWar": [],
+      "BloodWar": ["Elemental Cataclysm"],
       "Off Arc": [],
-      "Dragons": []
+      "Dragons": ["Ancient Green Dragon"]
     },
     {
       "challenge_rating": "23",
       "Lolth": [],
-      "Vecna": [],
-      "BloodWar": [],
-      "Off Arc": [],
-      "Dragons": ["Ancient Red"]
+      "Vecna": ["Blob of Annihilation"],
+      "BloodWar": ["Empyrean (Fiend)"],
+      "Off Arc": ["Kraken"],
+      "Dragons": ["Ancient Blue Dragon"]
     },
     {
       "challenge_rating": "24",
@@ -213,6 +213,54 @@
       "Vecna": [],
       "BloodWar": [],
       "Off Arc": [],
+      "Dragons": ["Ancient Red Dragon"]
+    },
+    {
+      "challenge_rating": "25",
+      "Lolth": ["Bel"],
+      "Vecna": ["Grim Champion of Desolation"],
+      "BloodWar": ["Marut"],
+      "Off Arc": ["Colossus"],
+      "Dragons": ["Klauth"]
+    },
+    {
+      "challenge_rating": "26",
+      "Lolth": ["Demogorgon"],
+      "Vecna": ["Vecna the Archlich", "Orcus"],
+      "BloodWar": ["Zariel"],
+      "Off Arc": ["Tromokratis"],
+      "Dragons": ["Crystal Great Wyrm Dragon"]
+    },
+    {
+      "challenge_rating": "27",
+      "Lolth": [],
+      "Vecna": ["Arch-Lich"],
+      "BloodWar": ["Zariel"],
+      "Off Arc": ["Cradle of the Storm"],
+      "Dragons": ["Red Greatwyrm"]
+    },
+    {
+      "challenge_rating": "28",
+      "Lolth": [],
+      "Vecna": [],
+      "BloodWar": ["Kragnos End of Empires"],
+      "Off Arc": ["-"],
+      "Dragons": ["-"]
+    },
+    {
+      "challenge_rating": "29",
+      "Lolth": [],
+      "Vecna": ["-"],
+      "BloodWar": ["-"],
+      "Off Arc": [],
       "Dragons": []
+    },
+    {
+      "challenge_rating": "30",
+      "Lolth": ["Lolth"],
+      "Vecna": ["Nagash Death Returned"],
+      "BloodWar": ["Asmodeus"],
+      "Off Arc": ["Tarrasque"],
+      "Dragons": ["Tiamat"]
     }
   ]
