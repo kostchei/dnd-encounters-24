@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import XP_TABLE from './enc_xp.json';
 import MONSTERS_BY_CR from './enc_by_cr.json';
 import { spendEncounterBudget } from './spend_enc_xp.js';
@@ -63,15 +63,34 @@ function App() {
   // Keep track of the final terrain chosen
   const [finalTerrain, setFinalTerrain] = useState('');
 
+  // Calculate total XP from the party input
+  const calculateTotalXP = useCallback(() => {
+    let total = 0;
+    lines.forEach((line) => {
+      const xpRow = XP_TABLE[line.level];
+      if (xpRow) {
+        total += xpRow[resolvedDifficulty] * line.count;
+      }
+    });
+    return total;
+  }, [lines, resolvedDifficulty]);
+
+  const [totalXP, setTotalXP] = useState(calculateTotalXP());
+
+  useEffect(() => {
+    setTotalXP(calculateTotalXP());
+  }, [calculateTotalXP]);
+
+  const difficultyLabel = resolvedDifficulty + ' XP Encounter';
+
   const handleDifficultyChange = (e) => {
     const choice = e.target.value;
     setDifficulty(choice);
 
     if (choice === 'Random') {
       const possibilities = ['Low', 'Moderate', 'High'];
-      setResolvedDifficulty(
-        possibilities[Math.floor(Math.random() * possibilities.length)]
-      );
+      const newResolvedDifficulty = possibilities[Math.floor(Math.random() * possibilities.length)];
+      setResolvedDifficulty(newResolvedDifficulty);
     } else {
       setResolvedDifficulty(choice);
     }
@@ -88,21 +107,6 @@ function App() {
     newLines[index][field] = parseInt(value, 10);
     setLines(newLines);
   };
-
-  // Calculate total XP from the party input
-  const calculateTotalXP = () => {
-    let total = 0;
-    lines.forEach((line) => {
-      const xpRow = XP_TABLE[line.level];
-      if (xpRow) {
-        total += xpRow[resolvedDifficulty] * line.count;
-      }
-    });
-    return total;
-  };
-
-  const totalXP = calculateTotalXP();
-  const difficultyLabel = resolvedDifficulty + ' XP Encounter';
 
   const handleSpendBudget = () => {
     const allLevels = lines.map((l) => l.level);

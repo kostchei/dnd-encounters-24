@@ -83,7 +83,7 @@
       "challenge_rating": "8",
       "Lolth": ["Drow Preistess"],
       "Vecna": ["Tomb King", "Nosferatu"],
-      "BloodWar": ["Hezrou", "Blackguard"],
+      "BloodWar": ["Relentless Slasher", "Blackguard"],
       "Off Arc": ["Frost Giant"],
       "Dragons": ["Young Sea Serpent"]
     },
@@ -97,10 +97,10 @@
     },
     {
       "challenge_rating": "10",
-      "Lolth": ["Jade Giant Spider"],
-      "Vecna": ["Necrosphinx"],
-      "BloodWar": ["Deva"],
-      "Off Arc": [],
+      "Lolth": ["Yochlol, Spy Master"],
+      "Vecna": ["Necrosphinx", "Exethanter" ],
+      "BloodWar": ["Deva", "Warrior Commander"],
+      "Off Arc": ["Cyclops Oracle", "Legendary Manticore"],
       "Dragons": ["Young Red Dragon"]
     },
     {
@@ -108,23 +108,23 @@
       "Lolth": ["Drow Shadowblade"],
       "Vecna": ["Zombie Dragon"],
       "BloodWar": ["Horned Devil"],
-      "Off Arc": [],
+      "Off Arc": ["Skitterstrand Arachnarok"],
       "Dragons": ["Spider Dragon"]
     },
     {
       "challenge_rating": "12",
-      "Lolth": ["Vizeran DeVir"],
+      "Lolth": ["Vizeran DeVir", "Archpriest", "Pirate Admiral"],
       "Vecna": ["Necrolith Bone Dragon"],
-      "BloodWar": ["Arcanaloth"],
-      "Off Arc": [],
+      "BloodWar": ["Arcanaloth", "Erinyes"],
+      "Off Arc": ["Questing Knight"],
       "Dragons": ["Adult Crystal Dragon"]
     },
     {
       "challenge_rating": "13",
-      "Lolth": ["Viconia DeVir"],
+      "Lolth": ["Viconia DeVir ", "Shadow Dragon"],
       "Vecna": ["Vampire"],
-      "BloodWar": ["Nalfeshnee"],
-      "Off Arc": [],
+      "BloodWar": ["Nalfeshnee", "Rakshasa"],
+      "Off Arc": ["Adult White Dragon", "Storm Giant"],
       "Dragons": ["Jabberwock"]
     },
     {
@@ -132,23 +132,23 @@
       "Lolth": ["Drow Inquisitor"],
       "Vecna": ["Terrorgheist"],
       "BloodWar": ["Ice Devil"],
-      "Off Arc": [],
-      "Dragons": ["Ancient Sea Serpent"]
+      "Off Arc": ["Death Tyrant"],
+      "Dragons": ["Ancient Sea Serpent", "Adult Black Dragon"]
     },
     {
       "challenge_rating": "15",
       "Lolth": ["Asteroid Spider"],
-      "Vecna": ["Vampire Warrior", "Dread Abysall"],
-      "BloodWar": ["Nabassu"],
-      "Off Arc": [],
+      "Vecna": [ "Vampire Umbral Lord", "Mummy Lord"],
+      "BloodWar": ["Nabassu", "Salamander Inferno"],
+      "Off Arc": ["Purple Worm"],
       "Dragons": ["Adult Green Dragon"]
     },
     {
       "challenge_rating": "16",
-      "Lolth": ["??"],
+      "Lolth": ["Marilith"],
       "Vecna": ["Mortarch (sacrament, blood, greif)"],
       "BloodWar": ["Planetar"],
-      "Off Arc": [],
+      "Off Arc": ["Iron Golem"],
       "Dragons": ["Adult Blue Dragon"]
     },
     {
