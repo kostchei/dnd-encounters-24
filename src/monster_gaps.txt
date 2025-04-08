@@ -1,0 +1,62 @@
+# Gaps in Monster Coverage by Challenge Rating
+
+## CR 18
+- Lolth: Empty
+- BloodWar: Empty
+- Off Arc: Empty
+- Dragons: Empty
+
+## CR 19
+- Lolth: Empty
+- Vecna: Empty
+- Off Arc: Empty
+- Dragons: Empty
+
+## CR 20
+- Lolth: Empty
+- Vecna: Empty
+
+## CR 21
+- BloodWar: Empty
+- Off Arc: Empty
+
+## CR 22
+- Lolth: Empty
+- Off Arc: Empty
+
+## CR 23
+- Lolth: Empty
+
+## CR 24
+- Lolth: Empty
+- Vecna: Empty
+- BloodWar: Empty
+- Off Arc: Empty
+
+## CR 26
+- No gaps (all categories have entries)
+
+## CR 27
+- Lolth: Empty
+
+## CR 28
+- Lolth: Empty
+- Vecna: Empty
+- Off Arc: Contains placeholder "-"
+- Dragons: Contains placeholder "-"
+
+## CR 29
+- Lolth: Empty
+- Vecna: Contains placeholder "-"
+- BloodWar: Contains placeholder "-"
+- Off Arc: Empty
+- Dragons: Empty
+
+## CR 30
+- No gaps (all categories have entries)
+
+## Summary
+- Categories most frequently empty: Lolth (8 CRs)
+- CRs with most gaps: CR 24 and CR 29 (4 empty categories each)
+- CRs with no gaps: CR 1-17, CR 25, CR 26, CR 30
+

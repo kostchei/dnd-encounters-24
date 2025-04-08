@@ -154,65 +154,65 @@
     {
       "challenge_rating": "17",
       "Lolth": ["Death Knight"],
-      "Vecna": ["Dracolich"],
+      "Vecna": ["Dracolich", "Olyander, Mortarch of Grief"],
       "BloodWar": ["Sphinx of Valor"],
       "Off Arc": ["Goristo", "Dragon Turtle"],
       "Dragons": ["Adult Red Dragon"]
     },
     {
       "challenge_rating": "18",
-      "Lolth": [],
+      "Lolth": ["Drow Favored Consort", "Citadel Spider"],
       "Vecna": ["Demilich"],
-      "BloodWar": [],
-      "Off Arc": [],
-      "Dragons": []
+      "BloodWar": ["Abarxia, Spear of Chaos"],
+      "Off Arc": ["Goblin Shaman on Giant Roc", "Borborygmos"],
+      "Dragons": ["Ancient Deep Dragon", "Beanstalk Wurm"]
     },
     {
       "challenge_rating": "19",
-      "Lolth": [],
-      "Vecna": [],
-      "BloodWar": ["Balor"],
-      "Off Arc": [],
-      "Dragons": []
+      "Lolth": ["Raklupis Spyder-Fiend"],
+      "Vecna": ["Vampire Lord on Undead Dragon", "Lord Soth"],
+      "BloodWar": ["Balor", "Yndrasta"],
+      "Off Arc": ["Tasha the Witch", "Imix"],
+      "Dragons": ["Ancient Lunar Dragon"]
     },
     {
       "challenge_rating": "20",
-      "Lolth": [],
-      "Vecna": [],
+      "Lolth": ["Drow Matron Mother"],
+      "Vecna": ["Nightwalker", "Grim Champion of Bloodshed"],
       "BloodWar": ["Pit Fiend"],
-      "Off Arc": ["Animal Lord"],
+      "Off Arc": ["Animal Lord", "Gigant", "Leviathan"],
       "Dragons": ["Ancient White Dragon"]
     },
     {
       "challenge_rating": "21",
-      "Lolth": ["Arch-hag"],
-      "Vecna": ["Lich"],
-      "BloodWar": [],
-      "Off Arc": [],
-      "Dragons": ["Ancient Black Dragon"]
+      "Lolth": ["Arch-hag", "Arasta"],
+      "Vecna": ["Lich", "Lord Kroak", "False Lich"],
+      "BloodWar": ["Moloch", "Solar"],
+      "Off Arc": ["Gargantua", "Runic Colossus", "Astral Dreadnought"],
+      "Dragons": ["Ancient Black Dragon", "Ancient Moonstone Dragon"]
     },
     {
       "challenge_rating": "22",
-      "Lolth": [],
-      "Vecna": ["Ushoran"],
-      "BloodWar": ["Elemental Cataclysm"],
-      "Off Arc": [],
-      "Dragons": ["Ancient Green Dragon"]
+      "Lolth": ["Quenthel Baenre", "Camlash"],
+      "Vecna": ["Ushoran", "Miirym"],
+      "BloodWar": ["Belakor", "Keeper of Secrets"],
+      "Off Arc": ["Elemental Cataclysm", "Zaratan"],
+      "Dragons": ["Ancient Green Dragon", "Ember"]
     },
     {
       "challenge_rating": "23",
-      "Lolth": [],
-      "Vecna": ["Blob of Annihilation"],
-      "BloodWar": ["Empyrean (Fiend)"],
-      "Off Arc": ["Kraken"],
-      "Dragons": ["Ancient Blue Dragon"]
+      "Lolth": ["Blob of Annihilation", "Elder Tempest"],
+      "Vecna": ["Acerak", "Kas"],
+      "BloodWar": ["Empyrean (Fiend)", "Baphomet", "Fraz-Urbluu"],
+      "Off Arc": ["Kraken", "Nafas"],
+      "Dragons": ["Ancient Blue Dragon", "Claugiyliamatar"]
     },
     {
       "challenge_rating": "24",
-      "Lolth": [],
-      "Vecna": [],
-      "BloodWar": [],
-      "Off Arc": [],
+      "Lolth": ["Miska the Wolf-Spider"],
+      "Vecna": ["Dyrrn"],
+      "BloodWar": ["Yeenoghu"],
+      "Off Arc": ["Scion of Thrym"],
       "Dragons": ["Ancient Red Dragon"]
     },
     {
@@ -227,7 +227,7 @@
       "challenge_rating": "26",
       "Lolth": ["Demogorgon"],
       "Vecna": ["Vecna the Archlich", "Orcus"],
-      "BloodWar": ["Zariel"],
+      "BloodWar": ["Zariel", "Kragnos End of Empires"],
       "Off Arc": ["Tromokratis"],
       "Dragons": ["Crystal Great Wyrm Dragon"]
     },
@@ -241,24 +241,24 @@
     },
     {
       "challenge_rating": "28",
-      "Lolth": [],
+      "Lolth": ["Morathi"],
       "Vecna": [],
-      "BloodWar": ["Kragnos End of Empires"],
-      "Off Arc": ["-"],
-      "Dragons": ["-"]
+      "BloodWar": [],
+      "Off Arc": [],
+      "Dragons": []
     },
     {
       "challenge_rating": "29",
       "Lolth": [],
-      "Vecna": ["-"],
-      "BloodWar": ["-"],
+      "Vecna": [],
+      "BloodWar": ["Archaon the EverChosen"],
       "Off Arc": [],
       "Dragons": []
     },
     {
       "challenge_rating": "30",
       "Lolth": ["Lolth"],
-      "Vecna": ["Nagash Death Returned"],
+      "Vecna": ["Nagash"],
       "BloodWar": ["Asmodeus"],
       "Off Arc": ["Tarrasque"],
       "Dragons": ["Tiamat"]
