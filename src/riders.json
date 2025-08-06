@@ -1,0 +1,22 @@
+[
+  {"Name": "Bandit Captain", "Type": "Rider", "CR": "2"},
+  {"Name": "Knight", "Type": "Rider", "CR": "3"},
+  {"Name": "Veteran", "Type": "Rider", "CR": "3"},
+  {"Name": "Gladiator", "Type": "Rider", "CR": "5"},
+  {"Name": "Bandit", "Type": "Rider", "CR": "1/8"},
+  {"Name": "Guard", "Type": "Rider", "CR": "1/8"},
+  {"Name": "Scout", "Type": "Rider", "CR": "1/2"},
+  {"Name": "Spy", "Type": "Rider", "CR": "1"},
+  {"Name": "Noble", "Type": "Rider", "CR": "1/8"},
+  {"Name": "Tribal Warrior", "Type": "Rider", "CR": "1/8"},
+  {"Name": "Berserker", "Type": "Rider", "CR": "2"},
+  {"Name": "Orc", "Type": "Rider", "CR": "1/2"},
+  {"Name": "Hobgoblin", "Type": "Rider", "CR": "1/2"},
+  {"Name": "Hobgoblin Captain", "Type": "Rider", "CR": "3"},
+  {"Name": "Orc War Chief", "Type": "Rider", "CR": "4"},
+  {"Name": "Drow", "Type": "Rider", "CR": "1/4"},
+  {"Name": "Drow Elite Warrior", "Type": "Rider", "CR": "5"},
+  {"Name": "Githyanki Warrior", "Type": "Rider", "CR": "3"},
+  {"Name": "Yuan-ti Pureblood", "Type": "Rider", "CR": "1"},
+  {"Name": "Lizardfolk", "Type": "Rider", "CR": "1/2"}
+]

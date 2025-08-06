@@ -1,0 +1,22 @@
+[
+  {"Name": "Warhorse", "Type": "Mount", "CR": "1/2"},
+  {"Name": "Riding Horse", "Type": "Mount", "CR": "1/4"},
+  {"Name": "Pony", "Type": "Mount", "CR": "1/8"},
+  {"Name": "Mastiff", "Type": "Mount", "CR": "1/8"},
+  {"Name": "Mule", "Type": "Mount", "CR": "1/8"},
+  {"Name": "Camel", "Type": "Mount", "CR": "1/8"},
+  {"Name": "Elk", "Type": "Mount", "CR": "1/4"},
+  {"Name": "Giant Wolf", "Type": "Mount", "CR": "1"},
+  {"Name": "Dire Wolf", "Type": "Mount", "CR": "1"},
+  {"Name": "Giant Boar", "Type": "Mount", "CR": "2"},
+  {"Name": "Giant Eagle", "Type": "Mount", "CR": "1"},
+  {"Name": "Griffon", "Type": "Mount", "CR": "2"},
+  {"Name": "Hippogriff", "Type": "Mount", "CR": "1"},
+  {"Name": "Giant Spider", "Type": "Mount", "CR": "1"},
+  {"Name": "Giant Lizard", "Type": "Mount", "CR": "1/4"},
+  {"Name": "Axe Beak", "Type": "Mount", "CR": "1/4"},
+  {"Name": "Giant Goat", "Type": "Mount", "CR": "1/2"},
+  {"Name": "Giant Vulture", "Type": "Mount", "CR": "1"},
+  {"Name": "Rhinoceros", "Type": "Mount", "CR": "2"},
+  {"Name": "Giant Elk", "Type": "Mount", "CR": "2"}
+]

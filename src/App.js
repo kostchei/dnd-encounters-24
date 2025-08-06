@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import XP_TABLE from './enc_xp.json';
-import MONSTERS_BY_CR from './enc_by_cr.json';
-import { spendEncounterBudget } from './spend_enc_xp.js';
+import { generateNewEncounter } from './new_encounter_system.js';
 import styles from './styles';
 import banner from './banner.jpg';  // Import the banner image
 
@@ -24,20 +23,13 @@ const terrainDistanceMap = {
   'Jungle/Indoors': () => rollDice(2, 6) * 10,
 };
 
-// Helper function to parse CR from the spendEncounterBudget result
-function parseCRFromResult(result) {
-  // Result format is like "2 × CR3" or "1 × CR1/4"
-  const crMatch = result.match(/CR([\d/]+)/);
-  if (crMatch) {
-    return crMatch[1]; // Returns the CR value (e.g., "3" or "1/4")
+// Helper function to format encounter result for display
+function formatEncounterResult(encounterResult) {
+  if (encounterResult.error) {
+    return `Error: ${encounterResult.error}`;
   }
-  return "1/8"; // Default to lowest CR if we can't parse
-}
-
-// Helper function to get random monster from array
-function getRandomMonster(monsters) {
-  if (!monsters || monsters.length === 0) return "No monster available";
-  return monsters[Math.floor(Math.random() * monsters.length)];
+  
+  return `${encounterResult.category}: ${encounterResult.description}`;
 }
 
 function App() {
@@ -48,14 +40,11 @@ function App() {
   const [difficulty, setDifficulty] = useState('High');
   const [resolvedDifficulty, setResolvedDifficulty] = useState('High');
 
-  // The "Encounter Type" dropdown
-  const [encounterType, setEncounterType] = useState('Any');
+  // Store the encounter result object
+  const [encounterResult, setEncounterResult] = useState(null);
 
   // "Terrain" dropdown
   const [terrain, setTerrain] = useState('Random');
-
-  // Store the final result of "spending" the XP budget here
-  const [spentEncounter, setSpentEncounter] = useState('');
 
   // Store the calculated "Encounter Distance" here
   const [encounterDistance, setEncounterDistance] = useState(null);
@@ -112,31 +101,9 @@ function App() {
     const allLevels = lines.map((l) => l.level);
     const partySize = lines.reduce((sum, l) => sum + l.count, 0);
 
-    // Get the encounter string from spendEncounterBudget
-    const encounterResult = spendEncounterBudget(totalXP, allLevels, partySize);
-    
-    // Parse the CR from the result
-    const cr = parseCRFromResult(encounterResult);
-    
-    // Get the quantity of monsters (if needed)
-    const quantityMatch = encounterResult.match(/(\d+) ×/);
-    const quantity = quantityMatch ? parseInt(quantityMatch[1]) : 1;
-    
-    // Find monsters for this CR
-    const monstersForCR = MONSTERS_BY_CR.find(entry => entry.challenge_rating === cr);
-    
-    // Process Encounter Type
-    let chosenEncounterType = encounterType;
-    if (chosenEncounterType === 'Any') {
-      const encounterOptions = ['Lolth', 'Vecna', 'BloodWar', 'Off Arc', 'Dragons'];
-      chosenEncounterType = encounterOptions[Math.floor(Math.random() * encounterOptions.length)];
-    }
-    
-    // Get a random monster of the chosen type
-    let monster = "No suitable monster found";
-    if (monstersForCR && monstersForCR[chosenEncounterType] && monstersForCR[chosenEncounterType].length > 0) {
-      monster = getRandomMonster(monstersForCR[chosenEncounterType]);
-    }
+    // Use the new encounter generation system
+    const newEncounter = generateNewEncounter(totalXP, allLevels, partySize);
+    setEncounterResult(newEncounter);
 
     // Process Terrain
     let chosenTerrain = terrain;
@@ -149,10 +116,6 @@ function App() {
     const distance = distanceFn ? distanceFn() : 0;
 
     setFinalTerrain(chosenTerrain);
-    
-    // Format the final encounter string with quantity if more than 1
-    const monsterString = quantity > 1 ? `${quantity}× ${monster}` : monster;
-    setSpentEncounter(`${chosenEncounterType} (CR ${cr}): ${monsterString}`);
     setEncounterDistance(distance);
   };
 
@@ -230,21 +193,11 @@ function App() {
             <h2 style={styles.emphasis}>Total XP Budget: {totalXP.toLocaleString()}</h2>
           </div>
   
-          {/* Encounter Type dropdown */}
+          {/* New encounter categories info */}
           <div style={styles.row}>
-            <label style={styles.label}>Encounter Type:</label>
-            <select
-              value={encounterType}
-              onChange={(e) => setEncounterType(e.target.value)}
-              style={styles.select}
-            >
-              <option value="Lolth">Lolth</option>
-              <option value="Vecna">Vecna</option>
-              <option value="BloodWar">Blood War</option>
-              <option value="Off Arc">Off Arc</option>
-              <option value="Dragons">Dragons</option>
-              <option value="Any">Any</option>
-            </select>
+            <p style={styles.emphasis}>
+              Encounter Categories: Dragon/Legendary, Mounts & Riders, Groups, Mixed Groups
+            </p>
           </div>
   
           {/* Terrain dropdown */}
@@ -270,11 +223,16 @@ function App() {
           </button>
   
           {/* Combined encounter results */}
-          {(spentEncounter || (encounterDistance !== null && finalTerrain)) && (
+          {(encounterResult || (encounterDistance !== null && finalTerrain)) && (
             <div style={styles.encounterResult}>
-              {spentEncounter && (
+              {encounterResult && (
                 <p>
-                  <span style={styles.emphasis}>Encounter:</span> {spentEncounter}
+                  <span style={styles.emphasis}>Encounter:</span> {formatEncounterResult(encounterResult)}
+                </p>
+              )}
+              {encounterResult && encounterResult.totalXP && (
+                <p>
+                  <span style={styles.emphasis}>Used XP:</span> {encounterResult.totalXP.toLocaleString()} / {totalXP.toLocaleString()}
                 </p>
               )}
               {encounterDistance !== null && finalTerrain && (
