@@ -127,6 +127,51 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity) {
   const quantity = Math.floor(Math.random() * (maxQuantity - minQuantity + 1)) + minQuantity;
   const xpPerCreature = totalXP / quantity;
   
+  // Pre-select up to 2 mount types and 2 rider types for the entire encounter
+  const availableMountCRs = [...new Set(MOUNTS.map(m => m.CR))].sort((a, b) => {
+    const aXP = CR_XP_TABLE[a] || 0;
+    const bXP = CR_XP_TABLE[b] || 0;
+    return bXP - aXP; // Sort by XP descending
+  });
+  
+  const availableRiderCRs = [...new Set(RIDERS.map(r => r.CR))].sort((a, b) => {
+    const aXP = CR_XP_TABLE[a] || 0;
+    const bXP = CR_XP_TABLE[b] || 0;
+    return bXP - aXP; // Sort by XP descending
+  });
+  
+  // Select 1-2 mount types that could fit in the budget
+  const selectedMountTypes = [];
+  for (const cr of availableMountCRs) {
+    const crXP = CR_XP_TABLE[cr];
+    if (crXP <= xpPerCreature && selectedMountTypes.length < 2) {
+      const mountsOfThisCR = MOUNTS.filter(m => m.CR === cr);
+      if (mountsOfThisCR.length > 0) {
+        selectedMountTypes.push({
+          cr: cr,
+          xp: crXP,
+          creatures: mountsOfThisCR
+        });
+      }
+    }
+  }
+  
+  // Select 1-2 rider types that could fit in the budget  
+  const selectedRiderTypes = [];
+  for (const cr of availableRiderCRs) {
+    const crXP = CR_XP_TABLE[cr];
+    if (crXP <= xpPerCreature && selectedRiderTypes.length < 2) {
+      const ridersOfThisCR = RIDERS.filter(r => r.CR === cr);
+      if (ridersOfThisCR.length > 0) {
+        selectedRiderTypes.push({
+          cr: cr,
+          xp: crXP,
+          creatures: ridersOfThisCR
+        });
+      }
+    }
+  }
+  
   const results = [];
   let totalUsedXP = 0;
   
@@ -134,31 +179,52 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity) {
     // Decide if this is a mount+rider pair or just a rider
     const isPair = Math.random() < 0.7; // 70% chance of mounted
     
-    if (isPair) {
+    if (isPair && selectedMountTypes.length > 0 && selectedRiderTypes.length > 0) {
       // Randomly decide XP allocation: either 1/3 mount + 2/3 rider OR 2/3 mount + 1/3 rider
       const mountGetsMore = Math.random() < 0.5; // 50% chance each way
       
       const mountRatio = mountGetsMore ? (2/3) : (1/3);
       const riderRatio = mountGetsMore ? (1/3) : (2/3);
       
-      const mountCR = findBestCR(xpPerCreature * mountRatio);
-      const riderCR = findBestCR(xpPerCreature * riderRatio);
+      const mountBudget = xpPerCreature * mountRatio;
+      const riderBudget = xpPerCreature * riderRatio;
       
-      const mount = getRandomElement(getMonstersByCR(mountCR.cr, 'mounts'));
-      const rider = getRandomElement(getMonstersByCR(riderCR.cr, 'riders'));
+      // Find suitable mount and rider from selected types
+      const suitableMounts = selectedMountTypes.filter(mt => mt.xp <= mountBudget);
+      const suitableRiders = selectedRiderTypes.filter(rt => rt.xp <= riderBudget);
       
-      if (mount && rider) {
-        results.push({ mount, rider, type: 'pair', mountRatio, riderRatio });
-        totalUsedXP += (mountCR.xp + riderCR.xp);
+      if (suitableMounts.length > 0 && suitableRiders.length > 0) {
+        const chosenMountType = getRandomElement(suitableMounts);
+        const chosenRiderType = getRandomElement(suitableRiders);
+        
+        const mount = getRandomElement(chosenMountType.creatures);
+        const rider = getRandomElement(chosenRiderType.creatures);
+        
+        results.push({ 
+          mount, 
+          rider, 
+          type: 'pair', 
+          mountRatio, 
+          riderRatio,
+          mountCR: chosenMountType.cr,
+          riderCR: chosenRiderType.cr
+        });
+        totalUsedXP += (chosenMountType.xp + chosenRiderType.xp);
       }
-    } else {
+    } else if (selectedRiderTypes.length > 0) {
       // Just a rider (dismounted)
-      const riderCR = findBestCR(xpPerCreature);
-      const rider = getRandomElement(getMonstersByCR(riderCR.cr, 'riders'));
+      const suitableRiders = selectedRiderTypes.filter(rt => rt.xp <= xpPerCreature);
       
-      if (rider) {
-        results.push({ rider, type: 'dismounted' });
-        totalUsedXP += riderCR.xp;
+      if (suitableRiders.length > 0) {
+        const chosenRiderType = getRandomElement(suitableRiders);
+        const rider = getRandomElement(chosenRiderType.creatures);
+        
+        results.push({ 
+          rider, 
+          type: 'dismounted',
+          riderCR: chosenRiderType.cr
+        });
+        totalUsedXP += chosenRiderType.xp;
       }
     }
   }
@@ -168,7 +234,9 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity) {
     quantity: results.length,
     monsters: results,
     totalXP: totalUsedXP,
-    description: formatMountRiderDescription(results)
+    description: formatMountRiderDescription(results),
+    mountTypes: selectedMountTypes.map(mt => mt.cr),
+    riderTypes: selectedRiderTypes.map(rt => rt.cr)
   };
 }
 
@@ -253,17 +321,40 @@ function formatMountRiderDescription(results) {
   const dismounted = results.filter(r => r.type === 'dismounted');
   
   let desc = '';
+  
   if (pairs.length > 0) {
-    // Show variety in mount/rider combinations
-    const pairDescriptions = pairs.map(pair => {
-      const dominant = pair.mountRatio > pair.riderRatio ? 'mount-focused' : 'rider-focused';
-      return `${pair.rider.Name} on ${pair.mount.Name} (${dominant})`;
+    // Group pairs by mount and rider types to show the limited variety
+    const pairsByCombo = {};
+    pairs.forEach(pair => {
+      const key = `${pair.rider.Name} on ${pair.mount.Name}`;
+      if (!pairsByCombo[key]) {
+        pairsByCombo[key] = { count: 0, dominant: pair.mountRatio > pair.riderRatio ? 'mount-focused' : 'rider-focused' };
+      }
+      pairsByCombo[key].count++;
     });
+    
+    const pairDescriptions = Object.entries(pairsByCombo).map(([combo, info]) => {
+      return info.count > 1 ? `${info.count}× ${combo} (${info.dominant})` : `${combo} (${info.dominant})`;
+    });
+    
     desc += `${pairs.length} mounted: ${pairDescriptions.join(', ')}`;
   }
+  
   if (dismounted.length > 0) {
     if (desc) desc += '; ';
-    desc += `${dismounted.length} dismounted: ${dismounted[0].rider.Name}`;
+    
+    // Group dismounted by rider type
+    const dismountedByType = {};
+    dismounted.forEach(d => {
+      const key = d.rider.Name;
+      dismountedByType[key] = (dismountedByType[key] || 0) + 1;
+    });
+    
+    const dismountedDescriptions = Object.entries(dismountedByType).map(([rider, count]) => {
+      return count > 1 ? `${count}× ${rider}` : rider;
+    });
+    
+    desc += `${dismounted.length} dismounted: ${dismountedDescriptions.join(', ')}`;
   }
   
   return desc;
