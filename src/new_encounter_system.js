@@ -1,10 +1,10 @@
 // new_encounter_system.js
-import CR_XP_TABLE from './cr_xp.json';
-import DRAGONS from './dragon.json';
-import LEGENDARY from './legendary.json';
-import MOUNTS from './mounts.json';
-import RIDERS from './riders.json';
-import MONSTERS_BY_CR from './enc_by_cr.json';
+import CR_XP_TABLE from './data/cr_xp.json';
+import DRAGONS from './data/dragon.json';
+import LEGENDARY from './data/legendary.json';
+import MOUNTS from './data/mounts.json';
+import RIDERS from './data/riders.json';
+import MONSTERS_BY_CR from './data/enc_by_cr.json';
 
 // Helper function to get random element from array
 function getRandomElement(array) {

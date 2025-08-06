@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import XP_TABLE from './enc_xp.json';
+import XP_TABLE from './data/enc_xp.json';
 import { generateNewEncounter } from './new_encounter_system.js';
 import styles from './styles';
 import banner from './banner.jpg';  // Import the banner image

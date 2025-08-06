@@ -1,5 +1,5 @@
 // spend_enc_xp.js
-import CR_XP_TABLE from './cr_xp.json';
+import CR_XP_TABLE from './data/cr_xp.json';
 
 /**
  * @param {number} totalXP The total XP budget to spend.
