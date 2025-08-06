@@ -43,6 +43,9 @@ function App() {
   // Store the encounter result object
   const [encounterResult, setEncounterResult] = useState(null);
 
+  // Campaign theme selection
+  const [campaignTheme, setCampaignTheme] = useState('Any');
+
   // "Terrain" dropdown
   const [terrain, setTerrain] = useState('Random');
 
@@ -101,8 +104,8 @@ function App() {
     const allLevels = lines.map((l) => l.level);
     const partySize = lines.reduce((sum, l) => sum + l.count, 0);
 
-    // Use the new encounter generation system
-    const newEncounter = generateNewEncounter(totalXP, allLevels, partySize);
+    // Use the new encounter generation system with theme
+    const newEncounter = generateNewEncounter(totalXP, allLevels, partySize, campaignTheme);
     setEncounterResult(newEncounter);
 
     // Process Terrain
@@ -193,6 +196,23 @@ function App() {
             <h2 style={styles.emphasis}>Total XP Budget: {totalXP.toLocaleString()}</h2>
           </div>
   
+          {/* Campaign theme dropdown */}
+          <div style={styles.row}>
+            <label style={styles.label}>Campaign Theme:</label>
+            <select
+              value={campaignTheme}
+              onChange={(e) => setCampaignTheme(e.target.value)}
+              style={styles.select}
+            >
+              <option value="Any">Any</option>
+              <option value="Lolth">Lolth</option>
+              <option value="Vecna">Vecna</option>
+              <option value="BloodWar">BloodWar</option>
+              <option value="Dragons">Dragons</option>
+              <option value="Off Arc">Off Arc</option>
+            </select>
+          </div>
+
           {/* New encounter categories info */}
           <div style={styles.row}>
             <p style={styles.emphasis}>
