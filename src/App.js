@@ -24,12 +24,19 @@ const terrainDistanceMap = {
 };
 
 // Helper function to format encounter result for display
-function formatEncounterResult(encounterResult) {
+function formatEncounterResult(encounterResult, selectedTheme) {
   if (encounterResult.error) {
     return `Error: ${encounterResult.error}`;
   }
   
-  return `${encounterResult.category}: ${encounterResult.description}`;
+  let result = `${encounterResult.category}: ${encounterResult.description}`;
+  
+  // Add theme info when using "Any" theme to show what was selected
+  if (selectedTheme === 'Any' && encounterResult.theme) {
+    result += ` [${encounterResult.theme} theme]`;
+  }
+  
+  return result;
 }
 
 function App() {
@@ -213,12 +220,6 @@ function App() {
             </select>
           </div>
 
-          {/* New encounter categories info */}
-          <div style={styles.row}>
-            <p style={styles.emphasis}>
-              Encounter Categories: Dragon/Legendary, Mounts & Riders, Groups, Mixed Groups
-            </p>
-          </div>
   
           {/* Terrain dropdown */}
           <div style={styles.row}>
@@ -247,7 +248,7 @@ function App() {
             <div style={styles.encounterResult}>
               {encounterResult && (
                 <p>
-                  <span style={styles.emphasis}>Encounter:</span> {formatEncounterResult(encounterResult)}
+                  <span style={styles.emphasis}>Encounter:</span> {formatEncounterResult(encounterResult, campaignTheme)}
                 </p>
               )}
               {encounterResult && encounterResult.totalXP && (
