@@ -47,5 +47,16 @@
   {"Name": "Young Green Dragon", "Type": "Dragon (Chromatic)", "CR": 8, "Theme": "Dragons"},
   {"Name": "Young Red Dragon", "Type": "Dragon (Chromatic)", "CR": 10, "Theme": "Dragons"},
   {"Name": "Young Silver Dragon", "Type": "Dragon (Metallic)", "CR": 9, "Theme": "Dragons"},
-  {"Name": "Young White Dragon", "Type": "Dragon (Chromatic)", "CR": 6, "Theme": "Dragons"}
+  {"Name": "Young White Dragon", "Type": "Dragon (Chromatic)", "CR": 6, "Theme": "Dragons"},
+  {"Name": "Ancient Topaz Dragon", "Type": "Dragon (Gem)", "CR": 20, "Theme": "Dragons"},
+  {"Name": "Ancient Lunar Dragon", "Type": "Dragon", "CR": 19, "Theme": "Dragons"},
+  {"Name": "Ancient Deep Dragon", "Type": "Dragon", "CR": 18, "Theme": "Dragons"},
+  {"Name": "Dragon Tortoise", "Type": "Dragon", "CR": 17, "Theme": "Dragons"},
+  {"Name": "Adult Amethyst Dragon", "Type": "Dragon (Gem)", "CR": 16, "Theme": "Dragons"},
+  {"Name": "Ancient Sea Serpent", "Type": "Dragon", "CR": 14, "Theme": "Dragons"},
+  {"Name": "Jabberwock", "Type": "Dragon", "CR": 13, "Theme": "Dragons"},
+  {"Name": "Adult Lunar Dragon", "Type": "Dragon", "CR": 13, "Theme": "Dragons"},
+  {"Name": "Adult Crystal Dragon", "Type": "Dragon (Gem)", "CR": 12, "Theme": "Dragons"},
+  {"Name": "Adult Deep Dragon", "Type": "Dragon", "CR": 11, "Theme": "Dragons"},
+  {"Name": "Young Dragon Turtle", "Type": "Dragon", "CR": 10, "Theme": "Dragons"}
 ]
