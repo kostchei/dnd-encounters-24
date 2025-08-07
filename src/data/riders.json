@@ -1,39 +1,944 @@
 [
-  {"Name": "Bandit Captain", "Type": "Rider", "CR": "2", "Theme": "Off Arc"},
-  {"Name": "Knight", "Type": "Rider", "CR": "3", "Theme": "Off Arc"},
-  {"Name": "Veteran", "Type": "Rider", "CR": "3", "Theme": "Off Arc"},
-  {"Name": "Gladiator", "Type": "Rider", "CR": "5", "Theme": "Off Arc"},
-  {"Name": "Bandit", "Type": "Rider", "CR": "1/8", "Theme": "Off Arc"},
-  {"Name": "Guard", "Type": "Rider", "CR": "1/8", "Theme": "Off Arc"},
-  {"Name": "Scout", "Type": "Rider", "CR": "1/2", "Theme": "Off Arc"},
-  {"Name": "Spy", "Type": "Rider", "CR": "1", "Theme": "Off Arc"},
-  {"Name": "Noble", "Type": "Rider", "CR": "1/8", "Theme": "Off Arc"},
-  {"Name": "Tribal Warrior", "Type": "Rider", "CR": "1/8", "Theme": "Off Arc"},
-  {"Name": "Berserker", "Type": "Rider", "CR": "2", "Theme": "Off Arc"},
-  {"Name": "Orc", "Type": "Rider", "CR": "1/2", "Theme": "Off Arc"},
-  {"Name": "Hobgoblin", "Type": "Rider", "CR": "1/2", "Theme": "Off Arc"},
-  {"Name": "Hobgoblin Captain", "Type": "Rider", "CR": "3", "Theme": "Off Arc"},
-  {"Name": "Orc War Chief", "Type": "Rider", "CR": "4", "Theme": "Off Arc"},
-  {"Name": "Drow", "Type": "Rider", "CR": "1/4", "Theme": "Lolth"},
-  {"Name": "Drow Elite Warrior", "Type": "Rider", "CR": "5", "Theme": "Lolth"},
-  {"Name": "Githyanki Warrior", "Type": "Rider", "CR": "3", "Theme": "Off Arc"},
-  {"Name": "Yuan-ti Pureblood", "Type": "Rider", "CR": "1", "Theme": "Off Arc"},
-  {"Name": "Lizardfolk", "Type": "Rider", "CR": "1/2", "Theme": "Off Arc"},
-  {"Name": "Drow Scout", "Type": "Rider", "CR": "1/2", "Theme": "Lolth"},
-  {"Name": "Drow Acolyte", "Type": "Rider", "CR": "1/4", "Theme": "Lolth"},
-  {"Name": "Drow Priestess", "Type": "Rider", "CR": "8", "Theme": "Lolth"},
-  {"Name": "Cultist", "Type": "Rider", "CR": "1/8", "Theme": "Vecna"},
-  {"Name": "Cult Fanatic", "Type": "Rider", "CR": "2", "Theme": "Vecna"},
-  {"Name": "Death Knight", "Type": "Rider", "CR": "17", "Theme": "Vecna"},
-  {"Name": "Wight", "Type": "Rider", "CR": "3", "Theme": "Vecna"},
-  {"Name": "Wraith", "Type": "Rider", "CR": "5", "Theme": "Vecna"},
-  {"Name": "Bearded Devil", "Type": "Rider", "CR": "3", "Theme": "BloodWar"},
-  {"Name": "Horned Devil", "Type": "Rider", "CR": "11", "Theme": "BloodWar"},
-  {"Name": "Bone Devil", "Type": "Rider", "CR": "13", "Theme": "BloodWar"},
-  {"Name": "Chain Devil", "Type": "Rider", "CR": "11", "Theme": "BloodWar"},
-  {"Name": "Cambion", "Type": "Rider", "CR": "5", "Theme": "BloodWar"},
-  {"Name": "Dragonborn Sorcerer", "Type": "Rider", "CR": "7", "Theme": "Dragons"},
-  {"Name": "Kobold", "Type": "Rider", "CR": "1/8", "Theme": "Dragons"},
-  {"Name": "Kobold Scale Sorcerer", "Type": "Rider", "CR": "1", "Theme": "Dragons"},
-  {"Name": "Dragonborn Paladin", "Type": "Rider", "CR": "9", "Theme": "Dragons"}
+  {
+    "Name": "Bandit Captain",
+    "Type": "Rider",
+    "CR": "2",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Knight",
+    "Type": "Rider",
+    "CR": "3",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Veteran",
+    "Type": "Rider",
+    "CR": "3",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Gladiator",
+    "Type": "Rider",
+    "CR": "5",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Bandit",
+    "Type": "Rider",
+    "CR": "1/8",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Guard",
+    "Type": "Rider",
+    "CR": "1/8",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Scout",
+    "Type": "Rider",
+    "CR": "1/2",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Spy",
+    "Type": "Rider",
+    "CR": "1",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Noble",
+    "Type": "Rider",
+    "CR": "1/8",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Tribal Warrior",
+    "Type": "Rider",
+    "CR": "1/8",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Berserker",
+    "Type": "Rider",
+    "CR": "2",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Orc",
+    "Type": "Rider",
+    "CR": "1/2",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Hobgoblin",
+    "Type": "Rider",
+    "CR": "1/2",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Hobgoblin Captain",
+    "Type": "Rider",
+    "CR": "3",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Orc War Chief",
+    "Type": "Rider",
+    "CR": "4",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Drow",
+    "Type": "Rider",
+    "CR": "1/4",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Drow Elite Warrior",
+    "Type": "Rider",
+    "CR": "5",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Githyanki Warrior",
+    "Type": "Rider",
+    "CR": "3",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Yuan-ti Pureblood",
+    "Type": "Rider",
+    "CR": "1",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Lizardfolk",
+    "Type": "Rider",
+    "CR": "1/2",
+    "Theme": "Off Arc"
+  },
+  {
+    "Name": "Drow Scout",
+    "Type": "Rider",
+    "CR": "1/2",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Drow Acolyte",
+    "Type": "Rider",
+    "CR": "1/4",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Drow Priestess",
+    "Type": "Rider",
+    "CR": "8",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Cultist",
+    "Type": "Rider",
+    "CR": "1/8",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Cult Fanatic",
+    "Type": "Rider",
+    "CR": "2",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Death Knight",
+    "Type": "Rider",
+    "CR": "17",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Wight",
+    "Type": "Rider",
+    "CR": "3",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Wraith",
+    "Type": "Rider",
+    "CR": "5",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Bearded Devil",
+    "Type": "Rider",
+    "CR": "3",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Horned Devil",
+    "Type": "Rider",
+    "CR": "11",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Bone Devil",
+    "Type": "Rider",
+    "CR": "13",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Chain Devil",
+    "Type": "Rider",
+    "CR": "11",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Cambion",
+    "Type": "Rider",
+    "CR": "5",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Dragonborn Sorcerer",
+    "Type": "Rider",
+    "CR": "7",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Kobold",
+    "Type": "Rider",
+    "CR": "1/8",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Kobold Scale Sorcerer",
+    "Type": "Rider",
+    "CR": "1",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Dragonborn Paladin",
+    "Type": "Rider",
+    "CR": "9",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Commoner",
+    "Type": "Rider",
+    "CR": "0",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Derro",
+    "Type": "Rider",
+    "CR": "1/4",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Star Spawn Grue",
+    "Type": "Rider",
+    "CR": "1/4",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Cackler",
+    "Type": "Rider",
+    "CR": "1/2",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Sahuagin Priest",
+    "Type": "Rider",
+    "CR": "2",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Merrenoloth",
+    "Type": "Rider",
+    "CR": "3",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Gnoll Fang of Yeenoghu",
+    "Type": "Rider",
+    "CR": "4",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Shadow Demon",
+    "Type": "Rider",
+    "CR": "4",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Night Hag",
+    "Type": "Rider",
+    "CR": "5",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Tanarukk",
+    "Type": "Rider",
+    "CR": "5",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "White Abishai",
+    "Type": "Rider",
+    "CR": "6",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Maurezhi",
+    "Type": "Rider",
+    "CR": "7",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Gnoll Demoniac",
+    "Type": "Rider",
+    "CR": "8",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Reigar",
+    "Type": "Rider",
+    "CR": "8",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Avoral Guardinal",
+    "Type": "Rider",
+    "CR": "9",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Hydroloth",
+    "Type": "Rider",
+    "CR": "9",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Yochlol",
+    "Type": "Rider",
+    "CR": "10",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Arcanaloth",
+    "Type": "Rider",
+    "CR": "12",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Archon of Falling Stars",
+    "Type": "Rider",
+    "CR": "12",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Narzugon",
+    "Type": "Rider",
+    "CR": "13",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Rakshasa",
+    "Type": "Rider",
+    "CR": "13",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Archon of the Triumvirate",
+    "Type": "Rider",
+    "CR": "14",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Shemeshka",
+    "Type": "Rider",
+    "CR": "14",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Green Abishai",
+    "Type": "Rider",
+    "CR": "15",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Mordakhesh",
+    "Type": "Rider",
+    "CR": "15",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Ashen Rider",
+    "Type": "Rider",
+    "CR": "16",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Blue Abishai",
+    "Type": "Rider",
+    "CR": "17",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Amnizu",
+    "Type": "Rider",
+    "CR": "18",
+    "Theme": "BloodWar"
+  },
+  {
+    "Name": "Werevulture",
+    "Type": "Rider",
+    "CR": "4",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Drow Inquisitor",
+    "Type": "Rider",
+    "CR": "14",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Drow Arachnomancer",
+    "Type": "Rider",
+    "CR": "13",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Drow Favored Consort",
+    "Type": "Rider",
+    "CR": "18",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Drow Matron Mother",
+    "Type": "Rider",
+    "CR": "20",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Githzerai Anarch",
+    "Type": "Rider",
+    "CR": "16",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Archmage",
+    "Type": "Rider",
+    "CR": "12",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Drow Shadowblade",
+    "Type": "Rider",
+    "CR": "11",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Noble Prodigy",
+    "Type": "Rider",
+    "CR": "10",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Spy Master",
+    "Type": "Rider",
+    "CR": "10",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Drow House Captain",
+    "Type": "Rider",
+    "CR": "9",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Shadar-kai Gloom Weaver",
+    "Type": "Rider",
+    "CR": "9",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Assassin",
+    "Type": "Rider",
+    "CR": "8",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Shadar-kai Shadow Dancer",
+    "Type": "Rider",
+    "CR": "7",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Dusk Hag",
+    "Type": "Rider",
+    "CR": "6",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Riffler",
+    "Type": "Rider",
+    "CR": "5",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Ambitious Assassin",
+    "Type": "Rider",
+    "CR": "5",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Drow Gunslinger",
+    "Type": "Rider",
+    "CR": "4",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Swashbuckler",
+    "Type": "Rider",
+    "CR": "3",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Drow Spy",
+    "Type": "Rider",
+    "CR": "1",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Drow Guard",
+    "Type": "Rider",
+    "CR": "1/8",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Drow Noble",
+    "Type": "Rider",
+    "CR": "1/8",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Drow Commoner",
+    "Type": "Rider",
+    "CR": "0",
+    "Theme": "Lolth"
+  },
+  {
+    "Name": "Walking Corpse",
+    "Type": "Rider",
+    "CR": "0",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Returned Drifter",
+    "Type": "Rider",
+    "CR": "1/4",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Apprentice Wizard",
+    "Type": "Rider",
+    "CR": "1/4",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Skeletal Alchemist",
+    "Type": "Rider",
+    "CR": "1/2",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Barovian Witch",
+    "Type": "Rider",
+    "CR": "1/2",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Evil Mage",
+    "Type": "Rider",
+    "CR": "1",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Indentured Spirit",
+    "Type": "Rider",
+    "CR": "1",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Returned Sentry",
+    "Type": "Rider",
+    "CR": "1",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Specter",
+    "Type": "Rider",
+    "CR": "1",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Cultist Fanatic",
+    "Type": "Rider",
+    "CR": "2",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Ghast",
+    "Type": "Rider",
+    "CR": "2",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Poltergeist",
+    "Type": "Rider",
+    "CR": "2",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Undying Soldier",
+    "Type": "Rider",
+    "CR": "2",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Vampirate",
+    "Type": "Rider",
+    "CR": "2",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Flaming Skeleton",
+    "Type": "Rider",
+    "CR": "3",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Undead Soldier",
+    "Type": "Rider",
+    "CR": "3",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Vampire Familiar",
+    "Type": "Rider",
+    "CR": "3",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Banshee",
+    "Type": "Rider",
+    "CR": "4",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Deathlock",
+    "Type": "Rider",
+    "CR": "4",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Dryad Spirit",
+    "Type": "Rider",
+    "CR": "4",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Ghost",
+    "Type": "Rider",
+    "CR": "4",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Allip",
+    "Type": "Rider",
+    "CR": "5",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Knight of the Order",
+    "Type": "Rider",
+    "CR": "5",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Revenant",
+    "Type": "Rider",
+    "CR": "5",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Vampire Spawn",
+    "Type": "Rider",
+    "CR": "5",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Gallows Speaker",
+    "Type": "Rider",
+    "CR": "6",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Ghast Gravecaller",
+    "Type": "Rider",
+    "CR": "6",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Haint",
+    "Type": "Rider",
+    "CR": "7",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Psionic Ashenwight",
+    "Type": "Rider",
+    "CR": "7",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Skeletal Knight",
+    "Type": "Rider",
+    "CR": "7",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Blood Drinker Vampire",
+    "Type": "Rider",
+    "CR": "8",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Deathlock Mastermind",
+    "Type": "Rider",
+    "CR": "8",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Obzedat Ghost",
+    "Type": "Rider",
+    "CR": "8",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Sword Wraith Commander",
+    "Type": "Rider",
+    "CR": "8",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Drowned Master",
+    "Type": "Rider",
+    "CR": "9",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Jiangshi",
+    "Type": "Rider",
+    "CR": "9",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Shadow Assassin",
+    "Type": "Rider",
+    "CR": "9",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Dullahan",
+    "Type": "Rider",
+    "CR": "10",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Mirror Shade",
+    "Type": "Rider",
+    "CR": "10",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Death Knight Aspirant",
+    "Type": "Rider",
+    "CR": "11",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Doomguard Doom Lord",
+    "Type": "Rider",
+    "CR": "12",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Vampire",
+    "Type": "Rider",
+    "CR": "13",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Devkarin Lich",
+    "Type": "Rider",
+    "CR": "14",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Mummy Lord",
+    "Type": "Rider",
+    "CR": "15",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Vampire Umbral Lord",
+    "Type": "Rider",
+    "CR": "15",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Lichen Lich",
+    "Type": "Rider",
+    "CR": "18",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Grim Champion of Bloodshed",
+    "Type": "Rider",
+    "CR": "20",
+    "Theme": "Vecna"
+  },
+  {
+    "Name": "Dragonclaw",
+    "Type": "Rider",
+    "CR": "1",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Dragon Speaker",
+    "Type": "Rider",
+    "CR": "2",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Dragon Army Officer",
+    "Type": "Rider",
+    "CR": "3",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Half-Dragon",
+    "Type": "Rider",
+    "CR": "5",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Dragonborn of Sardior",
+    "Type": "Rider",
+    "CR": "6",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Dragonborn of Tiamat",
+    "Type": "Rider",
+    "CR": "7",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Half-Green Dragon Assassin",
+    "Type": "Rider",
+    "CR": "8",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Kobold Inventor",
+    "Type": "Rider",
+    "CR": "1/4",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Ssurran Poisoner",
+    "Type": "Rider",
+    "CR": "1/2",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Draconian Mage",
+    "Type": "Rider",
+    "CR": "2",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Yuan-ti Mind Whisperer",
+    "Type": "Rider",
+    "CR": "4",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Githyanki Xenomancer",
+    "Type": "Rider",
+    "CR": "9",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Githyanki Knight",
+    "Type": "Rider",
+    "CR": "8",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Githyanki Star Seer",
+    "Type": "Rider",
+    "CR": "7",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Githyanki Gish",
+    "Type": "Rider",
+    "CR": "10",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Githyanki Kith'rak",
+    "Type": "Rider",
+    "CR": "12",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Githyanki Supreme Commander",
+    "Type": "Rider",
+    "CR": "14",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Githyanki Dracomancer",
+    "Type": "Rider",
+    "CR": "16",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Hierophant of the Comet",
+    "Type": "Rider",
+    "CR": "11",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Nagpa",
+    "Type": "Rider",
+    "CR": "17",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "The Lord of Blades",
+    "Type": "Rider",
+    "CR": "18",
+    "Theme": "Dragons"
+  },
+  {
+    "Name": "Red Abishai",
+    "Type": "Rider",
+    "CR": "19",
+    "Theme": "Dragons"
+  }
 ]
