@@ -2,7 +2,53 @@ import React, { useState, useEffect, useCallback } from 'react';
 import XP_TABLE from './data/enc_xp.json';
 import { generateNewEncounter } from './new_encounter_system.js';
 import styles from './styles';
-import banner from './banner.jpg';  // Import the banner image
+
+// Region data with hex colors and weighted terrain probabilities
+// Each terrain entry is [terrain, weight] - weights are percentages
+const REGIONS = [
+  {
+    id: 'icewind',
+    name: 'Icewind Dale',
+    color: '#A8D5E5',
+    terrains: [['Open/Desert/Arctic', 70], ['Mountains', 25], ['Hills/Urban', 5]],
+    theme: 'Any'
+  },
+  {
+    id: 'heartlands',
+    name: 'Heartlands',
+    color: '#7CB342',
+    terrains: [['Forest', 25], ['Hills/Urban', 25], ['Mountains', 25], ['Jungle/Indoors', 25]],
+    theme: 'Any'
+  },
+  {
+    id: 'moonshae',
+    name: 'Moonshae Isles',
+    color: '#5C6BC0',
+    terrains: [['Forest', 30], ['Hills/Urban', 40], ['Mountains', 30]],
+    theme: 'Any'
+  },
+  {
+    id: 'calimshan',
+    name: 'Calimshan',
+    color: '#FFB74D',
+    terrains: [['Open/Desert/Arctic', 60], ['Forest', 10], ['Hills/Urban', 10], ['Mountains', 10], ['Jungle/Indoors', 10]],
+    theme: 'Any'
+  },
+  {
+    id: 'cities',
+    name: 'Cities',
+    color: '#78909C',
+    terrains: [['Hills/Urban', 50], ['Jungle/Indoors', 50]],
+    theme: 'Any'
+  },
+  {
+    id: 'dungeon',
+    name: 'Dungeon',
+    color: '#4A4A4A',
+    terrains: [['Jungle/Indoors', 90], ['Hills/Urban', 10]],
+    theme: 'Any'
+  },
+];
 
 // Simple dice roller: rollDice(2, 6) -> sum of 2d6
 function rollDice(numDice, sides) {
@@ -13,8 +59,21 @@ function rollDice(numDice, sides) {
   return total;
 }
 
+// Pick weighted random terrain from region's terrain list
+function pickWeightedTerrain(terrains) {
+  const roll = Math.random() * 100;
+  let cumulative = 0;
+  for (const [terrain, weight] of terrains) {
+    cumulative += weight;
+    if (roll < cumulative) {
+      return terrain;
+    }
+  }
+  // Fallback to last terrain
+  return terrains[terrains.length - 1][0];
+}
+
 // Map each terrain to a function that returns a distance.
-// Multiply by 10 for your desired scale (e.g. 2d6 * 10 ft).
 const terrainDistanceMap = {
   'Open/Desert/Arctic': () => rollDice(6, 6) * 10,
   'Forest': () => rollDice(2, 8) * 10,
@@ -23,64 +82,75 @@ const terrainDistanceMap = {
   'Jungle/Indoors': () => rollDice(2, 6) * 10,
 };
 
+// SVG Hexagon component
+function Hexagon({ color, size = 50 }) {
+  const height = size;
+  const width = size * 0.866; // Hex width ratio
+  const points = `${width / 2},0 ${width},${height * 0.25} ${width},${height * 0.75} ${width / 2},${height} 0,${height * 0.75} 0,${height * 0.25}`;
+
+  return (
+    <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`}>
+      <polygon
+        points={points}
+        fill={color}
+        stroke="#58180D"
+        strokeWidth="2"
+      />
+    </svg>
+  );
+}
+
 // Helper function to format encounter result for display
 function formatEncounterResult(encounterResult, selectedTheme) {
   if (encounterResult.error) {
     return `Error: ${encounterResult.error}`;
   }
-  
+
   let result = `${encounterResult.category}: ${encounterResult.description}`;
-  
-  // Add theme info when using "Any" theme to show what was selected
+
   if (selectedTheme === 'Any' && encounterResult.theme) {
     result += ` [${encounterResult.theme} theme]`;
   }
-  
+
   return result;
 }
 
 function App() {
-  // Up to 3 lines => each { level, count }
-  const [lines, setLines] = useState([{ level: 1, count: 1 }]);
+  // Region selection
+  const [selectedRegion, setSelectedRegion] = useState('heartlands');
 
-  // Difficulty states
-  const [difficulty, setDifficulty] = useState('High');
-  const [resolvedDifficulty, setResolvedDifficulty] = useState('High');
+  // Simplified party config: single level and party size
+  const [partySize, setPartySize] = useState(4);
+  const [partyLevel, setPartyLevel] = useState(1);
+
+  // Difficulty states - defaults to Random
+  const [difficulty, setDifficulty] = useState('Random');
+  const [resolvedDifficulty, setResolvedDifficulty] = useState(() => {
+    const possibilities = ['Low', 'Moderate', 'High'];
+    return possibilities[Math.floor(Math.random() * possibilities.length)];
+  });
 
   // Store the encounter result object
   const [encounterResult, setEncounterResult] = useState(null);
 
-  // Campaign theme selection
-  const [campaignTheme, setCampaignTheme] = useState('Any');
-
-  // "Terrain" dropdown
-  const [terrain, setTerrain] = useState('Random');
-
-  // Store the calculated "Encounter Distance" here
+  // Store the calculated "Encounter Distance"
   const [encounterDistance, setEncounterDistance] = useState(null);
-
-  // Keep track of the final terrain chosen
   const [finalTerrain, setFinalTerrain] = useState('');
 
   // Calculate total XP from the party input
   const calculateTotalXP = useCallback(() => {
-    let total = 0;
-    lines.forEach((line) => {
-      const xpRow = XP_TABLE[line.level];
-      if (xpRow) {
-        total += xpRow[resolvedDifficulty] * line.count;
-      }
-    });
-    return total;
-  }, [lines, resolvedDifficulty]);
+    const xpRow = XP_TABLE[partyLevel];
+    if (xpRow) {
+      return xpRow[resolvedDifficulty] * partySize;
+    }
+    return 0;
+  }, [partyLevel, partySize, resolvedDifficulty]);
 
   const [totalXP, setTotalXP] = useState(calculateTotalXP());
 
   useEffect(() => {
     setTotalXP(calculateTotalXP());
   }, [calculateTotalXP]);
-
-  const difficultyLabel = resolvedDifficulty + ' XP Encounter';
 
   const handleDifficultyChange = (e) => {
     const choice = e.target.value;
@@ -95,160 +165,122 @@ function App() {
     }
   };
 
-  const addLine = () => {
-    if (lines.length < 3) {
-      setLines((prev) => [...prev, { level: 1, count: 1 }]);
-    }
-  };
-
-  const handleLineChange = (index, field, value) => {
-    const newLines = [...lines];
-    newLines[index][field] = parseInt(value, 10);
-    setLines(newLines);
-  };
-
   const handleSpendBudget = () => {
-    const allLevels = lines.map((l) => l.level);
-    const partySize = lines.reduce((sum, l) => sum + l.count, 0);
+    const allLevels = Array(partySize).fill(partyLevel);
 
-    // Use the new encounter generation system with theme
-    const newEncounter = generateNewEncounter(totalXP, allLevels, partySize, campaignTheme);
+    // Get region data for terrain and theme
+    const region = REGIONS.find(r => r.id === selectedRegion) || REGIONS[0];
+    const regionTheme = region.theme;
+    const regionTerrain = pickWeightedTerrain(region.terrains);
+
+    // Use the new encounter generation system with region's theme
+    const newEncounter = generateNewEncounter(totalXP, allLevels, partySize, regionTheme);
     setEncounterResult(newEncounter);
 
-    // Process Terrain
-    let chosenTerrain = terrain;
-    if (chosenTerrain === 'Random') {
-      const terrainOptions = Object.keys(terrainDistanceMap);
-      chosenTerrain = terrainOptions[Math.floor(Math.random() * terrainOptions.length)];
-    }
-
-    const distanceFn = terrainDistanceMap[chosenTerrain];
+    // Calculate distance using region's terrain
+    const distanceFn = terrainDistanceMap[regionTerrain];
     const distance = distanceFn ? distanceFn() : 0;
 
-    setFinalTerrain(chosenTerrain);
+    setFinalTerrain(regionTerrain);
     setEncounterDistance(distance);
   };
 
   return (
     <div style={styles.container}>
-      <div style={styles.mistOverlay} />
       <div style={styles.contentWrapper}>
-        <img src={banner} alt="D&D Banner" style={styles.banner} />
-        
         <div style={styles.innerContainer}>
-          <h1 style={styles.title}>D&D Encounter Generator</h1>
-  
+
+          {/* Title at top */}
+          <div style={styles.appTitle}>D&D 5e 2024 Forgotten Realms Encounter Generator</div>
+
+          {/* Region Picker */}
+          <div style={styles.sectionTitle}>What region are you in?</div>
+          <div style={styles.hexGrid} className="hex-grid">
+            {REGIONS.map((region) => (
+              <div
+                key={region.id}
+                style={{
+                  ...styles.hexOption,
+                  ...(selectedRegion === region.id ? styles.hexOptionSelected : {}),
+                }}
+                className="hex-option"
+                onClick={() => setSelectedRegion(region.id)}
+                role="button"
+                tabIndex={0}
+                onKeyDown={(e) => e.key === 'Enter' && setSelectedRegion(region.id)}
+              >
+                <Hexagon color={region.color} size={50} />
+                <span style={styles.hexLabel}>{region.name}</span>
+              </div>
+            ))}
+          </div>
+
+          {/* Party Configuration */}
+          <div style={styles.sectionTitle}>How many party members, and what level?</div>
+          <div style={styles.partyConfig}>
+            <div style={styles.partyField}>
+              <label style={styles.label}>Party Size</label>
+              <select
+                value={partySize}
+                onChange={(e) => setPartySize(parseInt(e.target.value, 10))}
+                style={styles.select}
+              >
+                {Array.from({ length: 8 }, (_, i) => i + 1).map((size) => (
+                  <option key={size} value={size}>{size}</option>
+                ))}
+              </select>
+            </div>
+            <div style={styles.partyField}>
+              <label style={styles.label}>Level</label>
+              <select
+                value={partyLevel}
+                onChange={(e) => setPartyLevel(parseInt(e.target.value, 10))}
+                style={styles.select}
+              >
+                {Array.from({ length: 20 }, (_, i) => i + 1).map((lvl) => (
+                  <option key={lvl} value={lvl}>{lvl}</option>
+                ))}
+              </select>
+            </div>
+          </div>
+
+          {/* XP Budget Display */}
+          <div style={styles.xpBudget}>
+            XP Budget: {totalXP.toLocaleString()} ({resolvedDifficulty})
+          </div>
+
           {/* Difficulty dropdown */}
-          <div style={styles.row}>
-            <label htmlFor="difficulty" style={styles.label}>
-              Difficulty:
-            </label>
+          <div style={styles.row} className="form-row">
+            <label style={styles.label}>Difficulty</label>
             <select
               id="difficulty"
               value={difficulty}
               onChange={handleDifficultyChange}
               style={styles.select}
             >
+              <option value="Random">Random</option>
               <option value="Low">Low</option>
               <option value="Moderate">Moderate</option>
               <option value="High">High</option>
-              <option value="Random">Random</option>
-            </select>
-          </div>
-  
-          <p style={styles.emphasis}>
-            Currently using: <strong>{difficultyLabel}</strong>
-          </p>
-  
-          {lines.map((line, index) => (
-            <div key={index} style={styles.lineContainer}>
-              <label style={styles.label}>Level:</label>
-              <select
-                value={line.level}
-                onChange={(e) => handleLineChange(index, 'level', e.target.value)}
-                style={styles.select}
-              >
-                {Array.from({ length: 20 }, (_, i) => i + 1).map((lvl) => (
-                  <option key={lvl} value={lvl}>
-                    {lvl}
-                  </option>
-                ))}
-              </select>
-  
-              <label style={styles.label}>
-                # of Characters:
-              </label>
-              <select
-                value={line.count}
-                onChange={(e) => handleLineChange(index, 'count', e.target.value)}
-                style={styles.select}
-              >
-                {Array.from({ length: 8 }, (_, i) => i + 1).map((c) => (
-                  <option key={c} value={c}>
-                    {c}
-                  </option>
-                ))}
-              </select>
-            </div>
-          ))}
-  
-          {lines.length < 3 && (
-            <button onClick={addLine} style={styles.addButton}>
-              + Add Another Line
-            </button>
-          )}
-  
-          {/* Display total XP */}
-          <div style={styles.resultContainer}>
-            <h2 style={styles.emphasis}>Total XP Budget: {totalXP.toLocaleString()}</h2>
-          </div>
-  
-          {/* Campaign theme dropdown */}
-          <div style={styles.row}>
-            <label style={styles.label}>Campaign Theme:</label>
-            <select
-              value={campaignTheme}
-              onChange={(e) => setCampaignTheme(e.target.value)}
-              style={styles.select}
-            >
-              <option value="Any">Any</option>
-              <option value="Lolth">Lolth</option>
-              <option value="Vecna">Vecna</option>
-              <option value="BloodWar">BloodWar</option>
-              <option value="Dragons">Dragons</option>
-              <option value="Off Arc">Off Arc</option>
             </select>
           </div>
 
-  
-          {/* Terrain dropdown */}
-          <div style={styles.row}>
-            <label style={styles.label}>Terrain:</label>
-            <select
-              value={terrain}
-              onChange={(e) => setTerrain(e.target.value)}
-              style={styles.select}
-            >
-              <option value="Random">Random</option>
-              <option value="Open/Desert/Arctic">Open/Desert/Arctic</option>
-              <option value="Forest">Forest</option>
-              <option value="Hills/Urban">Hills/Urban</option>
-              <option value="Mountains">Mountains</option>
-              <option value="Jungle/Indoors">Jungle/Indoors</option>
-            </select>
-          </div>
-  
-          {/* Spend XP Budget button + results */}
-          <button onClick={handleSpendBudget} style={styles.addButton}>
-            Spend XP Budget
+          {/* Generate Encounter Button */}
+          <button
+            onClick={handleSpendBudget}
+            style={styles.generateButton}
+            onMouseOver={(e) => e.target.style.backgroundColor = '#B11716'}
+            onMouseOut={(e) => e.target.style.backgroundColor = '#58180D'}
+          >
+            Generate Encounter
           </button>
-  
+
           {/* Combined encounter results */}
           {(encounterResult || (encounterDistance !== null && finalTerrain)) && (
             <div style={styles.encounterResult}>
               {encounterResult && (
                 <p>
-                  <span style={styles.emphasis}>Encounter:</span> {formatEncounterResult(encounterResult, campaignTheme)}
+                  <span style={styles.emphasis}>Encounter:</span> {formatEncounterResult(encounterResult, 'Any')}
                 </p>
               )}
               {encounterResult && encounterResult.totalXP && (
@@ -258,12 +290,15 @@ function App() {
               )}
               {encounterDistance !== null && finalTerrain && (
                 <p>
-                  <span style={styles.emphasis}>Encounter Distance:</span>{' '}
-                  {encounterDistance} ft. (Terrain: {finalTerrain})
+                  <span style={styles.emphasis}>Distance:</span>{' '}
+                  {encounterDistance} ft. ({finalTerrain})
                 </p>
               )}
             </div>
           )}
+
+          {/* Title at bottom */}
+          <div style={styles.appTitleBottom}>D&D 5e 2024 Forgotten Realms Encounter Generator</div>
         </div>
       </div>
     </div>
