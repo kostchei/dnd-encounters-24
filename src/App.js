@@ -139,6 +139,9 @@ function App() {
   const [encounterDistance, setEncounterDistance] = useState(null);
   const [finalTerrain, setFinalTerrain] = useState('');
 
+  // Store the reaction roll result
+  const [reactionResult, setReactionResult] = useState(null);
+
   // Calculate total XP from the party input
   const calculateTotalXP = useCallback(() => {
     const xpRow = XP_TABLE[partyLevel];
@@ -183,8 +186,20 @@ function App() {
     const distanceFn = terrainDistanceMap[regionTerrain];
     const distance = distanceFn ? distanceFn() : 0;
 
+    // Roll 2d6 for reaction
+    const reactionRoll = rollDice(2, 6);
+    let reaction;
+    if (reactionRoll <= 4) {
+      reaction = { roll: reactionRoll, attitude: 'Hostile', description: 'openly aggressive, obstructive, or likely to attack' };
+    } else if (reactionRoll <= 9) {
+      reaction = { roll: reactionRoll, attitude: 'Indifferent', description: 'cautious, neutral, will deal if there\'s a clear reason' };
+    } else {
+      reaction = { roll: reactionRoll, attitude: 'Friendly', description: 'helpful, open, inclined to cooperate' };
+    }
+
     setFinalTerrain(regionTerrain);
     setEncounterDistance(distance);
+    setReactionResult(reaction);
   };
 
   return (
@@ -294,6 +309,12 @@ function App() {
                 <p>
                   <span style={styles.emphasis}>Distance:</span>{' '}
                   {encounterDistance} ft. ({finalTerrain})
+                </p>
+              )}
+              {reactionResult && (
+                <p>
+                  <span style={styles.emphasis}>Reaction:</span>{' '}
+                  {reactionResult.attitude} ({reactionResult.roll}) — {reactionResult.description}
                 </p>
               )}
             </div>
