@@ -116,8 +116,10 @@ function formatEncounterResult(encounterResult, selectedTheme) {
 }
 
 function App() {
-  // Region selection
-  const [selectedRegion, setSelectedRegion] = useState('heartlands');
+  // Region selection - 50/50 between heartlands and dungeon on load
+  const [selectedRegion, setSelectedRegion] = useState(() =>
+    Math.random() < 0.5 ? 'heartlands' : 'dungeon'
+  );
 
   // Simplified party config: single level and party size
   const [partySize, setPartySize] = useState(4);
@@ -173,8 +175,8 @@ function App() {
     const regionTheme = region.theme;
     const regionTerrain = pickWeightedTerrain(region.terrains);
 
-    // Use the new encounter generation system with region's theme
-    const newEncounter = generateNewEncounter(totalXP, allLevels, partySize, regionTheme);
+    // Use the new encounter generation system with region's theme and region
+    const newEncounter = generateNewEncounter(totalXP, allLevels, partySize, regionTheme, selectedRegion);
     setEncounterResult(newEncounter);
 
     // Calculate distance using region's terrain

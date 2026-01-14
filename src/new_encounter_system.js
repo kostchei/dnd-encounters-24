@@ -5,6 +5,8 @@ import LEGENDARY from './data/legendary.json';
 import MOUNTS from './data/mounts.json';
 import RIDERS from './data/riders.json';
 import MONSTERS_BY_CR from './data/enc_by_cr.json';
+import REGION_MONSTERS from './data/region_monsters.json';
+import CROSS_REGION from './data/cross_region_encounters.json';
 
 // Helper function to get random element from array
 function getRandomElement(array) {
@@ -12,10 +14,42 @@ function getRandomElement(array) {
   return array[Math.floor(Math.random() * array.length)];
 }
 
+// Get monsters from a specific region by CR
+function getRegionMonstersByCR(cr, region) {
+  const crString = String(cr);
+  const regionData = REGION_MONSTERS[region];
+  if (!regionData) return [];
+
+  const monsters = regionData[crString];
+  if (!monsters || !Array.isArray(monsters)) return [];
+
+  return monsters.map(name => ({ Name: name, CR: crString, Region: region }));
+}
+
+// Determine which region to pull monsters from, with cross-regional chance
+function pickEncounterRegion(primaryRegion) {
+  const crossRegionData = CROSS_REGION.regions[primaryRegion];
+  if (!crossRegionData) return primaryRegion;
+
+  const roll = Math.random() * 100;
+  let cumulative = 0;
+
+  for (const [otherRegion, chance] of Object.entries(crossRegionData)) {
+    cumulative += chance;
+    if (roll < cumulative) {
+      return otherRegion;
+    }
+  }
+
+  // No cross-regional encounter, use primary region
+  return primaryRegion;
+}
+
+
 // Helper function to get monsters by CR and theme from any source
 function getMonstersByCR(cr, source = 'all', theme = 'Any') {
   const crString = String(cr);
-  
+
   if (source === 'dragons') {
     let dragons = DRAGONS.filter(dragon => String(dragon.CR) === crString);
     if (theme !== 'Any') {
@@ -23,7 +57,7 @@ function getMonstersByCR(cr, source = 'all', theme = 'Any') {
     }
     return dragons;
   }
-  
+
   if (source === 'legendary') {
     let legendary = LEGENDARY.filter(legendary => String(legendary.CR) === crString);
     if (theme !== 'Any') {
@@ -31,7 +65,7 @@ function getMonstersByCR(cr, source = 'all', theme = 'Any') {
     }
     return legendary;
   }
-  
+
   if (source === 'mounts') {
     let mounts = MOUNTS.filter(mount => String(mount.CR) === crString);
     if (theme !== 'Any') {
@@ -39,7 +73,7 @@ function getMonstersByCR(cr, source = 'all', theme = 'Any') {
     }
     return mounts;
   }
-  
+
   if (source === 'riders') {
     let riders = RIDERS.filter(rider => String(rider.CR) === crString);
     if (theme !== 'Any') {
@@ -47,7 +81,7 @@ function getMonstersByCR(cr, source = 'all', theme = 'Any') {
     }
     return riders;
   }
-  
+
   if (source === 'original') {
     const crData = MONSTERS_BY_CR.find(entry => entry.challenge_rating === crString);
     if (crData) {
@@ -66,7 +100,7 @@ function getMonstersByCR(cr, source = 'all', theme = 'Any') {
       }
     }
   }
-  
+
   return [];
 }
 
@@ -74,7 +108,7 @@ function getMonstersByCR(cr, source = 'all', theme = 'Any') {
 function findBestCR(budget) {
   let bestCR = null;
   let bestCRXP = 0;
-  
+
   for (let crString in CR_XP_TABLE) {
     const xpValue = CR_XP_TABLE[crString];
     if (xpValue <= budget && xpValue > bestCRXP) {
@@ -82,7 +116,7 @@ function findBestCR(budget) {
       bestCRXP = xpValue;
     }
   }
-  
+
   return { cr: bestCR, xp: bestCRXP };
 }
 
@@ -92,37 +126,38 @@ function findBestCR(budget) {
  * @param {number[]} levels - Array of character levels  
  * @param {number} partySize - Number of characters
  * @param {string} theme - Campaign theme (Lolth, Vecna, BloodWar, Dragons, Off Arc, Any)
+ * @param {string} region - Region ID for region-based monster selection (optional)
  * @returns {object} - Encounter result object
  */
-export function generateNewEncounter(totalXP, levels, partySize, theme = 'Any') {
+export function generateNewEncounter(totalXP, levels, partySize, theme = 'Any', region = null) {
   // Calculate quantity range: 2 to 2×party size (max 10)
   const minQuantity = 2;
   const maxQuantity = Math.min(partySize * 2, 10);
-  
+
   // If "Any" theme selected, pick a random specific theme for this encounter
   let actualTheme = theme;
   if (theme === 'Any') {
     const availableThemes = ['Lolth', 'Vecna', 'BloodWar', 'Dragons', 'Off Arc'];
     actualTheme = getRandomElement(availableThemes);
   }
-  
+
   // Randomly select encounter category
   const categories = ['dragon_legendary', 'mounts_riders', 'groups', 'mixed_groups'];
   const selectedCategory = getRandomElement(categories);
-  
+
   switch (selectedCategory) {
     case 'dragon_legendary':
       return generateDragonLegendary(totalXP, actualTheme, theme);
-      
+
     case 'mounts_riders':
       return generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, theme);
-      
+
     case 'groups':
-      return generateGroups(totalXP, minQuantity, maxQuantity, actualTheme, theme);
-      
+      return generateGroups(totalXP, minQuantity, maxQuantity, actualTheme, theme, region);
+
     case 'mixed_groups':
-      return generateMixedGroups(totalXP, minQuantity, maxQuantity, actualTheme, theme);
-      
+      return generateMixedGroups(totalXP, minQuantity, maxQuantity, actualTheme, theme, region);
+
     default:
       return { error: 'Unknown encounter category' };
   }
@@ -134,24 +169,24 @@ function generateDragonLegendary(totalXP, actualTheme, originalTheme) {
   if (!bestFit.cr) {
     return { error: 'No dragon or legendary creature fits budget' };
   }
-  
+
   // Try dragons first, then legendary, filtered by actual theme
   let dragons = getMonstersByCR(bestFit.cr, 'dragons', actualTheme);
   let legendaries = getMonstersByCR(bestFit.cr, 'legendary', actualTheme);
-  
+
   let allOptions = [...dragons, ...legendaries];
   let finalTheme = actualTheme;
-  
+
   // If no creatures found for the theme, try other themes
   if (allOptions.length === 0) {
     const availableThemes = ['Lolth', 'Vecna', 'BloodWar', 'Dragons', 'Off Arc'];
     const alternativeThemes = availableThemes.filter(theme => theme !== actualTheme);
-    
+
     for (const altTheme of alternativeThemes) {
       const altDragons = getMonstersByCR(bestFit.cr, 'dragons', altTheme);
       const altLegendaries = getMonstersByCR(bestFit.cr, 'legendary', altTheme);
       const altOptions = [...altDragons, ...altLegendaries];
-      
+
       if (altOptions.length > 0) {
         allOptions = altOptions;
         finalTheme = altTheme;
@@ -159,7 +194,7 @@ function generateDragonLegendary(totalXP, actualTheme, originalTheme) {
       }
     }
   }
-  
+
   // If still no options, try "Any" theme (mixed)
   if (allOptions.length === 0) {
     dragons = getMonstersByCR(bestFit.cr, 'dragons', 'Any');
@@ -167,11 +202,11 @@ function generateDragonLegendary(totalXP, actualTheme, originalTheme) {
     allOptions = [...dragons, ...legendaries];
     finalTheme = 'Mixed';
   }
-  
+
   if (allOptions.length === 0) {
     return { error: `No dragon or legendary creature found for CR ${bestFit.cr}` };
   }
-  
+
   const chosen = getRandomElement(allOptions);
   return {
     category: 'Dragon or Legendary',
@@ -187,20 +222,20 @@ function generateDragonLegendary(totalXP, actualTheme, originalTheme) {
 function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, originalTheme) {
   const quantity = Math.floor(Math.random() * (maxQuantity - minQuantity + 1)) + minQuantity;
   let remainingXP = totalXP;
-  
+
   // Pre-select up to 2 mount types and 2 rider types for the entire encounter
   const availableMountCRs = [...new Set(MOUNTS.map(m => m.CR))].sort((a, b) => {
     const aXP = CR_XP_TABLE[a] || 0;
     const bXP = CR_XP_TABLE[b] || 0;
     return bXP - aXP; // Sort by XP descending
   });
-  
+
   const availableRiderCRs = [...new Set(RIDERS.map(r => r.CR))].sort((a, b) => {
     const aXP = CR_XP_TABLE[a] || 0;
     const bXP = CR_XP_TABLE[b] || 0;
     return bXP - aXP; // Sort by XP descending
   });
-  
+
   // Select 1-2 mount types that leave room for riders, filtered by theme
   // Limit mount XP to maximum 70% of total budget to ensure room for riders
   const maxMountXP = totalXP * 0.7;
@@ -218,7 +253,7 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
       }
     }
   }
-  
+
   // Select 1-2 rider types that leave room for mounts, filtered by theme
   // Limit rider XP to maximum 70% of total budget to ensure room for mounts  
   const maxRiderXP = totalXP * 0.7;
@@ -236,19 +271,19 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
       }
     }
   }
-  
+
   const results = [];
   let totalUsedXP = 0;
   let creaturesAdded = 0;
   let hasMount = false;
   let hasRider = false;
-  
+
   // FIRST: Guarantee at least one mount+rider pair if we have both types available
   if (selectedMountTypes.length > 0 && selectedRiderTypes.length > 0) {
     // Find the best combination that fits in remaining XP for the mandatory pair
     let bestCombo = null;
     let bestComboXP = 0;
-    
+
     // Try all combinations of selected mount/rider types
     for (const mountType of selectedMountTypes) {
       for (const riderType of selectedRiderTypes) {
@@ -259,20 +294,20 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
         }
       }
     }
-    
+
     if (bestCombo) {
       // Add the mandatory mount+rider pair
-      const mountRatio = Math.random() < 0.5 ? (2/3) : (1/3);
+      const mountRatio = Math.random() < 0.5 ? (2 / 3) : (1 / 3);
       const riderRatio = 1 - mountRatio;
-      
+
       const mount = getRandomElement(bestCombo.mountType.creatures);
       const rider = getRandomElement(bestCombo.riderType.creatures);
-      
-      results.push({ 
-        mount, 
-        rider, 
-        type: 'pair', 
-        mountRatio, 
+
+      results.push({
+        mount,
+        rider,
+        type: 'pair',
+        mountRatio,
         riderRatio,
         mountCR: bestCombo.mountType.cr,
         riderCR: bestCombo.riderType.cr
@@ -284,20 +319,20 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
       hasRider = true;
     }
   }
-  
+
   // If we couldn't create a pair but need both types, try to ensure we get at least one of each
   // Prioritize cheaper options to ensure we can afford both
   if (!hasMount && selectedMountTypes.length > 0) {
     // Reserve some XP for a rider if we don't have one yet
-    const reserveXP = !hasRider && selectedRiderTypes.length > 0 ? 
+    const reserveXP = !hasRider && selectedRiderTypes.length > 0 ?
       Math.min(selectedRiderTypes[selectedRiderTypes.length - 1].xp, remainingXP * 0.3) : 0;
     const availableForMount = remainingXP - reserveXP;
-    
+
     const bestMount = selectedMountTypes.find(mt => mt.xp <= availableForMount);
     if (bestMount) {
       const mount = getRandomElement(bestMount.creatures);
-      results.push({ 
-        mount, 
+      results.push({
+        mount,
         type: 'mount_only',
         mountCR: bestMount.cr
       });
@@ -307,17 +342,17 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
       hasMount = true;
     }
   }
-  
+
   if (!hasRider && selectedRiderTypes.length > 0) {
     // Use cheapest available rider that fits
     const bestRider = selectedRiderTypes
       .filter(rt => rt.xp <= remainingXP)
       .sort((a, b) => a.xp - b.xp)[0]; // Get cheapest that fits
-      
+
     if (bestRider) {
       const rider = getRandomElement(bestRider.creatures);
-      results.push({ 
-        rider, 
+      results.push({
+        rider,
         type: 'dismounted',
         riderCR: bestRider.cr
       });
@@ -327,7 +362,7 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
       hasRider = true;
     }
   }
-  
+
   // FALLBACK: If we still don't have a rider, try to find ANY rider that fits (ignore the 70% limit)
   if (!hasRider && remainingXP > 0) {
     // Get all available rider CRs for this theme, not limited by the 70% rule
@@ -345,13 +380,13 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
         }
       }
     }
-    
+
     if (fallbackRiderTypes.length > 0) {
       // Use cheapest available rider
       const bestRider = fallbackRiderTypes.sort((a, b) => a.xp - b.xp)[0];
       const rider = getRandomElement(bestRider.creatures);
-      results.push({ 
-        rider, 
+      results.push({
+        rider,
         type: 'dismounted',
         riderCR: bestRider.cr
       });
@@ -361,17 +396,17 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
       hasRider = true;
     }
   }
-  
+
   // NOW fill the remaining slots with additional creatures
   while (creaturesAdded < quantity && remainingXP > 0) {
     // Decide if this is a mount+rider pair or just a rider (prefer pairs when possible)
     const isPair = Math.random() < 0.7; // 70% chance of mounted
-    
+
     if (isPair && selectedMountTypes.length > 0 && selectedRiderTypes.length > 0) {
       // Find the best combination that fits in remaining XP
       let bestCombo = null;
       let bestComboXP = 0;
-      
+
       // Try all combinations of selected mount/rider types
       for (const mountType of selectedMountTypes) {
         for (const riderType of selectedRiderTypes) {
@@ -382,21 +417,21 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
           }
         }
       }
-      
+
       if (bestCombo) {
         // Randomly decide XP allocation: either 1/3 mount + 2/3 rider OR 2/3 mount + 1/3 rider
         const mountGetsMore = Math.random() < 0.5; // 50% chance each way
-        const mountRatio = mountGetsMore ? (2/3) : (1/3);
-        const riderRatio = mountGetsMore ? (1/3) : (2/3);
-        
+        const mountRatio = mountGetsMore ? (2 / 3) : (1 / 3);
+        const riderRatio = mountGetsMore ? (1 / 3) : (2 / 3);
+
         const mount = getRandomElement(bestCombo.mountType.creatures);
         const rider = getRandomElement(bestCombo.riderType.creatures);
-        
-        results.push({ 
-          mount, 
-          rider, 
-          type: 'pair', 
-          mountRatio, 
+
+        results.push({
+          mount,
+          rider,
+          type: 'pair',
+          mountRatio,
           riderRatio,
           mountCR: bestCombo.mountType.cr,
           riderCR: bestCombo.riderType.cr
@@ -410,8 +445,8 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
         const bestRider = selectedRiderTypes.find(rt => rt.xp <= currentXP);
         if (bestRider) {
           const rider = getRandomElement(bestRider.creatures);
-          results.push({ 
-            rider, 
+          results.push({
+            rider,
             type: 'dismounted',
             riderCR: bestRider.cr
           });
@@ -428,11 +463,11 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
       const bestRider = selectedRiderTypes
         .filter(rt => rt.xp <= currentXP)
         .sort((a, b) => b.xp - a.xp)[0]; // Get highest XP that fits
-      
+
       if (bestRider) {
         const rider = getRandomElement(bestRider.creatures);
-        results.push({ 
-          rider, 
+        results.push({
+          rider,
           type: 'dismounted',
           riderCR: bestRider.cr
         });
@@ -446,7 +481,7 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
       break; // No suitable types
     }
   }
-  
+
   // If we still have significant XP left and room for more creatures, try to add more
   const maxCreatures = Math.min(maxQuantity, 10);
   while (results.length < maxCreatures && remainingXP > 0) {
@@ -455,11 +490,11 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
     const cheapestRider = selectedRiderTypes
       .filter(rt => rt.xp <= currentXP)
       .sort((a, b) => a.xp - b.xp)[0]; // Get cheapest that fits
-    
+
     if (cheapestRider && cheapestRider.xp <= currentXP) {
       const rider = getRandomElement(cheapestRider.creatures);
-      results.push({ 
-        rider, 
+      results.push({
+        rider,
         type: 'dismounted',
         riderCR: cheapestRider.cr
       });
@@ -469,7 +504,7 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
       break; // Can't afford anything else
     }
   }
-  
+
   return {
     category: 'Mounts and Riders',
     quantity: results.length,
@@ -483,62 +518,96 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
 }
 
 // Groups encounter (same creature type)
-function generateGroups(totalXP, minQuantity, maxQuantity, actualTheme, originalTheme) {
+function generateGroups(totalXP, minQuantity, maxQuantity, actualTheme, originalTheme, region = null) {
   const quantity = Math.floor(Math.random() * (maxQuantity - minQuantity + 1)) + minQuantity;
   const xpPerCreature = totalXP / quantity;
-  
+
   const bestFit = findBestCR(xpPerCreature);
   if (!bestFit.cr) {
     return { error: 'No creature fits per-creature budget for group' };
   }
-  
-  // Get creatures from original monster data, filtered by actual theme
-  const availableCreatures = getMonstersByCR(bestFit.cr, 'original', actualTheme);
-  if (availableCreatures.length === 0) {
-    return { error: `No ${actualTheme} creatures found for CR ${bestFit.cr} group encounter` };
+
+  let availableCreatures = [];
+  let sourceRegion = null;
+
+  // If region is provided, try region-based selection with cross-regional chance
+  if (region) {
+    sourceRegion = pickEncounterRegion(region);
+    availableCreatures = getRegionMonstersByCR(bestFit.cr, sourceRegion);
   }
-  
+
+  // Fallback to theme-based selection if no region monsters found
+  if (availableCreatures.length === 0) {
+    availableCreatures = getMonstersByCR(bestFit.cr, 'original', actualTheme);
+    sourceRegion = null;
+  }
+
+  if (availableCreatures.length === 0) {
+    return { error: `No creatures found for CR ${bestFit.cr} group encounter` };
+  }
+
   const chosenCreature = getRandomElement(availableCreatures);
   const totalUsedXP = bestFit.xp * quantity;
-  
+
   return {
     category: 'Groups',
     quantity: quantity,
     monsters: Array(quantity).fill(chosenCreature),
     totalXP: totalUsedXP,
     description: `${quantity}× ${chosenCreature.Name} (CR ${chosenCreature.CR} each)`,
-    theme: originalTheme === 'Any' ? actualTheme : originalTheme
+    theme: originalTheme === 'Any' ? actualTheme : originalTheme,
+    sourceRegion: sourceRegion
   };
 }
 
+
 // Mixed Groups encounter (different creature types)
-function generateMixedGroups(totalXP, minQuantity, maxQuantity, actualTheme, originalTheme) {
+function generateMixedGroups(totalXP, minQuantity, maxQuantity, actualTheme, originalTheme, region = null) {
   const quantity = Math.floor(Math.random() * (maxQuantity - minQuantity + 1)) + minQuantity;
-  
+
   // Allocate XP: 40% to leader, 60% to minions
   const leaderXP = totalXP * 0.4;
   const minionXP = totalXP * 0.6;
   const minions = quantity - 1;
   const xpPerMinion = minions > 0 ? minionXP / minions : 0;
-  
+
   const results = [];
   let totalUsedXP = 0;
-  
-  // Get leader, filtered by actual theme
+  let sourceRegion = null;
+
+  // Determine source region (with cross-regional chance)
+  if (region) {
+    sourceRegion = pickEncounterRegion(region);
+  }
+
+  // Get leader
   const leaderCR = findBestCR(leaderXP);
   if (leaderCR.cr) {
-    const leader = getRandomElement(getMonstersByCR(leaderCR.cr, 'original', actualTheme));
+    let leaderCreatures = [];
+    if (sourceRegion) {
+      leaderCreatures = getRegionMonstersByCR(leaderCR.cr, sourceRegion);
+    }
+    if (leaderCreatures.length === 0) {
+      leaderCreatures = getMonstersByCR(leaderCR.cr, 'original', actualTheme);
+    }
+    const leader = getRandomElement(leaderCreatures);
     if (leader) {
       results.push({ ...leader, role: 'leader' });
       totalUsedXP += leaderCR.xp;
     }
   }
-  
-  // Get minions, filtered by actual theme
+
+  // Get minions
   if (minions > 0 && xpPerMinion > 0) {
     const minionCR = findBestCR(xpPerMinion);
     if (minionCR.cr) {
-      const minionCreatures = getMonstersByCR(minionCR.cr, 'original', actualTheme);
+      let minionCreatures = [];
+      if (sourceRegion) {
+        minionCreatures = getRegionMonstersByCR(minionCR.cr, sourceRegion);
+      }
+      if (minionCreatures.length === 0) {
+        minionCreatures = getMonstersByCR(minionCR.cr, 'original', actualTheme);
+      }
       for (let i = 0; i < minions; i++) {
         const minion = getRandomElement(minionCreatures);
         if (minion) {
@@ -548,25 +617,27 @@ function generateMixedGroups(totalXP, minQuantity, maxQuantity, actualTheme, ori
       }
     }
   }
-  
+
   return {
     category: 'Mixed Groups',
     quantity: results.length,
     monsters: results,
     totalXP: totalUsedXP,
     description: formatMixedGroupDescription(results),
-    theme: originalTheme === 'Any' ? actualTheme : originalTheme
+    theme: originalTheme === 'Any' ? actualTheme : originalTheme,
+    sourceRegion: sourceRegion
   };
 }
+
 
 // Helper functions for formatting descriptions
 function formatMountRiderDescription(results) {
   const pairs = results.filter(r => r.type === 'pair');
   const dismounted = results.filter(r => r.type === 'dismounted');
   const mountsOnly = results.filter(r => r.type === 'mount_only');
-  
+
   let desc = '';
-  
+
   if (pairs.length > 0) {
     // Group pairs by mount and rider types to show the limited variety
     const pairsByCombo = {};
@@ -577,55 +648,55 @@ function formatMountRiderDescription(results) {
       }
       pairsByCombo[key].count++;
     });
-    
+
     const pairDescriptions = Object.entries(pairsByCombo).map(([combo, info]) => {
       return info.count > 1 ? `${info.count}× ${combo} (${info.dominant})` : `${combo} (${info.dominant})`;
     });
-    
+
     desc += `${pairs.length} mounted: ${pairDescriptions.join(', ')}`;
   }
-  
+
   if (mountsOnly.length > 0) {
     if (desc) desc += '; ';
-    
+
     // Group mounts by type
     const mountsByType = {};
     mountsOnly.forEach(m => {
       const key = m.mount.Name;
       mountsByType[key] = (mountsByType[key] || 0) + 1;
     });
-    
+
     const mountDescriptions = Object.entries(mountsByType).map(([mount, count]) => {
       return count > 1 ? `${count}× ${mount}` : mount;
     });
-    
+
     desc += `${mountsOnly.length} mount${mountsOnly.length > 1 ? 's' : ''} only: ${mountDescriptions.join(', ')}`;
   }
-  
+
   if (dismounted.length > 0) {
     if (desc) desc += '; ';
-    
+
     // Group dismounted by rider type
     const dismountedByType = {};
     dismounted.forEach(d => {
       const key = d.rider.Name;
       dismountedByType[key] = (dismountedByType[key] || 0) + 1;
     });
-    
+
     const dismountedDescriptions = Object.entries(dismountedByType).map(([rider, count]) => {
       return count > 1 ? `${count}× ${rider}` : rider;
     });
-    
+
     desc += `${dismounted.length} dismounted: ${dismountedDescriptions.join(', ')}`;
   }
-  
+
   return desc;
 }
 
 function formatMixedGroupDescription(results) {
   const leaders = results.filter(r => r.role === 'leader');
   const minions = results.filter(r => r.role === 'minion');
-  
+
   let desc = '';
   if (leaders.length > 0) {
     desc += `1× ${leaders[0].Name} (leader, CR ${leaders[0].CR})`;
@@ -634,6 +705,6 @@ function formatMixedGroupDescription(results) {
     if (desc) desc += ' + ';
     desc += `${minions.length}× ${minions[0].Name} (minions, CR ${minions[0].CR})`;
   }
-  
+
   return desc;
 }
