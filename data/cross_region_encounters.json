@@ -1,0 +1,43 @@
+{
+    "description": "Percentage chance of encountering monsters from other region tables when in the specified region",
+    "regions": {
+        "calimshan": {
+            "cities": 5,
+            "dungeon": 1,
+            "moonshae": 2,
+            "heartlands": 2
+        },
+        "moonshae": {
+            "cities": 3,
+            "heartlands": 1,
+            "calimshan": 3,
+            "icewind_dale": 2
+        },
+        "icewind_dale": {
+            "cities": 2,
+            "dungeon": 2,
+            "moonshae": 2,
+            "heartlands": 1
+        },
+        "cities": {
+            "dungeon": 2,
+            "heartlands": 10,
+            "calimshan": 5,
+            "icewind_dale": 5
+        },
+        "dungeon": {
+            "cities": 5,
+            "moonshae": 5,
+            "heartlands": 5,
+            "calimshan": 5,
+            "icewind_dale": 5
+        },
+        "heartlands": {
+            "cities": 3,
+            "moonshae": 3,
+            "dungeon": 3,
+            "calimshan": 3,
+            "icewind_dale": 3
+        }
+    }
+}
