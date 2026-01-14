@@ -2,823 +2,316 @@
   {
     "Name": "Warhorse",
     "Type": "Mount",
-    "CR": "1/2",
-    "Theme": "Off Arc"
+    "CR": "1/2"
   },
   {
     "Name": "Riding Horse",
     "Type": "Mount",
-    "CR": "1/4",
-    "Theme": "Off Arc"
+    "CR": "1/4"
   },
   {
     "Name": "Pony",
     "Type": "Mount",
-    "CR": "1/8",
-    "Theme": "Off Arc"
+    "CR": "1/8"
   },
   {
     "Name": "Mastiff",
     "Type": "Mount",
-    "CR": "1/8",
-    "Theme": "Off Arc"
+    "CR": "1/8"
   },
   {
     "Name": "Mule",
     "Type": "Mount",
-    "CR": "1/8",
-    "Theme": "Off Arc"
+    "CR": "1/8"
   },
   {
     "Name": "Camel",
     "Type": "Mount",
-    "CR": "1/8",
-    "Theme": "Off Arc"
+    "CR": "1/8"
   },
   {
     "Name": "Elk",
     "Type": "Mount",
-    "CR": "1/4",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Giant Wolf",
-    "Type": "Mount",
-    "CR": "1",
-    "Theme": "Off Arc"
+    "CR": "1/4"
   },
   {
     "Name": "Dire Wolf",
     "Type": "Mount",
-    "CR": "1",
-    "Theme": "Off Arc"
+    "CR": "1"
   },
   {
     "Name": "Giant Boar",
     "Type": "Mount",
-    "CR": "2",
-    "Theme": "Off Arc"
+    "CR": "2"
   },
   {
     "Name": "Giant Eagle",
     "Type": "Mount",
-    "CR": "1",
-    "Theme": "Off Arc"
+    "CR": "1"
   },
   {
     "Name": "Griffon",
     "Type": "Mount",
-    "CR": "2",
-    "Theme": "Off Arc"
+    "CR": "2"
   },
   {
     "Name": "Hippogriff",
     "Type": "Mount",
-    "CR": "1",
-    "Theme": "Off Arc"
+    "CR": "1"
   },
   {
     "Name": "Giant Spider",
     "Type": "Mount",
-    "CR": "1",
-    "Theme": "Lolth"
+    "CR": "1"
   },
   {
     "Name": "Giant Lizard",
     "Type": "Mount",
-    "CR": "1/4",
-    "Theme": "Off Arc"
+    "CR": "1/4"
   },
   {
     "Name": "Axe Beak",
     "Type": "Mount",
-    "CR": "1/4",
-    "Theme": "Off Arc"
+    "CR": "1/4"
   },
   {
     "Name": "Giant Goat",
     "Type": "Mount",
-    "CR": "1/2",
-    "Theme": "Off Arc"
+    "CR": "1/2"
   },
   {
     "Name": "Giant Vulture",
     "Type": "Mount",
-    "CR": "1",
-    "Theme": "Off Arc"
+    "CR": "1"
   },
   {
     "Name": "Rhinoceros",
     "Type": "Mount",
-    "CR": "2",
-    "Theme": "Off Arc"
+    "CR": "2"
   },
   {
     "Name": "Giant Elk",
     "Type": "Mount",
-    "CR": "2",
-    "Theme": "Off Arc"
+    "CR": "2"
   },
   {
     "Name": "Nightmare",
     "Type": "Mount",
-    "CR": "3",
-    "Theme": "BloodWar"
+    "CR": "3"
   },
   {
     "Name": "Hell Hound",
     "Type": "Mount",
-    "CR": "3",
-    "Theme": "BloodWar"
+    "CR": "3"
   },
   {
     "Name": "Phase Spider",
     "Type": "Mount",
-    "CR": "3",
-    "Theme": "Lolth"
-  },
-  {
-    "Name": "Skeletal Warhorse",
-    "Type": "Mount",
-    "CR": "1/2",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Zombie Horse",
-    "Type": "Mount",
-    "CR": "1/4",
-    "Theme": "Vecna"
+    "CR": "3"
   },
   {
     "Name": "Death Dog",
     "Type": "Mount",
-    "CR": "1",
-    "Theme": "Vecna"
+    "CR": "1"
   },
   {
     "Name": "Imp",
     "Type": "Mount",
-    "CR": "1",
-    "Theme": "BloodWar"
+    "CR": "1"
   },
   {
     "Name": "Quasit",
     "Type": "Mount",
-    "CR": "1",
-    "Theme": "BloodWar"
+    "CR": "1"
   },
   {
     "Name": "Spined Devil",
     "Type": "Mount",
-    "CR": "2",
-    "Theme": "BloodWar"
+    "CR": "2"
   },
   {
     "Name": "Young Remorhaz",
     "Type": "Mount",
-    "CR": "5",
-    "Theme": "Dragons"
-  },
-  {
-    "Name": "Nightwalker",
-    "Type": "Mount",
-    "CR": "20",
-    "Theme": "Vecna"
-  },
-  {
-    "Name": "Hertilod",
-    "Type": "Mount",
-    "CR": "17",
-    "Theme": "Off Arc"
+    "CR": "5"
   },
   {
     "Name": "Goristro",
     "Type": "Mount",
-    "CR": "17",
-    "Theme": "BloodWar"
-  },
-  {
-    "Name": "Storm Giant Skeleton",
-    "Type": "Mount",
-    "CR": "16",
-    "Theme": "Vecna"
-  },
-  {
-    "Name": "Steel Predator",
-    "Type": "Mount",
-    "CR": "16",
-    "Theme": "Off Arc"
+    "CR": "17"
   },
   {
     "Name": "Iron Golem",
     "Type": "Mount",
-    "CR": "16",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Hellfire Engine",
-    "Type": "Mount",
-    "CR": "16",
-    "Theme": "BloodWar"
-  },
-  {
-    "Name": "Category 3 Krasis",
-    "Type": "Mount",
-    "CR": "16",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Typhon",
-    "Type": "Mount",
-    "CR": "15",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Skittering Horror",
-    "Type": "Mount",
-    "CR": "15",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Froghemoth Elder",
-    "Type": "Mount",
-    "CR": "15",
-    "Theme": "Lolth"
-  },
-  {
-    "Name": "Wurm",
-    "Type": "Mount",
-    "CR": "14",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Retriever",
-    "Type": "Mount",
-    "CR": "14",
-    "Theme": "BloodWar"
-  },
-  {
-    "Name": "Cadaver Collector",
-    "Type": "Mount",
-    "CR": "14",
-    "Theme": "Vecna"
-  },
-  {
-    "Name": "Jabberwock",
-    "Type": "Mount",
-    "CR": "13",
-    "Theme": "Off Arc"
+    "CR": "16"
   },
   {
     "Name": "Adult White Dragon",
     "Type": "Mount",
-    "CR": "13",
-    "Theme": "Dragons"
-  },
-  {
-    "Name": "Gray Render",
-    "Type": "Mount",
-    "CR": "12",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Granite Juggernaut",
-    "Type": "Mount",
-    "CR": "12",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Blazebear",
-    "Type": "Mount",
-    "CR": "12",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Void Scavver",
-    "Type": "Mount",
-    "CR": "11",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Vlazok",
-    "Type": "Mount",
-    "CR": "11",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Spiderdragon",
-    "Type": "Mount",
-    "CR": "11",
-    "Theme": "Lolth"
-  },
-  {
-    "Name": "Runed Behir",
-    "Type": "Mount",
-    "CR": "11",
-    "Theme": "Off Arc"
+    "CR": "13"
   },
   {
     "Name": "Remorhaz",
     "Type": "Mount",
-    "CR": "11",
-    "Theme": "Dragons"
-  },
-  {
-    "Name": "Parasite-infested Behir",
-    "Type": "Mount",
-    "CR": "11",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Necrotic Centipede",
-    "Type": "Mount",
-    "CR": "11",
-    "Theme": "Vecna"
-  },
-  {
-    "Name": "Giant Whirlwyrm",
-    "Type": "Mount",
-    "CR": "11",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Dragonbone Golem",
-    "Type": "Mount",
-    "CR": "11",
-    "Theme": "Dragons"
-  },
-  {
-    "Name": "Dracohydra",
-    "Type": "Mount",
-    "CR": "11",
-    "Theme": "Off Arc"
+    "CR": "11"
   },
   {
     "Name": "Behir",
     "Type": "Mount",
-    "CR": "11",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Tlexolotl",
-    "Type": "Mount",
-    "CR": "10",
-    "Theme": "Off Arc"
+    "CR": "11"
   },
   {
     "Name": "Stone Golem",
     "Type": "Mount",
-    "CR": "10",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Sapphire Sentinel",
-    "Type": "Mount",
-    "CR": "10",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Lesser Death Dragon",
-    "Type": "Mount",
-    "CR": "10",
-    "Theme": "Vecna"
-  },
-  {
-    "Name": "Jade Giant Spider",
-    "Type": "Mount",
-    "CR": "10",
-    "Theme": "Lolth"
-  },
-  {
-    "Name": "Froghemoth",
-    "Type": "Mount",
-    "CR": "10",
-    "Theme": "Lolth"
+    "CR": "10"
   },
   {
     "Name": "Dire Worg",
     "Type": "Mount",
-    "CR": "10",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Frost Salamander",
-    "Type": "Mount",
-    "CR": "9",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Deep Crow",
-    "Type": "Mount",
-    "CR": "9",
-    "Theme": "Off Arc"
+    "CR": "10"
   },
   {
     "Name": "Brazen Gorgon",
     "Type": "Mount",
-    "CR": "9",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Anhkolox",
-    "Type": "Mount",
-    "CR": "9",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Warforged Titan",
-    "Type": "Mount",
-    "CR": "8",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Vampiric Jade Statue",
-    "Type": "Mount",
-    "CR": "8",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Tyrannosaurus Zombie",
-    "Type": "Mount",
-    "CR": "8",
-    "Theme": "Vecna"
+    "CR": "9"
   },
   {
     "Name": "Tyrannosaurus Rex",
     "Type": "Mount",
-    "CR": "8",
-    "Theme": "Dragons"
-  },
-  {
-    "Name": "Telepathic Pentacle",
-    "Type": "Mount",
-    "CR": "8",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Star Angler",
-    "Type": "Mount",
-    "CR": "8",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Shoosuva",
-    "Type": "Mount",
-    "CR": "8",
-    "Theme": "BloodWar"
-  },
-  {
-    "Name": "Scaladar",
-    "Type": "Mount",
-    "CR": "8",
-    "Theme": "Off Arc"
+    "CR": "8"
   },
   {
     "Name": "Hydra",
     "Type": "Mount",
-    "CR": "8",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Howler",
-    "Type": "Mount",
-    "CR": "8",
-    "Theme": "BloodWar"
+    "CR": "8"
   },
   {
     "Name": "Hezrou",
     "Type": "Mount",
-    "CR": "8",
-    "Theme": "BloodWar"
-  },
-  {
-    "Name": "Gloamwing",
-    "Type": "Mount",
-    "CR": "8",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Fiendish Flesh Golem",
-    "Type": "Mount",
-    "CR": "8",
-    "Theme": "BloodWar"
+    "CR": "8"
   },
   {
     "Name": "Cockatrice Regent",
     "Type": "Mount",
-    "CR": "8",
-    "Theme": "BloodWar"
-  },
-  {
-    "Name": "Bone Roc",
-    "Type": "Mount",
-    "CR": "8",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Young Lunar Dragon",
-    "Type": "Mount",
-    "CR": "7",
-    "Theme": "Dragons"
-  },
-  {
-    "Name": "Theran Chimera",
-    "Type": "Mount",
-    "CR": "7",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Talon Beast",
-    "Type": "Mount",
-    "CR": "7",
-    "Theme": "Off Arc"
+    "CR": "8"
   },
   {
     "Name": "Primeval Owlbear",
     "Type": "Mount",
-    "CR": "7",
-    "Theme": "Lolth"
-  },
-  {
-    "Name": "Liondrake",
-    "Type": "Mount",
-    "CR": "7",
-    "Theme": "Dragons"
+    "CR": "7"
   },
   {
     "Name": "Grick Ancient",
     "Type": "Mount",
-    "CR": "7",
-    "Theme": "Lolth"
+    "CR": "7"
   },
   {
     "Name": "Giant Ape",
     "Type": "Mount",
-    "CR": "7",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Barrowghast",
-    "Type": "Mount",
-    "CR": "7",
-    "Theme": "Vecna"
-  },
-  {
-    "Name": "Armanite",
-    "Type": "Mount",
-    "CR": "7",
-    "Theme": "BloodWar"
-  },
-  {
-    "Name": "Zombie Clot",
-    "Type": "Mount",
-    "CR": "6",
-    "Theme": "Vecna"
+    "CR": "7"
   },
   {
     "Name": "Young White Dragon",
     "Type": "Mount",
-    "CR": "6",
-    "Theme": "Dragons"
+    "CR": "6"
   },
   {
     "Name": "Wyvern",
     "Type": "Mount",
-    "CR": "6",
-    "Theme": "Dragons"
+    "CR": "6"
   },
   {
     "Name": "Vrock",
     "Type": "Mount",
-    "CR": "6",
-    "Theme": "BloodWar"
+    "CR": "6"
   },
   {
     "Name": "Mammoth",
     "Type": "Mount",
-    "CR": "6",
-    "Theme": "Off Arc"
+    "CR": "6"
   },
   {
     "Name": "Giant Squid",
     "Type": "Mount",
-    "CR": "6",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Frost Giant Skeleton",
-    "Type": "Mount",
-    "CR": "6",
-    "Theme": "Vecna"
-  },
-  {
-    "Name": "Dragonflesh Abomination",
-    "Type": "Mount",
-    "CR": "6",
-    "Theme": "Dragons"
+    "CR": "6"
   },
   {
     "Name": "Chimera",
     "Type": "Mount",
-    "CR": "6",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Whirlwyrm",
-    "Type": "Mount",
-    "CR": "5",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Undead Bulette",
-    "Type": "Mount",
-    "CR": "5",
-    "Theme": "Vecna"
+    "CR": "6"
   },
   {
     "Name": "Triceratops",
     "Type": "Mount",
-    "CR": "5",
-    "Theme": "Dragons"
-  },
-  {
-    "Name": "Tlincalli",
-    "Type": "Mount",
-    "CR": "5",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Titanothere",
-    "Type": "Mount",
-    "CR": "5",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Skeletal Juggernaut",
-    "Type": "Mount",
-    "CR": "5",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Ruin Spider",
-    "Type": "Mount",
-    "CR": "5",
-    "Theme": "Lolth"
+    "CR": "5"
   },
   {
     "Name": "Otyugh",
     "Type": "Mount",
-    "CR": "5",
-    "Theme": "Lolth"
-  },
-  {
-    "Name": "Night Scavver",
-    "Type": "Mount",
-    "CR": "5",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Hulking Crab",
-    "Type": "Mount",
-    "CR": "5",
-    "Theme": "Off Arc"
+    "CR": "5"
   },
   {
     "Name": "Gorgon",
     "Type": "Mount",
-    "CR": "5",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Gold-Forged Sentinel",
-    "Type": "Mount",
-    "CR": "5",
-    "Theme": "Off Arc"
+    "CR": "5"
   },
   {
     "Name": "Giant Crocodile",
     "Type": "Mount",
-    "CR": "5",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Catoblepas",
-    "Type": "Mount",
-    "CR": "5",
-    "Theme": "Off Arc"
+    "CR": "5"
   },
   {
     "Name": "Bulette",
     "Type": "Mount",
-    "CR": "5",
-    "Theme": "Lolth"
-  },
-  {
-    "Name": "Yeth Hound",
-    "Type": "Mount",
-    "CR": "4",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Winged Lion",
-    "Type": "Mount",
-    "CR": "4",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Winged Bull",
-    "Type": "Mount",
-    "CR": "4",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Stegosaurus",
-    "Type": "Mount",
-    "CR": "4",
-    "Theme": "Dragons"
-  },
-  {
-    "Name": "Kamadan",
-    "Type": "Mount",
-    "CR": "4",
-    "Theme": "Off Arc"
+    "CR": "5"
   },
   {
     "Name": "Hippopotamus",
     "Type": "Mount",
-    "CR": "4",
-    "Theme": "Off Arc"
+    "CR": "4"
   },
   {
     "Name": "Elephant",
     "Type": "Mount",
-    "CR": "4",
-    "Theme": "Off Arc"
+    "CR": "4"
   },
   {
     "Name": "Chuul",
     "Type": "Mount",
-    "CR": "4",
-    "Theme": "Off Arc"
+    "CR": "4"
   },
   {
     "Name": "Winter Wolf",
     "Type": "Mount",
-    "CR": "3",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Wasteland Dragonnel",
-    "Type": "Mount",
-    "CR": "3",
-    "Theme": "Dragons"
-  },
-  {
-    "Name": "Thunderbeast Skeleton",
-    "Type": "Mount",
-    "CR": "3",
-    "Theme": "Vecna"
+    "CR": "3"
   },
   {
     "Name": "Manticore",
     "Type": "Mount",
-    "CR": "3",
-    "Theme": "Off Arc"
+    "CR": "3"
   },
   {
     "Name": "Giant Scorpion",
     "Type": "Mount",
-    "CR": "3",
-    "Theme": "Off Arc"
+    "CR": "3"
   },
   {
     "Name": "Ankylosaurus",
     "Type": "Mount",
-    "CR": "3",
-    "Theme": "Dragons"
+    "CR": "3"
   },
   {
     "Name": "Polar Bear",
     "Type": "Mount",
-    "CR": "2",
-    "Theme": "Off Arc"
-  },
-  {
-    "Name": "Ice Spider Queen",
-    "Type": "Mount",
-    "CR": "2",
-    "Theme": "Lolth"
+    "CR": "2"
   },
   {
     "Name": "Allosaurus",
     "Type": "Mount",
-    "CR": "2",
-    "Theme": "Dragons"
+    "CR": "2"
   },
   {
     "Name": "Tiger",
     "Type": "Mount",
-    "CR": "1",
-    "Theme": "Off Arc"
+    "CR": "1"
   }
 ]

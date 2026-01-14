@@ -1,62 +1,247 @@
 [
-  {"Name": "Adult Black Dragon", "Type": "Dragon (Chromatic)", "CR": 14, "Theme": "Dragons"},
-  {"Name": "Adult Blue Dragon", "Type": "Dragon (Chromatic)", "CR": 16, "Theme": "Dragons"},
-  {"Name": "Adult Brass Dragon", "Type": "Dragon (Metallic)", "CR": 13, "Theme": "Dragons"},
-  {"Name": "Adult Bronze Dragon", "Type": "Dragon (Metallic)", "CR": 15, "Theme": "Dragons"},
-  {"Name": "Adult Copper Dragon", "Type": "Dragon (Metallic)", "CR": 14, "Theme": "Dragons"},
-  {"Name": "Adult Gold Dragon", "Type": "Dragon (Metallic)", "CR": 17, "Theme": "Dragons"},
-  {"Name": "Adult Green Dragon", "Type": "Dragon (Chromatic)", "CR": 15, "Theme": "Dragons"},
-  {"Name": "Adult Red Dragon", "Type": "Dragon (Chromatic)", "CR": 17, "Theme": "Dragons"},
-  {"Name": "Adult Silver Dragon", "Type": "Dragon (Metallic)", "CR": 16, "Theme": "Dragons"},
-  {"Name": "Adult White Dragon", "Type": "Dragon (Chromatic)", "CR": 13, "Theme": "Dragons"},
-  {"Name": "Ancient Black Dragon", "Type": "Dragon (Chromatic)", "CR": 21, "Theme": "Dragons"},
-  {"Name": "Ancient Blue Dragon", "Type": "Dragon (Chromatic)", "CR": 23, "Theme": "Dragons"},
-  {"Name": "Ancient Brass Dragon", "Type": "Dragon (Metallic)", "CR": 20, "Theme": "Dragons"},
-  {"Name": "Ancient Bronze Dragon", "Type": "Dragon (Metallic)", "CR": 22, "Theme": "Dragons"},
-  {"Name": "Ancient Copper Dragon", "Type": "Dragon (Metallic)", "CR": 21, "Theme": "Dragons"},
-  {"Name": "Ancient Gold Dragon", "Type": "Dragon (Metallic)", "CR": 24, "Theme": "Dragons"},
-  {"Name": "Ancient Green Dragon", "Type": "Dragon (Chromatic)", "CR": 22, "Theme": "Dragons"},
-  {"Name": "Ancient Red Dragon", "Type": "Dragon (Chromatic)", "CR": 24, "Theme": "Dragons"},
-  {"Name": "Ancient Silver Dragon", "Type": "Dragon (Metallic)", "CR": 23, "Theme": "Dragons"},
-  {"Name": "Ancient White Dragon", "Type": "Dragon (Chromatic)", "CR": 20, "Theme": "Dragons"},
-  {"Name": "Black Dragon Wyrmling", "Type": "Dragon (Chromatic)", "CR": 2, "Theme": "Dragons"},
-  {"Name": "Blue Dragon Wyrmling", "Type": "Dragon (Chromatic)", "CR": 3, "Theme": "Dragons"},
-  {"Name": "Brass Dragon Wyrmling", "Type": "Dragon (Metallic)", "CR": 1, "Theme": "Dragons"},
-  {"Name": "Bronze Dragon Wyrmling", "Type": "Dragon (Metallic)", "CR": 2, "Theme": "Dragons"},
-  {"Name": "Copper Dragon Wyrmling", "Type": "Dragon (Metallic)", "CR": 1, "Theme": "Dragons"},
-  {"Name": "Dragon Turtle", "Type": "Dragon", "CR": 17, "Theme": "Dragons"},
-  {"Name": "Faerie Dragon Adult", "Type": "Dragon", "CR": 2, "Theme": "Off Arc"},
-  {"Name": "Faerie Dragon Youth", "Type": "Dragon", "CR": 1, "Theme": "Off Arc"},
-  {"Name": "Gold Dragon Wyrmling", "Type": "Dragon (Metallic)", "CR": 3, "Theme": "Dragons"},
-  {"Name": "Green Dragon Wyrmling", "Type": "Dragon (Chromatic)", "CR": 2, "Theme": "Dragons"},
-  {"Name": "Half-Dragon", "Type": "Dragon", "CR": 5, "Theme": "Dragons"},
-  {"Name": "Juvenile Shadow Dragon", "Type": "Dragon", "CR": 4, "Theme": "Vecna"},
-  {"Name": "Kobold Warrior", "Type": "Dragon", "CR": "1/8", "Theme": "Dragons"},
-  {"Name": "Pseudodragon", "Type": "Dragon", "CR": "1/4", "Theme": "Off Arc"},
-  {"Name": "Red Dragon Wyrmling", "Type": "Dragon (Chromatic)", "CR": 4, "Theme": "Dragons"},
-  {"Name": "Shadow Dragon", "Type": "Dragon", "CR": 13, "Theme": "Vecna"},
-  {"Name": "Silver Dragon Wyrmling", "Type": "Dragon (Metallic)", "CR": 2, "Theme": "Dragons"},
-  {"Name": "White Dragon Wyrmling", "Type": "Dragon (Chromatic)", "CR": 2, "Theme": "Dragons"},
-  {"Name": "Wyvern", "Type": "Dragon", "CR": 6, "Theme": "Dragons"},
-  {"Name": "Young Black Dragon", "Type": "Dragon (Chromatic)", "CR": 7, "Theme": "Dragons"},
-  {"Name": "Young Blue Dragon", "Type": "Dragon (Chromatic)", "CR": 9, "Theme": "Dragons"},
-  {"Name": "Young Brass Dragon", "Type": "Dragon (Metallic)", "CR": 6, "Theme": "Dragons"},
-  {"Name": "Young Bronze Dragon", "Type": "Dragon (Metallic)", "CR": 8, "Theme": "Dragons"},
-  {"Name": "Young Copper Dragon", "Type": "Dragon (Metallic)", "CR": 7, "Theme": "Dragons"},
-  {"Name": "Young Gold Dragon", "Type": "Dragon (Metallic)", "CR": 10, "Theme": "Dragons"},
-  {"Name": "Young Green Dragon", "Type": "Dragon (Chromatic)", "CR": 8, "Theme": "Dragons"},
-  {"Name": "Young Red Dragon", "Type": "Dragon (Chromatic)", "CR": 10, "Theme": "Dragons"},
-  {"Name": "Young Silver Dragon", "Type": "Dragon (Metallic)", "CR": 9, "Theme": "Dragons"},
-  {"Name": "Young White Dragon", "Type": "Dragon (Chromatic)", "CR": 6, "Theme": "Dragons"},
-  {"Name": "Ancient Topaz Dragon", "Type": "Dragon (Gem)", "CR": 20, "Theme": "Dragons"},
-  {"Name": "Ancient Lunar Dragon", "Type": "Dragon", "CR": 19, "Theme": "Dragons"},
-  {"Name": "Ancient Deep Dragon", "Type": "Dragon", "CR": 18, "Theme": "Dragons"},
-  {"Name": "Dragon Tortoise", "Type": "Dragon", "CR": 17, "Theme": "Dragons"},
-  {"Name": "Adult Amethyst Dragon", "Type": "Dragon (Gem)", "CR": 16, "Theme": "Dragons"},
-  {"Name": "Ancient Sea Serpent", "Type": "Dragon", "CR": 14, "Theme": "Dragons"},
-  {"Name": "Jabberwock", "Type": "Dragon", "CR": 13, "Theme": "Dragons"},
-  {"Name": "Adult Lunar Dragon", "Type": "Dragon", "CR": 13, "Theme": "Dragons"},
-  {"Name": "Adult Crystal Dragon", "Type": "Dragon (Gem)", "CR": 12, "Theme": "Dragons"},
-  {"Name": "Adult Deep Dragon", "Type": "Dragon", "CR": 11, "Theme": "Dragons"},
-  {"Name": "Young Dragon Turtle", "Type": "Dragon", "CR": 10, "Theme": "Dragons"}
+  {
+    "Name": "Adult Black Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 14
+  },
+  {
+    "Name": "Adult Blue Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 16
+  },
+  {
+    "Name": "Adult Brass Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 13
+  },
+  {
+    "Name": "Adult Bronze Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 15
+  },
+  {
+    "Name": "Adult Copper Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 14
+  },
+  {
+    "Name": "Adult Gold Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 17
+  },
+  {
+    "Name": "Adult Green Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 15
+  },
+  {
+    "Name": "Adult Red Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 17
+  },
+  {
+    "Name": "Adult Silver Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 16
+  },
+  {
+    "Name": "Adult White Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 13
+  },
+  {
+    "Name": "Ancient Black Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 21
+  },
+  {
+    "Name": "Ancient Blue Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 23
+  },
+  {
+    "Name": "Ancient Brass Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 20
+  },
+  {
+    "Name": "Ancient Bronze Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 22
+  },
+  {
+    "Name": "Ancient Copper Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 21
+  },
+  {
+    "Name": "Ancient Gold Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 24
+  },
+  {
+    "Name": "Ancient Green Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 22
+  },
+  {
+    "Name": "Ancient Red Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 24
+  },
+  {
+    "Name": "Ancient Silver Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 23
+  },
+  {
+    "Name": "Ancient White Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 20
+  },
+  {
+    "Name": "Black Dragon Wyrmling",
+    "Type": "Dragon (Chromatic)",
+    "CR": 2
+  },
+  {
+    "Name": "Blue Dragon Wyrmling",
+    "Type": "Dragon (Chromatic)",
+    "CR": 3
+  },
+  {
+    "Name": "Brass Dragon Wyrmling",
+    "Type": "Dragon (Metallic)",
+    "CR": 1
+  },
+  {
+    "Name": "Bronze Dragon Wyrmling",
+    "Type": "Dragon (Metallic)",
+    "CR": 2
+  },
+  {
+    "Name": "Copper Dragon Wyrmling",
+    "Type": "Dragon (Metallic)",
+    "CR": 1
+  },
+  {
+    "Name": "Dragon Turtle",
+    "Type": "Dragon",
+    "CR": 17
+  },
+  {
+    "Name": "Faerie Dragon Adult",
+    "Type": "Dragon",
+    "CR": 2
+  },
+  {
+    "Name": "Faerie Dragon Youth",
+    "Type": "Dragon",
+    "CR": 1
+  },
+  {
+    "Name": "Gold Dragon Wyrmling",
+    "Type": "Dragon (Metallic)",
+    "CR": 3
+  },
+  {
+    "Name": "Green Dragon Wyrmling",
+    "Type": "Dragon (Chromatic)",
+    "CR": 2
+  },
+  {
+    "Name": "Half-Dragon",
+    "Type": "Dragon",
+    "CR": 5
+  },
+  {
+    "Name": "Juvenile Shadow Dragon",
+    "Type": "Dragon",
+    "CR": 4
+  },
+  {
+    "Name": "Kobold Warrior",
+    "Type": "Dragon",
+    "CR": "1/8"
+  },
+  {
+    "Name": "Pseudodragon",
+    "Type": "Dragon",
+    "CR": "1/4"
+  },
+  {
+    "Name": "Red Dragon Wyrmling",
+    "Type": "Dragon (Chromatic)",
+    "CR": 4
+  },
+  {
+    "Name": "Shadow Dragon",
+    "Type": "Dragon",
+    "CR": 13
+  },
+  {
+    "Name": "Silver Dragon Wyrmling",
+    "Type": "Dragon (Metallic)",
+    "CR": 2
+  },
+  {
+    "Name": "White Dragon Wyrmling",
+    "Type": "Dragon (Chromatic)",
+    "CR": 2
+  },
+  {
+    "Name": "Wyvern",
+    "Type": "Dragon",
+    "CR": 6
+  },
+  {
+    "Name": "Young Black Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 7
+  },
+  {
+    "Name": "Young Blue Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 9
+  },
+  {
+    "Name": "Young Brass Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 6
+  },
+  {
+    "Name": "Young Bronze Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 8
+  },
+  {
+    "Name": "Young Copper Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 7
+  },
+  {
+    "Name": "Young Gold Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 10
+  },
+  {
+    "Name": "Young Green Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 8
+  },
+  {
+    "Name": "Young Red Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 10
+  },
+  {
+    "Name": "Young Silver Dragon",
+    "Type": "Dragon (Metallic)",
+    "CR": 9
+  },
+  {
+    "Name": "Young White Dragon",
+    "Type": "Dragon (Chromatic)",
+    "CR": 6
+  }
 ]
