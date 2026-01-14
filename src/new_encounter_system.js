@@ -45,6 +45,7 @@ function pickEncounterRegion(primaryRegion) {
   return primaryRegion;
 }
 
+
 // Get adjacent CRs for fallback when exact CR has no monsters
 const CR_ORDER = ['0', '1/8', '1/4', '1/2', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10',
   '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '30'];
@@ -60,6 +61,30 @@ function getAdjacentCRs(cr) {
   if (index < CR_ORDER.length - 1) adjacent.push(CR_ORDER[index + 1]);
   return adjacent;
 }
+
+// Region-specific dragon types (patterns to match dragon names)
+const REGION_DRAGONS = {
+  icewind: ['White', 'Kobold', 'Remorhaz', 'Dracolich'],
+  heartlands: ['Red', 'Black', 'Dracolich'],
+  calimshan: ['Blue', 'Dragon Turtle', 'Dragon Tortoise'],
+  dungeon: ['Red', 'Deep', 'Dracolich'],
+  cities: ['Silver'],
+  moonshae: ['Green', 'Dragon Turtle', 'Dragon Tortoise']
+};
+
+// Get dragons from DRAGONS array filtered by region
+function getRegionDragonsByCR(cr, region) {
+  const crString = String(cr);
+  const regionPatterns = REGION_DRAGONS[region];
+  if (!regionPatterns) return [];
+
+  return DRAGONS.filter(dragon => {
+    if (String(dragon.CR) !== crString) return false;
+    // Check if dragon name contains any of the region patterns
+    return regionPatterns.some(pattern => dragon.Name.includes(pattern));
+  });
+}
+
 
 // Helper function to get monsters by CR and theme from any source
 function getMonstersByCR(cr, source = 'all', theme = 'Any') {
@@ -157,15 +182,13 @@ export function generateNewEncounter(totalXP, levels, partySize, theme = 'Any', 
   }
 
   // Randomly select encounter category
-  const categories = ['dragon_legendary', 'mounts_riders', 'groups', 'mixed_groups'];
+  // Only use encounter categories that pull from regional tables
+  const categories = ['dragon_legendary', 'groups', 'mixed_groups'];
   const selectedCategory = getRandomElement(categories);
 
   switch (selectedCategory) {
     case 'dragon_legendary':
-      return generateDragonLegendary(totalXP, actualTheme, theme);
-
-    case 'mounts_riders':
-      return generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, theme);
+      return generateDragonLegendary(totalXP, actualTheme, theme, region);
 
     case 'groups':
       return generateGroups(totalXP, minQuantity, maxQuantity, actualTheme, theme, region);
@@ -178,48 +201,37 @@ export function generateNewEncounter(totalXP, levels, partySize, theme = 'Any', 
   }
 }
 
-// Dragon or Legendary encounter (always 1 monster)
-function generateDragonLegendary(totalXP, actualTheme, originalTheme) {
+
+// Dragon or Legendary encounter (always 1 monster) - uses region-specific dragons
+function generateDragonLegendary(totalXP, actualTheme, originalTheme, region = null) {
   const bestFit = findBestCR(totalXP);
   if (!bestFit.cr) {
     return { error: 'No dragon or legendary creature fits budget' };
   }
 
-  // Try dragons first, then legendary, filtered by actual theme
-  let dragons = getMonstersByCR(bestFit.cr, 'dragons', actualTheme);
-  let legendaries = getMonstersByCR(bestFit.cr, 'legendary', actualTheme);
+  const sourceRegion = region ? pickEncounterRegion(region) : 'heartlands';
+  let allOptions = [];
 
-  let allOptions = [...dragons, ...legendaries];
-  let finalTheme = actualTheme;
+  // Try region-specific dragons first
+  allOptions = getRegionDragonsByCR(bestFit.cr, sourceRegion);
 
-  // If no creatures found for the theme, try other themes
+  // If no dragons at exact CR, try adjacent CRs
   if (allOptions.length === 0) {
-    const availableThemes = ['Lolth', 'Vecna', 'BloodWar', 'Dragons', 'Off Arc'];
-    const alternativeThemes = availableThemes.filter(theme => theme !== actualTheme);
-
-    for (const altTheme of alternativeThemes) {
-      const altDragons = getMonstersByCR(bestFit.cr, 'dragons', altTheme);
-      const altLegendaries = getMonstersByCR(bestFit.cr, 'legendary', altTheme);
-      const altOptions = [...altDragons, ...altLegendaries];
-
-      if (altOptions.length > 0) {
-        allOptions = altOptions;
-        finalTheme = altTheme;
-        break;
-      }
+    const adjacentCRs = getAdjacentCRs(bestFit.cr);
+    for (const adjCR of adjacentCRs) {
+      allOptions = getRegionDragonsByCR(adjCR, sourceRegion);
+      if (allOptions.length > 0) break;
     }
   }
 
-  // If still no options, try "Any" theme (mixed)
-  if (allOptions.length === 0) {
-    dragons = getMonstersByCR(bestFit.cr, 'dragons', 'Any');
-    legendaries = getMonstersByCR(bestFit.cr, 'legendary', 'Any');
-    allOptions = [...dragons, ...legendaries];
-    finalTheme = 'Mixed';
-  }
+  // Also try legendaries from region monster table
+  const regionLegendaries = getRegionMonstersByCR(bestFit.cr, sourceRegion)
+    .filter(m => m.Name.includes('Dragon') || m.Name.includes('Remorhaz') ||
+      m.Name.includes('Dracolich') || m.Name.includes('Turtle'));
+  allOptions = [...allOptions, ...regionLegendaries];
 
   if (allOptions.length === 0) {
-    return { error: `No dragon or legendary creature found for CR ${bestFit.cr}` };
+    return { error: `No regional dragon found for CR ${bestFit.cr} in ${sourceRegion}` };
   }
 
   const chosen = getRandomElement(allOptions);
@@ -229,9 +241,10 @@ function generateDragonLegendary(totalXP, actualTheme, originalTheme) {
     monsters: [chosen],
     totalXP: bestFit.xp,
     description: `${chosen.Name} (CR ${chosen.CR})`,
-    theme: originalTheme === 'Any' ? finalTheme : `${originalTheme} → ${finalTheme}`
+    sourceRegion: sourceRegion
   };
 }
+
 
 // Mounts and Riders encounter
 function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, originalTheme) {
