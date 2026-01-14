@@ -243,5 +243,25 @@
     "Name": "Young White Dragon",
     "Type": "Dragon (Chromatic)",
     "CR": 6
+  },
+  {
+    "Name": "Spirit Dragon Wyrmling",
+    "Type": "Dragon (Gem)",
+    "CR": 2
+  },
+  {
+    "Name": "Young Spirit Dragon",
+    "Type": "Dragon (Gem)",
+    "CR": 8
+  },
+  {
+    "Name": "Adult Spirit Dragon",
+    "Type": "Dragon (Gem)",
+    "CR": 15
+  },
+  {
+    "Name": "Ancient Spirit Dragon",
+    "Type": "Dragon (Gem)",
+    "CR": 22
   }
 ]

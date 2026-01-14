@@ -1,27 +1,5 @@
 {
     "heartlands": {
-        "1/8": [
-            "Bandit",
-            "Twig Blight",
-            "Giant Weasel",
-            "Mastiff"
-        ],
-        "1/4": [
-            "Needle Blight",
-            "Wolf",
-            "Boar",
-            "Giant Badger",
-            "Goblin Warrior",
-            "Panther"
-        ],
-        "1/2": [
-            "Vine Blight",
-            "Scout",
-            "Worg",
-            "Gnoll Warrior",
-            "Hobgoblin Warrior",
-            "Black Bear"
-        ],
         "1": [
             "Dire Wolf",
             "Bugbear Warrior",
@@ -78,7 +56,8 @@
         "8": [
             "Berserker Commander",
             "Gnoll Demoniac",
-            "Tyrannosaurus Rex"
+            "Assassin",
+            "Death Cultist"
         ],
         "9": [
             "Fire Giant",
@@ -146,29 +125,31 @@
         ],
         "30": [
             "Tarrasque"
+        ],
+        "1/8": [
+            "Bandit",
+            "Twig Blight",
+            "Giant Weasel",
+            "Mastiff"
+        ],
+        "1/4": [
+            "Needle Blight",
+            "Wolf",
+            "Boar",
+            "Giant Badger",
+            "Goblin Warrior",
+            "Panther"
+        ],
+        "1/2": [
+            "Vine Blight",
+            "Scout",
+            "Worg",
+            "Gnoll Warrior",
+            "Hobgoblin Warrior",
+            "Black Bear"
         ]
     },
     "dungeon": {
-        "1/8": [
-            "Giant Rat",
-            "Kobold Warrior",
-            "Goblin Minion"
-        ],
-        "1/4": [
-            "Skeleton",
-            "Zombie",
-            "Violet Fungus",
-            "Giant Centipede",
-            "Grimlock",
-            "Troglodyte"
-        ],
-        "1/2": [
-            "Gray Ooze",
-            "Rust Monster",
-            "Piercer",
-            "Darkmantle",
-            "Shadow"
-        ],
         "1": [
             "Ghoul",
             "Giant Spider",
@@ -285,26 +266,29 @@
         ],
         "30": [
             "Tarrasque"
+        ],
+        "1/8": [
+            "Giant Rat",
+            "Kobold Warrior",
+            "Goblin Minion"
+        ],
+        "1/4": [
+            "Skeleton",
+            "Zombie",
+            "Violet Fungus",
+            "Giant Centipede",
+            "Grimlock",
+            "Troglodyte"
+        ],
+        "1/2": [
+            "Gray Ooze",
+            "Rust Monster",
+            "Piercer",
+            "Darkmantle",
+            "Shadow"
         ]
     },
     "cities": {
-        "1/8": [
-            "Bandit",
-            "Guard",
-            "Cultist"
-        ],
-        "1/4": [
-            "Animated Broom",
-            "Apprentice Wizard",
-            "Kenku",
-            "Nightblade"
-        ],
-        "1/2": [
-            "Shadow",
-            "Necromite of Myrkul",
-            "Fist of Bane",
-            "Sage"
-        ],
         "1": [
             "Animated Armor",
             "Skull Lasher of Myrkul",
@@ -322,11 +306,11 @@
             "Bandit Captain",
             "Berserker",
             "Priest",
-            "Mage Apprentice"
+            "MAge apprentice"
         ],
         "3": [
             "Doppelganger",
-            "Vampire Familiar",
+            "Vampire Familar",
             "Wight",
             "Knight",
             "Scout Captain",
@@ -355,7 +339,7 @@
             "Pirate Captain"
         ],
         "7": [
-            "Bandit Deceiver",
+            "Bandit Deciever",
             "Cultist of Bhaal",
             "Oni",
             "Nimblewrite Hulk",
@@ -391,7 +375,7 @@
         ],
         "12": [
             "Archmage",
-            "Archpriest",
+            "Archpreist",
             "Pirate Admiral",
             "Questing Knight"
         ],
@@ -434,31 +418,26 @@
         ],
         "30": [
             "Tarrasque"
+        ],
+        "1/8": [
+            "Bandit",
+            "Guard",
+            "Cultist"
+        ],
+        "1/4": [
+            "Animated Broom",
+            "Apprentice Wizard",
+            "Kenku",
+            "Nightblade"
+        ],
+        "1/2": [
+            "Shadow",
+            "Necromite of Myrkul",
+            "Fist of Bane",
+            "Sage"
         ]
     },
     "calimshan": {
-        "1/8": [
-            "Cultist",
-            "Camel",
-            "Flying Snake",
-            "Manes",
-            "Venomous Snake"
-        ],
-        "1/4": [
-            "Dust Mephit",
-            "Smoke Mephit",
-            "Aarakocra Skirmisher",
-            "Constrictor Snake",
-            "Giant Venomous Snake"
-        ],
-        "1/2": [
-            "Jackalwere",
-            "Dust Mephit",
-            "Magma Mephit",
-            "Performer",
-            "Tough",
-            "Magmin"
-        ],
         "1": [
             "Spy",
             "Pirate",
@@ -516,7 +495,7 @@
             "Chain Devil",
             "Hezrou",
             "Thri-kreen Psion",
-            "Gnoll Demoniac"
+            "Sphinx of Secrets"
         ],
         "9": [
             "Fire Giant",
@@ -585,38 +564,31 @@
         ],
         "30": [
             "Tarrasque"
+        ],
+        "1/8": [
+            "Cultist",
+            "Camel",
+            "Flying Snake",
+            "Manes",
+            "Venomous Snake"
+        ],
+        "1/4": [
+            "Dust Mephit",
+            "Smoke Mephit",
+            "Aarakocra Skirmisher",
+            "Constrictor Snake",
+            "Giant Venomous Snake"
+        ],
+        "1/2": [
+            "Jackalwere",
+            "Dust Mephit",
+            "Magma Mephit",
+            "Performer",
+            "Tough",
+            "Magmin"
         ]
     },
     "moonshae": {
-        "1/8": [
-            "Blood Hawk",
-            "Flying Snake",
-            "Merfolk Skirmisher",
-            "Giant Crab",
-            "Giant Weasel",
-            "Goblin Minion",
-            "Twig Blight"
-        ],
-        "1/4": [
-            "Pixie",
-            "Sprite",
-            "Giant Owl",
-            "Giant Frog",
-            "Blink Dog",
-            "Pseudodragon",
-            "Goblin Warrior",
-            "Giant Badger",
-            "Needle Blight",
-            "Wolf"
-        ],
-        "1/2": [
-            "Satyr",
-            "Sea Hag",
-            "Vine Blight",
-            "Sahaugain Warrior",
-            "Hobgoblin Warrior",
-            "Worg"
-        ],
         "1": [
             "Dryad",
             "Giant Eagle",
@@ -633,8 +605,7 @@
             "Druid",
             "Faerie Dragon Adult",
             "Pegasus",
-            "Merrow",
-            "Awakened Tree"
+            "Merrow Awakened Tree"
         ],
         "3": [
             "Green Hag",
@@ -663,15 +634,15 @@
             "Galeb Duhr",
             "Chimera",
             "Wyvern",
-            "Merfolk Wavebender",
-            "Hobgoblin Warlord",
+            "Merfolk Wavebender Hobgoblin Warlord",
             "Satyr Revelmaster"
         ],
         "7": [
             "Stone Giant",
             "Tree Blight",
             "Centaur Warden",
-            "Giant Ape"
+            "Giant Ape",
+            "Centaur Warden"
         ],
         "8": [
             "Fomorian",
@@ -736,29 +707,38 @@
         "23": [
             "Kraken",
             "Empyrean"
+        ],
+        "1/8": [
+            "Blood Hawk",
+            "Flying Snake",
+            "Merfolk Skirmisher",
+            "Giant Crab",
+            "Giant Weasel",
+            "Goblin Minion",
+            "Twig Blight"
+        ],
+        "1/4": [
+            "Pixie",
+            "Sprite",
+            "Giant Owl",
+            "Giant Frog",
+            "Blink Dog",
+            "Pseudodragon",
+            "Goblin Warrior",
+            "Giant Badger",
+            "Needle Blight",
+            "Wolf"
+        ],
+        "1/2": [
+            "Satyr",
+            "Sea Hag",
+            "Vine Blight",
+            "Sahaugain Warrior",
+            "Hobgoblin Warrior",
+            "Worg"
         ]
     },
     "icewind": {
-        "1/8": [
-            "Blood Hawk",
-            "Kobold Warrior",
-            "Cultist",
-            "Mountain Goat",
-            "Yeti Tyke"
-        ],
-        "1/4": [
-            "Axe Beak",
-            "Giant Owl",
-            "Aarakocra",
-            "Wolf",
-            "Zombie"
-        ],
-        "1/2": [
-            "Ice Mephit",
-            "Tough",
-            "Scout",
-            "Worg"
-        ],
         "1": [
             "Brown Bear",
             "Ogrillon Ogre",
@@ -798,7 +778,7 @@
             "Werebear",
             "Young Remorhaz",
             "Frost Druid",
-            "Chieftain",
+            "Cheiftan",
             "Great Warrior"
         ],
         "6": [
@@ -814,16 +794,16 @@
         ],
         "8": [
             "Frost Giant",
-            "Berserker Commander",
-            "Elemental Cultist",
-            "Hydra"
+            "beserker commander",
+            "elemental cultist",
+            "hydra"
         ],
         "9": [
             "Abominable Yeti"
         ],
         "10": [
             "Dire Worg",
-            "Cultist Hierophant",
+            "Cultist Heirophant",
             "Cyclops Oracle",
             "Warrior Commander"
         ],
@@ -850,7 +830,7 @@
         "17": [
             "Death Knight",
             "Dracolich",
-            "Goristro"
+            "Goristo"
         ],
         "18": [
             "Zlan",
@@ -869,6 +849,26 @@
         ],
         "23": [
             "Elder Tempest"
+        ],
+        "1/8": [
+            "Blood Hawk",
+            "Kobold Warrior",
+            "Cultist",
+            "mountain goat",
+            "yeti tyke"
+        ],
+        "1/4": [
+            "Axe Beak",
+            "Giant Owl",
+            "Aarakocra",
+            "wolf",
+            "zombie"
+        ],
+        "1/2": [
+            "Ice Mephit",
+            "Tough",
+            "Scout",
+            "Worg"
         ]
     }
 }

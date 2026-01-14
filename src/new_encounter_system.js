@@ -66,7 +66,7 @@ function getAdjacentCRs(cr) {
 const REGION_DRAGONS = {
   icewind: ['White', 'Kobold', 'Remorhaz', 'Dracolich'],
   heartlands: ['Red', 'Black', 'Dracolich'],
-  calimshan: ['Blue', 'Dragon Turtle', 'Dragon Tortoise'],
+  calimshan: ['Blue', 'Dragon Turtle', 'Dragon Tortoise', 'Spirit'],
   dungeon: ['Red', 'Deep', 'Dracolich'],
   cities: ['Silver'],
   moonshae: ['Green', 'Dragon Turtle', 'Dragon Tortoise']

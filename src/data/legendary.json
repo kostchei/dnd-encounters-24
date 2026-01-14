@@ -78,5 +78,95 @@
     "Name": "Demilich",
     "Type": "Legendary Undead",
     "CR": "18"
+  },
+  {
+    "Name": "Aboleth",
+    "Type": "Legendary Aberration",
+    "CR": "10"
+  },
+  {
+    "Name": "Beholder",
+    "Type": "Legendary Aberration",
+    "CR": "13"
+  },
+  {
+    "Name": "Death Tyrant",
+    "Type": "Legendary Undead",
+    "CR": "14"
+  },
+  {
+    "Name": "Mind Flayer",
+    "Type": "Aberration",
+    "CR": "7"
+  },
+  {
+    "Name": "Elder Brain",
+    "Type": "Legendary Aberration",
+    "CR": "14"
+  },
+  {
+    "Name": "Purple Worm",
+    "Type": "Monstrosity",
+    "CR": "15"
+  },
+  {
+    "Name": "Rakshasa",
+    "Type": "Legendary Fiend",
+    "CR": "13"
+  },
+  {
+    "Name": "Vampire",
+    "Type": "Legendary Undead",
+    "CR": "13"
+  },
+  {
+    "Name": "Storm Giant",
+    "Type": "Giant",
+    "CR": "13"
+  },
+  {
+    "Name": "Behir",
+    "Type": "Monstrosity",
+    "CR": "11"
+  },
+  {
+    "Name": "Remorhaz",
+    "Type": "Monstrosity",
+    "CR": "11"
+  },
+  {
+    "Name": "Iron Golem",
+    "Type": "Construct",
+    "CR": "16"
+  },
+  {
+    "Name": "Sphinx of Valor",
+    "Type": "Monstrosity",
+    "CR": "17"
+  },
+  {
+    "Name": "Animal Lord",
+    "Type": "Legendary Fey",
+    "CR": "20"
+  },
+  {
+    "Name": "Arch-hag",
+    "Type": "Legendary Fey",
+    "CR": "21"
+  },
+  {
+    "Name": "Elemental Cataclysm",
+    "Type": "Legendary Elemental",
+    "CR": "22"
+  },
+  {
+    "Name": "Blob of Annihilation",
+    "Type": "Legendary Ooze",
+    "CR": "23"
+  },
+  {
+    "Name": "Colossus",
+    "Type": "Legendary Construct",
+    "CR": "25"
   }
 ]
