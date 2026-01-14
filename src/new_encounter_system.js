@@ -45,6 +45,21 @@ function pickEncounterRegion(primaryRegion) {
   return primaryRegion;
 }
 
+// Get adjacent CRs for fallback when exact CR has no monsters
+const CR_ORDER = ['0', '1/8', '1/4', '1/2', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10',
+  '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '30'];
+
+function getAdjacentCRs(cr) {
+  const crString = String(cr);
+  const index = CR_ORDER.indexOf(crString);
+  if (index === -1) return [];
+
+  const adjacent = [];
+  // Try one CR lower first, then one higher
+  if (index > 0) adjacent.push(CR_ORDER[index - 1]);
+  if (index < CR_ORDER.length - 1) adjacent.push(CR_ORDER[index + 1]);
+  return adjacent;
+}
 
 // Helper function to get monsters by CR and theme from any source
 function getMonstersByCR(cr, source = 'all', theme = 'Any') {
@@ -517,7 +532,7 @@ function generateMountsRiders(totalXP, minQuantity, maxQuantity, actualTheme, or
   };
 }
 
-// Groups encounter (same creature type)
+// Groups encounter (same creature type) - uses region monster tables only
 function generateGroups(totalXP, minQuantity, maxQuantity, actualTheme, originalTheme, region = null) {
   const quantity = Math.floor(Math.random() * (maxQuantity - minQuantity + 1)) + minQuantity;
   const xpPerCreature = totalXP / quantity;
@@ -527,23 +542,21 @@ function generateGroups(totalXP, minQuantity, maxQuantity, actualTheme, original
     return { error: 'No creature fits per-creature budget for group' };
   }
 
-  let availableCreatures = [];
-  let sourceRegion = null;
+  // Use region-based selection with cross-regional chance
+  const sourceRegion = region ? pickEncounterRegion(region) : 'heartlands';
+  let availableCreatures = getRegionMonstersByCR(bestFit.cr, sourceRegion);
 
-  // If region is provided, try region-based selection with cross-regional chance
-  if (region) {
-    sourceRegion = pickEncounterRegion(region);
-    availableCreatures = getRegionMonstersByCR(bestFit.cr, sourceRegion);
-  }
-
-  // Fallback to theme-based selection if no region monsters found
+  // If no creatures at exact CR, try adjacent CRs in the region
   if (availableCreatures.length === 0) {
-    availableCreatures = getMonstersByCR(bestFit.cr, 'original', actualTheme);
-    sourceRegion = null;
+    const adjacentCRs = getAdjacentCRs(bestFit.cr);
+    for (const adjCR of adjacentCRs) {
+      availableCreatures = getRegionMonstersByCR(adjCR, sourceRegion);
+      if (availableCreatures.length > 0) break;
+    }
   }
 
   if (availableCreatures.length === 0) {
-    return { error: `No creatures found for CR ${bestFit.cr} group encounter` };
+    return { error: `No creatures found for CR ${bestFit.cr} in ${sourceRegion}` };
   }
 
   const chosenCreature = getRandomElement(availableCreatures);
@@ -555,13 +568,13 @@ function generateGroups(totalXP, minQuantity, maxQuantity, actualTheme, original
     monsters: Array(quantity).fill(chosenCreature),
     totalXP: totalUsedXP,
     description: `${quantity}× ${chosenCreature.Name} (CR ${chosenCreature.CR} each)`,
-    theme: originalTheme === 'Any' ? actualTheme : originalTheme,
     sourceRegion: sourceRegion
   };
 }
 
 
-// Mixed Groups encounter (different creature types)
+
+// Mixed Groups encounter (different creature types) - uses region monster tables only
 function generateMixedGroups(totalXP, minQuantity, maxQuantity, actualTheme, originalTheme, region = null) {
   const quantity = Math.floor(Math.random() * (maxQuantity - minQuantity + 1)) + minQuantity;
 
@@ -573,22 +586,21 @@ function generateMixedGroups(totalXP, minQuantity, maxQuantity, actualTheme, ori
 
   const results = [];
   let totalUsedXP = 0;
-  let sourceRegion = null;
 
-  // Determine source region (with cross-regional chance)
-  if (region) {
-    sourceRegion = pickEncounterRegion(region);
-  }
+  // Use region-based selection with cross-regional chance
+  const sourceRegion = region ? pickEncounterRegion(region) : 'heartlands';
 
-  // Get leader
+  // Get leader from region
   const leaderCR = findBestCR(leaderXP);
   if (leaderCR.cr) {
-    let leaderCreatures = [];
-    if (sourceRegion) {
-      leaderCreatures = getRegionMonstersByCR(leaderCR.cr, sourceRegion);
-    }
+    let leaderCreatures = getRegionMonstersByCR(leaderCR.cr, sourceRegion);
+    // Try adjacent CRs if no creatures at exact CR
     if (leaderCreatures.length === 0) {
-      leaderCreatures = getMonstersByCR(leaderCR.cr, 'original', actualTheme);
+      const adjacentCRs = getAdjacentCRs(leaderCR.cr);
+      for (const adjCR of adjacentCRs) {
+        leaderCreatures = getRegionMonstersByCR(adjCR, sourceRegion);
+        if (leaderCreatures.length > 0) break;
+      }
     }
     const leader = getRandomElement(leaderCreatures);
     if (leader) {
@@ -597,16 +609,18 @@ function generateMixedGroups(totalXP, minQuantity, maxQuantity, actualTheme, ori
     }
   }
 
-  // Get minions
+  // Get minions from region
   if (minions > 0 && xpPerMinion > 0) {
     const minionCR = findBestCR(xpPerMinion);
     if (minionCR.cr) {
-      let minionCreatures = [];
-      if (sourceRegion) {
-        minionCreatures = getRegionMonstersByCR(minionCR.cr, sourceRegion);
-      }
+      let minionCreatures = getRegionMonstersByCR(minionCR.cr, sourceRegion);
+      // Try adjacent CRs if no creatures at exact CR
       if (minionCreatures.length === 0) {
-        minionCreatures = getMonstersByCR(minionCR.cr, 'original', actualTheme);
+        const adjacentCRs = getAdjacentCRs(minionCR.cr);
+        for (const adjCR of adjacentCRs) {
+          minionCreatures = getRegionMonstersByCR(adjCR, sourceRegion);
+          if (minionCreatures.length > 0) break;
+        }
       }
       for (let i = 0; i < minions; i++) {
         const minion = getRandomElement(minionCreatures);
@@ -624,10 +638,10 @@ function generateMixedGroups(totalXP, minQuantity, maxQuantity, actualTheme, ori
     monsters: results,
     totalXP: totalUsedXP,
     description: formatMixedGroupDescription(results),
-    theme: originalTheme === 'Any' ? actualTheme : originalTheme,
     sourceRegion: sourceRegion
   };
 }
+
 
 
 // Helper functions for formatting descriptions
