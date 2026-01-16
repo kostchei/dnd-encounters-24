@@ -4,7 +4,7 @@ const glob = require('glob');
 
 const ENCOUNTER_DATA_DIR = path.join(__dirname, '../data');
 const BESTIARY_DATA_DIR = path.join(__dirname, '../5etools-v2.23.0/data/bestiary');
-const OUTPUT_FILE = path.join(ENCOUNTER_DATA_DIR, 'enriched_monster_list.json');
+const OUTPUT_FILE = path.join(__dirname, '../src/data/enriched_monster_list.json');
 
 // Helper to clean monster names
 function cleanName(name) {

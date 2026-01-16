@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, 'data');
-const ENRICHED_FILE = path.join(DATA_DIR, 'enriched_monster_list.json');
+const ENRICHED_FILE = path.join(__dirname, 'src/data/enriched_monster_list.json');
 const OUT_FILE = path.join(__dirname, 'src/data/region_monsters.json');
 
 const FILE_TO_REGION_MAP = {

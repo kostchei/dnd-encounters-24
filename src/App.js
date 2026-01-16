@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import XP_TABLE from './data/enc_xp.json';
+import ENRICHED_MONSTERS from './data/enriched_monster_list.json';
 import { generateNewEncounter } from './new_encounter_system.js';
 import styles from './styles';
 
@@ -186,8 +187,15 @@ function App() {
     const distanceFn = terrainDistanceMap[regionTerrain];
     const distance = distanceFn ? distanceFn() : 0;
 
-    // Roll 2d6 for reaction
-    const reactionRoll = rollDice(2, 6);
+    // Calculate Reaction Modifier based on Alignment
+    const modifier = getReactionModifier(newEncounter.monsters);
+
+    // Roll 2d6 + modifier for reaction
+    const baseRoll = rollDice(2, 6);
+    const reactionRoll = baseRoll + modifier;
+
+    console.log(`Reaction: Base ${baseRoll} + Mod ${modifier} = ${reactionRoll}. Monsters: ${newEncounter.monsters.map(m => m.Name).join(', ')}`);
+
     let reaction;
     if (reactionRoll <= 4) {
       reaction = { roll: reactionRoll, attitude: 'Hostile', description: 'openly aggressive, obstructive, or likely to attack' };
@@ -201,6 +209,49 @@ function App() {
     setEncounterDistance(distance);
     setReactionResult(reaction);
   };
+
+  // Helper: Get alignment modifier
+  function getReactionModifier(monsters) {
+    if (!monsters || monsters.length === 0) return 0;
+
+    // Create lookup map if not exists (optimization: could be outside, but safe here)
+    const monsterMap = new Map(ENRICHED_MONSTERS.map(m => [m.Name, m]));
+
+    let allEvil = true;
+    let anyEvil = false;
+    let allGood = true;
+    let allNeutral = true;
+
+    for (const m of monsters) {
+      const data = monsterMap.get(m.Name);
+      const alignment = data ? (data.Alignment || "Unknown") : "Unknown";
+
+      // Check for Evil (E) - excluding "Any" or "Unaligned" if they accidentally contain E (unlikely)
+      const isEvil = alignment.includes('E') && !alignment.includes('Any'); // "Any Evil" has E. "L E" "N E" "C E"
+      // "Any" alignment usually is "A" or "Any". "N E" contains E.
+
+      // Check for Good (G)
+      const isGood = alignment.includes('G');
+
+      // Check for Neutral/Unaligned/Any (No E, No G)
+      // "N" "L N" "C N" "U" "A" "Any"
+      // Note: "N" is in "N G" and "N E", so just checking "N" is insufficient.
+      // Neutral in this context means "Not Good AND Not Evil". 
+      const isNeutral = !isEvil && !isGood;
+
+      if (!isEvil) allEvil = false;
+      if (isEvil) anyEvil = true;
+      if (!isGood) allGood = false;
+      if (!isNeutral) allNeutral = false;
+    }
+
+    if (allEvil) return -3;
+    if (anyEvil) return -2;
+    if (allGood) return 0;
+    if (allNeutral) return -1;
+
+    return 0;
+  }
 
   return (
     <div style={styles.container}>
