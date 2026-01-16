@@ -168,5 +168,35 @@
     "Name": "Colossus",
     "Type": "Legendary Construct",
     "CR": "25"
+  },
+  {
+    "Name": "Sea Fury",
+    "Type": "Legendary Fey",
+    "CR": "12"
+  },
+  {
+    "Name": "Androsphinx",
+    "Type": "Legendary Monstrosity",
+    "CR": "17"
+  },
+  {
+    "Name": "Vampire Spellcaster",
+    "Type": "Legendary Undead",
+    "CR": "15"
+  },
+  {
+    "Name": "Vampire Warrior",
+    "Type": "Legendary Undead",
+    "CR": "15"
+  },
+  {
+    "Name": "Balhannoth",
+    "Type": "Legendary Aberration",
+    "CR": "11"
+  },
+  {
+    "Name": "Ki-rin",
+    "Type": "Legendary Celestial",
+    "CR": "12"
   }
 ]
