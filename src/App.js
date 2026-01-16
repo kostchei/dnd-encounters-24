@@ -106,7 +106,7 @@ function formatEncounterResult(encounterResult, selectedTheme) {
     return `Error: ${encounterResult.error}`;
   }
 
-  let result = `${encounterResult.category}: ${encounterResult.description}`;
+  let result = encounterResult.description;
 
   if (selectedTheme === 'Any' && encounterResult.theme) {
     result += ` [${encounterResult.theme} theme]`;

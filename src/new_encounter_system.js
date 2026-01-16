@@ -318,6 +318,6 @@ function generateBossMinions(totalXP, minionCount, region, typeName) {
     quantity: monsters.length,
     monsters: monsters,
     totalXP: bossCR.xp + (minionCR.xp * minionCount),
-    description: `1× ${boss.Name} (Boss, CR ${boss.CR}) + ${minionCount}× ${minionType.Name} (Minions, CR ${minionType.CR})`
+    description: `1× ${boss.Name} (CR ${boss.CR}) + ${minionCount}× ${minionType.Name} (CR ${minionType.CR})`
   };
 }
