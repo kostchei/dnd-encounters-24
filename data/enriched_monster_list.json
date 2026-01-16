@@ -76,6 +76,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Dungeons.csv"
     ]
   },
@@ -300,6 +301,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Heartlands.csv",
       "Encounter spreadsheet - IceWind Dale.csv"
     ]
@@ -527,6 +529,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Heartlands.csv"
     ]
   },
@@ -588,7 +591,28 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Dungeons.csv"
+    ]
+  },
+  {
+    "Name": "Animated Broom",
+    "CR": "1/4",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 7,
+    "PerceptionBonus": -3,
+    "StealthBonus": 3,
+    "InitiativeBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 5,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#animated%20broom_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -609,6 +633,26 @@
     "Adventure": "",
     "FoundIn": [
       "Encounter spreadsheet - Heartlands.csv"
+    ]
+  },
+  {
+    "Name": "Apprentice Wizard",
+    "CR": "1/4",
+    "Type": "humanoid (any race)",
+    "Alignment": "A",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#apprentice%20wizard_vgm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -671,9 +715,30 @@
     "Adventure": "",
     "FoundIn": [
       "Encounter spreadsheet - Calimshan.csv",
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Dungeons.csv",
       "Encounter spreadsheet - IceWind Dale.csv",
       "Encounter spreadsheet - Moonshae.csv"
+    ]
+  },
+  {
+    "Name": "Archpreist",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -714,6 +779,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Heartlands.csv"
     ]
   },
@@ -855,6 +921,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Heartlands.csv"
     ]
   },
@@ -875,7 +942,48 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Heartlands.csv"
+    ]
+  },
+  {
+    "Name": "Bandit Crime Lord",
+    "CR": "11",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 20,
+    "PerceptionBonus": 10,
+    "StealthBonus": 13,
+    "InitiativeBonus": 9,
+    "SavingThrows": "Dex +9, Con +6",
+    "Intelligence": 18,
+    "Wisdom": 14,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bandit%20crime%20lord_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Bandit Deciever",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -897,6 +1005,26 @@
     "FoundIn": [
       "Encounter spreadsheet - IceWind Dale.csv",
       "Encounter spreadsheet - Moonshae.csv"
+    ]
+  },
+  {
+    "Name": "Bard",
+    "CR": "2",
+    "Type": "humanoid (any race)",
+    "Alignment": "A",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +4, Wis +3",
+    "Intelligence": 10,
+    "Wisdom": 13,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bard_vgm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -998,7 +1126,8 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+      "Encounter spreadsheet - Calimshan.csv",
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -1018,6 +1147,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Heartlands.csv",
       "Encounter spreadsheet - IceWind Dale.csv"
     ]
@@ -1181,6 +1311,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Dungeons.csv"
     ]
   },
@@ -1384,6 +1515,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Dungeons.csv"
     ]
   },
@@ -1445,6 +1577,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - IceWind Dale.csv"
     ]
   },
@@ -1526,6 +1659,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Dungeons.csv"
     ]
   },
@@ -1570,6 +1704,26 @@
     ]
   },
   {
+    "Name": "Colossus",
+    "CR": "25",
+    "Type": "construct (titan)",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 8,
+    "SavingThrows": "Dex +8, Wis +8",
+    "Intelligence": 3,
+    "Wisdom": 11,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#colossus_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Constrictor Snake",
     "CR": "1/4",
     "Type": "beast",
@@ -1606,6 +1760,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Moonshae.csv"
     ]
   },
@@ -1709,7 +1864,28 @@
     "Adventure": "",
     "FoundIn": [
       "Encounter spreadsheet - Calimshan.csv",
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - IceWind Dale.csv"
+    ]
+  },
+  {
+    "Name": "Cultist Fanatic",
+    "CR": "2",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Wis +4",
+    "Intelligence": 10,
+    "Wisdom": 14,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#cultist%20fanatic_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -1729,7 +1905,88 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - IceWind Dale.csv"
+    ]
+  },
+  {
+    "Name": "Cultist of Bane",
+    "CR": "9",
+    "Type": "humanoid",
+    "Alignment": "N E",
+    "PassivePerception": 18,
+    "PerceptionBonus": 8,
+    "StealthBonus": 2,
+    "InitiativeBonus": 6,
+    "SavingThrows": "Con +7, Wis +8, Cha +6",
+    "Intelligence": 13,
+    "Wisdom": 19,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#cultist%20of%20bane_fraif",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Cultist of Bhaal",
+    "CR": "7",
+    "Type": "humanoid",
+    "Alignment": "N E",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 7,
+    "InitiativeBonus": 7,
+    "SavingThrows": "Dex +7, Int +5",
+    "Intelligence": 15,
+    "Wisdom": 17,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#cultist%20of%20bhaal_fraif",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Cultist of Myrkul",
+    "CR": "11",
+    "Type": "humanoid",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 6,
+    "SavingThrows": "Con +8, Int +9, Wis +8, Cha +6",
+    "Intelligence": 20,
+    "Wisdom": 18,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#cultist%20of%20myrkul_fraif",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Curate",
+    "CR": "6",
+    "Type": "humanoid",
+    "Alignment": "L G",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Int +5, Wis +7, Cha +5",
+    "Intelligence": 14,
+    "Wisdom": 18,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#curate_hotb",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -1816,6 +2073,26 @@
     ]
   },
   {
+    "Name": "Dead Three Scion",
+    "CR": "16",
+    "Type": "humanoid",
+    "Alignment": "N E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 7,
+    "InitiativeBonus": 7,
+    "SavingThrows": "Con +9, Wis +10",
+    "Intelligence": 18,
+    "Wisdom": 21,
+    "Charisma": 24,
+    "Statblock_Link": "https://5e.tools/bestiary.html#dead%20three%20scion_fraif",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Death Cultist",
     "CR": "8",
     "Type": "humanoid",
@@ -1832,6 +2109,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Heartlands.csv"
     ]
   },
@@ -2061,6 +2339,26 @@
     ]
   },
   {
+    "Name": "Doppelganger",
+    "CR": "3",
+    "Type": "monstrosity",
+    "Alignment": "N",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 12,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#doppelganger_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Dracolich",
     "CR": "17",
     "Type": "undead",
@@ -2119,6 +2417,26 @@
     "Adventure": "",
     "FoundIn": [
       "Encounter spreadsheet - Dungeons.csv"
+    ]
+  },
+  {
+    "Name": "Drow Elite Warrior of Lolth",
+    "CR": "5",
+    "Type": "humanoid (Elf)",
+    "Alignment": "C E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 10,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +7, Con +5, Wis +4",
+    "Intelligence": 11,
+    "Wisdom": 13,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#drow%20elite%20warrior%20of%20lolth_fraif",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -2422,6 +2740,26 @@
     ]
   },
   {
+    "Name": "Fiend Cultist",
+    "CR": "8",
+    "Type": "humanoid",
+    "Alignment": "N E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 2,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Con +6, Wis +7",
+    "Intelligence": 12,
+    "Wisdom": 18,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#fiend%20cultist_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Fire Elemental",
     "CR": "5",
     "Type": "elemental",
@@ -2480,6 +2818,26 @@
     "Adventure": "",
     "FoundIn": [
       "Encounter spreadsheet - Calimshan.csv"
+    ]
+  },
+  {
+    "Name": "Fist of Bane",
+    "CR": "1/2",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#fist%20of%20bane_bgdia",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -2684,6 +3042,26 @@
     ]
   },
   {
+    "Name": "Ghast Grave caller",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Ghast Gravecaller",
     "CR": "6",
     "Type": "undead",
@@ -2720,6 +3098,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Dungeons.csv"
     ]
   },
@@ -3109,6 +3488,26 @@
     ]
   },
   {
+    "Name": "Gladiator",
+    "CR": "5",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Str +7, Dex +5, Con +6, Wis +4",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gladiator_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Gnoll Demoniac",
     "CR": "8",
     "Type": "fiend",
@@ -3475,6 +3874,46 @@
     ]
   },
   {
+    "Name": "Guard",
+    "CR": "1/8",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#guard_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Guard Captain",
+    "CR": "4",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#guard%20captain_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Guardian Naga",
     "CR": "10",
     "Type": "celestial",
@@ -3515,6 +3954,26 @@
     ]
   },
   {
+    "Name": "Half-Ogre",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Harpy",
     "CR": "1",
     "Type": "monstrosity",
@@ -3533,6 +3992,26 @@
     "FoundIn": [
       "Encounter spreadsheet - Dungeons.csv",
       "Encounter spreadsheet - Moonshae.csv"
+    ]
+  },
+  {
+    "Name": "Haunting Revenant",
+    "CR": "10",
+    "Type": "undead",
+    "Alignment": "N",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 1,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Con +8, Wis +8",
+    "Intelligence": 16,
+    "Wisdom": 18,
+    "Charisma": 20,
+    "Statblock_Link": "https://5e.tools/bestiary.html#haunting%20revenant_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -3835,7 +4314,28 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+      "Encounter spreadsheet - Calimshan.csv",
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Intellect Devourer",
+    "CR": "2",
+    "Type": "aberration",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#intellect%20devourer_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -3855,7 +4355,8 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+      "Encounter spreadsheet - Calimshan.csv",
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -3900,6 +4401,26 @@
     ]
   },
   {
+    "Name": "Kenku",
+    "CR": "1/4",
+    "Type": "monstrosity",
+    "Alignment": "N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kenku_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Killer Whale",
     "CR": "3",
     "Type": "beast",
@@ -3917,6 +4438,26 @@
     "Adventure": "",
     "FoundIn": [
       "Encounter spreadsheet - Moonshae.csv"
+    ]
+  },
+  {
+    "Name": "Knight",
+    "CR": "3",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Con +4, Wis +2",
+    "Intelligence": 11,
+    "Wisdom": 11,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#knight_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -3998,6 +4539,7 @@
     "Adventure": "",
     "FoundIn": [
       "Encounter spreadsheet - Calimshan.csv",
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Dungeons.csv",
       "Encounter spreadsheet - IceWind Dale.csv"
     ]
@@ -4084,6 +4626,46 @@
     ]
   },
   {
+    "Name": "Mage",
+    "CR": "6",
+    "Type": "humanoid (wizard)",
+    "Alignment": "N",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Int +6, Wis +4",
+    "Intelligence": 17,
+    "Wisdom": 12,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mage_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Mage Apprentice",
+    "CR": "2",
+    "Type": "humanoid (wizard)",
+    "Alignment": "N",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Int +5, Wis +3",
+    "Intelligence": 16,
+    "Wisdom": 13,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mage%20apprentice_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Magma Mephit",
     "CR": "1/2",
     "Type": "elemental",
@@ -4161,6 +4743,26 @@
     "Adventure": "",
     "FoundIn": [
       "Encounter spreadsheet - Calimshan.csv"
+    ]
+  },
+  {
+    "Name": "Manshoon",
+    "CR": "13",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Str +2, Dex +4, Con +3, Int +13, Wis +9, Cha +5",
+    "Intelligence": 23,
+    "Wisdom": 15,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#manshoon_wdh",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -4364,6 +4966,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Dungeons.csv"
     ]
   },
@@ -4469,6 +5072,26 @@
     ]
   },
   {
+    "Name": "Necromite of Myrkul",
+    "CR": "1/2",
+    "Type": "humanoid (human)",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 16,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#necromite%20of%20myrkul_bgdia",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Needle Blight",
     "CR": "1/4",
     "Type": "plant",
@@ -4510,6 +5133,26 @@
     ]
   },
   {
+    "Name": "Nightblade",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Nightmare",
     "CR": "3",
     "Type": "fiend",
@@ -4547,6 +5190,46 @@
     "Adventure": "",
     "FoundIn": [
       "Encounter spreadsheet - IceWind Dale.csv"
+    ]
+  },
+  {
+    "Name": "Nimblewrite Hulk",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Noble Prodigy",
+    "CR": "10",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 3,
+    "InitiativeBonus": 7,
+    "SavingThrows": "Dex +7, Con +5, Wis +6, Cha +8",
+    "Intelligence": 15,
+    "Wisdom": 14,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#noble%20prodigy_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -4669,6 +5352,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Heartlands.csv"
     ]
   },
@@ -4773,6 +5457,86 @@
     ]
   },
   {
+    "Name": "Performer Legend",
+    "CR": "10",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 9,
+    "InitiativeBonus": 9,
+    "SavingThrows": "Dex +9, Int +6, Wis +7, Cha +9",
+    "Intelligence": 15,
+    "Wisdom": 16,
+    "Charisma": 20,
+    "Statblock_Link": "https://5e.tools/bestiary.html#performer%20legend_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Performer Maestro",
+    "CR": "6",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 7,
+    "InitiativeBonus": 7,
+    "SavingThrows": "Dex +7, Cha +7",
+    "Intelligence": 13,
+    "Wisdom": 14,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#performer%20maestro_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Phaerimm Agent",
+    "CR": "8",
+    "Type": "aberration",
+    "Alignment": "N E",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Con +4, Int +6, Wis +6, Cha +7",
+    "Intelligence": 17,
+    "Wisdom": 16,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#phaerimm%20agent_fraif",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Phaerimm Elder",
+    "CR": "14",
+    "Type": "aberration",
+    "Alignment": "N E",
+    "PassivePerception": 18,
+    "PerceptionBonus": 8,
+    "StealthBonus": 3,
+    "InitiativeBonus": 8,
+    "SavingThrows": "Con +8, Int +8, Wis +8, Cha +9",
+    "Intelligence": 17,
+    "Wisdom": 16,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#phaerimm%20elder_nf",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Phase Spider",
     "CR": "3",
     "Type": "monstrosity",
@@ -4829,7 +5593,48 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+      "Encounter spreadsheet - Calimshan.csv",
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Pirate Admiral",
+    "CR": "12",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 6,
+    "InitiativeBonus": 10,
+    "SavingThrows": "Str +6, Dex +10, Wis +6, Cha +8",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#pirate%20admiral_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Pirate Captain",
+    "CR": "6",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 4,
+    "InitiativeBonus": 7,
+    "SavingThrows": "Str +3, Dex +7, Wis +5, Cha +6",
+    "Intelligence": 10,
+    "Wisdom": 14,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#pirate%20captain_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -4954,6 +5759,26 @@
     ]
   },
   {
+    "Name": "Priest",
+    "CR": "2",
+    "Type": "humanoid (cleric)",
+    "Alignment": "N",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 16,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#priest_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Primeval Owlbear",
     "CR": "7",
     "Type": "monstrosity",
@@ -5051,6 +5876,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Heartlands.csv"
     ]
   },
@@ -5071,7 +5897,8 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+      "Encounter spreadsheet - Calimshan.csv",
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -5151,6 +5978,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Heartlands.csv"
     ]
   },
@@ -5273,6 +6101,26 @@
     "Adventure": "",
     "FoundIn": [
       "Encounter spreadsheet - IceWind Dale.csv"
+    ]
+  },
+  {
+    "Name": "Sage",
+    "CR": "1/2",
+    "Type": "humanoid (any race)",
+    "Alignment": "Unknown",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 18,
+    "Wisdom": 15,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sage_cm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -5417,6 +6265,26 @@
     ]
   },
   {
+    "Name": "Scout Captain",
+    "CR": "3",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 7,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Dex +5, Int +4",
+    "Intelligence": 14,
+    "Wisdom": 15,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#scout%20captain_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Sea Hag",
     "CR": "2",
     "Type": "fey",
@@ -5453,6 +6321,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Dungeons.csv"
     ]
   },
@@ -5554,6 +6423,7 @@
     "Adventure": "",
     "FoundIn": [
       "Encounter spreadsheet - Calimshan.csv",
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Dungeons.csv"
     ]
   },
@@ -5575,6 +6445,26 @@
     "Adventure": "",
     "FoundIn": [
       "Encounter spreadsheet - Dungeons.csv"
+    ]
+  },
+  {
+    "Name": "Skull Lasher of Myrkul",
+    "CR": "1",
+    "Type": "humanoid (human)",
+    "Alignment": "N E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Wis +3",
+    "Intelligence": 16,
+    "Wisdom": 13,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#skull%20lasher%20of%20myrkul_bgdia",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -5814,7 +6704,28 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+      "Encounter spreadsheet - Calimshan.csv",
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Spy Master",
+    "CR": "10",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 21,
+    "PerceptionBonus": 11,
+    "StealthBonus": 13,
+    "InitiativeBonus": 9,
+    "SavingThrows": "Dex +9, Con +5, Int +8, Wis +7",
+    "Intelligence": 18,
+    "Wisdom": 16,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#spy%20master_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -5915,7 +6826,8 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+      "Encounter spreadsheet - Calimshan.csv",
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -5976,6 +6888,7 @@
     "Adventure": "",
     "FoundIn": [
       "Encounter spreadsheet - Calimshan.csv",
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Dungeons.csv",
       "Encounter spreadsheet - Heartlands.csv"
     ]
@@ -6039,6 +6952,26 @@
     "FoundIn": [
       "Encounter spreadsheet - Calimshan.csv",
       "Encounter spreadsheet - IceWind Dale.csv"
+    ]
+  },
+  {
+    "Name": "Tough Boss",
+    "CR": "4",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Str +5, Con +5, Cha +2",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tough%20boss_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -6222,7 +7155,88 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Heartlands.csv"
+    ]
+  },
+  {
+    "Name": "Vampire Familar",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Vampire Infernalist",
+    "CR": "14",
+    "Type": "undead (Wizard)",
+    "Alignment": "L E",
+    "PassivePerception": 18,
+    "PerceptionBonus": 8,
+    "StealthBonus": 8,
+    "InitiativeBonus": 8,
+    "SavingThrows": "Con +8, Int +10",
+    "Intelligence": 20,
+    "Wisdom": 16,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20infernalist_abh",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Vampire Nightbringer",
+    "CR": "8",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 7,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +7, Wis +5",
+    "Intelligence": 13,
+    "Wisdom": 14,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20nightbringer_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
+    "Name": "Vampire Spawn",
+    "CR": "5",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 6,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +6, Wis +3",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20spawn_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -6242,7 +7256,28 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - IceWind Dale.csv"
+    ]
+  },
+  {
+    "Name": "Vampire Warden",
+    "CR": "10",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 20,
+    "PerceptionBonus": 10,
+    "StealthBonus": 2,
+    "InitiativeBonus": 6,
+    "SavingThrows": "Con +8, Wis +6",
+    "Intelligence": 10,
+    "Wisdom": 14,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20warden_abh",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -6383,8 +7418,29 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Heartlands.csv",
       "Encounter spreadsheet - IceWind Dale.csv"
+    ]
+  },
+  {
+    "Name": "Warrior Veteran",
+    "CR": "3",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#warrior%20veteran_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {
@@ -6471,6 +7527,26 @@
     ]
   },
   {
+    "Name": "Wererat",
+    "CR": "2",
+    "Type": "monstrosity (lycanthrope)",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#wererat_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
+    ]
+  },
+  {
     "Name": "Weretiger",
     "CR": "4",
     "Type": "monstrosity (lycanthrope)",
@@ -6548,6 +7624,7 @@
     "Faction": "",
     "Adventure": "",
     "FoundIn": [
+      "Encounter spreadsheet - Cities.csv",
       "Encounter spreadsheet - Dungeons.csv"
     ]
   },
@@ -6876,6 +7953,26 @@
     "Adventure": "",
     "FoundIn": [
       "Encounter spreadsheet - IceWind Dale.csv"
+    ]
+  },
+  {
+    "Name": "Young Silver Dragon",
+    "CR": "9",
+    "Type": "dragon (metallic)",
+    "Alignment": "L G",
+    "PassivePerception": 18,
+    "PerceptionBonus": 8,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +4, Wis +4",
+    "Intelligence": 14,
+    "Wisdom": 11,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#young%20silver%20dragon_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "FoundIn": [
+      "Encounter spreadsheet - Cities.csv"
     ]
   },
   {

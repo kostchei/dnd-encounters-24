@@ -2,9 +2,10 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, 'data');
+const ENRICHED_FILE = path.join(DATA_DIR, 'enriched_monster_list.json');
 const OUT_FILE = path.join(__dirname, 'src/data/region_monsters.json');
 
-const FILE_MAP = {
+const FILE_TO_REGION_MAP = {
     'Encounter spreadsheet - Calimshan.csv': 'calimshan',
     'Encounter spreadsheet - Cities.csv': 'cities',
     'Encounter spreadsheet - Dungeons.csv': 'dungeon',
@@ -13,66 +14,68 @@ const FILE_MAP = {
     'Encounter spreadsheet - Moonshae.csv': 'moonshae'
 };
 
-function parseCSVLine(line) {
-    // Simple split by comma. 
-    // If we need to handle quotes, this will be insufficient, but for the current files it seems okay.
-    return line.split(',').map(item => item.trim());
-}
-
-function parseCSV(filePath) {
-    const fileContent = fs.readFileSync(filePath, 'utf8');
-    const lines = fileContent.split(/\r?\n/);
-
-    const regionData = {};
-
-    lines.forEach((line, index) => {
-        if (!line || line.trim() === '') return;
-
-        const parts = parseCSVLine(line);
-        if (parts.length === 0) return;
-
-        // Header check
-        if (index === 0 && parts[0].toLowerCase() === 'cr') return;
-
-        const cr = parts[0];
-        if (!cr) return;
-
-        // Monsters are the rest
-        const monsters = parts.slice(1).filter(m => m.length > 0);
-
-        if (monsters.length > 0) {
-            regionData[cr] = monsters;
-        }
-    });
-
-    return regionData;
-}
-
 function main() {
-    console.log('Starting Region Monsters Update (Vanilla JS)...');
+    console.log('Starting Region Monsters Update (from enriched_monster_list.json)...');
 
-    let fullData = {};
-    if (fs.existsSync(OUT_FILE)) {
-        try {
-            fullData = JSON.parse(fs.readFileSync(OUT_FILE, 'utf8'));
-        } catch (e) {
-            console.warn('Could not parse existing JSON, starting fresh.');
-        }
+    if (!fs.existsSync(ENRICHED_FILE)) {
+        console.error(`Error: Could not find ${ENRICHED_FILE}`);
+        process.exit(1);
     }
 
-    for (const [filename, jsonKey] of Object.entries(FILE_MAP)) {
-        const filePath = path.join(DATA_DIR, filename);
-        if (fs.existsSync(filePath)) {
-            console.log(`Processing ${filename} -> ${jsonKey}`);
-            const regionData = parseCSV(filePath);
-            fullData[jsonKey] = regionData;
-        } else {
-            console.warn(`Warning: File ${filename} not found.`);
+    let enrichedData = [];
+    try {
+        enrichedData = JSON.parse(fs.readFileSync(ENRICHED_FILE, 'utf8'));
+    } catch (e) {
+        console.error(`Error parsing ${ENRICHED_FILE}: ${e.message}`);
+        process.exit(1);
+    }
+
+    const fullData = {};
+
+    // Initialize regions
+    Object.values(FILE_TO_REGION_MAP).forEach(region => {
+        fullData[region] = {};
+    });
+
+    let count = 0;
+
+    enrichedData.forEach(monster => {
+        if (!monster.FoundIn || !Array.isArray(monster.FoundIn)) return;
+
+        const name = monster.Name;
+        const cr = String(monster.CR || "Unknown");
+
+        // Some CRs might be "Unknown", we probably want to skip those or handle them?
+        // The original script skipped rows without CR.
+        if (cr === "Unknown") return;
+
+        monster.FoundIn.forEach(filename => {
+            const regionKey = FILE_TO_REGION_MAP[filename];
+            if (regionKey) {
+                if (!fullData[regionKey][cr]) {
+                    fullData[regionKey][cr] = [];
+                }
+                // Avoid duplicates if a monster is listed purely twice for some reason, 
+                // though the set in enrich_monsters should have handled it. 
+                // However, detailed logic: checking inclusion is safer.
+                if (!fullData[regionKey][cr].includes(name)) {
+                    fullData[regionKey][cr].push(name);
+                    count++;
+                }
+            }
+        });
+    });
+
+    // Sort the arrays for consistency
+    for (const region in fullData) {
+        for (const cr in fullData[region]) {
+            fullData[region][cr].sort();
         }
     }
 
     fs.writeFileSync(OUT_FILE, JSON.stringify(fullData, null, 4));
     console.log(`Successfully updated ${OUT_FILE}`);
+    console.log(`Mapped ${count} monster entries to regions.`);
 }
 
 main();

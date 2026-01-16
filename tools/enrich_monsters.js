@@ -173,8 +173,9 @@ async function main() {
         }
 
         if (monsterColIndex === -1) {
-            console.warn(`Could not find 'Monsters' column in ${path.basename(file)}`);
-            continue;
+            console.warn(`Could not find 'Monsters' header in ${path.basename(file)}, assuming implicit structure (CR, Monster...).`);
+            headerIndex = -1; // Start from line 0
+            monsterColIndex = 1; // Assume monsters start at col 1
         }
 
         // Manual string fixes for CSV errors

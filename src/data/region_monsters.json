@@ -1,501 +1,62 @@
 {
-    "heartlands": {
+    "calimshan": {
         "1": [
-            "Dire Wolf",
-            "Bugbear Warrior",
-            "Brown Bear",
-            "Goblin Boss",
-            "Tiger",
-            "Giant Hyena",
-            "Lion"
-        ],
-        "2": [
-            "Ankheg",
-            "Ogre",
-            "Bandit Captain",
-            "Will-o-wisp",
-            "Ettercap",
-            "Giant Boar",
-            "Giant Elk",
-            "Gnoll Pack Lord"
-        ],
-        "3": [
-            "Green Hag",
-            "Werewolf",
-            "Owlbear",
-            "Manticore",
-            "Displacer Beast",
-            "Bugbear Stalker"
-        ],
-        "4": [
-            "Ettin",
-            "Wereboar",
-            "Gnoll Fang of Yeenoghu",
-            "Zhentilar Paladin of Bane"
-        ],
-        "5": [
-            "Hill Giant",
-            "Troll",
-            "Bulette",
-            "Gorgon",
-            "Revenant",
-            "Night Hag"
-        ],
-        "6": [
-            "Chimera",
-            "Wyvern",
-            "Hobgoblin Warlord",
-            "Cyclops Sentry"
-        ],
-        "7": [
-            "Oni",
-            "Stone Giant",
-            "Primeval Owlbear",
-            "Graveyard Revenant"
-        ],
-        "8": [
-            "Berserker Commander",
-            "Gnoll Demoniac",
-            "Assassin",
-            "Death Cultist"
-        ],
-        "9": [
-            "Fire Giant",
-            "Treant",
-            "Young Blue Dragon"
-        ],
-        "10": [
-            "Young Gold Dragon",
-            "Warrior Commander",
-            "Dire Worg"
-        ],
-        "11": [
-            "Roc",
-            "Behir",
-            "Horned Devil"
-        ],
-        "12": [
-            "Questing Knight",
-            "Archpriest"
-        ],
-        "13": [
-            "Adult Brass Dragon",
-            "Vampire",
-            "Nalfeshnee"
-        ],
-        "14": [
-            "Adult Black Dragon"
-        ],
-        "15": [
-            "Adult Bronze Dragon",
-            "Adult Green Dragon"
-        ],
-        "16": [
-            "Adult Silver Dragon"
-        ],
-        "17": [
-            "Adult Red Dragon",
-            "Adult Gold Dragon"
-        ],
-        "18": [
-            "CR 18 Placeholder"
-        ],
-        "19": [
-            "CR 19 Placeholder"
-        ],
-        "20": [
-            "Ancient Brass Dragon",
-            "Ancient White Dragon"
-        ],
-        "21": [
-            "Ancient Black Dragon",
-            "Ancient Copper Dragon"
-        ],
-        "22": [
-            "Ancient Bronze Dragon",
-            "Ancient Green Dragon"
-        ],
-        "23": [
-            "Ancient Blue Dragon",
-            "Ancient Silver Dragon"
-        ],
-        "24": [
-            "Ancient Gold Dragon",
-            "Ancient Red Dragon"
-        ],
-        "30": [
-            "Tarrasque"
-        ],
-        "1/8": [
-            "Bandit",
-            "Twig Blight",
-            "Giant Weasel",
-            "Mastiff"
-        ],
-        "1/4": [
-            "Needle Blight",
-            "Wolf",
-            "Boar",
-            "Giant Badger",
-            "Goblin Warrior",
-            "Panther"
-        ],
-        "1/2": [
-            "Vine Blight",
-            "Scout",
-            "Worg",
-            "Gnoll Warrior",
-            "Hobgoblin Warrior",
-            "Black Bear"
-        ]
-    },
-    "dungeon": {
-        "1": [
-            "Ghoul",
-            "Giant Spider",
-            "Death Dog",
-            "Animated Armor",
-            "Specter",
-            "Harpy"
-        ],
-        "2": [
-            "Gelatinous Cube",
-            "Carrion Crawler",
-            "Mimic",
-            "Grick",
-            "Ochre Jelly",
-            "Ogre",
-            "Nothic"
-        ],
-        "3": [
-            "Wight",
-            "Spectator",
-            "Hook Horror",
-            "Phase Spider",
-            "Basilisk"
-        ],
-        "4": [
-            "Flameskull",
-            "Black Pudding",
-            "Helmed Horror",
-            "Ghost",
-            "Bone Naga",
-            "Chuul"
-        ],
-        "5": [
-            "Otyugh",
-            "Roper",
-            "Umber Hulk",
-            "Flesh Golem",
-            "Wraith"
-        ],
-        "6": [
-            "Drider",
-            "Cloaker",
-            "Medusa",
-            "Ghast Gravecaller"
-        ],
-        "7": [
-            "Grick Ancient",
-            "Mind Flayer",
-            "Violet Fungus Necrohulk",
-            "Shield Guardian"
-        ],
-        "8": [
-            "Cloaker",
-            "Spirit Naga",
-            "Chain Devil",
-            "Aberrant Cultist"
-        ],
-        "9": [
-            "Clay Golem",
-            "Bone Devil",
-            "Glabrezu"
-        ],
-        "10": [
-            "Stone Golem",
-            "Aboleth",
-            "Death Slaad"
-        ],
-        "11": [
-            "Behir",
-            "Death Knight Aspirant",
-            "Mind Flayer Arcanist"
-        ],
-        "12": [
-            "Archmage",
-            "Arcanaloth"
-        ],
-        "13": [
-            "Beholder",
-            "Nalfeshnee",
-            "Shadow Dragon"
-        ],
-        "14": [
-            "Death Tyrant"
-        ],
-        "15": [
-            "Purple Worm"
-        ],
-        "16": [
-            "Iron Golem",
-            "Marilith"
-        ],
-        "17": [
-            "Adult Red Dragon",
-            "Dracolich"
-        ],
-        "18": [
-            "Demilich",
-            "Ancient Deep Dragon"
-        ],
-        "19": [
-            "Balor"
-        ],
-        "20": [
-            "Pit Fiend"
-        ],
-        "21": [
-            "Lich"
-        ],
-        "23": [
-            "Blob of Annihilation"
-        ],
-        "24": [
-            "Ancient Red Dragon"
-        ],
-        "30": [
-            "Tarrasque"
-        ],
-        "1/8": [
-            "Giant Rat",
-            "Kobold Warrior",
-            "Goblin Minion"
-        ],
-        "1/4": [
-            "Skeleton",
-            "Zombie",
-            "Violet Fungus",
-            "Giant Centipede",
-            "Grimlock",
-            "Troglodyte"
-        ],
-        "1/2": [
-            "Gray Ooze",
-            "Rust Monster",
-            "Piercer",
-            "Darkmantle",
-            "Shadow"
-        ]
-    },
-    "cities": {
-        "1": [
-            "Animated Armor",
-            "Skull Lasher of Myrkul",
-            "Half-Ogre",
+            "Fire Snake",
+            "Lion",
+            "Lizardfolk Warden",
             "Pirate",
+            "Sphinx of Wonder",
             "Spy"
         ],
         "2": [
-            "Cultist Fanatic",
-            "Bard",
-            "Wererat",
-            "Carrion Crawler",
-            "Intellect Devourer",
-            "Mimic",
-            "Bandit Captain",
-            "Berserker",
-            "Priest",
-            "MAge apprentice"
-        ],
-        "3": [
-            "Doppelganger",
-            "Vampire Familar",
-            "Wight",
-            "Knight",
-            "Scout Captain",
-            "Warrior Veteran"
-        ],
-        "4": [
-            "Succubus",
-            "Ghost",
-            "Incubus",
-            "Couatl",
-            "Guard Captain",
-            "Tough Boss"
-        ],
-        "5": [
-            "Vampire Spawn",
-            "Revenant",
-            "Drow Elite Warrior of Lolth",
-            "Gladiator"
-        ],
-        "6": [
-            "Invisible Stalker",
-            "Ghast Grave caller",
-            "Curate",
-            "Mage",
-            "Performer Maestro",
-            "Pirate Captain"
-        ],
-        "7": [
-            "Bandit Deciever",
-            "Cultist of Bhaal",
-            "Oni",
-            "Nimblewrite Hulk",
-            "Shield Guardian"
-        ],
-        "8": [
-            "Assassin",
-            "Aberrant Cultist",
-            "Death Cultist",
-            "Berserker Commander",
-            "Fiend Cultist",
-            "Phaerimm Agent",
-            "Vampire Nightbringer"
-        ],
-        "9": [
-            "Bone Devil",
-            "Cultist of Bane",
-            "Clay Golem",
-            "Young Silver Dragon"
-        ],
-        "10": [
-            "Cultist Hierophant",
-            "Haunting Revenant",
-            "Vampire Warden",
-            "Noble Prodigy",
-            "Performer Legend",
-            "Spy Master",
-            "Warrior Commander"
-        ],
-        "11": [
-            "Bandit Crime Lord",
-            "Cultist of Myrkul"
-        ],
-        "12": [
-            "Archmage",
-            "Archpreist",
-            "Pirate Admiral",
-            "Questing Knight"
-        ],
-        "13": [
-            "Rakshasa",
-            "Vampire",
-            "Manshoon"
-        ],
-        "14": [
-            "Phaerimm Elder",
-            "Vampire Infernalist"
-        ],
-        "15": [
-            "Vampire Umbral Lord"
-        ],
-        "16": [
-            "Adult Silver Dragon",
-            "Dead Three Scion"
-        ],
-        "17": [
-            "Character"
-        ],
-        "18": [
-            "Character"
-        ],
-        "19": [
-            "Character"
-        ],
-        "20": [
-            "Character"
-        ],
-        "21": [
-            "Lich"
-        ],
-        "23": [
-            "Ancient Silver Dragon"
-        ],
-        "25": [
-            "Colossus"
-        ],
-        "30": [
-            "Tarrasque"
-        ],
-        "1/8": [
-            "Bandit",
-            "Guard",
-            "Cultist"
-        ],
-        "1/4": [
-            "Animated Broom",
-            "Apprentice Wizard",
-            "Kenku",
-            "Nightblade"
-        ],
-        "1/2": [
-            "Shadow",
-            "Necromite of Myrkul",
-            "Fist of Bane",
-            "Sage"
-        ]
-    },
-    "calimshan": {
-        "1": [
-            "Spy",
-            "Pirate",
-            "Lion",
-            "Sphinx of Wonder",
-            "Salamander Fire Snake",
-            "Lizardfolk Warden"
-        ],
-        "2": [
-            "Ogre",
-            "Berserker",
             "Azer Sentinel",
-            "Swarm of Venomous Snakes",
+            "Berserker",
+            "Gargoyle",
             "Lizardfolk Geomancer",
-            "Gargoyle"
+            "Ogre",
+            "Swarm of Venomous Snakes"
         ],
         "3": [
             "Giant Scorpion",
-            "Mummy",
-            "Yuan-ti Malison",
             "Hell Hound",
-            "Water Weird",
-            "Nightmare"
+            "Mummy",
+            "Nightmare",
+            "Water Weird"
         ],
         "4": [
-            "Lamia",
-            "Shadow Demon",
-            "Succubus",
-            "Incubus",
-            "Red Dragon Wyrmling",
             "Aarakocra Aeromancer",
-            "Lizardfolk Sovereign"
+            "Incubus",
+            "Lamia",
+            "Lizardfolk Sovereign",
+            "Red Dragon Wyrmling",
+            "Shadow Demon",
+            "Succubus"
         ],
         "5": [
-            "Fire Elemental",
-            "Earth Elemental",
-            "Salamander",
-            "Mezzoloth",
             "Cambion",
+            "Earth Elemental",
+            "Fire Elemental",
+            "Mezzoloth",
+            "Salamander",
             "Xorn"
         ],
         "6": [
             "Azer Pyromancer",
+            "Cyclops Sentry",
             "Invisible Stalker",
-            "Medusa",
-            "Cyclops Sentry"
+            "Medusa"
         ],
         "7": [
-            "Yuan-ti Abomination",
-            "Shield Guardian",
             "Blue Slaad",
-            "Young Black Dragon"
+            "Shield Guardian",
+            "Young Black Dragon",
+            "Yuan-ti Abomination"
         ],
         "8": [
             "Chain Devil",
             "Hezrou",
-            "Thri-kreen Psion",
-            "Sphinx of Secrets"
+            "Sphinx of Secrets",
+            "Thri-kreen Psion"
         ],
         "9": [
             "Fire Giant",
@@ -504,21 +65,21 @@
             "Young Blue Dragon"
         ],
         "10": [
-            "Young Red Dragon",
             "Cyclops Oracle",
-            "Yochlol"
+            "Yochlol",
+            "Young Red Dragon"
         ],
         "11": [
+            "Behir",
             "Dao",
-            "Efreeti",
             "Djinni",
-            "Marid",
-            "Behir"
+            "Efreeti",
+            "Marid"
         ],
         "12": [
+            "Arcanaloth",
             "Archmage",
-            "Erinyes",
-            "Arcanaloth"
+            "Erinyes"
         ],
         "13": [
             "Adult White Dragon",
@@ -535,8 +96,8 @@
         ],
         "16": [
             "Adult Blue Dragon",
-            "Marilith",
-            "Iron Golem"
+            "Iron Golem",
+            "Marilith"
         ],
         "17": [
             "Adult Gold Dragon",
@@ -565,102 +126,638 @@
         "30": [
             "Tarrasque"
         ],
+        "1/4": [
+            "Aarakocra Skirmisher",
+            "Constrictor Snake",
+            "Giant Venomous Snake",
+            "Smoke Mephit"
+        ],
         "1/8": [
-            "Cultist",
             "Camel",
+            "Cultist",
             "Flying Snake",
             "Manes",
             "Venomous Snake"
         ],
-        "1/4": [
+        "1/2": [
             "Dust Mephit",
-            "Smoke Mephit",
-            "Aarakocra Skirmisher",
-            "Constrictor Snake",
-            "Giant Venomous Snake"
+            "Jackalwere",
+            "Magma Mephit",
+            "Magmin",
+            "Performer",
+            "Tough"
+        ]
+    },
+    "cities": {
+        "1": [
+            "Animated Armor",
+            "Pirate",
+            "Skull Lasher of Myrkul",
+            "Spy"
+        ],
+        "2": [
+            "Bandit Captain",
+            "Bard",
+            "Berserker",
+            "Carrion Crawler",
+            "Cultist Fanatic",
+            "Intellect Devourer",
+            "Mage Apprentice",
+            "Mimic",
+            "Priest",
+            "Wererat"
+        ],
+        "3": [
+            "Doppelganger",
+            "Knight",
+            "Scout Captain",
+            "Warrior Veteran",
+            "Wight"
+        ],
+        "4": [
+            "Couatl",
+            "Ghost",
+            "Guard Captain",
+            "Incubus",
+            "Succubus",
+            "Tough Boss"
+        ],
+        "5": [
+            "Drow Elite Warrior of Lolth",
+            "Gladiator",
+            "Revenant",
+            "Vampire Spawn"
+        ],
+        "6": [
+            "Curate",
+            "Invisible Stalker",
+            "Mage",
+            "Performer Maestro",
+            "Pirate Captain"
+        ],
+        "7": [
+            "Cultist of Bhaal",
+            "Oni",
+            "Shield Guardian"
+        ],
+        "8": [
+            "Aberrant Cultist",
+            "Assassin",
+            "Berserker Commander",
+            "Death Cultist",
+            "Fiend Cultist",
+            "Phaerimm Agent",
+            "Vampire Nightbringer"
+        ],
+        "9": [
+            "Bone Devil",
+            "Clay Golem",
+            "Cultist of Bane",
+            "Young Silver Dragon"
+        ],
+        "10": [
+            "Cultist Hierophant",
+            "Haunting Revenant",
+            "Noble Prodigy",
+            "Performer Legend",
+            "Spy Master",
+            "Vampire Warden",
+            "Warrior Commander"
+        ],
+        "11": [
+            "Bandit Crime Lord",
+            "Cultist of Myrkul"
+        ],
+        "12": [
+            "Archmage",
+            "Pirate Admiral",
+            "Questing Knight"
+        ],
+        "13": [
+            "Manshoon",
+            "Rakshasa",
+            "Vampire"
+        ],
+        "14": [
+            "Phaerimm Elder",
+            "Vampire Infernalist"
+        ],
+        "15": [
+            "Vampire Umbral Lord"
+        ],
+        "16": [
+            "Adult Silver Dragon",
+            "Dead Three Scion"
+        ],
+        "21": [
+            "Lich"
+        ],
+        "23": [
+            "Ancient Silver Dragon"
+        ],
+        "25": [
+            "Colossus"
+        ],
+        "30": [
+            "Tarrasque"
+        ],
+        "1/4": [
+            "Animated Broom",
+            "Apprentice Wizard",
+            "Kenku"
+        ],
+        "1/8": [
+            "Bandit",
+            "Cultist",
+            "Guard"
         ],
         "1/2": [
-            "Jackalwere",
-            "Dust Mephit",
-            "Magma Mephit",
-            "Performer",
+            "Fist of Bane",
+            "Necromite of Myrkul",
+            "Sage",
+            "Shadow"
+        ]
+    },
+    "dungeon": {
+        "1": [
+            "Animated Armor",
+            "Death Dog",
+            "Ghoul",
+            "Giant Spider",
+            "Harpy",
+            "Specter"
+        ],
+        "2": [
+            "Carrion Crawler",
+            "Gelatinous Cube",
+            "Grick",
+            "Mimic",
+            "Nothic",
+            "Ochre Jelly",
+            "Ogre"
+        ],
+        "3": [
+            "Basilisk",
+            "Hook Horror",
+            "Phase Spider",
+            "Spectator",
+            "Wight"
+        ],
+        "4": [
+            "Black Pudding",
+            "Bone Naga",
+            "Chuul",
+            "Flameskull",
+            "Ghost",
+            "Helmed Horror"
+        ],
+        "5": [
+            "Flesh Golem",
+            "Otyugh",
+            "Roper",
+            "Umber Hulk",
+            "Wraith"
+        ],
+        "6": [
+            "Drider",
+            "Ghast Gravecaller",
+            "Medusa"
+        ],
+        "7": [
+            "Grick Ancient",
+            "Mind Flayer",
+            "Shield Guardian",
+            "Violet Fungus Necrohulk"
+        ],
+        "8": [
+            "Aberrant Cultist",
+            "Chain Devil",
+            "Cloaker",
+            "Spirit Naga"
+        ],
+        "9": [
+            "Bone Devil",
+            "Clay Golem",
+            "Glabrezu"
+        ],
+        "10": [
+            "Aboleth",
+            "Death Slaad",
+            "Stone Golem"
+        ],
+        "11": [
+            "Behir",
+            "Death Knight Aspirant",
+            "Mind Flayer Arcanist"
+        ],
+        "12": [
+            "Arcanaloth",
+            "Archmage"
+        ],
+        "13": [
+            "Beholder",
+            "Nalfeshnee",
+            "Shadow Dragon"
+        ],
+        "14": [
+            "Death Tyrant"
+        ],
+        "15": [
+            "Purple Worm"
+        ],
+        "16": [
+            "Iron Golem",
+            "Marilith"
+        ],
+        "17": [
+            "Adult Red Dragon",
+            "Dracolich"
+        ],
+        "18": [
+            "Ancient Deep Dragon",
+            "Demilich"
+        ],
+        "19": [
+            "Balor"
+        ],
+        "20": [
+            "Pit Fiend"
+        ],
+        "21": [
+            "Lich"
+        ],
+        "23": [
+            "Blob of Annihilation"
+        ],
+        "24": [
+            "Ancient Red Dragon"
+        ],
+        "30": [
+            "Tarrasque"
+        ],
+        "1/2": [
+            "Darkmantle",
+            "Gray Ooze",
+            "Piercer",
+            "Rust Monster",
+            "Shadow"
+        ],
+        "1/4": [
+            "Giant Centipede",
+            "Grimlock",
+            "Skeleton",
+            "Troglodyte",
+            "Violet Fungus",
+            "Zombie"
+        ],
+        "1/8": [
+            "Giant Rat",
+            "Goblin Minion",
+            "Kobold Warrior"
+        ]
+    },
+    "heartlands": {
+        "1": [
+            "Brown Bear",
+            "Bugbear Warrior",
+            "Dire Wolf",
+            "Giant Hyena",
+            "Goblin Boss",
+            "Lion",
+            "Tiger"
+        ],
+        "2": [
+            "Ankheg",
+            "Bandit Captain",
+            "Ettercap",
+            "Giant Boar",
+            "Giant Elk",
+            "Gnoll Pack Lord",
+            "Ogre"
+        ],
+        "3": [
+            "Bugbear Stalker",
+            "Displacer Beast",
+            "Green Hag",
+            "Manticore",
+            "Owlbear",
+            "Werewolf"
+        ],
+        "4": [
+            "Ettin",
+            "Gnoll Fang of Yeenoghu",
+            "Wereboar",
+            "Zhentilar Paladin of Bane"
+        ],
+        "5": [
+            "Bulette",
+            "Gorgon",
+            "Hill Giant",
+            "Night Hag",
+            "Revenant",
+            "Troll"
+        ],
+        "6": [
+            "Chimera",
+            "Cyclops Sentry",
+            "Hobgoblin Warlord",
+            "Wyvern"
+        ],
+        "7": [
+            "Graveyard Revenant",
+            "Oni",
+            "Primeval Owlbear",
+            "Stone Giant"
+        ],
+        "8": [
+            "Assassin",
+            "Berserker Commander",
+            "Death Cultist",
+            "Gnoll Demoniac"
+        ],
+        "9": [
+            "Fire Giant",
+            "Treant",
+            "Young Blue Dragon"
+        ],
+        "10": [
+            "Dire Worg",
+            "Warrior Commander",
+            "Young Gold Dragon"
+        ],
+        "11": [
+            "Behir",
+            "Horned Devil",
+            "Roc"
+        ],
+        "12": [
+            "Archpriest",
+            "Questing Knight"
+        ],
+        "13": [
+            "Adult Brass Dragon",
+            "Nalfeshnee",
+            "Vampire"
+        ],
+        "14": [
+            "Adult Black Dragon"
+        ],
+        "15": [
+            "Adult Bronze Dragon",
+            "Adult Green Dragon"
+        ],
+        "16": [
+            "Adult Silver Dragon"
+        ],
+        "17": [
+            "Adult Gold Dragon",
+            "Adult Red Dragon"
+        ],
+        "20": [
+            "Ancient Brass Dragon",
+            "Ancient White Dragon"
+        ],
+        "21": [
+            "Ancient Black Dragon",
+            "Ancient Copper Dragon"
+        ],
+        "22": [
+            "Ancient Bronze Dragon",
+            "Ancient Green Dragon"
+        ],
+        "23": [
+            "Ancient Blue Dragon",
+            "Ancient Silver Dragon"
+        ],
+        "24": [
+            "Ancient Gold Dragon",
+            "Ancient Red Dragon"
+        ],
+        "30": [
+            "Tarrasque"
+        ],
+        "1/8": [
+            "Bandit",
+            "Giant Weasel",
+            "Mastiff",
+            "Twig Blight"
+        ],
+        "1/2": [
+            "Black Bear",
+            "Gnoll Warrior",
+            "Hobgoblin Warrior",
+            "Scout",
+            "Vine Blight",
+            "Worg"
+        ],
+        "1/4": [
+            "Boar",
+            "Giant Badger",
+            "Goblin Warrior",
+            "Needle Blight",
+            "Panther",
+            "Wolf"
+        ]
+    },
+    "icewind": {
+        "0": [
+            "Goat"
+        ],
+        "1": [
+            "Brown Bear",
+            "Crag Cat"
+        ],
+        "2": [
+            "Cult Fanatic",
+            "Griffon",
+            "Ogre",
+            "Polar Bear",
+            "Quaggoth",
+            "Saber-Toothed Tiger",
+            "White Dragon Wyrmling"
+        ],
+        "3": [
+            "Awakened White Moose",
+            "Manticore",
+            "Polar Serpent",
+            "Snow Golem",
+            "Winter Wolf",
+            "Yeti"
+        ],
+        "4": [
+            "Banshee",
+            "Chardalyn Berserker",
+            "Giant Walrus",
+            "Verbeeg Marauder",
+            "Weretiger"
+        ],
+        "5": [
+            "Frost Druid",
+            "Giant Axe Beak",
+            "Troll",
+            "Werebear",
+            "Young Remorhaz"
+        ],
+        "6": [
+            "Frost Giant Skeleton",
+            "Mammoth",
+            "Young White Dragon"
+        ],
+        "7": [
+            "Blue Slaad",
+            "Giant Ape",
+            "Primeval Owlbear",
+            "Tree Blight"
+        ],
+        "8": [
+            "Berserker Commander",
+            "Elemental Cultist",
+            "Frost Giant",
+            "Hydra"
+        ],
+        "9": [
+            "Abominable Yeti"
+        ],
+        "10": [
+            "Cultist Hierophant",
+            "Cyclops Oracle",
+            "Dire Worg",
+            "Warrior Commander"
+        ],
+        "11": [
+            "Remorhaz",
+            "Roc"
+        ],
+        "12": [
+            "Archmage"
+        ],
+        "13": [
+            "Adult White Dragon"
+        ],
+        "14": [
+            "Ice Devil"
+        ],
+        "15": [
+            "Vampire Umbral Lord"
+        ],
+        "16": [
+            "Adult Silver Dragon",
+            "Storm Giant Quintessent"
+        ],
+        "17": [
+            "Death Knight",
+            "Dracolich",
+            "Goristro"
+        ],
+        "18": [
+            "Demilich",
+            "Zlan"
+        ],
+        "20": [
+            "Ancient White Dragon",
+            "Nightwalker"
+        ],
+        "21": [
+            "Arch-hag",
+            "Lich"
+        ],
+        "23": [
+            "Elder Tempest"
+        ],
+        "1/4": [
+            "Aarakocra",
+            "Axe Beak",
+            "Giant Owl",
+            "Wolf",
+            "Zombie"
+        ],
+        "1/8": [
+            "Blood Hawk",
+            "Cultist",
+            "Kobold Warrior",
+            "Yeti Tyke"
+        ],
+        "1/2": [
+            "Ice Mephit",
+            "Scout",
             "Tough",
-            "Magmin"
+            "Worg"
         ]
     },
     "moonshae": {
         "1": [
-            "Dryad",
-            "Giant Eagle",
-            "Faerie Dragon Youth",
-            "Hippogriff",
-            "Harpy",
-            "Goblin Boss",
             "Bugbear Warrior",
-            "Dire Wolf"
+            "Dire Wolf",
+            "Dryad",
+            "Faerie Dragon Youth",
+            "Giant Eagle",
+            "Goblin Boss",
+            "Harpy",
+            "Hippogriff"
         ],
         "2": [
-            "Griffon",
-            "Sea Hag",
+            "Awakened Tree",
             "Druid",
             "Faerie Dragon Adult",
+            "Griffon",
+            "Merrow",
             "Pegasus",
-            "Merrow Awakened Tree"
+            "Sea Hag"
         ],
         "3": [
-            "Green Hag",
-            "Water Weird",
-            "Killer Whale",
-            "Werewolf",
             "Bugbear Stalker",
-            "Swanmay"
+            "Green Hag",
+            "Killer Whale",
+            "Swanmay",
+            "Water Weird",
+            "Werewolf"
         ],
         "4": [
             "Banshee",
+            "Bullywug Bog Sage",
             "Couatl",
             "Rusted Berserker",
-            "Wereboar",
-            "Bullywug Bog Sage"
+            "Wereboar"
         ],
         "5": [
-            "Sahaugin Baron",
-            "Water Elemental",
+            "Pixie Wonderbringer",
+            "Sahuagin Baron",
             "Shambling Mound",
             "Unicorn",
-            "Werebear",
-            "Pixie Wonderbringer"
+            "Water Elemental",
+            "Werebear"
         ],
         "6": [
-            "Galeb Duhr",
             "Chimera",
-            "Wyvern",
-            "Merfolk Wavebender Hobgoblin Warlord",
-            "Satyr Revelmaster"
+            "Galeb Duhr",
+            "Hobgoblin Warlord",
+            "Merfolk Wavebender",
+            "Satyr Revelmaster",
+            "Wyvern"
         ],
         "7": [
-            "Stone Giant",
-            "Tree Blight",
             "Centaur Warden",
             "Giant Ape",
-            "Centaur Warden"
+            "Stone Giant",
+            "Tree Blight"
         ],
         "8": [
-            "Fomorian",
             "Elemental Cultist",
+            "Fomorian",
             "Hydra",
             "Young Green Dragon"
         ],
         "9": [
-            "Treant",
-            "Cloud Giant",
             "Brazen Gorgon",
+            "Cloud Giant",
+            "Treant",
             "Young Blue Dragon"
         ],
         "10": [
-            "Guardian Naga",
+            "Cyclops Oracle",
             "Deva",
             "Dire Worg",
-            "Cyclops Oracle"
+            "Guardian Naga"
         ],
         "11": [
             "Beast of Malar",
@@ -687,12 +784,6 @@
         "17": [
             "Dragon Turtle"
         ],
-        "18": [
-            "CR 18 Placeholder"
-        ],
-        "19": [
-            "CR 19 Placeholder"
-        ],
         "20": [
             "Animal Lord"
         ],
@@ -701,173 +792,39 @@
             "Solar"
         ],
         "22": [
-            "Elemental Cataclysm",
-            "Ancient Green Dragon"
+            "Ancient Green Dragon",
+            "Elemental Cataclysm"
         ],
         "23": [
-            "Kraken",
-            "Empyrean"
+            "Empyrean",
+            "Kraken"
+        ],
+        "1/4": [
+            "Blink Dog",
+            "Giant Badger",
+            "Giant Frog",
+            "Giant Owl",
+            "Goblin Warrior",
+            "Needle Blight",
+            "Pixie",
+            "Pseudodragon",
+            "Sprite",
+            "Wolf"
         ],
         "1/8": [
             "Blood Hawk",
             "Flying Snake",
-            "Merfolk Skirmisher",
             "Giant Crab",
             "Giant Weasel",
             "Goblin Minion",
+            "Merfolk Skirmisher",
             "Twig Blight"
         ],
-        "1/4": [
-            "Pixie",
-            "Sprite",
-            "Giant Owl",
-            "Giant Frog",
-            "Blink Dog",
-            "Pseudodragon",
-            "Goblin Warrior",
-            "Giant Badger",
-            "Needle Blight",
-            "Wolf"
-        ],
         "1/2": [
-            "Satyr",
-            "Sea Hag",
-            "Vine Blight",
-            "Sahaugain Warrior",
             "Hobgoblin Warrior",
-            "Worg"
-        ]
-    },
-    "icewind": {
-        "1": [
-            "Brown Bear",
-            "Ogrillon Ogre",
-            "Crag Cat",
-            "Warrior",
-            "Healer"
-        ],
-        "2": [
-            "Griffon",
-            "Ogre",
-            "Polar Bear",
-            "Saber-Toothed Tiger",
-            "White Dragon Wyrmling",
-            "Cult Fanatic",
-            "Quaggoth",
-            "Shaman"
-        ],
-        "3": [
-            "Manticore",
-            "Winter Wolf",
-            "Yeti",
-            "Awakened White Moose",
-            "Snow Golem",
-            "Snowy Owlbear",
-            "Polar Serpent"
-        ],
-        "4": [
-            "Chardalyn Berserker",
-            "Banshee",
-            "Giant Walrus",
-            "Verbeeg Marauder",
-            "Weretiger"
-        ],
-        "5": [
-            "Giant Axe Beak",
-            "Troll",
-            "Werebear",
-            "Young Remorhaz",
-            "Frost Druid",
-            "Cheiftan",
-            "Great Warrior"
-        ],
-        "6": [
-            "Mammoth",
-            "Young White Dragon",
-            "Frost Giant Skeleton"
-        ],
-        "7": [
-            "Blue Slaad",
-            "Giant Ape",
-            "Primeval Owlbear",
-            "Tree Blight"
-        ],
-        "8": [
-            "Frost Giant",
-            "beserker commander",
-            "elemental cultist",
-            "hydra"
-        ],
-        "9": [
-            "Abominable Yeti"
-        ],
-        "10": [
-            "Dire Worg",
-            "Cultist Heirophant",
-            "Cyclops Oracle",
-            "Warrior Commander"
-        ],
-        "11": [
-            "Remorhaz",
-            "Roc"
-        ],
-        "12": [
-            "Archmage"
-        ],
-        "13": [
-            "Adult White Dragon"
-        ],
-        "14": [
-            "Ice Devil"
-        ],
-        "15": [
-            "Vampire Umbral Lord"
-        ],
-        "16": [
-            "Adult Silver Dragon",
-            "Storm Giant Quintessent"
-        ],
-        "17": [
-            "Death Knight",
-            "Dracolich",
-            "Goristo"
-        ],
-        "18": [
-            "Zlan",
-            "Demilich"
-        ],
-        "19": [
-            "Character"
-        ],
-        "20": [
-            "Ancient White Dragon",
-            "Night Walker"
-        ],
-        "21": [
-            "Arch-hag",
-            "Lich"
-        ],
-        "23": [
-            "Elder Tempest"
-        ],
-        "1/8": [
-            "Blood Hawk",
-            "Kobold Warrior",
-            "Cultist",
-            "mountain goat",
-            "yeti tyke"
-        ],
-        "1/4": [
-            "Axe Beak",
-            "Giant Owl",
-            "Aarakocra",
-            "wolf",
-            "zombie"
-        ],
-        "1/2": [
-            "Ice Mephit",
-            "Tough",
-            "Scout",
+            "Sahuagin Warrior",
+            "Satyr",
+            "Vine Blight",
             "Worg"
         ]
     }
