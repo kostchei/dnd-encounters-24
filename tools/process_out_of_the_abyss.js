@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const SOURCE_FILE = path.join(__dirname, '../data/OutOfTheAbyss.md');
+const SOURCE_FILE = path.join(__dirname, '../data/Adventures/OutOfTheAbyss.md');
 const BESTIARY_DIR = path.join(__dirname, '../5etools-v2.23.0/data/bestiary');
 const OUTPUT_FILE = path.join(__dirname, '../data/out_of_the_abyss_encounters.json');
 

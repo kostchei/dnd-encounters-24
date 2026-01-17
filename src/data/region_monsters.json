@@ -802,42 +802,78 @@
         ]
     },
     "heartlands": {
+        "0": [
+            "Campestri",
+            "Gloam",
+            "Paper Bird",
+            "Pollenella the Honeybee"
+        ],
         "1": [
             "Brown Bear",
             "Bugbear Warrior",
             "Dire Wolf",
+            "Faerie Dragon (Younger)",
             "Giant Hyena",
+            "Giant Swan",
             "Goblin Boss",
             "Goblin Boss (Variant)",
             "Iarno “Glasstaff” Albrek",
+            "Kettlesteam the Kenku",
             "Psychic Gray Ooze",
+            "Quickling",
+            "Raezil",
             "Spellcaster - Healer",
             "Spellcaster - Mage",
-            "Tiger"
+            "Swarm of Campestris",
+            "Tiger",
+            "Tin Soldier"
         ],
         "2": [
+            "Agdon Longscarf",
             "Ankheg",
             "Bandit Captain",
             "Carrion Crawler",
+            "Darkling Elder",
+            "Elkhorn",
             "Ettercap",
+            "Faerie Dragon (Older)",
             "Giant Boar",
             "Giant Elk",
+            "Glass Pegasus",
+            "Glasswork Golem",
             "Gnoll Pack Lord",
             "Goblin Psi Brawler",
-            "Ogre"
+            "Living Doll",
+            "Ogre",
+            "Peryton",
+            "Selenelion Twin",
+            "Sir Talavar",
+            "Skylla",
+            "Treant Sapling",
+            "Will-o’-Wisp (Variant)",
+            "Zarak"
         ],
         "3": [
+            "Alagarthas",
             "Anchorite of Talos",
             "Bugbear Stalker",
+            "Bullywug Knight",
+            "Bullywug Royal",
             "Displacer Beast",
             "Encephalon Gemmule",
             "Githyanki Warrior",
             "Green Hag",
             "Grell",
             "Manticore",
+            "Mercion",
+            "Mister Light",
+            "Mister Witch",
+            "Molliver",
             "Owlbear",
+            "Redcap",
             "Water Weird",
-            "Werewolf"
+            "Werewolf",
+            "Zargash"
         ],
         "4": [
             "Amethyst Dragon Wyrmling",
@@ -847,41 +883,50 @@
             "Grell Psychic",
             "Helmed Horror",
             "Humanoid Mutate",
+            "Strongheart",
             "Wereboar",
             "Zhentilar Paladin of Bane"
         ],
         "5": [
             "Bulette",
             "Drow Elite Warrior",
+            "Envy",
             "Feral Ashenwight",
             "Fiendish Auger",
             "Gorgon",
             "Hill Giant",
+            "Kelek",
             "Mezzoloth",
             "Night Hag",
             "Red Slaad",
             "Revenant",
+            "Ringlerun",
             "Troll",
-            "Umber Hulk"
+            "Umber Hulk",
+            "Warduke"
         ],
         "6": [
             "Chimera",
             "Cyclops Sentry",
+            "Endelyn Moongrave",
             "Galeb Duhr",
             "Hobgoblin Warlord",
             "Otyugh Mutate",
             "Wyvern"
         ],
         "7": [
+            "Bavlorna Blightstraw",
             "Blue Slaad",
             "Flesh Meld",
             "Graveyard Revenant",
             "Grick Alpha",
+            "Korred",
             "Mind Flayer",
             "Oni",
             "Primeval Owlbear",
             "Psionic Ashenwight",
-            "Stone Giant"
+            "Stone Giant",
+            "Tree Blight"
         ],
         "8": [
             "Aberrant Zealot",
@@ -889,10 +934,12 @@
             "Assassin",
             "Berserker Commander",
             "Death Cultist",
+            "Fomorian",
             "Githyanki Knight",
             "Gnoll Demoniac",
             "Intellect Snare",
-            "Mind Flayer Prophet"
+            "Mind Flayer Prophet",
+            "Skabatha Nightshade"
         ],
         "9": [
             "Fire Giant",
@@ -927,6 +974,7 @@
         "13": [
             "Adult Brass Dragon",
             "Beholder",
+            "Jabberwock",
             "Nalfeshnee",
             "Vampire"
         ],
@@ -948,7 +996,8 @@
         ],
         "20": [
             "Ancient Brass Dragon",
-            "Ancient White Dragon"
+            "Ancient White Dragon",
+            "Iggwilv the Witch Queen"
         ],
         "21": [
             "Ancient Black Dragon",
@@ -970,32 +1019,52 @@
         "30": [
             "Tarrasque"
         ],
-        "1/8": [
-            "Bandit",
-            "Flumph",
-            "Giant Weasel",
-            "Mastiff",
-            "Slaad Tadpole",
-            "Twig Blight"
-        ],
         "1/2": [
+            "Amidor the Dandelion",
             "Black Bear",
+            "Clapperclaw the Scarecrow",
+            "Darkling",
             "Dwarf Skeleton",
+            "Giant Dragonfly",
             "Gnoll Warrior",
             "Hobgoblin Warrior",
             "Redbrand Ruffian",
             "Scout",
+            "Shadow (Variant)",
             "Vine Blight",
             "Worg"
         ],
+        "1/8": [
+            "Bandit",
+            "Boggle",
+            "Brigganock",
+            "Displacer Beast Kitten",
+            "Flumph",
+            "Flying Rocking Horse",
+            "Giant Weasel",
+            "Harengon Brigand",
+            "Manes",
+            "Mastiff",
+            "Slaad Tadpole",
+            "Twig Blight",
+            "Witchlight Hand",
+            "Witchlight Hand (Small)"
+        ],
         "1/4": [
             "Boar",
+            "Bullywug",
             "Cow",
             "Giant Badger",
+            "Giant Snail",
             "Goblin Warrior",
+            "Harengon Sniper",
+            "Jingle Jangle",
+            "Mud Mephit",
             "Needle Blight",
             "Panther",
+            "Pixie",
             "Rock Gnome Recluse",
+            "Squirt the Oilcan",
             "Wolf"
         ]
     },
@@ -1190,50 +1259,92 @@
         ]
     },
     "moonshae": {
+        "0": [
+            "Campestri",
+            "Gloam",
+            "Paper Bird",
+            "Pollenella the Honeybee"
+        ],
         "1": [
             "Bugbear Warrior",
             "Dire Wolf",
             "Dryad",
+            "Faerie Dragon (Younger)",
             "Faerie Dragon Youth",
             "Giant Eagle",
+            "Giant Swan",
             "Goblin Boss",
             "Harpy",
-            "Hippogriff"
+            "Hippogriff",
+            "Kettlesteam the Kenku",
+            "Quickling",
+            "Raezil",
+            "Swarm of Campestris",
+            "Tin Soldier"
         ],
         "2": [
+            "Agdon Longscarf",
             "Awakened Tree",
+            "Darkling Elder",
             "Druid",
+            "Elkhorn",
+            "Faerie Dragon (Older)",
             "Faerie Dragon Adult",
+            "Glass Pegasus",
+            "Glasswork Golem",
             "Griffon",
+            "Living Doll",
             "Merrow",
             "Pegasus",
-            "Sea Hag"
+            "Peryton",
+            "Sea Hag",
+            "Selenelion Twin",
+            "Sir Talavar",
+            "Skylla",
+            "Treant Sapling",
+            "Will-o’-Wisp (Variant)",
+            "Zarak"
         ],
         "3": [
+            "Alagarthas",
             "Bugbear Stalker",
+            "Bullywug Knight",
+            "Bullywug Royal",
             "Green Hag",
             "Killer Whale",
+            "Mercion",
+            "Mister Light",
+            "Mister Witch",
+            "Molliver",
+            "Redcap",
             "Swanmay",
             "Water Weird",
-            "Werewolf"
+            "Werewolf",
+            "Zargash"
         ],
         "4": [
             "Banshee",
             "Bullywug Bog Sage",
             "Couatl",
             "Rusted Berserker",
+            "Strongheart",
             "Wereboar"
         ],
         "5": [
+            "Envy",
+            "Kelek",
             "Pixie Wonderbringer",
+            "Ringlerun",
             "Sahuagin Baron",
             "Shambling Mound",
             "Unicorn",
+            "Warduke",
             "Water Elemental",
             "Werebear"
         ],
         "6": [
             "Chimera",
+            "Endelyn Moongrave",
             "Galeb Duhr",
             "Hobgoblin Warlord",
             "Merfolk Wavebender",
@@ -1241,8 +1352,10 @@
             "Wyvern"
         ],
         "7": [
+            "Bavlorna Blightstraw",
             "Centaur Warden",
             "Giant Ape",
+            "Korred",
             "Stone Giant",
             "Tree Blight"
         ],
@@ -1250,11 +1363,13 @@
             "Elemental Cultist",
             "Fomorian",
             "Hydra",
+            "Skabatha Nightshade",
             "Young Green Dragon"
         ],
         "9": [
             "Brazen Gorgon",
             "Cloud Giant",
+            "Gray Slaad",
             "Treant",
             "Young Blue Dragon"
         ],
@@ -1274,6 +1389,7 @@
             "Spore of Moander"
         ],
         "13": [
+            "Jabberwock",
             "Storm Giant"
         ],
         "14": [
@@ -1290,7 +1406,8 @@
             "Dragon Turtle"
         ],
         "20": [
-            "Animal Lord"
+            "Animal Lord",
+            "Iggwilv the Witch Queen"
         ],
         "21": [
             "Arch-hag",
@@ -1304,33 +1421,52 @@
             "Empyrean",
             "Kraken"
         ],
+        "1/2": [
+            "Amidor the Dandelion",
+            "Clapperclaw the Scarecrow",
+            "Darkling",
+            "Giant Dragonfly",
+            "Hobgoblin Warrior",
+            "Sahuagin Warrior",
+            "Satyr",
+            "Shadow (Variant)",
+            "Vine Blight",
+            "Worg"
+        ],
         "1/4": [
             "Blink Dog",
+            "Bullywug",
             "Giant Badger",
             "Giant Frog",
             "Giant Owl",
+            "Giant Snail",
             "Goblin Warrior",
+            "Harengon Sniper",
+            "Jingle Jangle",
+            "Mud Mephit",
             "Needle Blight",
             "Pixie",
             "Pseudodragon",
             "Sprite",
+            "Squirt the Oilcan",
             "Wolf"
         ],
         "1/8": [
             "Blood Hawk",
+            "Boggle",
+            "Brigganock",
+            "Displacer Beast Kitten",
+            "Flying Rocking Horse",
             "Flying Snake",
             "Giant Crab",
             "Giant Weasel",
             "Goblin Minion",
+            "Harengon Brigand",
+            "Manes",
             "Merfolk Skirmisher",
-            "Twig Blight"
-        ],
-        "1/2": [
-            "Hobgoblin Warrior",
-            "Sahuagin Warrior",
-            "Satyr",
-            "Vine Blight",
-            "Worg"
+            "Twig Blight",
+            "Witchlight Hand",
+            "Witchlight Hand (Small)"
         ]
     }
 }

@@ -62,8 +62,11 @@ function main() {
                     fullData[regionKey][cr].push(name);
                     count++;
                 }
+            } else {
+                if (name === 'Jabberwock') console.log(`Jabberwock skipped for region string: ${filename}`);
             }
         });
+        if (name === 'Jabberwock') console.log(`Jabberwock processed. Regions: ${JSON.stringify(monster.Region)}`);
     });
 
     // Sort the arrays for consistency

@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const SOURCE_FILE = path.join(__dirname, '../data/waterdeep dragon heist');
+const SOURCE_FILE = path.join(__dirname, '../data/Adventures/waterdeep dragon heist.md');
 const BESTIARY_DIR = path.join(__dirname, '../5etools-v2.23.0/data/bestiary');
 const OUTPUT_FILE = path.join(__dirname, '../data/waterdeep_encounters.json');
 

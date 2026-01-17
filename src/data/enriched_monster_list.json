@@ -445,6 +445,16 @@
     ]
   },
   {
+    "Name": "Agdon Longscarf",
+    "CR": "2",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Ahmaergo",
     "CR": "9",
     "Type": "humanoid (dwarf)",
@@ -466,6 +476,16 @@
     ],
     "Adventures": [
       "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Alagarthas",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -528,6 +548,16 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Amidor the Dandelion",
+    "CR": "1/2",
+    "Type": "Plant",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
       "Heartlands"
     ]
   },
@@ -1742,6 +1772,16 @@
     ]
   },
   {
+    "Name": "Bavlorna Blightstraw",
+    "CR": "7",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Beast of Malar",
     "CR": "11",
     "Type": "monstrosity",
@@ -2114,6 +2154,17 @@
     ]
   },
   {
+    "Name": "Boggle",
+    "CR": "1/8",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ],
+    "Adventures": []
+  },
+  {
     "Name": "Bone Devil",
     "CR": "9",
     "Type": "fiend (devil)",
@@ -2268,6 +2319,16 @@
     ]
   },
   {
+    "Name": "Brigganock",
+    "CR": "1/8",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Brown Bear",
     "CR": "1",
     "Type": "beast",
@@ -2374,6 +2435,16 @@
     ]
   },
   {
+    "Name": "Bullywug",
+    "CR": "1/4",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Bullywug Bog Sage",
     "CR": "4",
     "Type": "fey",
@@ -2391,6 +2462,26 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Bullywug Knight",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Bullywug Royal",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -2435,6 +2526,16 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
+    ]
+  },
+  {
+    "Name": "Campestri",
+    "CR": "0",
+    "Type": "Plant",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -2871,6 +2972,16 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#chwinga_cm",
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Clapperclaw the Scarecrow",
+    "CR": "1/2",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -3415,6 +3526,28 @@
     ]
   },
   {
+    "Name": "Darkling",
+    "CR": "1/2",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ],
+    "Adventures": []
+  },
+  {
+    "Name": "Darkling Elder",
+    "CR": "2",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ],
+    "Adventures": []
+  },
+  {
     "Name": "Darkmantle",
     "CR": "1/2",
     "Type": "aberration",
@@ -3837,6 +3970,16 @@
     ],
     "Adventures": [
       "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Displacer Beast Kitten",
+    "CR": "1/8",
+    "Type": "Monstrosity",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -4656,6 +4799,16 @@
     ]
   },
   {
+    "Name": "Elkhorn",
+    "CR": "2",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Embric",
     "CR": "2",
     "Type": "humanoid ([object Object])",
@@ -4775,6 +4928,26 @@
     ]
   },
   {
+    "Name": "Endelyn Moongrave",
+    "CR": "6",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Envy",
+    "CR": "5",
+    "Type": "Monstrosity",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Erinyes",
     "CR": "12",
     "Type": "fiend (devil)",
@@ -4874,12 +5047,24 @@
     "Tags": [],
     "Region": [
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Moonshae",
+      "Heartlands"
     ],
     "Adventures": [
       "Waterdeep Dragon Heist"
     ],
     "Statblock_Link": ""
+  },
+  {
+    "Name": "Faerie Dragon (Younger)",
+    "CR": "1",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
   },
   {
     "Name": "Faerie Dragon Adult",
@@ -5347,6 +5532,16 @@
     ]
   },
   {
+    "Name": "Flying Rocking Horse",
+    "CR": "1/8",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Flying Snake",
     "CR": "1/8",
     "Type": "monstrosity",
@@ -5385,7 +5580,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae",
-      "Dungeons"
+      "Dungeons",
+      "Heartlands"
     ],
     "Adventures": [
       "Out of the Abyss"
@@ -5863,6 +6059,16 @@
     ]
   },
   {
+    "Name": "Giant Dragonfly",
+    "CR": "1/2",
+    "Type": "Beast",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Giant Eagle",
     "CR": "1",
     "Type": "celestial",
@@ -6073,6 +6279,16 @@
     ]
   },
   {
+    "Name": "Giant Snail",
+    "CR": "1/4",
+    "Type": "Beast",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Giant Spider",
     "CR": "1",
     "Type": "beast",
@@ -6090,6 +6306,16 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
+    ]
+  },
+  {
+    "Name": "Giant Swan",
+    "CR": "1",
+    "Type": "Beast",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -6289,6 +6515,36 @@
     "Adventure": "",
     "Region": [
       "Cities"
+    ]
+  },
+  {
+    "Name": "Glass Pegasus",
+    "CR": "2",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Glasswork Golem",
+    "CR": "2",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Gloam",
+    "CR": "0",
+    "Type": "Undead",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -6774,7 +7030,8 @@
     ],
     "Region": [
       "Heartlands",
-      "Dungeons"
+      "Dungeons",
+      "Moonshae"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#gray%20slaad_xmm",
     "Adventures": [
@@ -7298,6 +7555,26 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#hare_idrotf",
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Harengon Brigand",
+    "CR": "1/8",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Harengon Sniper",
+    "CR": "1/4",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -8080,6 +8357,16 @@
     ]
   },
   {
+    "Name": "Iggwilv the Witch Queen",
+    "CR": "20",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Incubus",
     "CR": "4",
     "Type": "fiend",
@@ -8337,6 +8624,16 @@
     ]
   },
   {
+    "Name": "Jabberwock",
+    "CR": "13",
+    "Type": "Dragon",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Jackalwere",
     "CR": "1/2",
     "Type": "fiend",
@@ -8431,6 +8728,16 @@
     ]
   },
   {
+    "Name": "Jingle Jangle",
+    "CR": "1/4",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Juiblex",
     "CR": "23",
     "Type": "fiend (demon)",
@@ -8522,6 +8829,16 @@
     ]
   },
   {
+    "Name": "Kelek",
+    "CR": "5",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Kenku",
     "CR": "1/4",
     "Type": "monstrosity",
@@ -8544,6 +8861,16 @@
     "Adventures": [
       "Waterdeep Dragon Heist",
       "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Kettlesteam the Kenku",
+    "CR": "1",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -8695,6 +9022,17 @@
       "Dungeons",
       "Icewind Dale"
     ]
+  },
+  {
+    "Name": "Korred",
+    "CR": "7",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ],
+    "Adventures": []
   },
   {
     "Name": "Kostchtchie",
@@ -9082,6 +9420,16 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#living%20demiplane_idrotf",
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Living Doll",
+    "CR": "2",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -9493,7 +9841,9 @@
     "Adventure": "",
     "Region": [
       "Calimshan",
-      "Dungeons"
+      "Dungeons",
+      "Moonshae",
+      "Heartlands"
     ],
     "Adventures": [
       "Out of the Abyss"
@@ -9759,6 +10109,16 @@
     ],
     "Adventures": [
       "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Mercion",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -10067,6 +10427,36 @@
     ]
   },
   {
+    "Name": "Mister Light",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Mister Witch",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Molliver",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Monodrone",
     "CR": "1/8",
     "Type": "construct",
@@ -10175,7 +10565,9 @@
     "Faction": "",
     "Tags": [],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Moonshae",
+      "Heartlands"
     ],
     "Adventures": [
       "Out of the Abyss"
@@ -11123,6 +11515,16 @@
     ]
   },
   {
+    "Name": "Paper Bird",
+    "CR": "0",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Pegasus",
     "CR": "2",
     "Type": "celestial",
@@ -11218,7 +11620,9 @@
     "Charisma": 10,
     "Tags": [],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Moonshae",
+      "Heartlands"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#peryton_xmm",
     "Adventures": [
@@ -11409,8 +11813,10 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Moonshae"
-    ]
+      "Moonshae",
+      "Heartlands"
+    ],
+    "Adventures": []
   },
   {
     "Name": "Pixie Wonderbringer",
@@ -11490,6 +11896,16 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Pollenella the Honeybee",
+    "CR": "0",
+    "Type": "Beast",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -11864,6 +12280,27 @@
     ]
   },
   {
+    "Name": "Quickling",
+    "CR": "1",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ],
+    "Adventures": []
+  },
+  {
+    "Name": "Raezil",
+    "CR": "1",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Rakshasa",
     "CR": "13",
     "Type": "fiend",
@@ -11998,7 +12435,9 @@
     "Faction": "",
     "Tags": [],
     "Region": [
-      "Cities"
+      "Cities",
+      "Moonshae",
+      "Heartlands"
     ],
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
@@ -12318,6 +12757,16 @@
     ],
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Ringlerun",
+    "CR": "5",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -12830,6 +13279,16 @@
     ]
   },
   {
+    "Name": "Selenelion Twin",
+    "CR": "2",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Shadow",
     "CR": "1/2",
     "Type": "undead",
@@ -12848,6 +13307,16 @@
     "Region": [
       "Cities",
       "Dungeons"
+    ]
+  },
+  {
+    "Name": "Shadow (Variant)",
+    "CR": "1/2",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -13030,6 +13499,26 @@
     ]
   },
   {
+    "Name": "Sir Talavar",
+    "CR": "2",
+    "Type": "Dragon",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Skabatha Nightshade",
+    "CR": "8",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Skeemo Weirdbottle",
     "CR": "6",
     "Type": "humanoid (gnome)",
@@ -13094,6 +13583,16 @@
     ],
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Skylla",
+    "CR": "2",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -13629,6 +14128,16 @@
     ]
   },
   {
+    "Name": "Squirt the Oilcan",
+    "CR": "1/4",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Stone Giant",
     "CR": "7",
     "Type": "giant",
@@ -13710,6 +14219,16 @@
     ]
   },
   {
+    "Name": "Strongheart",
+    "CR": "4",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Succubus",
     "CR": "4",
     "Type": "fiend",
@@ -13771,6 +14290,16 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Swarm of Campestris",
+    "CR": "1",
+    "Type": "Plant",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -14153,6 +14682,16 @@
     ]
   },
   {
+    "Name": "Tin Soldier",
+    "CR": "1",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Tomb Tapper",
     "CR": "10",
     "Type": "construct",
@@ -14284,6 +14823,16 @@
     ]
   },
   {
+    "Name": "Treant Sapling",
+    "CR": "2",
+    "Type": "Plant",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Tree Blight",
     "CR": "7",
     "Type": "plant",
@@ -14301,8 +14850,10 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale",
-      "Moonshae"
-    ]
+      "Moonshae",
+      "Heartlands"
+    ],
+    "Adventures": []
   },
   {
     "Name": "Tressym",
@@ -15148,6 +15699,16 @@
     ]
   },
   {
+    "Name": "Warduke",
+    "CR": "5",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Warrior",
     "CR": "Unknown",
     "Type": "humanoid",
@@ -15450,6 +16011,16 @@
     ]
   },
   {
+    "Name": "Will-o’-Wisp (Variant)",
+    "CR": "2",
+    "Type": "Undead",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Winged Kobold",
     "CR": "1/4",
     "Type": "dragon",
@@ -15490,6 +16061,26 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Witchlight Hand",
+    "CR": "1/8",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Witchlight Hand (Small)",
+    "CR": "1/8",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -16031,6 +16622,26 @@
     ],
     "Adventures": [
       "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Zarak",
+    "CR": "2",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Zargash",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {

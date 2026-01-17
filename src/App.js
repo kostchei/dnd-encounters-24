@@ -178,24 +178,25 @@ function rollDice(numDice, sides) {
   return total;
 }
 
-// Calculate initiative for encounter - group by unique initiative bonus
+// Calculate initiative for encounter - group by unique monster Name
 function calculateInitiatives(monsters, monsterMap) {
-  const initiativeGroups = new Map(); // bonus -> [monster names]
+  const initiativeGroups = new Map(); // name -> { count, bonus }
 
   for (const m of monsters) {
-    const data = monsterMap.get(m.Name);
-    const bonus = data?.InitiativeBonus ?? 0;
-    if (!initiativeGroups.has(bonus)) {
-      initiativeGroups.set(bonus, []);
+    const name = m.Name;
+    if (!initiativeGroups.has(name)) {
+      const data = monsterMap.get(name);
+      const bonus = data?.InitiativeBonus ?? 0;
+      initiativeGroups.set(name, { count: 0, bonus });
     }
-    initiativeGroups.get(bonus).push(m.Name);
+    initiativeGroups.get(name).count++;
   }
 
-  // Roll 1d20 + bonus for each unique bonus group
+  // Roll 1d20 + bonus for each unique monster group
   const results = [];
-  for (const [bonus, names] of initiativeGroups) {
-    const roll = rollDice(1, 20) + bonus;
-    results.push({ names, bonus, roll });
+  for (const [name, info] of initiativeGroups) {
+    const roll = rollDice(1, 20) + info.bonus;
+    results.push({ name, count: info.count, roll });
   }
 
   // Sort by roll descending
@@ -671,7 +672,7 @@ function App() {
                   <span style={styles.emphasis}>Initiative:</span>{' '}
                   {initiativeResult.map((g, i) => (
                     <span key={i}>
-                      {g.names.length > 1 ? g.names[0].split(' ')[0] + 's' : g.names[0]}: {g.roll}
+                      {g.count > 1 ? g.name + 's' : g.name}: {g.roll}
                       {i < initiativeResult.length - 1 ? ', ' : ''}
                     </span>
                   ))}

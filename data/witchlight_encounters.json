@@ -1,0 +1,762 @@
+[
+  {
+    "Name": "Campestri",
+    "CR": "0",
+    "Type": "Plant",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Gloam",
+    "CR": "0",
+    "Type": "Undead",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Paper Bird",
+    "CR": "0",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Pollenella the Honeybee",
+    "CR": "0",
+    "Type": "Beast",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Boggle",
+    "CR": "1/8",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Brigganock",
+    "CR": "1/8",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Displacer Beast Kitten",
+    "CR": "1/8",
+    "Type": "Monstrosity",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Flying Rocking Horse",
+    "CR": "1/8",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Harengon Brigand",
+    "CR": "1/8",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Manes",
+    "CR": "1/8",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Witchlight Hand",
+    "CR": "1/8",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Witchlight Hand (Small)",
+    "CR": "1/8",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Bullywug",
+    "CR": "1/4",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Giant Snail",
+    "CR": "1/4",
+    "Type": "Beast",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Harengon Sniper",
+    "CR": "1/4",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Jingle Jangle",
+    "CR": "1/4",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Mud Mephit",
+    "CR": "1/4",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Pixie",
+    "CR": "1/4",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Squirt the Oilcan",
+    "CR": "1/4",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Amidor the Dandelion",
+    "CR": "1/2",
+    "Type": "Plant",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Boggle",
+    "CR": "1/2",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Clapperclaw the Scarecrow",
+    "CR": "1/2",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Darkling",
+    "CR": "1/2",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Darkling",
+    "CR": "1/2",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Giant Dragonfly",
+    "CR": "1/2",
+    "Type": "Beast",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Shadow (Variant)",
+    "CR": "1/2",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Faerie Dragon (Younger)",
+    "CR": "1",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Giant Swan",
+    "CR": "1",
+    "Type": "Beast",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Goblin Boss",
+    "CR": "1",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Kettlesteam the Kenku",
+    "CR": "1",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Quickling",
+    "CR": "1",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Quickling",
+    "CR": "1",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Raezil",
+    "CR": "1",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Swarm of Campestris",
+    "CR": "1",
+    "Type": "Plant",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Tin Soldier",
+    "CR": "1",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Agdon Longscarf",
+    "CR": "2",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Darkling Elder",
+    "CR": "2",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Darkling Elder",
+    "CR": "2",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Elkhorn",
+    "CR": "2",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Faerie Dragon (Older)",
+    "CR": "2",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Glass Pegasus",
+    "CR": "2",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Glasswork Golem",
+    "CR": "2",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Living Doll",
+    "CR": "2",
+    "Type": "Construct",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Peryton",
+    "CR": "2",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Selenelion Twin",
+    "CR": "2",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Sir Talavar",
+    "CR": "2",
+    "Type": "Dragon",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Skylla",
+    "CR": "2",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Treant Sapling",
+    "CR": "2",
+    "Type": "Plant",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Will-o’-Wisp (Variant)",
+    "CR": "2",
+    "Type": "Undead",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Zarak",
+    "CR": "2",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Alagarthas",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Bullywug Knight",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Bullywug Royal",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Mercion",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Mister Light",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Mister Witch",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Molliver",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Redcap",
+    "CR": "3",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Redcap",
+    "CR": "3",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Zargash",
+    "CR": "3",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Strongheart",
+    "CR": "4",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Envy",
+    "CR": "5",
+    "Type": "Monstrosity",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Kelek",
+    "CR": "5",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Ringlerun",
+    "CR": "5",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Warduke",
+    "CR": "5",
+    "Type": "Humanoid",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Endelyn Moongrave",
+    "CR": "6",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Galeb Duhr",
+    "CR": "6",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Bavlorna Blightstraw",
+    "CR": "7",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Korred",
+    "CR": "7",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Korred",
+    "CR": "7",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Tree Blight",
+    "CR": "7",
+    "Type": "Plant",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Fomorian",
+    "CR": "8",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Skabatha Nightshade",
+    "CR": "8",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Gray Slaad",
+    "CR": "9",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Jabberwock",
+    "CR": "13",
+    "Type": "Dragon",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Iggwilv the Witch Queen",
+    "CR": "20",
+    "Type": "Fey",
+    "Adventure": "The Wild Beyond The Witchlight",
+    "Region": [
+      "Moonshae",
+      "Heartlands"
+    ]
+  }
+]
