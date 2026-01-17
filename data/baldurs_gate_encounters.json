@@ -1,0 +1,1724 @@
+[
+  {
+    "Name": "Crawling Claw",
+    "CR": "0",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 10,
+    "Charisma": 4,
+    "Statblock_Link": "https://5e.tools/bestiary.html#crawling%20claw_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Larva",
+    "CR": "0",
+    "Type": "fiend",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 2,
+    "Statblock_Link": "https://5e.tools/bestiary.html#larva_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Tressym",
+    "CR": "0",
+    "Type": "monstrosity",
+    "Alignment": "A",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 12,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tressym_skt",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Flying Dagger",
+    "CR": "1/8",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#flying%20dagger_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Thurstwell Vanthampur",
+    "CR": "1/8",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 17,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#thurstwell%20vanthampur_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Abyssal Chicken",
+    "CR": "1/4",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 9,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#abyssal%20chicken_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Abyssal Wretch",
+    "CR": "1/4",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 8,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#abyssal%20wretch_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Bone Whelk",
+    "CR": "1/4",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": -3,
+    "InitiativeBonus": -3,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 9,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bone%20whelk_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Kenku",
+    "CR": "1/4",
+    "Type": "monstrosity",
+    "Alignment": "N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kenku_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Night Blade",
+    "CR": "1/4",
+    "Type": "humanoid (human)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#night%20blade_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Fist of Bane",
+    "CR": "1/2",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#fist%20of%20bane_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Jackalwere",
+    "CR": "1/2",
+    "Type": "fiend",
+    "Alignment": "C E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#jackalwere_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Necromite of Myrkul",
+    "CR": "1/2",
+    "Type": "humanoid (human)",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 16,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#necromite%20of%20myrkul_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Nupperibo",
+    "CR": "1/2",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 8,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#nupperibo_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Thavius Kreeg",
+    "CR": "1/2",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 18,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#thavius%20kreeg_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Goblin Boss",
+    "CR": "1",
+    "Type": "fey (goblinoid)",
+    "Alignment": "C N",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 8,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20boss_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Half-Ogre",
+    "CR": "1",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Skull Lasher of Myrkul",
+    "CR": "1",
+    "Type": "humanoid (human)",
+    "Alignment": "N E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Wis +3",
+    "Intelligence": 16,
+    "Wisdom": 13,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#skull%20lasher%20of%20myrkul_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Carrion Crawler",
+    "CR": "2",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 12,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#carrion%20crawler_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Gnoll Pack Lord",
+    "CR": "2",
+    "Type": "fiend",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 11,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gnoll%20pack%20lord_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Iron Consul",
+    "CR": "2",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Wis +4",
+    "Intelligence": 12,
+    "Wisdom": 15,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#iron%20consul_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Reaper of Bhaal",
+    "CR": "2",
+    "Type": "humanoid (human)",
+    "Alignment": "C E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 9,
+    "InitiativeBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 12,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#reaper%20of%20bhaal_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Spined Devil",
+    "CR": "2",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 14,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#spined%20devil_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Amrik Vanthampur",
+    "CR": "3",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 14,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#amrik%20vanthampur_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Bulezau",
+    "CR": "3",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 9,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bulezau_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Hobgoblin Captain",
+    "CR": "3",
+    "Type": "fey (goblinoid)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 10,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hobgoblin%20captain_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Madcap",
+    "CR": "3",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Mortlock Vanthampur",
+    "CR": "3",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mortlock%20vanthampur_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Redcap",
+    "CR": "3",
+    "Type": "fey",
+    "Alignment": "C E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#redcap_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Redcap",
+    "CR": "3",
+    "Type": "fey",
+    "Alignment": "C E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#redcap_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Rilsa Rael",
+    "CR": "3",
+    "Type": "humanoid (human)",
+    "Alignment": "N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 6,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +6, Wis +2",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#rilsa%20rael_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Duke Thalamra Vanthampur",
+    "CR": "4",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 16,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#duke%20thalamra%20vanthampur_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Gnoll Fang of Yeenoghu",
+    "CR": "4",
+    "Type": "fiend",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Con +4, Wis +2, Cha +3",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gnoll%20fang%20of%20yeenoghu_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Helmed Horror",
+    "CR": "4",
+    "Type": "construct",
+    "Alignment": "N",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 1,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#helmed%20horror_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Liara Portyr",
+    "CR": "4",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Con +4, Wis +4",
+    "Intelligence": 14,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#liara%20portyr_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Master of Souls",
+    "CR": "4",
+    "Type": "humanoid (human)",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Wis +4",
+    "Intelligence": 19,
+    "Wisdom": 14,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#master%20of%20souls_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Merregon",
+    "CR": "4",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 12,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#merregon_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Shadow Demon",
+    "CR": "4",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 7,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +5, Cha +4",
+    "Intelligence": 14,
+    "Wisdom": 13,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#shadow%20demon_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Cambion",
+    "CR": "5",
+    "Type": "fiend",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 7,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Str +7, Con +6, Int +5, Cha +6",
+    "Intelligence": 14,
+    "Wisdom": 12,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#cambion_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Death's Head of Bhaal",
+    "CR": "5",
+    "Type": "humanoid (human)",
+    "Alignment": "C E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 11,
+    "InitiativeBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 13,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#death's%20head%20of%20bhaal_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Hellwasp",
+    "CR": "5",
+    "Type": "fiend",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +5, Wis +3",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hellwasp_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Hollyphant",
+    "CR": "5",
+    "Type": "celestial",
+    "Alignment": "L G",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Dex +3, Con +4, Cha +6",
+    "Intelligence": 16,
+    "Wisdom": 19,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hollyphant_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Mezzoloth",
+    "CR": "5",
+    "Type": "fiend (yugoloth)",
+    "Alignment": "N E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 0,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 14,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mezzoloth_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Nine-Fingers Keene",
+    "CR": "5",
+    "Type": "humanoid (human)",
+    "Alignment": "N",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 10,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +7, Int +4",
+    "Intelligence": 13,
+    "Wisdom": 17,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#nine-fingers%20keene_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Ulder Ravengard",
+    "CR": "5",
+    "Type": "humanoid (human)",
+    "Alignment": "N",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Con +6, Wis +3",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ulder%20ravengard_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Black Gauntlet of Bane",
+    "CR": "6",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Wis +5",
+    "Intelligence": 12,
+    "Wisdom": 15,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#black%20gauntlet%20of%20bane_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Chasme",
+    "CR": "6",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Dex +5, Wis +5",
+    "Intelligence": 11,
+    "Wisdom": 14,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#chasme_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Gideon Lightward",
+    "CR": "6",
+    "Type": "undead",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Dex +4, Con +7, Wis +7",
+    "Intelligence": 10,
+    "Wisdom": 18,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gideon%20lightward_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Hobgoblin Warlord",
+    "CR": "6",
+    "Type": "fey (goblinoid)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Dex +5, Int +5, Wis +3, Cha +5",
+    "Intelligence": 14,
+    "Wisdom": 11,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hobgoblin%20warlord_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Krull",
+    "CR": "6",
+    "Type": "humanoid (tortle)",
+    "Alignment": "L E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Wis +8, Cha +4",
+    "Intelligence": 12,
+    "Wisdom": 20,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#krull_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "White Abishai",
+    "CR": "6",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Str +6, Con +7",
+    "Intelligence": 11,
+    "Wisdom": 12,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#white%20abishai_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Smiler the Defiler",
+    "CR": "7",
+    "Type": "fey (elf)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 5,
+    "InitiativeBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 18,
+    "Wisdom": 11,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#smiler%20the%20defiler_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Fiendish Flesh Golem",
+    "CR": "8",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#fiendish%20flesh%20golem_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Nycaloth",
+    "CR": "9",
+    "Type": "fiend (yugoloth)",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 10,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#nycaloth_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Death Slaad",
+    "CR": "10",
+    "Type": "aberration",
+    "Alignment": "C E",
+    "PassivePerception": 18,
+    "PerceptionBonus": 8,
+    "StealthBonus": 2,
+    "InitiativeBonus": 6,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 10,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#death%20slaad_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Necrotic Centipede",
+    "CR": "11",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#necrotic%20centipede_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Torogar Steelfist",
+    "CR": "11",
+    "Type": "monstrosity",
+    "Alignment": "L E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Str +11, Con +9",
+    "Intelligence": 8,
+    "Wisdom": 9,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#torogar%20steelfist_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Arcanaloth",
+    "CR": "12",
+    "Type": "fiend (yugoloth)",
+    "Alignment": "N E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 1,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Dex +5, Con +6, Int +9, Wis +7",
+    "Intelligence": 20,
+    "Wisdom": 16,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#arcanaloth_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Sylvira Savikas",
+    "CR": "12",
+    "Type": "Unknown",
+    "Alignment": "L N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sylvira%20savikas_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Traxigor",
+    "CR": "12",
+    "Type": "beast",
+    "Alignment": "C G",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#traxigor_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Narzugon",
+    "CR": "13",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Dex +5, Con +8, Cha +9",
+    "Intelligence": 16,
+    "Wisdom": 14,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#narzugon_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Ultroloth",
+    "CR": "13",
+    "Type": "fiend (yugoloth)",
+    "Alignment": "N E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 8,
+    "InitiativeBonus": 8,
+    "SavingThrows": "",
+    "Intelligence": 19,
+    "Wisdom": 15,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ultroloth_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Crokek'toeck",
+    "CR": "14",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Con +12, Wis +5",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#crokek'toeck_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Mahadi the Rakshasa",
+    "CR": "14",
+    "Type": "fiend",
+    "Alignment": "L E",
+    "PassivePerception": 19,
+    "PerceptionBonus": 9,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Wis +9, Cha +10",
+    "Intelligence": 14,
+    "Wisdom": 18,
+    "Charisma": 20,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mahadi%20the%20rakshasa_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Arkhan the Cruel",
+    "CR": "16",
+    "Type": "humanoid (dragonborn)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Wis +5, Cha +9",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#arkhan%20the%20cruel_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Death Knight",
+    "CR": "17",
+    "Type": "undead",
+    "Alignment": "C E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 0,
+    "InitiativeBonus": 6,
+    "SavingThrows": "Dex +6, Wis +9",
+    "Intelligence": 12,
+    "Wisdom": 16,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#death%20knight_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Amnizu",
+    "CR": "18",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Dex +7, Con +9, Wis +7, Cha +10",
+    "Intelligence": 20,
+    "Wisdom": 12,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#amnizu_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Amnizu (Summoner Variant)",
+    "CR": "18",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Sibriex",
+    "CR": "18",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 23,
+    "PerceptionBonus": 13,
+    "StealthBonus": -4,
+    "InitiativeBonus": -4,
+    "SavingThrows": "Int +13, Cha +13",
+    "Intelligence": 25,
+    "Wisdom": 24,
+    "Charisma": 25,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sibriex_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Baphomet",
+    "CR": "23",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 24,
+    "PerceptionBonus": 14,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +9, Con +15, Wis +14",
+    "Intelligence": 18,
+    "Wisdom": 24,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#baphomet_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Yeenoghu",
+    "CR": "24",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 24,
+    "PerceptionBonus": 14,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +10, Con +15, Wis +14",
+    "Intelligence": 15,
+    "Wisdom": 24,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yeenoghu_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Bel",
+    "CR": "25",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +10, Con +16, Wis +12",
+    "Intelligence": 25,
+    "Wisdom": 19,
+    "Charisma": 26,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bel_coa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Kostchtchie",
+    "CR": "25",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 24,
+    "PerceptionBonus": 14,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Dex +9, Con +16, Wis +14",
+    "Intelligence": 18,
+    "Wisdom": 22,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kostchtchie_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Archduke Zariel of Avernus",
+    "CR": "26",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#archduke%20zariel%20of%20avernus_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Tiamat",
+    "CR": "30",
+    "Type": "fiend",
+    "Alignment": "C E",
+    "PassivePerception": 36,
+    "PerceptionBonus": 26,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Str +19, Dex +9, Wis +17",
+    "Intelligence": 26,
+    "Wisdom": 26,
+    "Charisma": 28,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tiamat_rot",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  }
+]

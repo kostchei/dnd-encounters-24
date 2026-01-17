@@ -172,6 +172,52 @@
     ]
   },
   {
+    "Name": "Abyssal Chicken",
+    "CR": "1/4",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 9,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#abyssal%20chicken_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Abyssal Wretch",
+    "CR": "1/4",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 8,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#abyssal%20wretch_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Adult Amethyst Dragon",
     "CR": "16",
     "Type": "dragon (gem)",
@@ -423,6 +469,29 @@
     ]
   },
   {
+    "Name": "Amarith Coppervein",
+    "CR": "3",
+    "Type": "Unknown",
+    "Alignment": "N G",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#amarith%20coppervein_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Ambitious Assassin",
     "CR": "5",
     "Type": "humanoid",
@@ -484,6 +553,74 @@
     ],
     "Adventures": [
       "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Amnizu",
+    "CR": "18",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Dex +7, Con +9, Wis +7, Cha +10",
+    "Intelligence": 20,
+    "Wisdom": 12,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#amnizu_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Amnizu (Summoner Variant)",
+    "CR": "18",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Amrik Vanthampur",
+    "CR": "3",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 14,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#amrik%20vanthampur_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -922,11 +1059,13 @@
       "Calimshan",
       "Dungeons",
       "Heartlands",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Cities"
     ],
     "Adventures": [
       "Phandelver and Below",
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -948,6 +1087,29 @@
     "Region": [
       "Icewind Dale",
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Archduke Zariel of Avernus",
+    "CR": "26",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#archduke%20zariel%20of%20avernus_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -1013,6 +1175,52 @@
     "Region": [
       "Heartlands",
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Arkhan the Cruel",
+    "CR": "16",
+    "Type": "humanoid (dragonborn)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Wis +5, Cha +9",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#arkhan%20the%20cruel_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Asha Vandree",
+    "CR": "2",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#asha%20vandree_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -1121,6 +1329,29 @@
     ],
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Awakened Zurkhwood",
+    "CR": "2",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -2,
+    "InitiativeBonus": -2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#awakened%20zurkhwood_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -1326,6 +1557,31 @@
     ]
   },
   {
+    "Name": "Baphomet",
+    "CR": "23",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 24,
+    "PerceptionBonus": 14,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +9, Con +15, Wis +14",
+    "Intelligence": 18,
+    "Wisdom": 24,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#baphomet_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus",
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Bard",
     "CR": "2",
     "Type": "humanoid (any race)",
@@ -1370,7 +1626,8 @@
       "Dungeons"
     ],
     "Adventures": [
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Out of the Abyss"
     ]
   },
   {
@@ -1416,6 +1673,50 @@
     "Region": [
       "Dungeons"
     ]
+  },
+  {
+    "Name": "Basilisk (Infant)",
+    "CR": "0",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Basilisk (Young)",
+    "CR": "1",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Battlehammer Dwarf",
@@ -1505,7 +1806,8 @@
     ],
     "Adventures": [
       "Phandelver and Below",
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Out of the Abyss"
     ]
   },
   {
@@ -1530,6 +1832,29 @@
     ],
     "Adventures": [
       "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Bel",
+    "CR": "25",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +10, Con +16, Wis +12",
+    "Intelligence": 25,
+    "Wisdom": 19,
+    "Charisma": 26,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bel_coa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -1611,6 +1936,29 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
+    ]
+  },
+  {
+    "Name": "Black Gauntlet of Bane",
+    "CR": "6",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Wis +5",
+    "Intelligence": 12,
+    "Wisdom": 15,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#black%20gauntlet%20of%20bane_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -1807,6 +2155,29 @@
     ]
   },
   {
+    "Name": "Bone Whelk",
+    "CR": "1/4",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": -3,
+    "InitiativeBonus": -3,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 9,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bone%20whelk_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Brain Breaker",
     "CR": "12",
     "Type": "Unknown",
@@ -1871,6 +2242,29 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Bridesmaid of Zuggtmoy",
+    "CR": "1/8",
+    "Type": "plant",
+    "Alignment": "C E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 8,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bridesmaid%20of%20zuggtmoy_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -1957,6 +2351,29 @@
     ]
   },
   {
+    "Name": "Bulezau",
+    "CR": "3",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 9,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bulezau_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Bullywug Bog Sage",
     "CR": "4",
     "Type": "fey",
@@ -1993,7 +2410,11 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -2041,7 +2462,32 @@
     "Adventures": [
       "Rime of the Frostmaiden",
       "Dragon of Icespire Peak",
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Baldur's Gate: Descent into Avernus",
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Cave Badger",
+    "CR": "1/4",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#cave%20badger_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -2106,6 +2552,29 @@
     "Region": [
       "Calimshan",
       "Dungeons"
+    ]
+  },
+  {
+    "Name": "Chamberlain of Zuggtmoy",
+    "CR": "2",
+    "Type": "plant",
+    "Alignment": "C E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": -2,
+    "InitiativeBonus": -2,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 8,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#chamberlain%20of%20zuggtmoy_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -2175,6 +2644,31 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#chardalyn%20dragon_idrotf",
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Chasme",
+    "CR": "6",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Dex +5, Wis +5",
+    "Intelligence": 11,
+    "Wisdom": 14,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#chasme_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus",
+      "Out of the Abyss"
     ]
   },
   {
@@ -2331,6 +2825,29 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
+    ]
+  },
+  {
+    "Name": "Chuul Spore Servant",
+    "CR": "4",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 6,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#chuul%20spore%20servant_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -2637,7 +3154,32 @@
       "Dungeons"
     ],
     "Adventures": [
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Baldur's Gate: Descent into Avernus",
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Crokek'toeck",
+    "CR": "14",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Con +12, Wis +5",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#crokek'toeck_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -2994,7 +3536,11 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -3034,7 +3580,12 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus",
+      "Out of the Abyss"
     ]
   },
   {
@@ -3055,6 +3606,32 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Death's Head of Bhaal",
+    "CR": "5",
+    "Type": "humanoid (human)",
+    "Alignment": "C E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 11,
+    "InitiativeBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 13,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#death's%20head%20of%20bhaal_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -3083,6 +3660,29 @@
     ]
   },
   {
+    "Name": "Demogorgon",
+    "CR": "26",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 29,
+    "PerceptionBonus": 19,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +10, Con +16, Wis +11, Cha +15",
+    "Intelligence": 20,
+    "Wisdom": 17,
+    "Charisma": 25,
+    "Statblock_Link": "https://5e.tools/bestiary.html#demogorgon_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Demos Magen",
     "CR": "2",
     "Type": "construct",
@@ -3103,6 +3703,52 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#demos%20magen_idrotf",
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Derro",
+    "CR": "1/4",
+    "Type": "humanoid (derro)",
+    "Alignment": "C E",
+    "PassivePerception": 7,
+    "PerceptionBonus": -3,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 5,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#derro_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Derro Savant",
+    "CR": "3",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#derro%20savant_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -3295,6 +3941,51 @@
     ]
   },
   {
+    "Name": "Drider (variant)",
+    "CR": "6",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Droki",
+    "CR": "2",
+    "Type": "humanoid (derro)",
+    "Alignment": "C E",
+    "PassivePerception": 7,
+    "PerceptionBonus": -3,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 5,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#droki_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Drow Elite Warrior",
     "CR": "5",
     "Type": "humanoid (elf)",
@@ -3319,7 +4010,8 @@
     "Adventures": [
       "Phandelver and Below",
       "Rime of the Frostmaiden",
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Out of the Abyss"
     ]
   },
   {
@@ -3389,7 +4081,54 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#drow%20mage_mm",
     "Adventures": [
       "Rime of the Frostmaiden",
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Drow Priestess of Lolth",
+    "CR": "8",
+    "Type": "humanoid (elf)",
+    "Alignment": "N E",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 5,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Con +4, Wis +6, Cha +7",
+    "Intelligence": 13,
+    "Wisdom": 17,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#drow%20priestess%20of%20lolth_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Drow Spore Servant",
+    "CR": "1/8",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 6,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#drow%20spore%20servant_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -3433,6 +4172,52 @@
     ]
   },
   {
+    "Name": "Duergar Alchemist",
+    "CR": "1",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20alchemist_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Duergar Darkhaft",
+    "CR": "2",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20darkhaft_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Duergar Hammerer",
     "CR": "2",
     "Type": "construct (dwarf)",
@@ -3456,6 +4241,52 @@
     ]
   },
   {
+    "Name": "Duergar Kavalrachni",
+    "CR": "2",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20kavalrachni_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Duergar Keeper of the Flame",
+    "CR": "2",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20keeper%20of%20the%20flame_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Duergar Mind Master",
     "CR": "2",
     "Type": "humanoid (dwarf)",
@@ -3476,6 +4307,144 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20mind%20master_mpmm",
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Duergar Soulblade",
+    "CR": "1",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20soulblade_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Duergar Spore Servant",
+    "CR": "1/2",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 6,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20spore%20servant_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Duergar Stone Guard",
+    "CR": "2",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20stone%20guard_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Duergar Xarrorn",
+    "CR": "2",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20xarrorn_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Duke Thalamra Vanthampur",
+    "CR": "4",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 16,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#duke%20thalamra%20vanthampur_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Duodrone",
+    "CR": "1/4",
+    "Type": "construct",
+    "Alignment": "L N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#duodrone_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -3708,6 +4677,29 @@
     ],
     "Adventures": [
       "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Emerald Enclave Scout",
+    "CR": "1/2",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "L N",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 13,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#emerald%20enclave%20scout_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -3974,6 +4966,29 @@
     ]
   },
   {
+    "Name": "Female Steeder",
+    "CR": "1",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 7,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#female%20steeder_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Feral Ashenwight",
     "CR": "5",
     "Type": "undead",
@@ -4042,6 +5057,52 @@
     ]
   },
   {
+    "Name": "Fiendish Flesh Golem",
+    "CR": "8",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#fiendish%20flesh%20golem_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Fiendish Giant Spider",
+    "CR": "1/2",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#fiendish%20giant%20spider_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Fire Elemental",
     "CR": "5",
     "Type": "elemental",
@@ -4099,7 +5160,11 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -4120,6 +5185,9 @@
     "Adventure": "",
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -4251,7 +5319,31 @@
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#flumph_xmm",
     "Adventures": [
-      "Phandelver and Below"
+      "Phandelver and Below",
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Flying Dagger",
+    "CR": "1/8",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#flying%20dagger_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -4292,7 +5384,11 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Moonshae"
+      "Moonshae",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -4317,6 +5413,28 @@
     "Adventures": [
       "Rime of the Frostmaiden"
     ]
+  },
+  {
+    "Name": "Fraz-Urb’luu",
+    "CR": "23",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Frost Druid",
@@ -4406,7 +5524,8 @@
       "Dungeons"
     ],
     "Adventures": [
-      "Phandelver and Below"
+      "Phandelver and Below",
+      "Out of the Abyss"
     ]
   },
   {
@@ -4470,8 +5589,31 @@
       "Dungeons"
     ],
     "Adventures": [
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Out of the Abyss"
     ]
+  },
+  {
+    "Name": "Gash the Gnoll",
+    "CR": "1/2",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Gazer",
@@ -4865,6 +6007,52 @@
     ]
   },
   {
+    "Name": "Giant Riding Lizard",
+    "CR": "1/4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20riding%20lizard_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Giant Rocktopus",
+    "CR": "1",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20rocktopus_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Giant Scorpion",
     "CR": "3",
     "Type": "beast",
@@ -4969,6 +6157,29 @@
     ]
   },
   {
+    "Name": "Gideon Lightward",
+    "CR": "6",
+    "Type": "undead",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Dex +4, Con +7, Wis +7",
+    "Intelligence": 10,
+    "Wisdom": 18,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gideon%20lightward_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Githyanki Knight",
     "CR": "8",
     "Type": "aberration (gith)",
@@ -5014,6 +6225,29 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#githyanki%20warrior_xmm",
     "Adventures": [
       "Phandelver and Below"
+    ]
+  },
+  {
+    "Name": "Glabbagool",
+    "CR": "2",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#glabbagool_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -5095,10 +6329,14 @@
     "Adventure": "",
     "Region": [
       "Heartlands",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Cities",
+      "Dungeons"
     ],
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Baldur's Gate: Descent into Avernus",
+      "Out of the Abyss"
     ]
   },
   {
@@ -5118,7 +6356,13 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Heartlands"
+      "Heartlands",
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus",
+      "Out of the Abyss"
     ]
   },
   {
@@ -5253,11 +6497,14 @@
       "Heartlands",
       "Moonshae",
       "Dungeons",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Cities"
     ],
     "Adventures": [
       "Phandelver and Below",
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Baldur's Gate: Descent into Avernus",
+      "Out of the Abyss"
     ]
   },
   {
@@ -5535,6 +6782,28 @@
     ]
   },
   {
+    "Name": "Graz’zt",
+    "CR": "24",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
+  },
+  {
     "Name": "Great Warrior",
     "CR": "Unknown",
     "Type": "Unknown",
@@ -5593,11 +6862,13 @@
       "Slaad"
     ],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Dungeons"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#green%20slaad_xmm",
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Out of the Abyss"
     ]
   },
   {
@@ -5625,7 +6896,8 @@
     "Adventures": [
       "Phandelver and Below",
       "Rime of the Frostmaiden",
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Out of the Abyss"
     ]
   },
   {
@@ -5695,7 +6967,8 @@
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#grick%20alpha_mm",
     "Adventures": [
-      "Phandelver and Below"
+      "Phandelver and Below",
+      "Out of the Abyss"
     ]
   },
   {
@@ -5784,6 +7057,29 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
+    ]
+  },
+  {
+    "Name": "Grisha",
+    "CR": "2",
+    "Type": "humanoid ([object Object])",
+    "Alignment": "C E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Wis +4, Cha +5",
+    "Intelligence": 11,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#grisha_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -5891,10 +7187,10 @@
   },
   {
     "Name": "Half-Ogre",
-    "CR": "Unknown",
+    "CR": "1",
     "Type": "Unknown",
     "Alignment": "Unknown",
-    "PassivePerception": 0,
+    "PassivePerception": 10,
     "PerceptionBonus": 0,
     "StealthBonus": 0,
     "InitiativeBonus": 0,
@@ -5907,6 +7203,9 @@
     "Adventure": "",
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -5954,6 +7253,29 @@
       "Waterdeep Dragon Heist"
     ],
     "Statblock_Link": ""
+  },
+  {
+    "Name": "Hanne Hallen",
+    "CR": "1/4",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 17,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hanne%20hallen_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
   },
   {
     "Name": "Hare",
@@ -6106,6 +7428,29 @@
     ]
   },
   {
+    "Name": "Hellwasp",
+    "CR": "5",
+    "Type": "fiend",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +5, Wis +3",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hellwasp_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Helmed Horror",
     "CR": "4",
     "Type": "construct",
@@ -6130,7 +7475,8 @@
     "Adventures": [
       "Phandelver and Below",
       "Rime of the Frostmaiden",
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -6242,6 +7588,29 @@
     ]
   },
   {
+    "Name": "Hobgoblin Captain",
+    "CR": "3",
+    "Type": "fey (goblinoid)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 10,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hobgoblin%20captain_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Hobgoblin Warlord",
     "CR": "6",
     "Type": "fey (goblinoid)",
@@ -6259,7 +7628,11 @@
     "Adventure": "",
     "Region": [
       "Heartlands",
-      "Moonshae"
+      "Moonshae",
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -6284,6 +7657,29 @@
     ]
   },
   {
+    "Name": "Hollyphant",
+    "CR": "5",
+    "Type": "celestial",
+    "Alignment": "L G",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Dex +3, Con +4, Cha +6",
+    "Intelligence": 16,
+    "Wisdom": 19,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hollyphant_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Hook Horror",
     "CR": "3",
     "Type": "monstrosity",
@@ -6301,7 +7697,121 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
+  },
+  {
+    "Name": "Hook Horror (Infant)",
+    "CR": "0",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Hook Horror (Juvenile)",
+    "CR": "2",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Hook Horror (Young)",
+    "CR": "1/4",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Hook Horror Spore Servant",
+    "CR": "3",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 6,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hook%20horror%20spore%20servant_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Horgar Steelshadow V",
+    "CR": "3",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Horned Devil",
@@ -6661,7 +8171,8 @@
       "Dungeons"
     ],
     "Adventures": [
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Out of the Abyss"
     ]
   },
   {
@@ -6712,6 +8223,29 @@
     ]
   },
   {
+    "Name": "Iron Consul",
+    "CR": "2",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Wis +4",
+    "Intelligence": 12,
+    "Wisdom": 15,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#iron%20consul_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Iron Golem",
     "CR": "16",
     "Type": "construct",
@@ -6757,6 +8291,52 @@
     ]
   },
   {
+    "Name": "Ixitxachitl",
+    "CR": "1/4",
+    "Type": "aberration",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 13,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ixitxachitl_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Ixitxachitl Cleric",
+    "CR": "1/4",
+    "Type": "aberration",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 13,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ixitxachitl%20cleric_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Jackalwere",
     "CR": "1/2",
     "Type": "fiend",
@@ -6773,8 +8353,34 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
+  },
+  {
+    "Name": "Jade Spider",
+    "CR": "10",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Jalester Silvermane",
@@ -6822,6 +8428,29 @@
     ],
     "Adventures": [
       "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Juiblex",
+    "CR": "23",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 22,
+    "PerceptionBonus": 12,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Dex +7, Con +13, Wis +12",
+    "Intelligence": 20,
+    "Wisdom": 20,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#juiblex_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -6913,7 +8542,31 @@
       "Dungeons"
     ],
     "Adventures": [
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Khalessa Draga",
+    "CR": "1",
+    "Type": "Unknown",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#khalessa%20draga_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -7044,6 +8697,29 @@
     ]
   },
   {
+    "Name": "Kostchtchie",
+    "CR": "25",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 24,
+    "PerceptionBonus": 14,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Dex +9, Con +16, Wis +14",
+    "Intelligence": 18,
+    "Wisdom": 22,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kostchtchie_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Kraken",
     "CR": "23",
     "Type": "monstrosity (titan)",
@@ -7061,6 +8737,29 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Krull",
+    "CR": "6",
+    "Type": "humanoid (tortle)",
+    "Alignment": "L E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Wis +8, Cha +4",
+    "Intelligence": 12,
+    "Wisdom": 20,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#krull_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -7084,7 +8783,54 @@
       "Dungeons"
     ],
     "Adventures": [
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Kuo-toa Archpriest",
+    "CR": "6",
+    "Type": "aberration",
+    "Alignment": "N E",
+    "PassivePerception": 19,
+    "PerceptionBonus": 9,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 16,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kuo-toa%20archpriest_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Kuo-toa Monitor",
+    "CR": "3",
+    "Type": "aberration",
+    "Alignment": "N E",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kuo-toa%20monitor_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -7108,7 +8854,8 @@
       "Dungeons"
     ],
     "Adventures": [
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Out of the Abyss"
     ]
   },
   {
@@ -7177,6 +8924,52 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
+    ]
+  },
+  {
+    "Name": "Larva",
+    "CR": "0",
+    "Type": "fiend",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 2,
+    "Statblock_Link": "https://5e.tools/bestiary.html#larva_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Liara Portyr",
+    "CR": "4",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Con +4, Wis +4",
+    "Intelligence": 14,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#liara%20portyr_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -7375,6 +9168,50 @@
     ]
   },
   {
+    "Name": "Lords’ Alliance Guard",
+    "CR": "1/4",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Lords’ Alliance Spy",
+    "CR": "1",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
+  },
+  {
     "Name": "Lorthuun",
     "CR": "9",
     "Type": "Unknown",
@@ -7391,7 +9228,11 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "New Regional Addition"
+      "New Regional Addition",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -7417,6 +9258,28 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ]
+  },
+  {
+    "Name": "Madcap",
+    "CR": "3",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Mage",
@@ -7523,6 +9386,52 @@
     ]
   },
   {
+    "Name": "Mahadi the Rakshasa",
+    "CR": "14",
+    "Type": "fiend",
+    "Alignment": "L E",
+    "PassivePerception": 19,
+    "PerceptionBonus": 9,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Wis +9, Cha +10",
+    "Intelligence": 14,
+    "Wisdom": 18,
+    "Charisma": 20,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mahadi%20the%20rakshasa_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Male Steeder",
+    "CR": "1/4",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#male%20steeder_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Mammoth",
     "CR": "6",
     "Type": "beast",
@@ -7583,7 +9492,11 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -7714,6 +9627,29 @@
     ],
     "Adventures": [
       "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Master of Souls",
+    "CR": "4",
+    "Type": "humanoid (human)",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Wis +4",
+    "Intelligence": 19,
+    "Wisdom": 14,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#master%20of%20souls_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -7866,6 +9802,29 @@
     ]
   },
   {
+    "Name": "Merregon",
+    "CR": "4",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 12,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#merregon_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Merrow",
     "CR": "2",
     "Type": "monstrosity",
@@ -7883,6 +9842,29 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Mev Flintknapper",
+    "CR": "3",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mev%20flintknapper_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -7904,10 +9886,12 @@
     "Region": [
       "Calimshan",
       "Heartlands",
-      "Dungeons"
+      "Dungeons",
+      "Cities"
     ],
     "Adventures": [
-      "Phandelver and Below"
+      "Phandelver and Below",
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -7956,7 +9940,8 @@
     "Adventures": [
       "Phandelver and Below",
       "Rime of the Frostmaiden",
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Out of the Abyss"
     ]
   },
   {
@@ -8082,6 +10067,29 @@
     ]
   },
   {
+    "Name": "Monodrone",
+    "CR": "1/8",
+    "Type": "construct",
+    "Alignment": "L N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#monodrone_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Mookie Plush",
     "CR": "3",
     "Type": "Unknown",
@@ -8105,6 +10113,29 @@
     "Statblock_Link": ""
   },
   {
+    "Name": "Mortlock Vanthampur",
+    "CR": "3",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mortlock%20vanthampur_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Mountain Goat",
     "CR": "1/8",
     "Type": "beast",
@@ -8125,6 +10156,29 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#mountain%20goat_idrotf",
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Mud Mephit",
+    "CR": "1/4",
+    "Type": "elemental",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 3,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 11,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mud%20mephit_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -8168,6 +10222,29 @@
     ]
   },
   {
+    "Name": "Myconid Adult",
+    "CR": "1/2",
+    "Type": "plant",
+    "Alignment": "L N",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 13,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#myconid%20adult_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Myconid Sovereign",
     "CR": "2",
     "Type": "plant",
@@ -8183,11 +10260,36 @@
     "Charisma": 10,
     "Tags": [],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Dungeons"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#myconid%20sovereign_xmm",
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Myconid Sprout",
+    "CR": "0",
+    "Type": "plant",
+    "Alignment": "L N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 11,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#myconid%20sprout_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -8212,6 +10314,74 @@
     ]
   },
   {
+    "Name": "Nalfeshnee (Summoner Variant)",
+    "CR": "13",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Narrak",
+    "CR": "2",
+    "Type": "humanoid (derro)",
+    "Alignment": "C E",
+    "PassivePerception": 7,
+    "PerceptionBonus": -3,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 5,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#narrak_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Narzugon",
+    "CR": "13",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Dex +5, Con +8, Cha +9",
+    "Intelligence": 16,
+    "Wisdom": 14,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#narzugon_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Necromite of Myrkul",
     "CR": "1/2",
     "Type": "humanoid (human)",
@@ -8229,6 +10399,32 @@
     "Adventure": "",
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Necrotic Centipede",
+    "CR": "11",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#necrotic%20centipede_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -8257,6 +10453,29 @@
       "Phandelver and Below",
       "Rime of the Frostmaiden",
       "Dragon of Icespire Peak"
+    ]
+  },
+  {
+    "Name": "Night Blade",
+    "CR": "1/4",
+    "Type": "humanoid (human)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#night%20blade_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -8388,6 +10607,29 @@
     ]
   },
   {
+    "Name": "Nine-Fingers Keene",
+    "CR": "5",
+    "Type": "humanoid (human)",
+    "Alignment": "N",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 10,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +7, Int +4",
+    "Intelligence": 13,
+    "Wisdom": 17,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#nine-fingers%20keene_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Noble Prodigy",
     "CR": "10",
     "Type": "humanoid",
@@ -8451,6 +10693,29 @@
     ]
   },
   {
+    "Name": "Nupperibo",
+    "CR": "1/2",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 8,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#nupperibo_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Nycaloth",
     "CR": "9",
     "Type": "fiend (yugoloth)",
@@ -8469,10 +10734,12 @@
     "Region": [
       "Calimshan",
       "Heartlands",
-      "Dungeons"
+      "Dungeons",
+      "Cities"
     ],
     "Adventures": [
-      "Phandelver and Below"
+      "Phandelver and Below",
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -8643,11 +10910,13 @@
     "Charisma": 12,
     "Tags": [],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Dungeons"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#orc%20eye%20of%20gruumsh_mm",
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Out of the Abyss"
     ]
   },
   {
@@ -8671,6 +10940,52 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#orc%20war%20chief_mm",
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Orcus",
+    "CR": "26",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 22,
+    "PerceptionBonus": 13,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +10, Con +15, Wis +13",
+    "Intelligence": 20,
+    "Wisdom": 20,
+    "Charisma": 25,
+    "Statblock_Link": "https://5e.tools/bestiary.html#orcus_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Orog",
+    "CR": "2",
+    "Type": "humanoid (orc)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 11,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#orog_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -8991,7 +11306,8 @@
       "Icewind Dale"
     ],
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Out of the Abyss"
     ]
   },
   {
@@ -9192,11 +11508,13 @@
     "Charisma": 14,
     "Tags": [],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Dungeons"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#poltergeist_xmm",
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Out of the Abyss"
     ]
   },
   {
@@ -9238,6 +11556,51 @@
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Prince Livid",
+    "CR": "1/2",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Princess Ebonmire",
+    "CR": "4",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#princess%20ebonmire_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -9335,8 +11698,31 @@
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#psychic%20gray%20ooze_xmm",
     "Adventures": [
-      "Phandelver and Below"
+      "Phandelver and Below",
+      "Out of the Abyss"
     ]
+  },
+  {
+    "Name": "Pudding King",
+    "CR": "4",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Purple Worm",
@@ -9375,10 +11761,12 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Dungeons"
     ],
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Out of the Abyss"
     ]
   },
   {
@@ -9397,11 +11785,13 @@
     "Charisma": 1,
     "Tags": [],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Dungeons"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#quaggoth%20spore%20servant_mm",
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Out of the Abyss"
     ]
   },
   {
@@ -9420,11 +11810,36 @@
     "Charisma": 7,
     "Tags": [],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Dungeons"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#quaggoth%20thonot_xmm",
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Quenthel Baenre",
+    "CR": "22",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 22,
+    "PerceptionBonus": 12,
+    "StealthBonus": 9,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Con +8, Wis +12, Cha +11",
+    "Intelligence": 18,
+    "Wisdom": 20,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#quenthel%20baenre_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -9467,6 +11882,29 @@
     "Region": [
       "Calimshan",
       "Cities"
+    ]
+  },
+  {
+    "Name": "Reaper of Bhaal",
+    "CR": "2",
+    "Type": "humanoid (human)",
+    "Alignment": "C E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 9,
+    "InitiativeBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 12,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#reaper%20of%20bhaal_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -9544,6 +11982,29 @@
     ]
   },
   {
+    "Name": "Redcap",
+    "CR": "3",
+    "Type": "fey",
+    "Alignment": "C E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#redcap_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Reduced-Threat Aboleth",
     "CR": "Unknown",
     "Type": "Unknown",
@@ -9587,6 +12048,29 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#refraction%20of%20ilvaash_pabtso",
     "Adventures": [
       "Phandelver and Below"
+    ]
+  },
+  {
+    "Name": "Regenerating Black Pudding",
+    "CR": "5",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#regenerating%20black%20pudding_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -9788,6 +12272,52 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
+    ]
+  },
+  {
+    "Name": "Rihuud",
+    "CR": "7",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#rihuud_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Rilsa Rael",
+    "CR": "3",
+    "Type": "humanoid (human)",
+    "Alignment": "N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 6,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +6, Wis +2",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#rilsa%20rael_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -10338,10 +12868,14 @@
     "Adventure": "",
     "Region": [
       "Calimshan",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Cities",
+      "Dungeons"
     ],
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Baldur's Gate: Descent into Avernus",
+      "Out of the Abyss"
     ]
   },
   {
@@ -10405,6 +12939,29 @@
     ]
   },
   {
+    "Name": "Shedrak of the Eyes",
+    "CR": "6",
+    "Type": "humanoid (human)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#shedrak%20of%20the%20eyes_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Sheep",
     "CR": "Unknown",
     "Type": "Unknown",
@@ -10447,6 +13004,29 @@
       "Calimshan",
       "Cities",
       "Dungeons"
+    ]
+  },
+  {
+    "Name": "Sibriex",
+    "CR": "18",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 23,
+    "PerceptionBonus": 13,
+    "StealthBonus": -4,
+    "InitiativeBonus": -4,
+    "SavingThrows": "Int +13, Cha +13",
+    "Intelligence": 25,
+    "Wisdom": 24,
+    "Charisma": 25,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sibriex_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -10511,6 +13091,9 @@
     "Adventure": "",
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -10539,6 +13122,52 @@
     "Adventures": [
       "Phandelver and Below",
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Sladis Vadir",
+    "CR": "2",
+    "Type": "Unknown",
+    "Alignment": "N G",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sladis%20vadir_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Smiler the Defiler",
+    "CR": "7",
+    "Type": "fey (elf)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 5,
+    "InitiativeBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 18,
+    "Wisdom": 11,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#smiler%20the%20defiler_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -10803,6 +13432,52 @@
     ]
   },
   {
+    "Name": "Spider King",
+    "CR": "1",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 7,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Con +3, Wis +2",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#spider%20king_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Spiderbait",
+    "CR": "1/4",
+    "Type": "Unknown",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 6,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#spiderbait_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Spined Devil",
     "CR": "2",
     "Type": "fiend (devil)",
@@ -10823,7 +13498,8 @@
       "Dungeons"
     ],
     "Adventures": [
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -11055,6 +13731,29 @@
     ]
   },
   {
+    "Name": "Svirfneblin Wererat",
+    "CR": "2",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#svirfneblin%20wererat_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Swanmay",
     "CR": "3",
     "Type": "fey",
@@ -11141,6 +13840,51 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ]
+  },
+  {
+    "Name": "Sylvira Savikas",
+    "CR": "12",
+    "Type": "Unknown",
+    "Alignment": "L N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sylvira%20savikas_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Szashune",
+    "CR": "10",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Talisolvanar “Tally” Fellbranch",
@@ -11236,6 +13980,29 @@
     ]
   },
   {
+    "Name": "Thavius Kreeg",
+    "CR": "1/2",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 18,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#thavius%20kreeg_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Thessalhydra",
     "CR": "4",
     "Type": "monstrosity",
@@ -11320,6 +14087,52 @@
     ]
   },
   {
+    "Name": "Thurstwell Vanthampur",
+    "CR": "1/8",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 17,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#thurstwell%20vanthampur_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Tiamat",
+    "CR": "30",
+    "Type": "fiend",
+    "Alignment": "C E",
+    "PassivePerception": 36,
+    "PerceptionBonus": 26,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Str +19, Dex +9, Wis +17",
+    "Intelligence": 26,
+    "Wisdom": 26,
+    "Charisma": 28,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tiamat_rot",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Tiger",
     "CR": "1",
     "Type": "beast",
@@ -11363,6 +14176,29 @@
     ]
   },
   {
+    "Name": "Torogar Steelfist",
+    "CR": "11",
+    "Type": "monstrosity",
+    "Alignment": "L E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Str +11, Con +9",
+    "Intelligence": 8,
+    "Wisdom": 9,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#torogar%20steelfist_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Tough",
     "CR": "1/2",
     "Type": "humanoid",
@@ -11401,6 +14237,29 @@
     "Adventure": "",
     "Region": [
       "Cities"
+    ]
+  },
+  {
+    "Name": "Traxigor",
+    "CR": "12",
+    "Type": "beast",
+    "Alignment": "C G",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#traxigor_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -11446,6 +14305,29 @@
     ]
   },
   {
+    "Name": "Tressym",
+    "CR": "0",
+    "Type": "monstrosity",
+    "Alignment": "A",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 12,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tressym_skt",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Tribal Warrior",
     "CR": "1/8",
     "Type": "humanoid (any race)",
@@ -11469,6 +14351,29 @@
     ]
   },
   {
+    "Name": "Tridrone",
+    "CR": "1/2",
+    "Type": "construct",
+    "Alignment": "L N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tridrone_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Troglodyte",
     "CR": "1/4",
     "Type": "monstrosity",
@@ -11489,7 +14394,31 @@
       "Cities"
     ],
     "Adventures": [
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Troglodyte Champion of Laogzed",
+    "CR": "3",
+    "Type": "humanoid (troglodyte)",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 3,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 12,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#troglodyte%20champion%20of%20laogzed_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -11535,6 +14464,52 @@
     ]
   },
   {
+    "Name": "Two-Headed Troll",
+    "CR": "5",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#two-headed%20troll_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Ulder Ravengard",
+    "CR": "5",
+    "Type": "humanoid (human)",
+    "Alignment": "N",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Con +6, Wis +3",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ulder%20ravengard_bgdia",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "Ultroloth",
     "CR": "13",
     "Type": "fiend (yugoloth)",
@@ -11551,7 +14526,11 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
     ]
   },
   {
@@ -11577,7 +14556,8 @@
     ],
     "Adventures": [
       "Phandelver and Below",
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Out of the Abyss"
     ]
   },
   {
@@ -11851,6 +14831,29 @@
     "Region": []
   },
   {
+    "Name": "Vampiric Ixitxachitl",
+    "CR": "2",
+    "Type": "aberration",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 13,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vampiric%20ixitxachitl_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Venomous Snake",
     "CR": "1/8",
     "Type": "beast",
@@ -11917,6 +14920,29 @@
     ]
   },
   {
+    "Name": "Veteran of the Gauntlet",
+    "CR": "3",
+    "Type": "humanoid (human)",
+    "Alignment": "L G",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#veteran%20of%20the%20gauntlet_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Victoro Cassalanter",
     "CR": "10",
     "Type": "humanoid (half-elf)",
@@ -11938,6 +14964,29 @@
     ],
     "Adventures": [
       "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Viln Tirin",
+    "CR": "5",
+    "Type": "Unknown",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#viln%20tirin_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -12003,6 +15052,29 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
+    ]
+  },
+  {
+    "Name": "Vizeran DeVir",
+    "CR": "12",
+    "Type": "Unknown",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vizeran%20devir_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -12186,7 +15258,8 @@
     ],
     "Adventures": [
       "Phandelver and Below",
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Out of the Abyss"
     ]
   },
   {
@@ -12293,6 +15366,29 @@
     ]
   },
   {
+    "Name": "White Abishai",
+    "CR": "6",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Str +6, Con +7",
+    "Intelligence": 11,
+    "Wisdom": 12,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#white%20abishai_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
     "Name": "White Dragon Wyrmling",
     "CR": "2",
     "Type": "dragon (chromatic)",
@@ -12351,6 +15447,29 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
+    ]
+  },
+  {
+    "Name": "Winged Kobold",
+    "CR": "1/4",
+    "Type": "dragon",
+    "Alignment": "N",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 7,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#winged%20kobold_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -12503,6 +15622,54 @@
     ]
   },
   {
+    "Name": "Yantha Coaxrock",
+    "CR": "1/2",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 16,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yantha%20coaxrock_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Yeenoghu",
+    "CR": "24",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 24,
+    "PerceptionBonus": 14,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +10, Con +15, Wis +14",
+    "Intelligence": 15,
+    "Wisdom": 24,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yeenoghu_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Baldur's Gate: Descent into Avernus",
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Yestabrod",
     "CR": "4",
     "Type": "monstrosity",
@@ -12519,7 +15686,11 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "New Regional Addition"
+      "New Regional Addition",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   },
   {
@@ -12587,7 +15758,8 @@
       "Dungeons"
     ],
     "Adventures": [
-      "Phandelver and Below"
+      "Phandelver and Below",
+      "Out of the Abyss"
     ]
   },
   {
@@ -12839,6 +16011,52 @@
     ]
   },
   {
+    "Name": "Yuk Yuk",
+    "CR": "1/4",
+    "Type": "Unknown",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 6,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuk%20yuk_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Zhentarim Thug",
+    "CR": "1/2",
+    "Type": "humanoid (human)",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#zhentarim%20thug_oota",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
+    ]
+  },
+  {
     "Name": "Zhentilar Paladin of Bane",
     "CR": "4",
     "Type": "humanoid",
@@ -12921,6 +16139,29 @@
     "Region": [
       "Dungeons",
       "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Zuggtmoy",
+    "CR": "23",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 21,
+    "PerceptionBonus": 11,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +9, Con +11, Wis +11",
+    "Intelligence": 20,
+    "Wisdom": 19,
+    "Charisma": 24,
+    "Statblock_Link": "https://5e.tools/bestiary.html#zuggtmoy_mtf",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Out of the Abyss"
     ]
   }
 ]

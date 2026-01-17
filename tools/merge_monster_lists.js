@@ -6,6 +6,8 @@ const PHANDELVER_PATH = path.join(__dirname, '../data/phandelver_encounters.json
 const ICEWIND_PATH = path.join(__dirname, '../data/icewind_dale_encounters.json');
 const ICESPIRE_PATH = path.join(__dirname, '../data/icespirepeak_encounters.json');
 const WATERDEEP_PATH = path.join(__dirname, '../data/waterdeep_encounters.json');
+const BALDURS_PATH = path.join(__dirname, '../data/baldurs_gate_encounters.json');
+const ABYSS_PATH = path.join(__dirname, '../data/out_of_the_abyss_encounters.json');
 
 function mergeMonsters() {
     console.log('Reading main list...');
@@ -17,7 +19,7 @@ function mergeMonsters() {
         return;
     }
 
-    const filesToMerge = [PHANDELVER_PATH, ICEWIND_PATH, ICESPIRE_PATH, WATERDEEP_PATH];
+    const filesToMerge = [PHANDELVER_PATH, ICEWIND_PATH, ICESPIRE_PATH, WATERDEEP_PATH, BALDURS_PATH, ABYSS_PATH];
     let addedCount = 0;
     let updatedCount = 0;
 
