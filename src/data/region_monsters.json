@@ -284,12 +284,17 @@
             "Death Dog",
             "Ghoul",
             "Giant Spider",
+            "Goblin Boss",
+            "Goblin Boss (Variant)",
             "Harpy",
+            "Iarno “Glasstaff” Albrek",
+            "Psychic Gray Ooze",
             "Specter"
         ],
         "2": [
             "Carrion Crawler",
             "Gelatinous Cube",
+            "Goblin Psi Brawler",
             "Grick",
             "Mimic",
             "Nothic",
@@ -298,9 +303,13 @@
         ],
         "3": [
             "Basilisk",
+            "Encephalon Gemmule",
+            "Githyanki Warrior",
+            "Grell",
             "Hook Horror",
             "Phase Spider",
             "Spectator",
+            "Water Weird",
             "Wight"
         ],
         "4": [
@@ -309,50 +318,79 @@
             "Chuul",
             "Flameskull",
             "Ghost",
-            "Helmed Horror"
+            "Goblin Psi Commander",
+            "Grell Psychic",
+            "Helmed Horror",
+            "Humanoid Mutate"
         ],
         "5": [
+            "Drow Elite Warrior",
+            "Feral Ashenwight",
+            "Fiendish Auger",
             "Flesh Golem",
+            "Mezzoloth",
             "Otyugh",
+            "Red Slaad",
+            "Revenant",
             "Roper",
             "Umber Hulk",
             "Wraith"
         ],
         "6": [
             "Drider",
+            "Galeb Duhr",
             "Ghast Gravecaller",
-            "Medusa"
+            "Medusa",
+            "Otyugh Mutate"
         ],
         "7": [
+            "Blue Slaad",
+            "Flesh Meld",
+            "Grick Alpha",
             "Grick Ancient",
             "Mind Flayer",
+            "Psionic Ashenwight",
             "Shield Guardian",
             "Violet Fungus Necrohulk"
         ],
         "8": [
             "Aberrant Cultist",
+            "Aberrant Zealot",
+            "Aberrant Zealot (Variant)",
             "Chain Devil",
             "Cloaker",
+            "Githyanki Knight",
+            "Intellect Snare",
+            "Mind Flayer Prophet",
             "Spirit Naga"
         ],
         "9": [
             "Bone Devil",
             "Clay Golem",
-            "Glabrezu"
+            "Glabrezu",
+            "Gray Slaad",
+            "Nycaloth",
+            "Oculorb"
         ],
         "10": [
             "Aboleth",
+            "Cloaker Mutate",
             "Death Slaad",
-            "Stone Golem"
+            "Encephalon Cluster",
+            "Stone Golem",
+            "Yochlol"
         ],
         "11": [
             "Behir",
             "Death Knight Aspirant",
-            "Mind Flayer Arcanist"
+            "Infected Elder Brain",
+            "Mind Flayer Arcanist",
+            "Mind Flayer Clairvoyant"
         ],
         "12": [
             "Arcanaloth",
-            "Archmage"
+            "Archmage",
+            "Brain Breaker"
         ],
         "13": [
             "Beholder",
@@ -363,7 +401,8 @@
             "Death Tyrant"
         ],
         "15": [
-            "Purple Worm"
+            "Purple Worm",
+            "Refraction of Ilvaash"
         ],
         "16": [
             "Iron Golem",
@@ -397,23 +436,28 @@
         ],
         "1/2": [
             "Darkmantle",
+            "Dwarf Skeleton",
             "Gray Ooze",
             "Piercer",
+            "Redbrand Ruffian",
             "Rust Monster",
             "Shadow"
+        ],
+        "1/8": [
+            "Flumph",
+            "Giant Rat",
+            "Goblin Minion",
+            "Kobold Warrior",
+            "Slaad Tadpole"
         ],
         "1/4": [
             "Giant Centipede",
             "Grimlock",
+            "Needle Blight",
             "Skeleton",
             "Troglodyte",
             "Violet Fungus",
             "Zombie"
-        ],
-        "1/8": [
-            "Giant Rat",
-            "Goblin Minion",
-            "Kobold Warrior"
         ]
     },
     "heartlands": {
@@ -423,6 +467,9 @@
             "Dire Wolf",
             "Giant Hyena",
             "Goblin Boss",
+            "Goblin Boss (Variant)",
+            "Iarno “Glasstaff” Albrek",
+            "Psychic Gray Ooze",
             "Tiger"
         ],
         "2": [
@@ -432,71 +479,109 @@
             "Giant Boar",
             "Giant Elk",
             "Gnoll Pack Lord",
+            "Goblin Psi Brawler",
             "Ogre"
         ],
         "3": [
             "Bugbear Stalker",
             "Displacer Beast",
+            "Encephalon Gemmule",
+            "Githyanki Warrior",
             "Green Hag",
+            "Grell",
             "Manticore",
             "Owlbear",
+            "Water Weird",
             "Werewolf"
         ],
         "4": [
             "Amethyst Dragon Wyrmling",
             "Ettin",
             "Gnoll Fang of Yeenoghu",
+            "Goblin Psi Commander",
+            "Grell Psychic",
+            "Helmed Horror",
+            "Humanoid Mutate",
             "Wereboar",
             "Zhentilar Paladin of Bane"
         ],
         "5": [
             "Bulette",
+            "Drow Elite Warrior",
+            "Feral Ashenwight",
+            "Fiendish Auger",
             "Gorgon",
             "Hill Giant",
+            "Mezzoloth",
             "Night Hag",
+            "Red Slaad",
             "Revenant",
-            "Troll"
+            "Troll",
+            "Umber Hulk"
         ],
         "6": [
             "Chimera",
             "Cyclops Sentry",
+            "Galeb Duhr",
             "Hobgoblin Warlord",
+            "Otyugh Mutate",
             "Wyvern"
         ],
         "7": [
+            "Blue Slaad",
+            "Flesh Meld",
             "Graveyard Revenant",
+            "Grick Alpha",
+            "Mind Flayer",
             "Oni",
             "Primeval Owlbear",
+            "Psionic Ashenwight",
             "Stone Giant"
         ],
         "8": [
+            "Aberrant Zealot",
+            "Aberrant Zealot (Variant)",
             "Assassin",
             "Berserker Commander",
             "Death Cultist",
-            "Gnoll Demoniac"
+            "Githyanki Knight",
+            "Gnoll Demoniac",
+            "Intellect Snare",
+            "Mind Flayer Prophet"
         ],
         "9": [
             "Fire Giant",
+            "Gray Slaad",
+            "Nycaloth",
+            "Oculorb",
             "Treant",
             "Young Amethyst Dragon",
             "Young Blue Dragon"
         ],
         "10": [
+            "Cloaker Mutate",
             "Dire Worg",
+            "Encephalon Cluster",
             "Warrior Commander",
+            "Yochlol",
             "Young Gold Dragon"
         ],
         "11": [
             "Behir",
             "Horned Devil",
+            "Infected Elder Brain",
+            "Mind Flayer Clairvoyant",
             "Roc"
         ],
         "12": [
+            "Arcanaloth",
             "Archpriest",
+            "Brain Breaker",
             "Questing Knight"
         ],
         "13": [
             "Adult Brass Dragon",
+            "Beholder",
             "Nalfeshnee",
             "Vampire"
         ],
@@ -505,7 +590,8 @@
         ],
         "15": [
             "Adult Bronze Dragon",
-            "Adult Green Dragon"
+            "Adult Green Dragon",
+            "Refraction of Ilvaash"
         ],
         "16": [
             "Adult Amethyst Dragon",
@@ -541,14 +627,18 @@
         ],
         "1/8": [
             "Bandit",
+            "Flumph",
             "Giant Weasel",
             "Mastiff",
+            "Slaad Tadpole",
             "Twig Blight"
         ],
         "1/2": [
             "Black Bear",
+            "Dwarf Skeleton",
             "Gnoll Warrior",
             "Hobgoblin Warrior",
+            "Redbrand Ruffian",
             "Scout",
             "Vine Blight",
             "Worg"
@@ -564,26 +654,50 @@
     },
     "icewind": {
         "0": [
-            "Goat"
+            "Fox",
+            "Goat",
+            "Hare",
+            "Knucklehead Trout",
+            "Living Demiplane",
+            "Seal"
         ],
         "1": [
             "Brown Bear",
-            "Crag Cat"
+            "Crag Cat",
+            "Goblin Boss",
+            "Half-Ogre (Ogrillon)",
+            "Hypnos Magen",
+            "Quaggoth Spore Servant"
         ],
         "2": [
+            "Carrion Crawler",
+            "Cave Bear",
             "Cult Fanatic",
+            "Demos Magen",
+            "Duergar Hammerer",
+            "Duergar Mind Master",
             "Griffon",
+            "Myconid Sovereign",
             "Ogre",
+            "Orc Eye of Gruumsh",
+            "Peryton",
             "Polar Bear",
+            "Poltergeist",
             "Quaggoth",
             "Saber-Toothed Tiger",
+            "Sea Hag",
             "White Dragon Wyrmling"
         ],
         "3": [
             "Awakened White Moose",
+            "Goliath Warrior",
+            "Grell",
+            "Kobold Vampire Spawn",
             "Manticore",
             "Polar Serpent",
+            "Quaggoth Thonot",
             "Snow Golem",
+            "Water Weird",
             "Winter Wolf",
             "Yeti"
         ],
@@ -591,24 +705,40 @@
             "Banshee",
             "Chardalyn Berserker",
             "Giant Walrus",
+            "Gnoll Fang of Yeenoghu",
+            "Helmed Horror",
+            "Living Bigby's Hand",
+            "Orc War Chief",
+            "Shadow Demon",
             "Verbeeg Marauder",
             "Weretiger"
         ],
         "5": [
+            "Coldlight Walker",
+            "Drow Elite Warrior",
             "Frost Druid",
             "Giant Axe Beak",
+            "Gnome Ceremorph",
+            "Night Hag",
+            "Red Slaad",
+            "Spitting Mimic",
             "Troll",
+            "Umber Hulk",
+            "Verbeeg Longstrider",
             "Werebear",
             "Young Remorhaz"
         ],
         "6": [
+            "Brain in a Jar",
             "Frost Giant Skeleton",
             "Mammoth",
             "Young White Dragon"
         ],
         "7": [
             "Blue Slaad",
+            "Drow Mage",
             "Giant Ape",
+            "Mind Flayer",
             "Primeval Owlbear",
             "Tree Blight"
         ],
@@ -616,7 +746,13 @@
             "Berserker Commander",
             "Elemental Cultist",
             "Frost Giant",
-            "Hydra"
+            "Gnoll Vampire",
+            "Goliath Werebear",
+            "Green Slaad",
+            "Hydra",
+            "Ice Troll",
+            "Living Blade of Disaster",
+            "Sperm Whale"
         ],
         "9": [
             "Abominable Yeti"
@@ -625,13 +761,17 @@
             "Cultist Hierophant",
             "Cyclops Oracle",
             "Dire Worg",
+            "Headless Iron Golem",
+            "Tomb Tapper",
             "Warrior Commander"
         ],
         "11": [
+            "Chardalyn Dragon",
             "Remorhaz",
             "Roc"
         ],
         "12": [
+            "Arcanaloth",
             "Archmage"
         ],
         "13": [
@@ -671,17 +811,26 @@
             "Aarakocra",
             "Axe Beak",
             "Giant Owl",
+            "Needle Blight",
+            "Walrus",
             "Wolf",
             "Zombie"
         ],
         "1/8": [
             "Blood Hawk",
             "Cultist",
+            "Icewind Kobold",
+            "Icewind Kobold Zombie",
             "Kobold Warrior",
+            "Mountain Goat",
+            "Slaad Tadpole",
+            "Tribal Warrior",
             "Yeti Tyke"
         ],
         "1/2": [
+            "Gnome Squidling",
             "Ice Mephit",
+            "Piercer",
             "Scout",
             "Tough",
             "Worg"

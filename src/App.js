@@ -423,6 +423,17 @@ function App() {
     const newEncounter = generateNewEncounter(totalXP, allLevels, partySize, regionTheme, selectedRegion);
     setEncounterResult(newEncounter);
 
+    // Safety check: if generation failed or no monsters, allow rendering the error but skip stats
+    if (!newEncounter || !newEncounter.monsters) {
+      // Clear derived stats
+      setReactionResult(null);
+      setInitiativeResult(null);
+      setPerceptionResult(null);
+      setStealthResult(null);
+      setFactionResult(null);
+      return;
+    }
+
     // Calculate distance using region's terrain
     const distanceFn = terrainDistanceMap[regionTerrain];
     const distance = distanceFn ? distanceFn() : 0;
