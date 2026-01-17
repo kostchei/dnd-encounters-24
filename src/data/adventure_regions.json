@@ -1,0 +1,91 @@
+{
+    "Phandelver and Below": {
+        "regions": [
+            "heartlands",
+            "dungeon"
+        ],
+        "fullName": "Phandelver and Below: The Shattered Obelisk"
+    },
+    "The Shattered Obelisk": {
+        "regions": [
+            "heartlands",
+            "dungeon"
+        ],
+        "fullName": "Phandelver and Below: The Shattered Obelisk"
+    },
+    "Rime of the Frostmaiden": {
+        "regions": [
+            "icewind"
+        ],
+        "fullName": "Icewind Dale: Rime of the Frostmaiden"
+    },
+    "Waterdeep Dragon Heist": {
+        "regions": [
+            "cities",
+            "dungeon"
+        ]
+    },
+    "Baldur's Gate Descent into Avernus": {
+        "regions": [
+            "cities"
+        ]
+    },
+    "Out of the Abyss": {
+        "regions": [
+            "dungeon"
+        ]
+    },
+    "The Wild Beyond The Witchlight": {
+        "regions": [
+            "moonshae"
+        ]
+    },
+    "Tomb of Annihilation": {
+        "regions": [
+            "calimshan"
+        ]
+    },
+    "Dungeon of the Mad Mage": {
+        "regions": [
+            "cities",
+            "dungeon"
+        ],
+        "fullName": "Waterdeep: Dungeon of the Mad Mage"
+    },
+    "Dragon of Icespire Peak": {
+        "regions": [
+            "icewind",
+            "heartlands"
+        ]
+    },
+    "Candlekeep Mysteries": {
+        "regions": [
+            "all"
+        ]
+    },
+    "Quests from the Infinite Staircase": {
+        "regions": [
+            "all"
+        ]
+    },
+    "Tales from the Yawning Portal": {
+        "regions": [
+            "all"
+        ]
+    },
+    "Dragon Delves": {
+        "regions": [
+            "all"
+        ]
+    },
+    "Keys from the Golden Vault": {
+        "regions": [
+            "all"
+        ]
+    },
+    "Adventures in Faerun": {
+        "regions": [
+            "all"
+        ]
+    }
+}
