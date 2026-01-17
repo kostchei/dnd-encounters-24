@@ -4,6 +4,7 @@ const path = require('path');
 const MAIN_LIST_PATH = path.join(__dirname, '../src/data/enriched_monster_list.json');
 const PHANDELVER_PATH = path.join(__dirname, '../data/phandelver_encounters.json');
 const ICEWIND_PATH = path.join(__dirname, '../data/icewind_dale_encounters.json');
+const ICESPIRE_PATH = path.join(__dirname, '../data/icespirepeak_encounters.json');
 
 function mergeMonsters() {
     console.log('Reading main list...');
@@ -15,7 +16,7 @@ function mergeMonsters() {
         return;
     }
 
-    const filesToMerge = [PHANDELVER_PATH, ICEWIND_PATH];
+    const filesToMerge = [PHANDELVER_PATH, ICEWIND_PATH, ICESPIRE_PATH];
     let addedCount = 0;
     let updatedCount = 0;
 

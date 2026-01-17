@@ -1,0 +1,244 @@
+[
+  {
+    "Name": "Cow",
+    "CR": "1/4",
+    "Type": "beast",
+    "Size": "Large",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 4,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#cow_vgm"
+  },
+  {
+    "Name": "Needle Blight",
+    "CR": "1/4",
+    "Type": "plant",
+    "Size": "Medium",
+    "Alignment": "N E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 8,
+    "Charisma": 3,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#needle%20blight_xmm"
+  },
+  {
+    "Name": "Rock Gnome Recluse",
+    "CR": "1/4",
+    "Type": "humanoid (gnome)",
+    "Size": "Small",
+    "Alignment": "C N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 10,
+    "Charisma": 13,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#rock%20gnome%20recluse_dip"
+  },
+  {
+    "Name": "Vine Blight",
+    "CR": "1/2",
+    "Type": "plant",
+    "Size": "Medium",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#vine%20blight_xmm"
+  },
+  {
+    "Name": "Expert",
+    "CR": "Unknown",
+    "Type": "humanoid",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 13,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Dex +9",
+    "Intelligence": 14,
+    "Wisdom": 10,
+    "Charisma": 14,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#expert_dc"
+  },
+  {
+    "Name": "Spellcaster - Healer",
+    "CR": "1",
+    "Type": "Humanoid",
+    "Size": "Medium",
+    "Alignment": "Any Alignment",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Spellcaster - Mage",
+    "CR": "1",
+    "Type": "Humanoid",
+    "Size": "Medium",
+    "Alignment": "Any Alignment",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Warrior",
+    "CR": "Unknown",
+    "Type": "humanoid",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Con +6",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#warrior_dc"
+  },
+  {
+    "Name": "Carrion Crawler",
+    "CR": "2",
+    "Type": "monstrosity",
+    "Size": "Large",
+    "Alignment": "U",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 12,
+    "Charisma": 5,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#carrion%20crawler_xmm"
+  },
+  {
+    "Name": "Anchorite of Talos",
+    "CR": "3",
+    "Type": "humanoid (half-orc, shapechanger)",
+    "Size": "Medium",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 3,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 15,
+    "Charisma": 12,
+    "Tags": [
+      "Shapechanger"
+    ],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#anchorite%20of%20talos_dip"
+  }
+]

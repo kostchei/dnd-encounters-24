@@ -470,11 +470,14 @@
             "Goblin Boss (Variant)",
             "Iarno “Glasstaff” Albrek",
             "Psychic Gray Ooze",
+            "Spellcaster - Healer",
+            "Spellcaster - Mage",
             "Tiger"
         ],
         "2": [
             "Ankheg",
             "Bandit Captain",
+            "Carrion Crawler",
             "Ettercap",
             "Giant Boar",
             "Giant Elk",
@@ -483,6 +486,7 @@
             "Ogre"
         ],
         "3": [
+            "Anchorite of Talos",
             "Bugbear Stalker",
             "Displacer Beast",
             "Encephalon Gemmule",
@@ -645,10 +649,12 @@
         ],
         "1/4": [
             "Boar",
+            "Cow",
             "Giant Badger",
             "Goblin Warrior",
             "Needle Blight",
             "Panther",
+            "Rock Gnome Recluse",
             "Wolf"
         ]
     },
@@ -667,7 +673,9 @@
             "Goblin Boss",
             "Half-Ogre (Ogrillon)",
             "Hypnos Magen",
-            "Quaggoth Spore Servant"
+            "Quaggoth Spore Servant",
+            "Spellcaster - Healer",
+            "Spellcaster - Mage"
         ],
         "2": [
             "Carrion Crawler",
@@ -689,6 +697,7 @@
             "White Dragon Wyrmling"
         ],
         "3": [
+            "Anchorite of Talos",
             "Awakened White Moose",
             "Goliath Warrior",
             "Grell",
@@ -810,8 +819,10 @@
         "1/4": [
             "Aarakocra",
             "Axe Beak",
+            "Cow",
             "Giant Owl",
             "Needle Blight",
+            "Rock Gnome Recluse",
             "Walrus",
             "Wolf",
             "Zombie"
@@ -833,6 +844,7 @@
             "Piercer",
             "Scout",
             "Tough",
+            "Vine Blight",
             "Worg"
         ]
     },

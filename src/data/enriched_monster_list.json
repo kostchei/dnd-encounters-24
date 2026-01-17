@@ -439,6 +439,32 @@
     ]
   },
   {
+    "Name": "Anchorite of Talos",
+    "CR": "3",
+    "Type": "humanoid (half-orc, shapechanger)",
+    "Size": "Medium",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 3,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 15,
+    "Charisma": 12,
+    "Tags": [
+      "Shapechanger"
+    ],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#anchorite%20of%20talos_dip"
+  },
+  {
     "Name": "Ancient Amethyst Dragon",
     "CR": "23",
     "Type": "dragon (gem)",
@@ -1831,10 +1857,12 @@
     "Region": [
       "Cities",
       "Dungeons",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Heartlands"
     ],
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Dragon of Icespire Peak"
     ]
   },
   {
@@ -2319,6 +2347,30 @@
       "Cities",
       "Moonshae"
     ]
+  },
+  {
+    "Name": "Cow",
+    "CR": "1/4",
+    "Type": "beast",
+    "Size": "Large",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 4,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#cow_vgm"
   },
   {
     "Name": "CR 18 Placeholder",
@@ -3480,6 +3532,30 @@
     "Region": [
       "Heartlands"
     ]
+  },
+  {
+    "Name": "Expert",
+    "CR": "Unknown",
+    "Type": "humanoid",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 13,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Dex +9",
+    "Intelligence": 14,
+    "Wisdom": 10,
+    "Charisma": 14,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#expert_dc"
   },
   {
     "Name": "Faerie Dragon Adult",
@@ -7119,7 +7195,8 @@
     ],
     "Adventures": [
       "Phandelver and Below",
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Dragon of Icespire Peak"
     ]
   },
   {
@@ -8530,6 +8607,30 @@
     ]
   },
   {
+    "Name": "Rock Gnome Recluse",
+    "CR": "1/4",
+    "Type": "humanoid (gnome)",
+    "Size": "Small",
+    "Alignment": "C N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 10,
+    "Charisma": 13,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#rock%20gnome%20recluse_dip"
+  },
+  {
     "Name": "Roper",
     "CR": "5",
     "Type": "aberration",
@@ -9218,6 +9319,54 @@
     "Region": [
       "Dungeons"
     ]
+  },
+  {
+    "Name": "Spellcaster - Healer",
+    "CR": "1",
+    "Type": "Humanoid",
+    "Size": "Medium",
+    "Alignment": "Any Alignment",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Spellcaster - Mage",
+    "CR": "1",
+    "Type": "Humanoid",
+    "Size": "Medium",
+    "Alignment": "Any Alignment",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Sperm Whale",
@@ -10195,7 +10344,11 @@
     "Adventure": "",
     "Region": [
       "Heartlands",
-      "Moonshae"
+      "Moonshae",
+      "Icewind Dale"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
     ]
   },
   {
@@ -10278,7 +10431,11 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Heartlands"
+    ],
+    "Adventures": [
+      "Dragon of Icespire Peak"
     ]
   },
   {
