@@ -18,6 +18,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#flumph_xmm"
   },
   {
@@ -41,6 +44,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#slaad%20tadpole_xmm"
   },
   {
@@ -61,6 +67,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#needle%20blight_xmm"
   },
@@ -85,6 +94,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#dwarf%20skeleton_pabtso"
   },
   {
@@ -108,6 +120,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#psychic%20gray%20ooze_xmm"
   },
   {
@@ -128,6 +143,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#redbrand%20ruffian_lmop"
   },
@@ -152,21 +170,24 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20boss_xmm"
   },
   {
-    "Name": "Goblin Boss (Variant)",
+    "Name": "Goblin Boss",
     "CR": "1",
-    "Type": "Humanoid (goblinoid)",
+    "Type": "fey (goblinoid)",
     "Size": "Small",
-    "Alignment": "Neutral Evil",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 0,
-    "InitiativeBonus": 0,
+    "Alignment": "C N",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
     "SavingThrows": "",
     "Intelligence": 10,
-    "Wisdom": 10,
+    "Wisdom": 8,
     "Charisma": 10,
     "Tags": [
       "Goblinoid"
@@ -175,28 +196,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": ""
-  },
-  {
-    "Name": "Iarno “Glasstaff” Albrek",
-    "CR": "1",
-    "Type": "Humanoid (human, wizard)",
-    "Size": "Medium",
-    "Alignment": "Lawful Evil",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 0,
-    "InitiativeBonus": 0,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 10,
-    "Charisma": 10,
-    "Tags": [],
-    "Region": [
-      "Heartlands",
-      "Dungeons"
+    "Adventures": [
+      "Phandelver and Below"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20boss_xmm"
   },
   {
     "Name": "Goblin Psi Brawler",
@@ -220,6 +223,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20psi%20brawler_pabtso"
   },
   {
@@ -240,6 +246,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#infected%20townsperson_pabtso"
   },
@@ -264,6 +273,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer%20nothic_pabtso"
   },
   {
@@ -287,6 +299,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#encephalon%20gemmule_pabtso"
   },
   {
@@ -307,6 +322,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#githyanki%20warrior_xmm"
   },
@@ -329,6 +347,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#grell_xmm"
   },
   {
@@ -349,6 +370,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#water%20weird_xmm"
   },
@@ -374,6 +398,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20psi%20commander_pabtso"
   },
   {
@@ -397,6 +424,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#grell%20psychic_pabtso"
   },
   {
@@ -417,6 +447,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#helmed%20horror_xmm"
   },
@@ -441,6 +474,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#humanoid%20mutate_pabtso"
   },
   {
@@ -461,6 +497,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#drow%20elite%20warrior_mm"
   },
@@ -483,6 +522,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#feral%20ashenwight_pabtso"
   },
   {
@@ -503,6 +545,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#fiendish%20auger_pabtso"
   },
@@ -527,6 +572,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#mezzoloth_xmm"
   },
   {
@@ -549,6 +597,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#psionic%20shambling%20mound_pabtso"
   },
@@ -573,6 +624,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#red%20slaad_xmm"
   },
   {
@@ -593,6 +647,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#revenant_xmm"
   },
@@ -615,6 +672,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#umber%20hulk_xmm"
   },
   {
@@ -635,6 +695,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#galeb%20duhr_xmm"
   },
@@ -659,6 +722,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#otyugh%20mutate_pabtso"
   },
   {
@@ -682,6 +748,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#blue%20slaad_xmm"
   },
   {
@@ -703,6 +772,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#flesh%20meld_pabtso"
   },
   {
@@ -723,6 +795,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#grick%20alpha_mm"
   },
@@ -747,6 +822,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer_xmm"
   },
   {
@@ -770,6 +848,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#psionic%20ashenwight_pabtso"
   },
   {
@@ -791,28 +872,34 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#aberrant%20zealot_pabtso"
   },
   {
-    "Name": "Aberrant Zealot (Variant)",
+    "Name": "Aberrant Zealot",
     "CR": "8",
-    "Type": "Aberration",
+    "Type": "aberration",
     "Size": "Medium",
-    "Alignment": "Typically Chaotic Evil",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 0,
-    "InitiativeBonus": 0,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 10,
-    "Charisma": 10,
+    "Alignment": "C E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +7, Cha +7",
+    "Intelligence": 13,
+    "Wisdom": 8,
+    "Charisma": 19,
     "Tags": [],
     "Region": [
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": ""
+    "Adventures": [
+      "Phandelver and Below"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#aberrant%20zealot_pabtso"
   },
   {
     "Name": "Githyanki Knight",
@@ -832,6 +919,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#githyanki%20knight_xmm"
   },
@@ -856,6 +946,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#intellect%20snare_pabtso"
   },
   {
@@ -878,6 +971,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer%20prophet_pabtso"
   },
@@ -902,6 +998,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#gray%20slaad_xmm"
   },
   {
@@ -925,6 +1024,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#nycaloth_xmm"
   },
   {
@@ -945,6 +1047,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#oculorb_pabtso"
   },
@@ -969,6 +1074,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#cloaker%20mutate_pabtso"
   },
   {
@@ -991,6 +1099,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#encephalon%20cluster_pabtso"
   },
@@ -1015,6 +1126,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#yochlol_xmm"
   },
   {
@@ -1037,6 +1151,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#infected%20elder%20brain_pabtso"
   },
@@ -1061,6 +1178,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer%20clairvoyant_pabtso"
   },
   {
@@ -1084,6 +1204,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#arcanaloth_xmm"
   },
   {
@@ -1104,6 +1227,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#brain%20breaker_pabtso"
   },
@@ -1128,6 +1254,9 @@
       "Heartlands",
       "Dungeons"
     ],
+    "Adventures": [
+      "Phandelver and Below"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#beholder_xmm"
   },
   {
@@ -1150,6 +1279,9 @@
     "Region": [
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#refraction%20of%20ilvaash_pabtso"
   }

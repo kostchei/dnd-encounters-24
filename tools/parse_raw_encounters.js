@@ -38,6 +38,7 @@ if (filteredArgs.length < 2) {
 const inputFile = filteredArgs[0];
 const regions = filteredArgs[1].split(',').map(r => r.trim());
 const outputFile = filteredArgs[2] || inputFile.replace('.md', '.json');
+const adventureName = filteredArgs[3] || null;
 
 // Read input file
 let content;
@@ -440,6 +441,7 @@ for (const raw of rawMonsters) {
             Charisma: bestiaryData.cha || 10,
             Tags: buildTags(bestiaryData.name, typeStr),
             Region: regions,
+            Adventures: adventureName ? [adventureName] : [],
             Statblock_Link: `https://5e.tools/bestiary.html#${encodeURIComponent(bestiaryData.name).toLowerCase()}_${bestiaryData.source.toLowerCase()}`
         };
     } else {
@@ -461,6 +463,7 @@ for (const raw of rawMonsters) {
             Charisma: 10,
             Tags: buildTags(raw.name, raw.type),
             Region: regions,
+            Adventures: adventureName ? [adventureName] : [],
             Statblock_Link: ""
         };
     }

@@ -17,6 +17,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -99,7 +102,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#aberrant%20zealot_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#aberrant%20zealot_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Aberrant Zealot (Variant)",
@@ -160,6 +166,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -836,6 +845,10 @@
       "Dungeons",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Phandelver and Below",
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -1003,6 +1016,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -1265,7 +1281,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#battlehammer%20dwarf_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#battlehammer%20dwarf_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Beast of Malar",
@@ -1328,6 +1347,9 @@
     "Region": [
       "Dungeons",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ]
   },
   {
@@ -1513,6 +1535,10 @@
       "Icewind Dale",
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below",
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -1595,7 +1621,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#brain%20breaker_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#brain%20breaker_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Brain in a Jar",
@@ -1615,7 +1644,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#brain%20in%20a%20jar_llk"
+    "Statblock_Link": "https://5e.tools/bestiary.html#brain%20in%20a%20jar_llk",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Brazen Gorgon",
@@ -1800,6 +1832,9 @@
       "Cities",
       "Dungeons",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -1820,7 +1855,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#cave%20bear_mm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#cave%20bear_mm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Centaur Warden",
@@ -1902,6 +1940,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -1924,7 +1965,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#chardalyn%20dragon_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#chardalyn%20dragon_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Chimera",
@@ -1965,7 +2009,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20cat_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20cat_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Chimeric Fox",
@@ -1985,7 +2032,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20fox_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20fox_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Chimeric Hare",
@@ -2005,7 +2055,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20hare_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20hare_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Chimeric Rat",
@@ -2025,7 +2078,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20rat_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20rat_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Chimeric Weasel",
@@ -2045,7 +2101,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20weasel_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20weasel_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Chuul",
@@ -2085,7 +2144,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#chwinga_cm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#chwinga_cm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Clay Golem",
@@ -2149,7 +2211,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#cloaker%20mutate_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#cloaker%20mutate_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Cloud Giant",
@@ -2189,7 +2254,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#coldlight%20walker_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#coldlight%20walker_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Colossus",
@@ -2312,6 +2380,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -2332,6 +2403,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -2354,6 +2428,9 @@
       "Calimshan",
       "Cities",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -2721,6 +2798,9 @@
       "Calimshan",
       "Dungeons",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -2741,7 +2821,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#demos%20magen_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#demos%20magen_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Deva",
@@ -2947,7 +3030,11 @@
       "Dungeons",
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#drow%20elite%20warrior_mm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#drow%20elite%20warrior_mm",
+    "Adventures": [
+      "Phandelver and Below",
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Drow Elite Warrior of Lolth",
@@ -2987,7 +3074,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#drow%20mage_mm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#drow%20mage_mm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Druid",
@@ -3047,7 +3137,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20hammerer_mpmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20hammerer_mpmm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Duergar Mind Master",
@@ -3067,7 +3160,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20mind%20master_mpmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20mind%20master_mpmm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Dust Mephit",
@@ -3110,7 +3206,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#dwarf%20skeleton_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#dwarf%20skeleton_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Earth Elemental",
@@ -3291,7 +3390,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#encephalon%20cluster_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#encephalon%20cluster_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Encephalon Gemmule",
@@ -3314,7 +3416,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#encephalon%20gemmule_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#encephalon%20gemmule_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Erinyes",
@@ -3455,7 +3560,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#feral%20ashenwight_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#feral%20ashenwight_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Fiend Cultist",
@@ -3496,7 +3604,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#fiendish%20auger_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#fiendish%20auger_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Fire Elemental",
@@ -3658,7 +3769,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#flesh%20meld_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#flesh%20meld_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Flumph",
@@ -3679,7 +3793,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#flumph_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#flumph_xmm",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Flying Snake",
@@ -3740,7 +3857,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#fox_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#fox_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Frost Druid",
@@ -3760,6 +3880,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -3800,6 +3923,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -3822,6 +3948,9 @@
       "Moonshae",
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ]
   },
   {
@@ -4286,6 +4415,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -4328,7 +4460,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#githyanki%20knight_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#githyanki%20knight_xmm",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Githyanki Warrior",
@@ -4349,7 +4484,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#githyanki%20warrior_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#githyanki%20warrior_xmm",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Glabrezu",
@@ -4431,6 +4569,9 @@
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -4474,7 +4615,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#gnoll%20vampire_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#gnoll%20vampire_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Gnoll Warrior",
@@ -4514,7 +4658,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#gnome%20ceremorph_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#gnome%20ceremorph_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Gnome Squidling",
@@ -4534,7 +4681,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#gnome%20squidling_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#gnome%20squidling_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Goat",
@@ -4577,6 +4727,10 @@
       "Moonshae",
       "Dungeons",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Phandelver and Below",
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -4645,7 +4799,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20psi%20brawler_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20psi%20brawler_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Goblin Psi Commander",
@@ -4669,7 +4826,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20psi%20commander_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20psi%20commander_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Goblin Warrior",
@@ -4710,7 +4870,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#goliath%20warrior_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#goliath%20warrior_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Goliath Werebear",
@@ -4732,7 +4895,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#goliath%20werebear_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#goliath%20werebear_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Gorgon",
@@ -4836,7 +5002,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#gray%20slaad_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#gray%20slaad_xmm",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Great Warrior",
@@ -4899,7 +5068,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#green%20slaad_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#green%20slaad_xmm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Grell",
@@ -4921,7 +5093,11 @@
       "Dungeons",
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#grell_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#grell_xmm",
+    "Adventures": [
+      "Phandelver and Below",
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Grell Psychic",
@@ -4944,7 +5120,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#grell%20psychic_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#grell%20psychic_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Grick",
@@ -4985,7 +5164,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#grick%20alpha_mm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#grick%20alpha_mm",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Grick Ancient",
@@ -5026,6 +5208,9 @@
     "Region": [
       "Icewind Dale",
       "Moonshae"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -5166,7 +5351,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#half-ogre%20(ogrillon)_mm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#half-ogre%20(ogrillon)_mm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Hare",
@@ -5186,7 +5374,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#hare_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#hare_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Harpy",
@@ -5247,7 +5438,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#headless%20iron%20golem_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#headless%20iron%20golem_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Healer",
@@ -5309,6 +5503,10 @@
       "Dungeons",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Phandelver and Below",
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -5474,7 +5672,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#humanoid%20mutate_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#humanoid%20mutate_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Hydra",
@@ -5534,7 +5735,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#hypnos%20magen_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#hypnos%20magen_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Iarno “Glasstaff” Albrek",
@@ -5616,7 +5820,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#ice%20troll_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#ice%20troll_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Icewind Kobold",
@@ -5636,7 +5843,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#icewind%20kobold_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#icewind%20kobold_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Icewind Kobold Zombie",
@@ -5658,7 +5868,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#icewind%20kobold%20zombie_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#icewind%20kobold%20zombie_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Incubus",
@@ -5702,7 +5915,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#infected%20elder%20brain_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#infected%20elder%20brain_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Infected Townsperson",
@@ -5723,7 +5939,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#infected%20townsperson_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#infected%20townsperson_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Intellect Devourer",
@@ -5766,7 +5985,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#intellect%20snare_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#intellect%20snare_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Invisible Stalker",
@@ -5946,7 +6168,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#knucklehead%20trout_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#knucklehead%20trout_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Kobold Vampire Spawn",
@@ -5968,7 +6193,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#kobold%20vampire%20spawn_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#kobold%20vampire%20spawn_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Kobold Warrior",
@@ -6092,7 +6320,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#living%20bigby's%20hand_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#living%20bigby's%20hand_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Living Blade of Disaster",
@@ -6112,7 +6343,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#living%20blade%20of%20disaster_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#living%20blade%20of%20disaster_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Living Demiplane",
@@ -6132,7 +6366,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#living%20demiplane_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#living%20demiplane_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Lizardfolk Geomancer",
@@ -6212,7 +6449,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#lonelywood%20banshee_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#lonelywood%20banshee_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Lorthuun",
@@ -6578,6 +6818,9 @@
       "Calimshan",
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ]
   },
   {
@@ -6621,6 +6864,10 @@
       "Dungeons",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Phandelver and Below",
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -6664,7 +6911,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer%20clairvoyant_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer%20clairvoyant_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Mind Flayer Nothic",
@@ -6687,7 +6937,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer%20nothic_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer%20nothic_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Mind Flayer Prophet",
@@ -6710,7 +6963,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer%20prophet_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer%20prophet_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Mountain Goat",
@@ -6730,7 +6986,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#mountain%20goat_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#mountain%20goat_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Mummy",
@@ -6790,7 +7049,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#myconid%20sovereign_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#myconid%20sovereign_xmm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Nalfeshnee",
@@ -6854,6 +7116,10 @@
       "Moonshae",
       "Dungeons",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Phandelver and Below",
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -6875,6 +7141,9 @@
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -7017,6 +7286,9 @@
       "Calimshan",
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ]
   },
   {
@@ -7078,7 +7350,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#oculorb_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#oculorb_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Ogre",
@@ -7162,7 +7437,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#orc%20eye%20of%20gruumsh_mm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#orc%20eye%20of%20gruumsh_mm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Orc War Chief",
@@ -7182,7 +7460,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#orc%20war%20chief_mm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#orc%20war%20chief_mm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Otyugh",
@@ -7225,7 +7506,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#otyugh%20mutate_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#otyugh%20mutate_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Owlbear",
@@ -7365,7 +7649,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#peryton_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#peryton_xmm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Phaerimm Agent",
@@ -7446,6 +7733,9 @@
     "Region": [
       "Dungeons",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -7648,7 +7938,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#poltergeist_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#poltergeist_xmm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Priest",
@@ -7732,7 +8025,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#psionic%20ashenwight_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#psionic%20ashenwight_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Psionic Shambling Mound",
@@ -7755,7 +8051,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#psionic%20shambling%20mound_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#psionic%20shambling%20mound_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Psychic Gray Ooze",
@@ -7778,7 +8077,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#psychic%20gray%20ooze_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#psychic%20gray%20ooze_xmm",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Purple Worm",
@@ -7818,6 +8120,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -7838,7 +8143,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#quaggoth%20spore%20servant_mm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#quaggoth%20spore%20servant_mm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Quaggoth Thonot",
@@ -7858,7 +8166,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#quaggoth%20thonot_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#quaggoth%20thonot_xmm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Questing Knight",
@@ -7944,7 +8255,11 @@
       "Dungeons",
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#red%20slaad_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#red%20slaad_xmm",
+    "Adventures": [
+      "Phandelver and Below",
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Redbrand Ruffian",
@@ -7965,7 +8280,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#redbrand%20ruffian_lmop"
+    "Statblock_Link": "https://5e.tools/bestiary.html#redbrand%20ruffian_lmop",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Reduced-Threat Aboleth",
@@ -8008,7 +8326,10 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#refraction%20of%20ilvaash_pabtso"
+    "Statblock_Link": "https://5e.tools/bestiary.html#refraction%20of%20ilvaash_pabtso",
+    "Adventures": [
+      "Phandelver and Below"
+    ]
   },
   {
     "Name": "Reghed Chieftain",
@@ -8028,6 +8349,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -8048,7 +8372,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#reghed%20great%20warrior_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#reghed%20great%20warrior_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Reghed Shaman",
@@ -8068,7 +8395,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#reghed%20shaman_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#reghed%20shaman_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Reghed Warrior",
@@ -8088,7 +8418,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#reghed%20warrior_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#reghed%20warrior_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Relentless Slasher",
@@ -8150,6 +8483,9 @@
       "Cities",
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ]
   },
   {
@@ -8511,6 +8847,9 @@
     "Region": [
       "Moonshae",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -8531,7 +8870,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#seal_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#seal_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Shadow",
@@ -8573,6 +8915,9 @@
     "Region": [
       "Calimshan",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -8653,7 +8998,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#sheep_skt"
+    "Statblock_Link": "https://5e.tools/bestiary.html#sheep_skt",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Shield Guardian",
@@ -8739,7 +9087,11 @@
       "Dungeons",
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#slaad%20tadpole_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#slaad%20tadpole_xmm",
+    "Adventures": [
+      "Phandelver and Below",
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Smoke Mephit",
@@ -8779,6 +9131,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -8799,6 +9154,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -8879,7 +9237,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#sperm%20whale_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#sperm%20whale_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Sphinx of Secrets",
@@ -8961,7 +9322,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#spitting%20mimic_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#spitting%20mimic_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Spore of Moander",
@@ -9227,7 +9591,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#telepathic%20pentacle_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#telepathic%20pentacle_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Thessalhydra",
@@ -9327,7 +9694,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#tomb%20tapper_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#tomb%20tapper_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Tough",
@@ -9430,7 +9800,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#tribal%20warrior_mm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#tribal%20warrior_mm",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Troglodyte",
@@ -9534,6 +9907,10 @@
       "Dungeons",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Phandelver and Below",
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -9772,7 +10149,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#verbeeg%20longstrider_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#verbeeg%20longstrider_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Verbeeg Marauder",
@@ -9792,6 +10172,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -9873,7 +10256,10 @@
     "Region": [
       "Icewind Dale"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#walrus_idrotf"
+    "Statblock_Link": "https://5e.tools/bestiary.html#walrus_idrotf",
+    "Adventures": [
+      "Rime of the Frostmaiden"
+    ]
   },
   {
     "Name": "Warrior",
@@ -9979,6 +10365,10 @@
       "Heartlands",
       "Dungeons",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Phandelver and Below",
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -10328,6 +10718,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {
@@ -10350,6 +10743,9 @@
       "Calimshan",
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Phandelver and Below"
     ]
   },
   {
@@ -10492,6 +10888,9 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Rime of the Frostmaiden"
     ]
   },
   {

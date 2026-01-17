@@ -48,6 +48,17 @@ function mergeMonsters() {
                     });
                 }
 
+                // Merge Adventures
+                if (!existing.Adventures) existing.Adventures = [];
+                if (newM.Adventures && Array.isArray(newM.Adventures)) {
+                    newM.Adventures.forEach(adv => {
+                        if (!existing.Adventures.includes(adv)) {
+                            existing.Adventures.push(adv);
+                            changed = true;
+                        }
+                    });
+                }
+
                 // Update stats if "Unknown" in existing but known in new
                 // (Only update basic stats, trust existing for specific modifications if any)
                 if (existing.CR === "Unknown" && newM.CR !== "Unknown") {
