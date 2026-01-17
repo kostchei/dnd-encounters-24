@@ -293,6 +293,37 @@ function buildTags(name, type) {
 
 // ============= MONSTER BLOCK PARSING =============
 
+const MANUAL_MAPPING = {
+    // Icewind Dale & Variants
+    "half-ogre": "Half-Ogre (Ogrillon)",
+    "cultist (knights of the black sword)": "Cultist",
+    "cult fanatic (knights of the black sword)": "Cult Fanatic",
+    "tribal warrior spore servants": "Tribal Warrior",
+    "piercer (ice variant)": "Piercer",
+    "dzaan’s simulacrum": "Simulacrum",
+    "living bigby’s hand": "Living Bigby's Hand",
+    "sea hag (coven variant)": "Sea Hag",
+    "night hag (coven variant)": "Night Hag",
+    "goblin boss (variant)": "Goblin Boss",
+    "aberrant zealot (variant)": "Aberrant Zealot",
+    "young griffon (tiny)": "Griffon", // Fallback or custom? Defaulting to Griffon base for now
+    "young griffon (small)": "Griffon",
+    "young griffon (medium)": "Griffon",
+    "gnome squidling": "Gnome Squidling", // Should exist
+    "gnome ceremorph": "Gnome Ceremorph"
+};
+
+function normalizeName(name) {
+    let normalized = name.toLowerCase().trim();
+    // Fix smart quotes
+    normalized = normalized.replace(/[‘’]/g, "'").replace(/[“”]/g, '"');
+
+    if (MANUAL_MAPPING[normalized]) {
+        return MANUAL_MAPPING[normalized].toLowerCase();
+    }
+    return normalized;
+}
+
 function parseMonsterBlock(lines, startIndex) {
     const cr = lines[startIndex].trim();
     let i = startIndex + 1;
@@ -377,7 +408,7 @@ const missing = [];
 let npcCount = 0;
 
 for (const raw of rawMonsters) {
-    const lookupName = raw.name.toLowerCase();
+    const lookupName = normalizeName(raw.name);
     const bestiaryData = bestiaryMap.get(lookupName);
 
     // Check if NPC

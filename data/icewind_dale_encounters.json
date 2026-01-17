@@ -1,0 +1,1933 @@
+[
+  {
+    "Name": "Chimeric Cat",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20cat_idrotf"
+  },
+  {
+    "Name": "Chimeric Fox",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20fox_idrotf"
+  },
+  {
+    "Name": "Chimeric Hare",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20hare_idrotf"
+  },
+  {
+    "Name": "Chimeric Rat",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20rat_idrotf"
+  },
+  {
+    "Name": "Chimeric Weasel",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#chimeric%20weasel_idrotf"
+  },
+  {
+    "Name": "Chwinga",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#chwinga_cm"
+  },
+  {
+    "Name": "Fox",
+    "CR": "0",
+    "Type": "beast",
+    "Size": "Tiny",
+    "Alignment": "U",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#fox_idrotf"
+  },
+  {
+    "Name": "Hare",
+    "CR": "0",
+    "Type": "beast",
+    "Size": "Tiny",
+    "Alignment": "U",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 11,
+    "Charisma": 4,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#hare_idrotf"
+  },
+  {
+    "Name": "Knucklehead Trout",
+    "CR": "0",
+    "Type": "beast",
+    "Size": "Small",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 6,
+    "Charisma": 1,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#knucklehead%20trout_idrotf"
+  },
+  {
+    "Name": "Living Demiplane",
+    "CR": "0",
+    "Type": "construct",
+    "Size": "Medium",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 1,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#living%20demiplane_idrotf"
+  },
+  {
+    "Name": "Seal",
+    "CR": "0",
+    "Type": "beast",
+    "Size": "Medium",
+    "Alignment": "U",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 12,
+    "Charisma": 5,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#seal_idrotf"
+  },
+  {
+    "Name": "Sheep",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Small",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#sheep_skt"
+  },
+  {
+    "Name": "Griffon",
+    "CR": "2",
+    "Type": "monstrosity",
+    "Size": "Large",
+    "Alignment": "U",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 13,
+    "Charisma": 8,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#griffon_xmm"
+  },
+  {
+    "Name": "Cultist",
+    "CR": "1/8",
+    "Type": "humanoid",
+    "Size": "Small",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Wis +2",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#cultist_xmm"
+  },
+  {
+    "Name": "Icewind Kobold",
+    "CR": "1/8",
+    "Type": "humanoid (kobold)",
+    "Size": "Small",
+    "Alignment": "A",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +4, Con +3",
+    "Intelligence": 8,
+    "Wisdom": 8,
+    "Charisma": 8,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#icewind%20kobold_idrotf"
+  },
+  {
+    "Name": "Icewind Kobold Zombie",
+    "CR": "1/8",
+    "Type": "undead",
+    "Size": "Small",
+    "Alignment": "N E",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": -2,
+    "InitiativeBonus": -2,
+    "SavingThrows": "Wis +0",
+    "Intelligence": 3,
+    "Wisdom": 6,
+    "Charisma": 3,
+    "Tags": [
+      "Zombie"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#icewind%20kobold%20zombie_idrotf"
+  },
+  {
+    "Name": "Mountain Goat",
+    "CR": "1/8",
+    "Type": "beast",
+    "Size": "Medium",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#mountain%20goat_idrotf"
+  },
+  {
+    "Name": "Reghed Warrior",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#reghed%20warrior_idrotf"
+  },
+  {
+    "Name": "Slaad Tadpole",
+    "CR": "1/8",
+    "Type": "aberration",
+    "Size": "Tiny",
+    "Alignment": "C N",
+    "PassivePerception": 7,
+    "PerceptionBonus": -3,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 5,
+    "Charisma": 3,
+    "Tags": [
+      "Slaad"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#slaad%20tadpole_xmm"
+  },
+  {
+    "Name": "Tribal Warrior",
+    "CR": "1/8",
+    "Type": "humanoid (any race)",
+    "Size": "Medium",
+    "Alignment": "A",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 11,
+    "Charisma": 8,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#tribal%20warrior_mm"
+  },
+  {
+    "Name": "Yeti Tyke",
+    "CR": "1/8",
+    "Type": "monstrosity",
+    "Size": "Small",
+    "Alignment": "C E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 8,
+    "Charisma": 5,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#yeti%20tyke_idrotf"
+  },
+  {
+    "Name": "Aarakocra",
+    "CR": "1/4",
+    "Type": "humanoid (aarakocra)",
+    "Size": "Medium",
+    "Alignment": "N G",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 12,
+    "Charisma": 11,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#aarakocra_mm"
+  },
+  {
+    "Name": "Needle Blight",
+    "CR": "1/4",
+    "Type": "plant",
+    "Size": "Medium",
+    "Alignment": "N E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 8,
+    "Charisma": 3,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#needle%20blight_xmm"
+  },
+  {
+    "Name": "Walrus",
+    "CR": "1/4",
+    "Type": "beast",
+    "Size": "Large",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 11,
+    "Charisma": 4,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#walrus_idrotf"
+  },
+  {
+    "Name": "Griffon",
+    "CR": "2",
+    "Type": "monstrosity",
+    "Size": "Large",
+    "Alignment": "U",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 13,
+    "Charisma": 8,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#griffon_xmm"
+  },
+  {
+    "Name": "Battlehammer Dwarf",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "L G",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#battlehammer%20dwarf_idrotf"
+  },
+  {
+    "Name": "Gnome Squidling",
+    "CR": "1/2",
+    "Type": "aberration",
+    "Size": "Small",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -2,
+    "InitiativeBonus": -2,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#gnome%20squidling_idrotf"
+  },
+  {
+    "Name": "Piercer",
+    "CR": "1/2",
+    "Type": "aberration",
+    "Size": "Medium",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 7,
+    "Charisma": 3,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#piercer_xmm"
+  },
+  {
+    "Name": "Piercer",
+    "CR": "1/2",
+    "Type": "aberration",
+    "Size": "Medium",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 7,
+    "Charisma": 3,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#piercer_xmm"
+  },
+  {
+    "Name": "Crag Cat",
+    "CR": "1",
+    "Type": "monstrosity",
+    "Size": "Large",
+    "Alignment": "U",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 7,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 14,
+    "Charisma": 8,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#crag%20cat_skt"
+  },
+  {
+    "Name": "Goblin Boss",
+    "CR": "1",
+    "Type": "fey (goblinoid)",
+    "Size": "Small",
+    "Alignment": "C N",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 8,
+    "Charisma": 10,
+    "Tags": [
+      "Goblinoid"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20boss_xmm"
+  },
+  {
+    "Name": "Half-Ogre (Ogrillon)",
+    "CR": "1",
+    "Type": "giant",
+    "Size": "Large",
+    "Alignment": "C G NY E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 9,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#half-ogre%20(ogrillon)_mm"
+  },
+  {
+    "Name": "Hypnos Magen",
+    "CR": "1",
+    "Type": "construct",
+    "Size": "Medium",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 10,
+    "Charisma": 7,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#hypnos%20magen_idrotf"
+  },
+  {
+    "Name": "Quaggoth Spore Servant",
+    "CR": "1",
+    "Type": "plant",
+    "Size": "Medium",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 6,
+    "Charisma": 1,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#quaggoth%20spore%20servant_mm"
+  },
+  {
+    "Name": "Griffon",
+    "CR": "2",
+    "Type": "monstrosity",
+    "Size": "Large",
+    "Alignment": "U",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 13,
+    "Charisma": 8,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#griffon_xmm"
+  },
+  {
+    "Name": "Carrion Crawler",
+    "CR": "2",
+    "Type": "monstrosity",
+    "Size": "Large",
+    "Alignment": "U",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 12,
+    "Charisma": 5,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#carrion%20crawler_xmm"
+  },
+  {
+    "Name": "Cave Bear",
+    "CR": "2",
+    "Type": "beast",
+    "Size": "Large",
+    "Alignment": "U",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 13,
+    "Charisma": 7,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#cave%20bear_mm"
+  },
+  {
+    "Name": "Cult Fanatic",
+    "CR": "2",
+    "Type": "humanoid (any race)",
+    "Size": "Medium",
+    "Alignment": "L NX C NY E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 13,
+    "Charisma": 14,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#cult%20fanatic_mm"
+  },
+  {
+    "Name": "Demos Magen",
+    "CR": "2",
+    "Type": "construct",
+    "Size": "Medium",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 7,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#demos%20magen_idrotf"
+  },
+  {
+    "Name": "Duergar Hammerer",
+    "CR": "2",
+    "Type": "construct (dwarf)",
+    "Size": "Medium",
+    "Alignment": "A",
+    "PassivePerception": 7,
+    "PerceptionBonus": -3,
+    "StealthBonus": -2,
+    "InitiativeBonus": -2,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 5,
+    "Charisma": 5,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20hammerer_mpmm"
+  },
+  {
+    "Name": "Duergar Mind Master",
+    "CR": "2",
+    "Type": "humanoid (dwarf)",
+    "Size": "Medium",
+    "Alignment": "A",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Wis +2",
+    "Intelligence": 15,
+    "Wisdom": 10,
+    "Charisma": 12,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20mind%20master_mpmm"
+  },
+  {
+    "Name": "Myconid Sovereign",
+    "CR": "2",
+    "Type": "plant",
+    "Size": "Large",
+    "Alignment": "L N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 15,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#myconid%20sovereign_xmm"
+  },
+  {
+    "Name": "Orc Eye of Gruumsh",
+    "CR": "2",
+    "Type": "humanoid (orc)",
+    "Size": "Medium",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 13,
+    "Charisma": 12,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#orc%20eye%20of%20gruumsh_mm"
+  },
+  {
+    "Name": "Peryton",
+    "CR": "2",
+    "Type": "monstrosity",
+    "Size": "Medium",
+    "Alignment": "C E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 12,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#peryton_xmm"
+  },
+  {
+    "Name": "Poltergeist",
+    "CR": "2",
+    "Type": "undead",
+    "Size": "Small",
+    "Alignment": "C N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 14,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#poltergeist_xmm"
+  },
+  {
+    "Name": "Quaggoth",
+    "CR": "2",
+    "Type": "monstrosity",
+    "Size": "Medium",
+    "Alignment": "C N",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 12,
+    "Charisma": 7,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#quaggoth_xmm"
+  },
+  {
+    "Name": "Reghed Shaman",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#reghed%20shaman_idrotf"
+  },
+  {
+    "Name": "Awakened White Moose",
+    "CR": "3",
+    "Type": "beast",
+    "Size": "Large",
+    "Alignment": "N E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#awakened%20white%20moose_idrotf"
+  },
+  {
+    "Name": "Brain in a Jar",
+    "CR": "6",
+    "Type": "undead",
+    "Size": "Medium",
+    "Alignment": "A",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -5,
+    "InitiativeBonus": -5,
+    "SavingThrows": "Int +7, Cha +5",
+    "Intelligence": 19,
+    "Wisdom": 10,
+    "Charisma": 15,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#brain%20in%20a%20jar_llk"
+  },
+  {
+    "Name": "Goliath Warrior",
+    "CR": "3",
+    "Type": "humanoid (goliath)",
+    "Size": "Medium",
+    "Alignment": "A",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 15,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#goliath%20warrior_idrotf"
+  },
+  {
+    "Name": "Grell",
+    "CR": "3",
+    "Type": "aberration",
+    "Size": "Medium",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 6,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 11,
+    "Charisma": 9,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#grell_xmm"
+  },
+  {
+    "Name": "Kobold Vampire Spawn",
+    "CR": "3",
+    "Type": "undead",
+    "Size": "Small",
+    "Alignment": "N E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 6,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +6, Wis +1",
+    "Intelligence": 8,
+    "Wisdom": 8,
+    "Charisma": 8,
+    "Tags": [
+      "Vampire"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#kobold%20vampire%20spawn_idrotf"
+  },
+  {
+    "Name": "Quaggoth Thonot",
+    "CR": "3",
+    "Type": "monstrosity",
+    "Size": "Medium",
+    "Alignment": "C N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 14,
+    "Charisma": 7,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#quaggoth%20thonot_xmm"
+  },
+  {
+    "Name": "Snow Golem",
+    "CR": "3",
+    "Type": "construct",
+    "Size": "Medium",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": -2,
+    "InitiativeBonus": -2,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 6,
+    "Charisma": 1,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#snow%20golem_idrotf"
+  },
+  {
+    "Name": "Snowy Owlbear",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#snowy%20owlbear_idrotf"
+  },
+  {
+    "Name": "Water Weird",
+    "CR": "3",
+    "Type": "elemental",
+    "Size": "Large",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#water%20weird_xmm"
+  },
+  {
+    "Name": "Chardalyn Berserker",
+    "CR": "4",
+    "Type": "fiend",
+    "Size": "Medium",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 11,
+    "Charisma": 9,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#chardalyn%20berserker_idrotf"
+  },
+  {
+    "Name": "Giant Walrus",
+    "CR": "4",
+    "Type": "beast",
+    "Size": "Huge",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 11,
+    "Charisma": 4,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20walrus_idrotf"
+  },
+  {
+    "Name": "Gnoll Fang of Yeenoghu",
+    "CR": "4",
+    "Type": "fiend",
+    "Size": "Medium",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Con +4, Wis +2, Cha +3",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 13,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#gnoll%20fang%20of%20yeenoghu_xmm"
+  },
+  {
+    "Name": "Helmed Horror",
+    "CR": "4",
+    "Type": "construct",
+    "Size": "Medium",
+    "Alignment": "N",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 1,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#helmed%20horror_xmm"
+  },
+  {
+    "Name": "Living Bigby's Hand",
+    "CR": "4",
+    "Type": "construct",
+    "Size": "Large",
+    "Alignment": "U",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Dex +2, Wis +2",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 1,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#living%20bigby's%20hand_idrotf"
+  },
+  {
+    "Name": "Lonelywood Banshee",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#lonelywood%20banshee_idrotf"
+  },
+  {
+    "Name": "Orc War Chief",
+    "CR": "4",
+    "Type": "humanoid (orc)",
+    "Size": "Medium",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Str +6, Con +6, Wis +2",
+    "Intelligence": 11,
+    "Wisdom": 11,
+    "Charisma": 16,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#orc%20war%20chief_mm"
+  },
+  {
+    "Name": "Sea Hag",
+    "CR": "2",
+    "Type": "fey",
+    "Size": "Medium",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 12,
+    "Charisma": 13,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#sea%20hag_xmm"
+  },
+  {
+    "Name": "Shadow Demon",
+    "CR": "4",
+    "Type": "fiend (demon)",
+    "Size": "Medium",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 7,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +5, Cha +4",
+    "Intelligence": 14,
+    "Wisdom": 13,
+    "Charisma": 14,
+    "Tags": [
+      "Demon"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#shadow%20demon_xmm"
+  },
+  {
+    "Name": "Verbeeg Marauder",
+    "CR": "4",
+    "Type": "giant",
+    "Size": "Large",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Dex +2, Con +5",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#verbeeg%20marauder_idrotf"
+  },
+  {
+    "Name": "Coldlight Walker",
+    "CR": "5",
+    "Type": "undead",
+    "Size": "Medium",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Int +2, Wis +3",
+    "Intelligence": 8,
+    "Wisdom": 10,
+    "Charisma": 8,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#coldlight%20walker_idrotf"
+  },
+  {
+    "Name": "Drow Elite Warrior",
+    "CR": "5",
+    "Type": "humanoid (elf)",
+    "Size": "Medium",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 10,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +7, Con +5, Wis +4",
+    "Intelligence": 11,
+    "Wisdom": 13,
+    "Charisma": 12,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#drow%20elite%20warrior_mm"
+  },
+  {
+    "Name": "Frost Druid",
+    "CR": "5",
+    "Type": "humanoid (human)",
+    "Size": "Medium",
+    "Alignment": "A",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Int +3, Wis +6",
+    "Intelligence": 10,
+    "Wisdom": 16,
+    "Charisma": 9,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#frost%20druid_idrotf"
+  },
+  {
+    "Name": "Gnome Ceremorph",
+    "CR": "5",
+    "Type": "aberration",
+    "Size": "Small",
+    "Alignment": "A",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 5,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Int +7, Wis +6, Cha +6",
+    "Intelligence": 19,
+    "Wisdom": 17,
+    "Charisma": 17,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#gnome%20ceremorph_idrotf"
+  },
+  {
+    "Name": "Red Slaad",
+    "CR": "5",
+    "Type": "aberration",
+    "Size": "Large",
+    "Alignment": "C N",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 6,
+    "Charisma": 7,
+    "Tags": [
+      "Slaad"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#red%20slaad_xmm"
+  },
+  {
+    "Name": "Reghed Chieftain",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#reghed%20chieftain_idrotf"
+  },
+  {
+    "Name": "Reghed Great Warrior",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#reghed%20great%20warrior_idrotf"
+  },
+  {
+    "Name": "Spitting Mimic",
+    "CR": "5",
+    "Type": "monstrosity (shapechanger)",
+    "Size": "Large",
+    "Alignment": "N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 7,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 15,
+    "Charisma": 10,
+    "Tags": [
+      "Shapechanger"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#spitting%20mimic_idrotf"
+  },
+  {
+    "Name": "Umber Hulk",
+    "CR": "5",
+    "Type": "monstrosity",
+    "Size": "Large",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#umber%20hulk_xmm"
+  },
+  {
+    "Name": "Verbeeg Longstrider",
+    "CR": "5",
+    "Type": "giant",
+    "Size": "Large",
+    "Alignment": "N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 5,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +5, Con +6, Wis +5",
+    "Intelligence": 13,
+    "Wisdom": 14,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#verbeeg%20longstrider_idrotf"
+  },
+  {
+    "Name": "Young Remorhaz",
+    "CR": "5",
+    "Type": "monstrosity",
+    "Size": "Large",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 10,
+    "Charisma": 4,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#young%20remorhaz_xmm"
+  },
+  {
+    "Name": "Frost Giant Skeleton",
+    "CR": "6",
+    "Type": "undead",
+    "Size": "Huge",
+    "Alignment": "L E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 8,
+    "Charisma": 5,
+    "Tags": [
+      "Skeleton"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#frost%20giant%20skeleton_idrotf"
+  },
+  {
+    "Name": "Blue Slaad",
+    "CR": "7",
+    "Type": "aberration",
+    "Size": "Large",
+    "Alignment": "C N",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 7,
+    "Charisma": 9,
+    "Tags": [
+      "Slaad"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#blue%20slaad_xmm"
+  },
+  {
+    "Name": "Drow Mage",
+    "CR": "7",
+    "Type": "humanoid (elf)",
+    "Size": "Medium",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 17,
+    "Wisdom": 13,
+    "Charisma": 12,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#drow%20mage_mm"
+  },
+  {
+    "Name": "Mind Flayer",
+    "CR": "7",
+    "Type": "aberration",
+    "Size": "Medium",
+    "Alignment": "L E",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +4, Int +7, Wis +6, Cha +6",
+    "Intelligence": 19,
+    "Wisdom": 17,
+    "Charisma": 17,
+    "Tags": [
+      "Mind Flayer"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer_xmm"
+  },
+  {
+    "Name": "Night Hag",
+    "CR": "5",
+    "Type": "fiend",
+    "Size": "Medium",
+    "Alignment": "N E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 5,
+    "InitiativeBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 16,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#night%20hag_xmm"
+  },
+  {
+    "Name": "Gnoll Vampire",
+    "CR": "8",
+    "Type": "undead (shapechanger)",
+    "Size": "Medium",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +7, Con +7",
+    "Intelligence": 6,
+    "Wisdom": 12,
+    "Charisma": 9,
+    "Tags": [
+      "Vampire",
+      "Shapechanger"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#gnoll%20vampire_idrotf"
+  },
+  {
+    "Name": "Goliath Werebear",
+    "CR": "8",
+    "Type": "humanoid (goliath, shapechanger)",
+    "Size": "Medium",
+    "Alignment": "N G",
+    "PassivePerception": 18,
+    "PerceptionBonus": 8,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 15,
+    "Charisma": 10,
+    "Tags": [
+      "Shapechanger"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#goliath%20werebear_idrotf"
+  },
+  {
+    "Name": "Green Slaad",
+    "CR": "8",
+    "Type": "aberration",
+    "Size": "Large",
+    "Alignment": "C N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 8,
+    "Charisma": 18,
+    "Tags": [
+      "Slaad"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#green%20slaad_xmm"
+  },
+  {
+    "Name": "Ice Troll",
+    "CR": "8",
+    "Type": "giant",
+    "Size": "Large",
+    "Alignment": "C E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 9,
+    "Charisma": 7,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#ice%20troll_idrotf"
+  },
+  {
+    "Name": "Living Blade of Disaster",
+    "CR": "8",
+    "Type": "construct",
+    "Size": "Small",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#living%20blade%20of%20disaster_idrotf"
+  },
+  {
+    "Name": "Sperm Whale",
+    "CR": "8",
+    "Type": "beast",
+    "Size": "Gargantuan",
+    "Alignment": "U",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 12,
+    "Charisma": 5,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#sperm%20whale_idrotf"
+  },
+  {
+    "Name": "Telepathic Pentacle",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#telepathic%20pentacle_idrotf"
+  },
+  {
+    "Name": "Abominable Yeti",
+    "CR": "9",
+    "Type": "monstrosity",
+    "Size": "Huge",
+    "Alignment": "C E",
+    "PassivePerception": 19,
+    "PerceptionBonus": 9,
+    "StealthBonus": 8,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 13,
+    "Charisma": 9,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#abominable%20yeti_xmm"
+  },
+  {
+    "Name": "Headless Iron Golem",
+    "CR": "10",
+    "Type": "Unknown",
+    "Size": "Medium",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#headless%20iron%20golem_idrotf"
+  },
+  {
+    "Name": "Tomb Tapper",
+    "CR": "10",
+    "Type": "construct",
+    "Size": "Huge",
+    "Alignment": "L N",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#tomb%20tapper_idrotf"
+  },
+  {
+    "Name": "Chardalyn Dragon",
+    "CR": "11",
+    "Type": "construct",
+    "Size": "Huge",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Str +11, Con +8",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Tags": [
+      "Dragon"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#chardalyn%20dragon_idrotf"
+  },
+  {
+    "Name": "Arcanaloth",
+    "CR": "12",
+    "Type": "fiend (yugoloth)",
+    "Size": "Medium",
+    "Alignment": "N E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 1,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Dex +5, Con +6, Int +9, Wis +7",
+    "Intelligence": 20,
+    "Wisdom": 16,
+    "Charisma": 17,
+    "Tags": [
+      "Yugoloth"
+    ],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#arcanaloth_xmm"
+  },
+  {
+    "Name": "Demilich",
+    "CR": "18",
+    "Type": "undead",
+    "Size": "Tiny",
+    "Alignment": "N E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 5,
+    "InitiativeBonus": 11,
+    "SavingThrows": "Con +6, Int +11, Wis +9",
+    "Intelligence": 20,
+    "Wisdom": 17,
+    "Charisma": 20,
+    "Tags": [],
+    "Region": [
+      "Icewind Dale"
+    ],
+    "Statblock_Link": "https://5e.tools/bestiary.html#demilich_xmm"
+  }
+]
