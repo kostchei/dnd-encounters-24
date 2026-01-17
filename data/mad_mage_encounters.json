@@ -1,0 +1,1198 @@
+[
+  {
+    "Name": "Myconid Sprout",
+    "CR": "0",
+    "Type": "plant",
+    "Alignment": "L N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 11,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#myconid%20sprout_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Flumph",
+    "CR": "1/8",
+    "Type": "aberration",
+    "Alignment": "L G",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#flumph_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Troglodyte",
+    "CR": "1/4",
+    "Type": "monstrosity",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 4,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#troglodyte_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Giant Lizard",
+    "CR": "1/4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Dex +3",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20lizard_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Kuo-toa",
+    "CR": "1/4",
+    "Type": "aberration",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kuo-toa_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Troglodyte",
+    "CR": "1/4",
+    "Type": "monstrosity",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 4,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#troglodyte_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Copper Stormforge",
+    "CR": "1/2",
+    "Type": "Unknown",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#copper%20stormforge_wdmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Gas Spore",
+    "CR": "1/2",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 5,
+    "PerceptionBonus": -5,
+    "StealthBonus": -5,
+    "InitiativeBonus": -5,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 1,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gas%20spore_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Myconid Adult",
+    "CR": "1/2",
+    "Type": "plant",
+    "Alignment": "L N",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 13,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#myconid%20adult_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Piercer",
+    "CR": "1/2",
+    "Type": "aberration",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 7,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#piercer_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Psychic Gray Ooze",
+    "CR": "1",
+    "Type": "ooze",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 3,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 6,
+    "Charisma": 2,
+    "Statblock_Link": "https://5e.tools/bestiary.html#psychic%20gray%20ooze_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Shadow",
+    "CR": "1/2",
+    "Type": "undead",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#shadow_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Duergar",
+    "CR": "1",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Goblin Boss",
+    "CR": "1",
+    "Type": "fey (goblinoid)",
+    "Alignment": "C N",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 8,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20boss_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Kuo-toa Whip",
+    "CR": "1",
+    "Type": "aberration",
+    "Alignment": "N E",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kuo-toa%20whip_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Quaggoth Spore Servant",
+    "CR": "1",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 6,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#quaggoth%20spore%20servant_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Carrion Crawler",
+    "CR": "2",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 12,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#carrion%20crawler_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Carrion Ogre",
+    "CR": "2",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#carrion%20ogre_wdmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Gelatinous Cube",
+    "CR": "2",
+    "Type": "ooze",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": -4,
+    "InitiativeBonus": -4,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 6,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gelatinous%20cube_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Intellect Devourer",
+    "CR": "2",
+    "Type": "aberration",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#intellect%20devourer_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Myconid Sovereign",
+    "CR": "2",
+    "Type": "plant",
+    "Alignment": "L N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 15,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#myconid%20sovereign_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Orog",
+    "CR": "2",
+    "Type": "humanoid (orc)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 11,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#orog_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Quaggoth",
+    "CR": "2",
+    "Type": "monstrosity",
+    "Alignment": "C N",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 12,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#quaggoth_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Large Mimic",
+    "CR": "3",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#large%20mimic_wdmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Grell",
+    "CR": "3",
+    "Type": "aberration",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 6,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 11,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#grell_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Hobgoblin Captain",
+    "CR": "3",
+    "Type": "fey (goblinoid)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 10,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hobgoblin%20captain_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Hook Horror",
+    "CR": "3",
+    "Type": "monstrosity",
+    "Alignment": "N",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Con +4",
+    "Intelligence": 6,
+    "Wisdom": 12,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hook%20horror_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Quaggoth Thonot",
+    "CR": "3",
+    "Type": "monstrosity",
+    "Alignment": "C N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 14,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#quaggoth%20thonot_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Intelligent Black Pudding",
+    "CR": "4",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#intelligent%20black%20pudding_wdmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Poison Weird",
+    "CR": "4",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#poison%20weird_wdmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Trenzia",
+    "CR": "4",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#trenzia_wdmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Drow Elite Warrior",
+    "CR": "5",
+    "Type": "humanoid (elf)",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 10,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +7, Con +5, Wis +4",
+    "Intelligence": 11,
+    "Wisdom": 13,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#drow%20elite%20warrior_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Shunn Shurreth",
+    "CR": "5",
+    "Type": "Unknown",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#shunn%20shurreth_wdmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Troll",
+    "CR": "5",
+    "Type": "giant",
+    "Alignment": "C E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 9,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#troll_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Umber Hulk",
+    "CR": "5",
+    "Type": "monstrosity",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#umber%20hulk_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Undead Shambling Mound",
+    "CR": "5",
+    "Type": "undead",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#undead%20shambling%20mound_wdmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Drider",
+    "CR": "6",
+    "Type": "monstrosity",
+    "Alignment": "C E",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 10,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 16,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#drider_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Kuo-toa Archpriest",
+    "CR": "6",
+    "Type": "aberration",
+    "Alignment": "N E",
+    "PassivePerception": 19,
+    "PerceptionBonus": 9,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 16,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kuo-toa%20archpriest_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Drow Mage",
+    "CR": "7",
+    "Type": "humanoid (elf)",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 17,
+    "Wisdom": 13,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#drow%20mage_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Grick Alpha",
+    "CR": "7",
+    "Type": "monstrosity",
+    "Alignment": "N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 14,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#grick%20alpha_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Mind Flayer",
+    "CR": "7",
+    "Type": "aberration",
+    "Alignment": "L E",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +4, Int +7, Wis +6, Cha +6",
+    "Intelligence": 19,
+    "Wisdom": 17,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Xorn",
+    "CR": "5",
+    "Type": "elemental",
+    "Alignment": "N",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 6,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#xorn_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Five-Armed Troll",
+    "CR": "8",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#five-armed%20troll_wdmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Fomorian",
+    "CR": "8",
+    "Type": "giant",
+    "Alignment": "C E",
+    "PassivePerception": 18,
+    "PerceptionBonus": 8,
+    "StealthBonus": 3,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 14,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#fomorian_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Huge Gray Ooze",
+    "CR": "8",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#huge%20gray%20ooze_wdmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Mind Flayer Arcanist",
+    "CR": "11",
+    "Type": "aberration",
+    "Alignment": "L E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 6,
+    "InitiativeBonus": 6,
+    "SavingThrows": "Dex +6, Int +9, Wis +7, Cha +7",
+    "Intelligence": 20,
+    "Wisdom": 17,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer%20arcanist_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Emberosa",
+    "CR": "9",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#emberosa_wdmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Ulitharid",
+    "CR": "9",
+    "Type": "aberration",
+    "Alignment": "L E",
+    "PassivePerception": 18,
+    "PerceptionBonus": 8,
+    "StealthBonus": 5,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Int +9, Wis +8, Cha +9",
+    "Intelligence": 21,
+    "Wisdom": 19,
+    "Charisma": 21,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ulitharid_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Zress Orlezziir",
+    "CR": "9",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#zress%20orlezziir_wdmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Beholder",
+    "CR": "13",
+    "Type": "aberration",
+    "Alignment": "L E",
+    "PassivePerception": 22,
+    "PerceptionBonus": 12,
+    "StealthBonus": 2,
+    "InitiativeBonus": 11,
+    "SavingThrows": "Con +9, Wis +7",
+    "Intelligence": 17,
+    "Wisdom": 15,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#beholder_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Neothelid",
+    "CR": "13",
+    "Type": "aberration",
+    "Alignment": "C E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": -2,
+    "InitiativeBonus": -2,
+    "SavingThrows": "Int +1, Wis +8, Cha +6",
+    "Intelligence": 3,
+    "Wisdom": 16,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#neothelid_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  },
+  {
+    "Name": "Death Tyrant",
+    "CR": "14",
+    "Type": "undead (beholder)",
+    "Alignment": "L E",
+    "PassivePerception": 22,
+    "PerceptionBonus": 12,
+    "StealthBonus": 2,
+    "InitiativeBonus": 11,
+    "SavingThrows": "Con +7, Wis +7",
+    "Intelligence": 19,
+    "Wisdom": 15,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#death%20tyrant_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep: Dungeon of the Mad Mage"
+    ]
+  }
+]

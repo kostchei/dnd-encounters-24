@@ -238,6 +238,31 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#acererak_toa"
   },
   {
+    "Name": "Acolyte",
+    "CR": "1/4",
+    "Type": "humanoid (any race)",
+    "Alignment": "A",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#acolyte_mm",
+    "Faction": "",
+    "Adventure": [
+      "The Price of Beauty",
+      "The Sunless Citadel",
+      "The Forge of Fury",
+      "Mazfroth’s Mighty Digressions"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Adult Amethyst Dragon",
     "CR": "16",
     "Type": "dragon (gem)",
@@ -571,6 +596,28 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#aldani%20(lobsterfolk)_toa"
   },
   {
+    "Name": "Allosaurus",
+    "CR": "2",
+    "Type": "beast (dinosaur)",
+    "Alignment": "U",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 12,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#allosaurus_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Murkmire Malevolence"
+    ],
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
     "Name": "Almiraj",
     "CR": "0",
     "Type": "Beast",
@@ -732,6 +779,29 @@
       "Baldur's Gate: Descent into Avernus"
     ],
     "Statblock_Link": ""
+  },
+  {
+    "Name": "Amphisbaena",
+    "CR": "3",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#amphisbaena_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
+    ]
   },
   {
     "Name": "Amrik Vanthampur",
@@ -1082,10 +1152,17 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#animated%20armor_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Murkmire Malevolence",
+      "Reach for the Stars",
+      "Tockworth's Clockworks",
+      "The Forge of Fury",
+      "The Lost City"
+    ],
     "Region": [
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -1103,7 +1180,73 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#animated%20broom_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Joy of Extradimensional Spaces"
+    ],
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
+    "Name": "Animated Chained Library",
+    "CR": "1",
+    "Type": "construct",
+    "Alignment": "Unknown",
+    "PassivePerception": 7,
+    "PerceptionBonus": -3,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 5,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#animated%20chained%20library_cm",
+    "Faction": "",
+    "Adventure": [
+      "The Joy of Extradimensional Spaces"
+    ],
+    "Region": []
+  },
+  {
+    "Name": "Animated Table",
+    "CR": "2",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 6,
+    "PerceptionBonus": -4,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 3,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#animated%20table_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Forge of Fury"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Animatronic Allosaurus",
+    "CR": "Unknown",
+    "Type": "construct",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#animatronic%20allosaurus_kftgv",
+    "Faction": "",
+    "Adventure": [
+      "The Murkmire Malevolence"
+    ],
     "Region": [
       "Cities"
     ]
@@ -1123,9 +1266,13 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#ankheg_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Murkmire Malevolence",
+      "The Lost City"
+    ],
     "Region": [
-      "Heartlands"
+      "Heartlands",
+      "Cities"
     ]
   },
   {
@@ -1432,7 +1579,10 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#assassin_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Price of Beauty",
+      "The Eyes of Atar"
+    ],
     "Region": [
       "Cities",
       "Heartlands"
@@ -1537,9 +1687,12 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#awakened%20tree_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Price of Beauty"
+    ],
     "Region": [
-      "Moonshae"
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -1649,6 +1802,31 @@
     ]
   },
   {
+    "Name": "Baboon",
+    "CR": "0",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#baboon_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Stygian Gambit",
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Cities",
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
     "Name": "Bag of Nails",
     "CR": "8",
     "Type": "Humanoid",
@@ -1722,10 +1900,15 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#bandit_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Baker's Dozen",
+      "Robber Baron",
+      "The Eyes of Atar"
+    ],
     "Region": [
       "Cities",
-      "Heartlands"
+      "Heartlands",
+      "Dungeons"
     ]
   },
   {
@@ -1743,7 +1926,9 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#bandit%20captain_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Eyes of Atar"
+    ],
     "Region": [
       "Cities",
       "Heartlands"
@@ -1767,6 +1952,29 @@
     "Adventure": "",
     "Region": [
       "Cities"
+    ]
+  },
+  {
+    "Name": "Bandit Deceiver",
+    "CR": "7",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 9,
+    "InitiativeBonus": 6,
+    "SavingThrows": "Dex +6, Int +6",
+    "Intelligence": 17,
+    "Wisdom": 12,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bandit%20deceiver_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Eyes of Atar",
+      "Safehouse Standoff"
+    ],
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -1804,7 +2012,9 @@
     "Charisma": 17,
     "Statblock_Link": "https://5e.tools/bestiary.html#banshee_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Lost City"
+    ],
     "Region": [
       "Icewind Dale",
       "Moonshae"
@@ -2041,11 +2251,14 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#behir_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Murkmire Malevolence"
+    ],
     "Region": [
       "Calimshan",
       "Dungeons",
-      "Heartlands"
+      "Heartlands",
+      "Cities"
     ]
   },
   {
@@ -2121,6 +2334,26 @@
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
     ]
+  },
+  {
+    "Name": "Belak the Outcast",
+    "CR": "2",
+    "Type": "humanoid (human)",
+    "Alignment": "A",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 15,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#belak%20the%20outcast_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
   },
   {
     "Name": "Berserker",
@@ -2241,9 +2474,16 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#black%20pudding_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "A Deep and Creeping Darkness",
+      "Tockworth's Clockworks",
+      "Will of Orcus",
+      "The Lost City"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Heartlands",
+      "Cities"
     ]
   },
   {
@@ -2346,7 +2586,9 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#blue%20slaad_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "For Whom the Void Calls"
+    ],
     "Region": [
       "Calimshan",
       "Icewind Dale",
@@ -2373,9 +2615,12 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#boar_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
     "Region": [
-      "Heartlands"
+      "Heartlands",
+      "Calimshan"
     ]
   },
   {
@@ -2613,10 +2858,37 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#brown%20bear_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Forge of Fury"
+    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Bugbear",
+    "CR": "1",
+    "Type": "humanoid (goblinoid)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 11,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bugbear_mm",
+    "Faction": "",
+    "Adventure": [
+      "Tockworth's Clockworks",
+      "The Sunless Citadel",
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Cities",
+      "Calimshan"
     ]
   },
   {
@@ -2634,7 +2906,9 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#bugbear%20stalker_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Drowning Forest"
+    ],
     "Region": [
       "Heartlands",
       "Moonshae"
@@ -2655,10 +2929,15 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#bugbear%20warrior_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Baker's Dozen",
+      "The Siege of Shalespire Priory",
+      "The Drowning Forest"
+    ],
     "Region": [
       "Heartlands",
-      "Moonshae"
+      "Moonshae",
+      "Dungeons"
     ]
   },
   {
@@ -2758,6 +3037,26 @@
     "Adventures": []
   },
   {
+    "Name": "Calcryx",
+    "CR": "2",
+    "Type": "dragon",
+    "Alignment": "C E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Dex +2, Con +4, Wis +2, Cha +2",
+    "Intelligence": 5,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#calcryx_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
+  },
+  {
     "Name": "Cambion",
     "CR": "5",
     "Type": "fiend",
@@ -2772,10 +3071,14 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#cambion_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Price of Beauty",
+      "Disinterred Danger"
+    ],
     "Region": [
       "Calimshan",
-      "Cities"
+      "Cities",
+      "Heartlands"
     ],
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
@@ -2827,7 +3130,9 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#carrion%20crawler_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Lost City"
+    ],
     "Region": [
       "Cities",
       "Dungeons",
@@ -2841,6 +3146,26 @@
       "Baldur's Gate: Descent into Avernus",
       "Out of the Abyss"
     ]
+  },
+  {
+    "Name": "Cat",
+    "CR": "0",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +4",
+    "Intelligence": 3,
+    "Wisdom": 12,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#cat_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Joy of Extradimensional Spaces"
+    ],
+    "Region": []
   },
   {
     "Name": "Cave Badger",
@@ -2886,6 +3211,29 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#cave%20bear_mm",
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Centaur Mummy",
+    "CR": "6",
+    "Type": "undead",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Wis +5",
+    "Intelligence": 5,
+    "Wisdom": 14,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#centaur%20mummy_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -2971,6 +3319,66 @@
     "Wisdom": 14,
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#champion_vgm"
+  },
+  {
+    "Name": "Champion of Gorm",
+    "CR": "2",
+    "Type": "humanoid",
+    "Alignment": "L G",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Str +5, Wis +4",
+    "Intelligence": 12,
+    "Wisdom": 15,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#champion%20of%20gorm_qftis",
+    "Faction": "",
+    "Adventure": [
+      "The Lost City"
+    ],
+    "Region": []
+  },
+  {
+    "Name": "Champion of Madarua",
+    "CR": "2",
+    "Type": "humanoid",
+    "Alignment": "C G",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Str +5, Dex +3",
+    "Intelligence": 12,
+    "Wisdom": 12,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#champion%20of%20madarua_qftis",
+    "Faction": "",
+    "Adventure": [
+      "The Lost City"
+    ],
+    "Region": []
+  },
+  {
+    "Name": "Champion of Usamigaras",
+    "CR": "2",
+    "Type": "humanoid",
+    "Alignment": "C N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Int +5, Cha +4",
+    "Intelligence": 17,
+    "Wisdom": 14,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#champion%20of%20usamigaras_qftis",
+    "Faction": "",
+    "Adventure": [
+      "The Lost City"
+    ],
+    "Region": []
   },
   {
     "Name": "Character",
@@ -3337,9 +3745,12 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#cloaker_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Tockworth's Clockworks"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Cities"
     ]
   },
   {
@@ -3369,6 +3780,50 @@
     ]
   },
   {
+    "Name": "Clockwork Defender",
+    "CR": "1",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 14,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#clockwork%20defender_kftgv",
+    "Faction": "",
+    "Adventure": [
+      "Tockworth's Clockworks"
+    ],
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
+    "Name": "Clockwork Observer",
+    "CR": "0",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 15,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#clockwork%20observer_kftgv",
+    "Faction": "",
+    "Adventure": [
+      "Tockworth's Clockworks"
+    ],
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
     "Name": "Cloud Giant",
     "CR": "9",
     "Type": "giant",
@@ -3386,6 +3841,28 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Cockatrice",
+    "CR": "1/2",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 13,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#cockatrice_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Baker's Dozen"
+    ],
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -3432,6 +3909,48 @@
     ]
   },
   {
+    "Name": "Commoner",
+    "CR": "0",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#commoner_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Shemshime's Bedtime Rhyme",
+      "The Price of Beauty",
+      "The Murkmire Malevolence",
+      "The Stygian Gambit",
+      "Tockworth's Clockworks",
+      "Prisoner 13",
+      "Death at Sunset",
+      "Baker's Dozen",
+      "Will of Orcus",
+      "The Siege of Shalespire Priory",
+      "Wolves of Amphail",
+      "The Eyes of Atar",
+      "The Sunless Citadel",
+      "The Forge of Fury",
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City",
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Heartlands",
+      "Cities",
+      "Dungeons",
+      "Icewind Dale",
+      "Calimshan"
+    ]
+  },
+  {
     "Name": "Constrictor Snake",
     "CR": "1/4",
     "Type": "beast",
@@ -3446,9 +3965,15 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#constrictor%20snake_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Death at Sunset",
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Dungeons",
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -3466,10 +3991,14 @@
     "Charisma": 18,
     "Statblock_Link": "https://5e.tools/bestiary.html#couatl_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
       "Cities",
-      "Moonshae"
+      "Moonshae",
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -3580,13 +4109,20 @@
     "Region": [
       "Cities",
       "Dungeons",
-      "Calimshan"
+      "Calimshan",
+      "Heartlands"
     ],
     "Adventures": [
       "Waterdeep Dragon Heist",
       "Baldur's Gate: Descent into Avernus",
       "Out of the Abyss",
       "Tomb of Annihilation"
+    ],
+    "Adventure": [
+      "The Joy of Extradimensional Spaces",
+      "Book of the Raven",
+      "Reach for the Stars",
+      "Disinterred Danger"
     ]
   },
   {
@@ -3627,9 +4163,15 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#cult%20fanatic_mm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Reach for the Stars",
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City"
+    ],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Cities",
+      "Heartlands"
     ],
     "Adventures": [
       "Rime of the Frostmaiden"
@@ -3650,7 +4192,10 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#cultist_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Reach for the Stars",
+      "The Lost City"
+    ],
     "Region": [
       "Calimshan",
       "Cities",
@@ -3675,9 +4220,16 @@
     "Charisma": 13,
     "Statblock_Link": "https://5e.tools/bestiary.html#cultist%20fanatic_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Will of Orcus",
+      "The Weeping Goddess",
+      "The Lost Dawn",
+      "Tears Fall"
+    ],
     "Region": [
-      "Cities"
+      "Cities",
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -3881,9 +4433,12 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#darkmantle_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Tockworth's Clockworks"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Cities"
     ]
   },
   {
@@ -3966,9 +4521,12 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#death%20dog_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Curse on Humble Hill"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -3986,10 +4544,13 @@
     "Charisma": 18,
     "Statblock_Link": "https://5e.tools/bestiary.html#death%20knight_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Will of Orcus"
+    ],
     "Region": [
       "Icewind Dale",
-      "Cities"
+      "Cities",
+      "Dungeons"
     ],
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
@@ -4084,6 +4645,30 @@
     ],
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Deep Gnome (Svirfneblin)",
+    "CR": "1/2",
+    "Type": "humanoid (gnome)",
+    "Alignment": "N G",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#deep%20gnome%20(svirfneblin)_mm",
+    "Faction": "",
+    "Adventure": [
+      "Tockworth's Clockworks",
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Cities",
+      "Calimshan"
     ]
   },
   {
@@ -4201,6 +4786,50 @@
     ]
   },
   {
+    "Name": "Derro Apprentice",
+    "CR": "1",
+    "Type": "aberration",
+    "Alignment": "C E",
+    "PassivePerception": 7,
+    "PerceptionBonus": -3,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 5,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#derro%20apprentice_qftis",
+    "Faction": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Derro Raider",
+    "CR": "1/4",
+    "Type": "aberration",
+    "Alignment": "C E",
+    "PassivePerception": 7,
+    "PerceptionBonus": -3,
+    "StealthBonus": 3,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 5,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#derro%20raider_qftis",
+    "Faction": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
     "Name": "Derro Savant",
     "CR": "3",
     "Type": "Unknown",
@@ -4221,6 +4850,28 @@
     ],
     "Adventures": [
       "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Derwyth",
+    "CR": "2",
+    "Type": "humanoid (elf)",
+    "Alignment": "N G",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 15,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#derwyth_qftis",
+    "Faction": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -4278,10 +4929,16 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#dire%20wolf_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Fury Grove",
+      "The Forge of Fury",
+      "When a Star Falls",
+      "The Lost City"
+    ],
     "Region": [
       "Heartlands",
-      "Moonshae"
+      "Moonshae",
+      "Calimshan"
     ]
   },
   {
@@ -4321,11 +4978,16 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#displacer%20beast_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Fury Grove",
+      "The Lost Dawn",
+      "When a Star Falls"
+    ],
     "Region": [
       "Heartlands",
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Calimshan"
     ],
     "Adventures": [
       "Waterdeep Dragon Heist"
@@ -4377,7 +5039,34 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#doppelganger_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City"
+    ],
+    "Region": [
+      "Cities",
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Dr. Cassee Dannell",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#dr.%20cassee%20dannell_kftgv",
+    "Faction": "",
+    "Adventure": [
+      "The Murkmire Malevolence"
+    ],
     "Region": [
       "Cities"
     ]
@@ -4444,6 +5133,26 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#dragonbait_toa"
   },
   {
+    "Name": "Dragonpriest",
+    "CR": "5",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#dragonpriest_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
+  },
+  {
     "Name": "Drider",
     "CR": "6",
     "Type": "monstrosity",
@@ -4506,6 +5215,28 @@
     ],
     "Adventures": [
       "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Drow",
+    "CR": "1/4",
+    "Type": "humanoid (elf)",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 11,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#drow_mm",
+    "Faction": "",
+    "Adventure": [
+      "The Price of Beauty"
+    ],
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -4671,9 +5402,15 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#druid_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Shemshime's Bedtime Rhyme",
+      "The Sunless Citadel",
+      "When a Star Falls"
+    ],
     "Region": [
-      "Moonshae"
+      "Moonshae",
+      "Heartlands",
+      "Calimshan"
     ]
   },
   {
@@ -4691,9 +5428,36 @@
     "Charisma": 18,
     "Statblock_Link": "https://5e.tools/bestiary.html#dryad_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Death at Sunset",
+      "Baker's Dozen"
+    ],
     "Region": [
-      "Moonshae"
+      "Moonshae",
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Duergar",
+    "CR": "1",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar_mm",
+    "Faction": "",
+    "Adventure": [
+      "The Forge of Fury",
+      "The Lost City"
+    ],
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -4881,6 +5645,28 @@
     ]
   },
   {
+    "Name": "Duergar Spy",
+    "CR": "2",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 7,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 10,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20spy_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Forge of Fury"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Duergar Stone Guard",
     "CR": "2",
     "Type": "humanoid (dwarf)",
@@ -4997,6 +5783,26 @@
     ]
   },
   {
+    "Name": "Durnn",
+    "CR": "1",
+    "Type": "humanoid (goblinoid)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#durnn_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
+  },
+  {
     "Name": "Dust Mephit",
     "CR": "1/2",
     "Type": "elemental",
@@ -5011,7 +5817,9 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#dust%20mephit_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Lost City"
+    ],
     "Region": [
       "Calimshan"
     ]
@@ -5057,9 +5865,12 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#earth%20elemental_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "For Whom the Void Calls"
+    ],
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Dungeons"
     ]
   },
   {
@@ -5141,6 +5952,28 @@
     ]
   },
   {
+    "Name": "Eldritch Horror Hatchling",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#eldritch%20horror%20hatchling_kftgv",
+    "Faction": "",
+    "Adventure": [
+      "The Murkmire Malevolence"
+    ],
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
     "Name": "Elemental Cataclysm",
     "CR": "22",
     "Type": "elemental (titan)",
@@ -5198,6 +6031,28 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Elk",
+    "CR": "1/4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#elk_xmm",
+    "Faction": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -5373,6 +6228,26 @@
     ]
   },
   {
+    "Name": "Erky Timbers",
+    "CR": "1/4",
+    "Type": "humanoid (gnome)",
+    "Alignment": "A",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#erky%20timbers_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
+  },
+  {
     "Name": "Ettercap",
     "CR": "2",
     "Type": "monstrosity",
@@ -5387,7 +6262,9 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#ettercap_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Drowning Forest"
+    ],
     "Region": [
       "Heartlands"
     ]
@@ -5460,6 +6337,26 @@
       "Waterdeep Dragon Heist"
     ],
     "Statblock_Link": ""
+  },
+  {
+    "Name": "Faerie Dragon (Orange)",
+    "CR": "1",
+    "Type": "dragon",
+    "Alignment": "C G",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 7,
+    "InitiativeBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 12,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#faerie%20dragon%20(orange)_mm",
+    "Faction": "",
+    "Adventure": [
+      "The Joy of Extradimensional Spaces"
+    ],
+    "Region": []
   },
   {
     "Name": "Faerie Dragon (Younger)",
@@ -5749,7 +6646,9 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#fire%20snake_mm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
     "Region": [
       "Calimshan",
       "Dungeons"
@@ -5857,7 +6756,31 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#flameskull_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Will of Orcus"
+    ],
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Flaming Skeleton",
+    "CR": "3",
+    "Type": "undead",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 15,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#flaming%20skeleton_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Will of Orcus"
+    ],
     "Region": [
       "Dungeons"
     ]
@@ -6051,6 +6974,29 @@
     ]
   },
   {
+    "Name": "Flying Sword",
+    "CR": "1/4",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 7,
+    "PerceptionBonus": -3,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +4",
+    "Intelligence": 1,
+    "Wisdom": 5,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#flying%20sword_mm",
+    "Faction": "",
+    "Adventure": [
+      "The Joy of Extradimensional Spaces",
+      "Reach for the Stars"
+    ],
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
     "Name": "Fomorian",
     "CR": "8",
     "Type": "giant",
@@ -6096,6 +7042,28 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#fox_idrotf",
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Fragment of Krokulmar",
+    "CR": "0",
+    "Type": "aberration",
+    "Alignment": "C E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 7,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 16,
+    "Wisdom": 16,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#fragment%20of%20krokulmar_kftgv",
+    "Faction": "",
+    "Adventure": [
+      "Reach for the Stars"
+    ],
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -6221,11 +7189,14 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#galeb%20duhr_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Tockworth's Clockworks"
+    ],
     "Region": [
       "Moonshae",
       "Heartlands",
-      "Dungeons"
+      "Dungeons",
+      "Cities"
     ],
     "Adventures": [
       "Phandelver and Below",
@@ -6267,9 +7238,15 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#gargoyle_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Book of the Raven",
+      "The Price of Beauty",
+      "The Lost City",
+      "When a Star Falls"
+    ],
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Heartlands"
     ]
   },
   {
@@ -6290,11 +7267,16 @@
     "Tags": [],
     "Region": [
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Heartlands",
+      "Icewind Dale"
     ],
     "Adventures": [
       "Waterdeep Dragon Heist",
       "Out of the Abyss"
+    ],
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -6358,9 +7340,35 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#gelatinous%20cube_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Lost City"
+    ],
     "Region": [
       "Dungeons"
+    ]
+  },
+  {
+    "Name": "Ghast",
+    "CR": "2",
+    "Type": "undead",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Wis +2",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ghast_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Will of Orcus",
+      "The Tenebrous Stone"
+    ],
+    "Region": [
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -6398,7 +7406,9 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#ghast%20gravecaller_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Will of Orcus"
+    ],
     "Region": [
       "Dungeons"
     ]
@@ -6418,10 +7428,16 @@
     "Charisma": 17,
     "Statblock_Link": "https://5e.tools/bestiary.html#ghost_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Reach for the Stars",
+      "Will of Orcus",
+      "The Forge of Fury",
+      "The Lost City"
+    ],
     "Region": [
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -6439,9 +7455,17 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#ghoul_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Book of the Raven",
+      "Reach for the Stars",
+      "Will of Orcus",
+      "The Tenebrous Stone",
+      "The Lost City"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Heartlands",
+      "Cities"
     ]
   },
   {
@@ -6507,6 +7531,31 @@
     ]
   },
   {
+    "Name": "Giant Bat",
+    "CR": "1/4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20bat_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan",
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale",
+      "Calimshan"
+    ]
+  },
+  {
     "Name": "Giant Boar",
     "CR": "2",
     "Type": "beast",
@@ -6521,7 +7570,9 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20boar_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Fury Grove"
+    ],
     "Region": [
       "Heartlands"
     ]
@@ -6541,9 +7592,36 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20centipede_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Death at Sunset",
+      "The Lost City"
+    ],
     "Region": [
       "Dungeons"
+    ]
+  },
+  {
+    "Name": "Giant Constrictor Snake",
+    "CR": "2",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20constrictor%20snake_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -6564,6 +7642,29 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Giant Crayfish",
+    "CR": "2",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 3,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 9,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20crayfish_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -6592,9 +7693,12 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20eagle_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
     "Region": [
-      "Moonshae"
+      "Moonshae",
+      "Calimshan"
     ]
   },
   {
@@ -6615,6 +7719,30 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
+    ]
+  },
+  {
+    "Name": "Giant Fire Beetle",
+    "CR": "0",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 7,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20fire%20beetle_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -6652,9 +7780,36 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20frog_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Sunless Citadel",
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
-      "Moonshae"
+      "Moonshae",
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Giant Goat",
+    "CR": "1/2",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Str +5",
+    "Intelligence": 3,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+    "Faction": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -6672,9 +7827,62 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20hyena_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
-      "Heartlands"
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Giant Lightning Eel",
+    "CR": "3",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 12,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20lightning%20eel_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Giant Lizard",
+    "CR": "1/4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Dex +3",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20lizard_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Tockworth's Clockworks",
+      "The Forge of Fury",
+      "The Lost City",
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Cities",
+      "Heartlands",
+      "Calimshan"
     ]
   },
   {
@@ -6715,10 +7923,13 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20owl_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Tears Fall"
+    ],
     "Region": [
       "Icewind Dale",
-      "Moonshae"
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -6736,9 +7947,14 @@
     "Charisma": 4,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20rat_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Sunless Citadel",
+      "Mazfroth’s Mighty Digressions",
+      "The Lost City"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -6853,9 +8069,14 @@
     "Charisma": 4,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20spider_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Drowning Forest",
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -6877,6 +8098,28 @@
     "Wisdom": 12,
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20strider_vgm"
+  },
+  {
+    "Name": "Giant Subterranean Lizard",
+    "CR": "4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 3,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20subterranean%20lizard_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Forge of Fury"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
   },
   {
     "Name": "Giant Swan",
@@ -6904,9 +8147,12 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20venomous%20snake_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Death at Sunset"
+    ],
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Dungeons"
     ]
   },
   {
@@ -6947,10 +8193,84 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20weasel_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
     "Region": [
       "Heartlands",
-      "Moonshae"
+      "Moonshae",
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Giant Wolf Spider",
+    "CR": "1/4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 7,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 12,
+    "Charisma": 4,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20wolf%20spider_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Gibbering Mouther",
+    "CR": "2",
+    "Type": "aberration",
+    "Alignment": "C N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 10,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gibbering%20mouther_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Reach for the Stars",
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City"
+    ],
+    "Region": [
+      "Cities",
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Gibberling",
+    "CR": "0",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 7,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gibberling_qftis",
+    "Faction": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -6974,6 +8294,28 @@
     ],
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Gingwatzim",
+    "CR": "2",
+    "Type": "aberration (shapechanger)",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 11,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gingwatzim_cm",
+    "Faction": "",
+    "Adventure": [
+      "Mazfroth’s Mighty Digressions"
+    ],
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -7038,6 +8380,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#githyanki%20knight_xmm",
     "Adventures": [
       "Phandelver and Below"
+    ],
+    "Adventure": [
+      "For Whom the Void Calls"
     ]
   },
   {
@@ -7123,9 +8468,12 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#gladiator_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Tears Fall"
+    ],
     "Region": [
-      "Cities"
+      "Cities",
+      "Heartlands"
     ]
   },
   {
@@ -7348,6 +8696,26 @@
     ]
   },
   {
+    "Name": "Goblin",
+    "CR": "1/4",
+    "Type": "humanoid (goblinoid)",
+    "Alignment": "N E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 8,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#goblin_mm",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
+  },
+  {
     "Name": "Goblin Boss",
     "CR": "1",
     "Type": "fey (goblinoid)",
@@ -7362,7 +8730,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20boss_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Tockworth's Clockworks",
+      "The Siege of Shalespire Priory",
+      "The Drowning Forest"
+    ],
     "Region": [
       "Heartlands",
       "Moonshae",
@@ -7401,6 +8773,48 @@
       "Dungeons"
     ],
     "Statblock_Link": ""
+  },
+  {
+    "Name": "Goblin Commoner",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20commoner_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
+  },
+  {
+    "Name": "Goblin Hexer",
+    "CR": "3",
+    "Type": "fey (goblinoid)",
+    "Alignment": "C N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 7,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 16,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20hexer_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Drowning Forest"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
   },
   {
     "Name": "Goblin Minion",
@@ -7492,10 +8906,36 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20warrior_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Baker's Dozen",
+      "The Siege of Shalespire Priory"
+    ],
     "Region": [
       "Heartlands",
-      "Moonshae"
+      "Moonshae",
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Gold Dragon Wyrmling",
+    "CR": "3",
+    "Type": "dragon (metallic)",
+    "Alignment": "L G",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +4, Wis +2",
+    "Intelligence": 14,
+    "Wisdom": 11,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gold%20dragon%20wyrmling_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Baker's Dozen"
+    ],
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -7622,9 +9062,15 @@
     "Charisma": 2,
     "Statblock_Link": "https://5e.tools/bestiary.html#gray%20ooze_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Reach for the Stars",
+      "Tockworth's Clockworks",
+      "The Forge of Fury"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Cities",
+      "Heartlands"
     ]
   },
   {
@@ -7699,6 +9145,28 @@
     "Statblock_Link": ""
   },
   {
+    "Name": "Great Ulfe",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#great%20ulfe_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Forge of Fury"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Great Warrior",
     "CR": "Unknown",
     "Type": "Unknown",
@@ -7719,6 +9187,28 @@
     ]
   },
   {
+    "Name": "Green Dragon Wyrmling",
+    "CR": "2",
+    "Type": "dragon (chromatic)",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +3, Wis +2",
+    "Intelligence": 14,
+    "Wisdom": 11,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#green%20dragon%20wyrmling_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Death at Sunset"
+    ],
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
     "Name": "Green Hag",
     "CR": "3",
     "Type": "fey",
@@ -7733,10 +9223,14 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#green%20hag_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Price of Beauty",
+      "Baker's Dozen"
+    ],
     "Region": [
       "Heartlands",
-      "Moonshae"
+      "Moonshae",
+      "Dungeons"
     ]
   },
   {
@@ -7793,6 +9287,9 @@
       "Rime of the Frostmaiden",
       "Waterdeep Dragon Heist",
       "Out of the Abyss"
+    ],
+    "Adventure": [
+      "Tockworth's Clockworks"
     ]
   },
   {
@@ -7822,6 +9319,26 @@
     ]
   },
   {
+    "Name": "Grenl",
+    "CR": "1/4",
+    "Type": "humanoid (goblinoid)",
+    "Alignment": "N E",
+    "PassivePerception": 9,
+    "PerceptionBonus": 1,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 13,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#grenl_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
+  },
+  {
     "Name": "Grick",
     "CR": "2",
     "Type": "aberration",
@@ -7836,9 +9353,14 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#grick_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Tockworth's Clockworks",
+      "The Forge of Fury"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Cities",
+      "Heartlands"
     ]
   },
   {
@@ -7901,10 +9423,13 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#griffon_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
     "Region": [
       "Icewind Dale",
-      "Moonshae"
+      "Moonshae",
+      "Calimshan"
     ],
     "Adventures": [
       "Rime of the Frostmaiden"
@@ -8075,9 +9600,17 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#guard_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Murkmire Malevolence",
+      "Death at Sunset",
+      "The Sunless Citadel",
+      "The Lost City",
+      "When a Star Falls"
+    ],
     "Region": [
-      "Cities"
+      "Cities",
+      "Dungeons",
+      "Calimshan"
     ]
   },
   {
@@ -8121,6 +9654,26 @@
     ]
   },
   {
+    "Name": "Guardian of Gorm",
+    "CR": "1/8",
+    "Type": "humanoid",
+    "Alignment": "L G",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 13,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#guardian%20of%20gorm_qftis",
+    "Faction": "",
+    "Adventure": [
+      "The Lost City"
+    ],
+    "Region": []
+  },
+  {
     "Name": "Gulthias Blight",
     "CR": "16",
     "Type": "plant",
@@ -8141,6 +9694,26 @@
     ]
   },
   {
+    "Name": "Guthash",
+    "CR": "1/4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 4,
+    "Statblock_Link": "https://5e.tools/bestiary.html#guthash_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
+  },
+  {
     "Name": "Hadrosaurus",
     "CR": "1/4",
     "Type": "Volo's Guide to Monsters",
@@ -8159,6 +9732,28 @@
     "Wisdom": 10,
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#hadrosaurus_vgm"
+  },
+  {
+    "Name": "Hag of the Fetid Gaze",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hag%20of%20the%20fetid%20gaze_cm",
+    "Faction": "",
+    "Adventure": [
+      "The Price of Beauty"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
   },
   {
     "Name": "Half-Ogre",
@@ -8362,6 +9957,28 @@
     "Statblock_Link": ""
   },
   {
+    "Name": "Headless Body",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#headless%20body_kftgv",
+    "Faction": "",
+    "Adventure": [
+      "Reach for the Stars"
+    ],
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
     "Name": "Headless Iron Golem",
     "CR": "10",
     "Type": "Unknown",
@@ -8419,9 +10036,12 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#hell%20hound_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Price of Beauty"
+    ],
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Heartlands"
     ]
   },
   {
@@ -8462,7 +10082,9 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#helmed%20horror_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
       "Dungeons",
       "Heartlands",
@@ -8555,7 +10177,9 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#hill%20giant_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Tears Fall"
+    ],
     "Region": [
       "Heartlands"
     ]
@@ -8605,6 +10229,27 @@
     ]
   },
   {
+    "Name": "Hobgoblin",
+    "CR": "1/2",
+    "Type": "humanoid (goblinoid)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hobgoblin_mm",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel",
+      "The Lost City"
+    ],
+    "Region": []
+  },
+  {
     "Name": "Hobgoblin Captain",
     "CR": "3",
     "Type": "fey (goblinoid)",
@@ -8621,10 +10266,15 @@
     "Faction": "",
     "Tags": [],
     "Region": [
-      "Cities"
+      "Cities",
+      "Heartlands"
     ],
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
+    ],
+    "Adventure": [
+      "Tears Fall",
+      "Prisoner 13"
     ]
   },
   {
@@ -8642,7 +10292,9 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#hobgoblin%20warlord_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Lost City"
+    ],
     "Region": [
       "Heartlands",
       "Moonshae",
@@ -8667,10 +10319,15 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#hobgoblin%20warrior_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Siege of Shalespire Priory",
+      "Tears Fall",
+      "Prisoner 13"
+    ],
     "Region": [
       "Heartlands",
-      "Moonshae"
+      "Moonshae",
+      "Cities"
     ]
   },
   {
@@ -8697,6 +10354,26 @@
     ]
   },
   {
+    "Name": "Homunculus",
+    "CR": "0",
+    "Type": "construct",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Wis +2, Cha +0",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#homunculus_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Joy of Extradimensional Spaces"
+    ],
+    "Region": []
+  },
+  {
     "Name": "Hook Horror",
     "CR": "3",
     "Type": "monstrosity",
@@ -8711,9 +10388,15 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#hook%20horror_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Reach for the Stars",
+      "Tockworth's Clockworks",
+      "When a Star Falls"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Cities",
+      "Calimshan"
     ],
     "Adventures": [
       "Out of the Abyss"
@@ -9020,9 +10703,13 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#ice%20mephit_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Baker's Dozen",
+      "The Sunless Citadel"
+    ],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Dungeons"
     ]
   },
   {
@@ -9106,6 +10793,29 @@
       "Heartlands"
     ],
     "Adventures": []
+  },
+  {
+    "Name": "Imp",
+    "CR": "1",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 12,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#imp_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Joy of Extradimensional Spaces",
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Calimshan"
+    ]
   },
   {
     "Name": "Incubus",
@@ -9244,10 +10954,13 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#invisible%20stalker_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "For Whom the Void Calls"
+    ],
     "Region": [
       "Calimshan",
-      "Cities"
+      "Cities",
+      "Dungeons"
     ]
   },
   {
@@ -9390,10 +11103,15 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#jackalwere_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Mazfroth’s Mighty Digressions",
+      "The Lost City",
+      "When a Star Falls"
+    ],
     "Region": [
       "Calimshan",
-      "Cities"
+      "Cities",
+      "Heartlands"
     ],
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
@@ -9501,6 +11219,26 @@
     "Adventures": []
   },
   {
+    "Name": "Jot",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#jot_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
+  },
+  {
     "Name": "Juiblex",
     "CR": "23",
     "Type": "fiend (demon)",
@@ -9521,6 +11259,72 @@
     ],
     "Adventures": [
       "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Juvenile Eldritch Horror",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 18,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#juvenile%20eldritch%20horror_kftgv",
+    "Faction": "",
+    "Adventure": [
+      "The Murkmire Malevolence"
+    ],
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
+    "Name": "K'Tulah",
+    "CR": "2",
+    "Type": "humanoid (tabaxi)",
+    "Alignment": "N G",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 15,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#k'tulah_cm",
+    "Faction": "",
+    "Adventure": [
+      "Shemshime's Bedtime Rhyme"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Kaarghaz",
+    "CR": "2",
+    "Type": "humanoid (troglodyte)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kaarghaz_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Forge of Fury"
+    ],
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -9572,6 +11376,29 @@
     ]
   },
   {
+    "Name": "Kalka-Kylla",
+    "CR": "3",
+    "Type": "monstrosity",
+    "Alignment": "N",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 3,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 16,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kalka-kylla_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
     "Name": "Kamadan",
     "CR": "4",
     "Type": "Monstrosity",
@@ -9612,6 +11439,28 @@
     ]
   },
   {
+    "Name": "Kavoda",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "C G",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kavoda_kftgv",
+    "Faction": "",
+    "Adventure": [
+      "Tockworth's Clockworks"
+    ],
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
     "Name": "Kelek",
     "CR": "5",
     "Type": "Humanoid",
@@ -9637,10 +11486,14 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#kenku_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Shemshime's Bedtime Rhyme",
+      "The Weeping Goddess"
+    ],
     "Region": [
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Heartlands"
     ],
     "Adventures": [
       "Waterdeep Dragon Heist",
@@ -9754,9 +11607,17 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#knight_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Price of Beauty",
+      "Reach for the Stars",
+      "The Siege of Shalespire Priory",
+      "Mazfroth’s Mighty Digressions",
+      "When a Star Falls"
+    ],
     "Region": [
-      "Cities"
+      "Cities",
+      "Heartlands",
+      "Calimshan"
     ]
   },
   {
@@ -9781,6 +11642,46 @@
     "Adventures": [
       "Rime of the Frostmaiden"
     ]
+  },
+  {
+    "Name": "Kobold",
+    "CR": "1/8",
+    "Type": "humanoid (kobold)",
+    "Alignment": "L E",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 7,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kobold_mm",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
+  },
+  {
+    "Name": "Kobold Commoner",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kobold%20commoner_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
   },
   {
     "Name": "Kobold Inventor",
@@ -10042,6 +11943,28 @@
     ]
   },
   {
+    "Name": "Lacedon Ghoul",
+    "CR": "1",
+    "Type": "undead",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 10,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#lacedon%20ghoul_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Weeping Goddess"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Lady Gondafrey",
     "CR": "2",
     "Type": "elemental",
@@ -10104,9 +12027,14 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#lamia_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Eyes of Atar",
+      "Mazfroth’s Mighty Digressions",
+      "When a Star Falls"
+    ],
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Heartlands"
     ]
   },
   {
@@ -10172,7 +12100,9 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#lich_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Will of Orcus"
+    ],
     "Region": [
       "Calimshan",
       "Cities",
@@ -10195,9 +12125,12 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#lion_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Stygian Gambit"
+    ],
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Cities"
     ]
   },
   {
@@ -10279,6 +12212,28 @@
       "Heartlands"
     ],
     "Adventures": []
+  },
+  {
+    "Name": "Lizard",
+    "CR": "0",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 8,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#lizard_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Tockworth's Clockworks"
+    ],
+    "Region": [
+      "Cities"
+    ]
   },
   {
     "Name": "Lizardfolk Geomancer",
@@ -10512,7 +12467,10 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#mage_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Prisoner 13",
+      "Tockworth's Clockworks"
+    ],
     "Region": [
       "Cities"
     ]
@@ -10532,10 +12490,34 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#mage%20apprentice_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Curse on Humble Hill",
+      "Tears Fall"
+    ],
     "Region": [
-      "Cities"
+      "Cities",
+      "Heartlands"
     ]
+  },
+  {
+    "Name": "Mage of Usamigaras",
+    "CR": "1/8",
+    "Type": "humanoid",
+    "Alignment": "C N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 10,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mage%20of%20usamigaras_qftis",
+    "Faction": "",
+    "Adventure": [
+      "The Lost City"
+    ],
+    "Region": []
   },
   {
     "Name": "Magister Umbero Zastro",
@@ -10775,7 +12757,9 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#manticore_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Eyes of Atar"
+    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
@@ -10844,6 +12828,28 @@
     ]
   },
   {
+    "Name": "Markos Delphi",
+    "CR": "3",
+    "Type": "humanoid (human, warlock)",
+    "Alignment": "C N",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Wis +3, Cha +5",
+    "Intelligence": 17,
+    "Wisdom": 13,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#markos%20delphi_kftgv",
+    "Faction": "",
+    "Adventure": [
+      "Reach for the Stars"
+    ],
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
     "Name": "Martial Arts Adept",
     "CR": "3",
     "Type": "humanoid (any race)",
@@ -10861,10 +12867,37 @@
     "Tags": [],
     "Region": [
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Heartlands",
+      "Icewind Dale"
     ],
     "Adventures": [
       "Waterdeep Dragon Heist"
+    ],
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ]
+  },
+  {
+    "Name": "Maschin-i-Bozorg",
+    "CR": "8",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#maschin-i-bozorg_qftis",
+    "Faction": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -10905,9 +12938,15 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#mastiff_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Death at Sunset",
+      "Robber Baron",
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
-      "Heartlands"
+      "Heartlands",
+      "Dungeons",
+      "Icewind Dale"
     ]
   },
   {
@@ -10945,10 +12984,36 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#medusa_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Price of Beauty",
+      "The Drowning Forest"
+    ],
     "Region": [
       "Calimshan",
-      "Dungeons"
+      "Dungeons",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Meenlock",
+    "CR": "2",
+    "Type": "fey",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#meenlock_vgm",
+    "Faction": "",
+    "Adventure": [
+      "A Deep and Creeping Darkness"
+    ],
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -10997,6 +13062,28 @@
     ],
     "Adventures": [
       "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Memory Web",
+    "CR": "4",
+    "Type": "aberration",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 14,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#memory%20web_qftis",
+    "Faction": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -11159,11 +13246,42 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#mimic_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Joy of Extradimensional Spaces",
+      "The Murkmire Malevolence",
+      "Reach for the Stars",
+      "Tockworth's Clockworks",
+      "For Whom the Void Calls",
+      "Mazfroth’s Mighty Digressions",
+      "The Lost City",
+      "When a Star Falls"
+    ],
     "Region": [
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Heartlands",
+      "Calimshan"
     ]
+  },
+  {
+    "Name": "Mimic Chair",
+    "CR": "2",
+    "Type": "monstrosity (shapechanger)",
+    "Alignment": "N",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 5,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 13,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mimic%20chair_cm",
+    "Faction": "",
+    "Adventure": [
+      "The Joy of Extradimensional Spaces"
+    ],
+    "Region": []
   },
   {
     "Name": "Mind Flayer",
@@ -11180,7 +13298,9 @@
     "Charisma": 17,
     "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Lost City"
+    ],
     "Region": [
       "Dungeons",
       "Heartlands",
@@ -11293,6 +13413,28 @@
     ]
   },
   {
+    "Name": "Minotaur Skeleton",
+    "CR": "2",
+    "Type": "undead",
+    "Alignment": "L E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 8,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#minotaur%20skeleton_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Stygian Gambit"
+    ],
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
     "Name": "Mirt",
     "CR": "9",
     "Type": "humanoid (human)",
@@ -11337,6 +13479,72 @@
       "Heartlands"
     ],
     "Adventures": []
+  },
+  {
+    "Name": "Modron Duodrone",
+    "CR": "1/4",
+    "Type": "construct",
+    "Alignment": "L N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#modron%20duodrone_xmm",
+    "Faction": "",
+    "Adventure": [
+      "For Whom the Void Calls"
+    ],
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Modron Quadrone",
+    "CR": "1",
+    "Type": "construct",
+    "Alignment": "L N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#modron%20quadrone_xmm",
+    "Faction": "",
+    "Adventure": [
+      "For Whom the Void Calls"
+    ],
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Modron Tridrone",
+    "CR": "1/2",
+    "Type": "construct",
+    "Alignment": "L N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#modron%20tridrone_xmm",
+    "Faction": "",
+    "Adventure": [
+      "For Whom the Void Calls"
+    ],
+    "Region": [
+      "Dungeons"
+    ]
   },
   {
     "Name": "Molliver",
@@ -11468,6 +13676,9 @@
     "Adventures": [
       "Out of the Abyss",
       "Tomb of Annihilation"
+    ],
+    "Adventure": [
+      "Death at Sunset"
     ]
   },
   {
@@ -11485,9 +13696,16 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#mummy_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Baker's Dozen",
+      "Will of Orcus",
+      "The Drowning Forest",
+      "The Lost City"
+    ],
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -11505,9 +13723,12 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#mummy%20lord_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Will of Orcus"
+    ],
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Dungeons"
     ]
   },
   {
@@ -11576,6 +13797,31 @@
     "Adventures": [
       "Rime of the Frostmaiden",
       "Out of the Abyss"
+    ],
+    "Adventure": [
+      "The Lost City"
+    ]
+  },
+  {
+    "Name": "Myconid Spore Servant",
+    "CR": "1",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 6,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#myconid%20spore%20servant_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Curse on Humble Hill"
+    ],
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -11599,6 +13845,51 @@
     ],
     "Adventures": [
       "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Nahual",
+    "CR": "3",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 12,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#nahual_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Naiad",
+    "CR": "2",
+    "Type": "fey",
+    "Alignment": "C N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 10,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#naiad_mot",
+    "Faction": "",
+    "Adventure": [
+      "The Price of Beauty"
+    ],
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -11762,6 +14053,29 @@
       "Phandelver and Below",
       "Rime of the Frostmaiden",
       "Dragon of Icespire Peak"
+    ]
+  },
+  {
+    "Name": "Nereid",
+    "CR": "2",
+    "Type": "fey",
+    "Alignment": "C G NY E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#nereid_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -11938,6 +14252,28 @@
     ]
   },
   {
+    "Name": "Nimira",
+    "CR": "3",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#nimira_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Forge of Fury"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Nine-Fingers Keene",
     "CR": "5",
     "Type": "humanoid (human)",
@@ -11958,6 +14294,38 @@
     ],
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
+    ]
+  },
+  {
+    "Name": "Noble",
+    "CR": "1/8",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#noble_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Shemshime's Bedtime Rhyme",
+      "The Price of Beauty",
+      "The Murkmire Malevolence",
+      "The Stygian Gambit",
+      "Prisoner 13",
+      "Death at Sunset",
+      "Wolves of Amphail",
+      "The Sunless Citadel",
+      "The Forge of Fury"
+    ],
+    "Region": [
+      "Heartlands",
+      "Cities",
+      "Dungeons"
     ]
   },
   {
@@ -12018,9 +14386,12 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#nothic_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Reach for the Stars"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Cities"
     ]
   },
   {
@@ -12133,9 +14504,13 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#ochre%20jelly_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -12177,12 +14552,62 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#ogre_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Baker's Dozen",
+      "The Siege of Shalespire Priory",
+      "The Forge of Fury",
+      "When a Star Falls",
+      "The Lost City"
+    ],
     "Region": [
       "Calimshan",
       "Dungeons",
       "Heartlands",
       "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Ogre Skeleton",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ogre%20skeleton_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Forge of Fury"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Ogre Zombie",
+    "CR": "2",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": -2,
+    "InitiativeBonus": -2,
+    "SavingThrows": "Wis +0",
+    "Intelligence": 3,
+    "Wisdom": 6,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ogre%20zombie_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Will of Orcus"
+    ],
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -12206,6 +14631,28 @@
     ]
   },
   {
+    "Name": "Ogrillon Ogre",
+    "CR": "1",
+    "Type": "giant",
+    "Alignment": "C E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 9,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ogrillon%20ogre_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Siege of Shalespire Priory"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Oni",
     "CR": "7",
     "Type": "fiend",
@@ -12220,9 +14667,34 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#oni_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
       "Cities",
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Orc",
+    "CR": "1/2",
+    "Type": "humanoid (orc)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#orc_mm",
+    "Faction": "",
+    "Adventure": [
+      "The Forge of Fury"
+    ],
+    "Region": [
       "Heartlands"
     ]
   },
@@ -12243,12 +14715,16 @@
     "Tags": [],
     "Region": [
       "Icewind Dale",
-      "Dungeons"
+      "Dungeons",
+      "Heartlands"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#orc%20eye%20of%20gruumsh_mm",
     "Adventures": [
       "Rime of the Frostmaiden",
       "Out of the Abyss"
+    ],
+    "Adventure": [
+      "The Forge of Fury"
     ]
   },
   {
@@ -12316,10 +14792,14 @@
     "Faction": "",
     "Tags": [],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Heartlands"
     ],
     "Adventures": [
       "Out of the Abyss"
+    ],
+    "Adventure": [
+      "The Forge of Fury"
     ]
   },
   {
@@ -12451,7 +14931,9 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#owlbear_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Lost City"
+    ],
     "Region": [
       "Heartlands"
     ]
@@ -12471,9 +14953,13 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#panther_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Wolves of Amphail",
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
-      "Heartlands"
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -12610,6 +15096,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#peryton_xmm",
     "Adventures": [
       "Rime of the Frostmaiden"
+    ],
+    "Adventure": [
+      "Wolves of Amphail"
     ]
   },
   {
@@ -12627,9 +15116,12 @@
     "Charisma": 18,
     "Statblock_Link": "https://5e.tools/bestiary.html#phaerimm%20agent_fraif",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Eyes of Atar"
+    ],
     "Region": [
-      "Cities"
+      "Cities",
+      "Heartlands"
     ]
   },
   {
@@ -12794,7 +15286,9 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#pixie_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Lost City"
+    ],
     "Region": [
       "Moonshae",
       "Heartlands"
@@ -12840,6 +15334,26 @@
     "Region": [
       "Moonshae"
     ]
+  },
+  {
+    "Name": "Poisonous Snake",
+    "CR": "1/8",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#poisonous%20snake_mm",
+    "Faction": "",
+    "Adventure": [
+      "The Lost City"
+    ],
+    "Region": []
   },
   {
     "Name": "Polar Bear",
@@ -12909,12 +15423,18 @@
     "Tags": [],
     "Region": [
       "Icewind Dale",
-      "Dungeons"
+      "Dungeons",
+      "Heartlands",
+      "Cities"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#poltergeist_xmm",
     "Adventures": [
       "Rime of the Frostmaiden",
       "Out of the Abyss"
+    ],
+    "Adventure": [
+      "Book of the Raven",
+      "Tockworth's Clockworks"
     ]
   },
   {
@@ -12932,9 +15452,42 @@
     "Charisma": 13,
     "Statblock_Link": "https://5e.tools/bestiary.html#priest_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Price of Beauty",
+      "The Siege of Shalespire Priory",
+      "The Weeping Goddess",
+      "The Sunless Citadel",
+      "The Forge of Fury",
+      "The Lost City"
+    ],
     "Region": [
-      "Cities"
+      "Cities",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Priest Acolyte",
+    "CR": "1/4",
+    "Type": "humanoid (cleric)",
+    "Alignment": "N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#priest%20acolyte_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Death at Sunset",
+      "Robber Baron",
+      "The Siege of Shalespire Priory"
+    ],
+    "Region": [
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -13001,6 +15554,28 @@
     ],
     "Adventures": [
       "Out of the Abyss"
+    ]
+  },
+  {
+    "Name": "Prisoner 13",
+    "CR": "5",
+    "Type": "humanoid (dwarf, monk)",
+    "Alignment": "N E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 6,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Con +7, Wis +5",
+    "Intelligence": 16,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#prisoner%2013_kftgv",
+    "Faction": "",
+    "Adventure": [
+      "Prisoner 13"
+    ],
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -13260,6 +15835,27 @@
     ]
   },
   {
+    "Name": "Quasit",
+    "CR": "1",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#quasit_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Joy of Extradimensional Spaces",
+      "The Sunless Citadel"
+    ],
+    "Region": []
+  },
+  {
     "Name": "Quenthel Baenre",
     "CR": "22",
     "Type": "Unknown",
@@ -13385,6 +15981,50 @@
     "Wisdom": 18,
     "Charisma": 21,
     "Statblock_Link": "https://5e.tools/bestiary.html#ras%20nsi_toa"
+  },
+  {
+    "Name": "Rat",
+    "CR": "0",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 4,
+    "Statblock_Link": "https://5e.tools/bestiary.html#rat_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Forge of Fury"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Raven",
+    "CR": "0",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 13,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#raven_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Book of the Raven"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
   },
   {
     "Name": "Reaper of Bhaal",
@@ -13918,9 +16558,14 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#roper_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Forge of Fury",
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -13947,6 +16592,33 @@
     "Statblock_Link": ""
   },
   {
+    "Name": "Rug of Smothering",
+    "CR": "2",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 6,
+    "PerceptionBonus": -4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 3,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#rug%20of%20smothering_mm",
+    "Faction": "",
+    "Adventure": [
+      "Reach for the Stars",
+      "Baker's Dozen",
+      "The Forge of Fury",
+      "Mazfroth’s Mighty Digressions"
+    ],
+    "Region": [
+      "Cities",
+      "Dungeons",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Rust Monster",
     "CR": "1/2",
     "Type": "monstrosity",
@@ -13961,7 +16633,9 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#rust%20monster_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Lost City"
+    ],
     "Region": [
       "Dungeons"
     ]
@@ -14021,9 +16695,12 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#saber-toothed%20tiger_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Calimshan"
     ]
   },
   {
@@ -14065,7 +16742,9 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#sage_cm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Joy of Extradimensional Spaces"
+    ],
     "Region": [
       "Cities"
     ]
@@ -14253,11 +16932,17 @@
     "Region": [
       "Cities",
       "Dungeons",
-      "Calimshan"
+      "Calimshan",
+      "Heartlands"
     ],
     "Adventures": [
       "Waterdeep Dragon Heist",
       "Tomb of Annihilation"
+    ],
+    "Adventure": [
+      "Book of the Raven",
+      "The Price of Beauty",
+      "The Murkmire Malevolence"
     ]
   },
   {
@@ -14275,10 +16960,21 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#scout_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Price of Beauty",
+      "Death at Sunset",
+      "Robber Baron",
+      "Wolves of Amphail",
+      "The Eyes of Atar",
+      "The Sunless Citadel",
+      "The Hidden Shrine of Tamoachan",
+      "When a Star Falls"
+    ],
     "Region": [
       "Heartlands",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Dungeons",
+      "Calimshan"
     ]
   },
   {
@@ -14434,10 +17130,18 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#shadow_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Shemshime's Bedtime Rhyme",
+      "The Weeping Goddess",
+      "The Sunless Citadel",
+      "When a Star Falls",
+      "The Lost City"
+    ],
     "Region": [
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Heartlands",
+      "Calimshan"
     ]
   },
   {
@@ -14466,12 +17170,15 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#shadow%20demon_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Lost Dawn"
+    ],
     "Region": [
       "Calimshan",
       "Icewind Dale",
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Heartlands"
     ],
     "Adventures": [
       "Rime of the Frostmaiden",
@@ -14555,10 +17262,35 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#shambling%20mound_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Tockworth's Clockworks",
+      "For Whom the Void Calls"
+    ],
     "Region": [
-      "Moonshae"
+      "Moonshae",
+      "Cities",
+      "Dungeons"
     ]
+  },
+  {
+    "Name": "Sharwyn Hucrele",
+    "CR": "1/2",
+    "Type": "humanoid (human)",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 16,
+    "Wisdom": 14,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sharwyn%20hucrele_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
   },
   {
     "Name": "Shedrak of the Eyes",
@@ -14607,6 +17339,28 @@
     ]
   },
   {
+    "Name": "Shemshime",
+    "CR": "4",
+    "Type": "undead",
+    "Alignment": "Unknown",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 7,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Int +5, Wis +4",
+    "Intelligence": 17,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#shemshime_cm",
+    "Faction": "",
+    "Adventure": [
+      "Shemshime's Bedtime Rhyme"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Shield Guardian",
     "CR": "7",
     "Type": "construct",
@@ -14621,7 +17375,9 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#shield%20guardian_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Tockworth's Clockworks"
+    ],
     "Region": [
       "Calimshan",
       "Cities",
@@ -14650,6 +17406,70 @@
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
     ]
+  },
+  {
+    "Name": "Silver Dragon Wyrmling",
+    "CR": "2",
+    "Type": "dragon (metallic)",
+    "Alignment": "L G",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +2, Wis +2",
+    "Intelligence": 12,
+    "Wisdom": 11,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#silver%20dragon%20wyrmling_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Will of Orcus"
+    ],
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Sion",
+    "CR": "2",
+    "Type": "humanoid (human, sorcerer)",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Con +3, Cha +5",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sion_qftis",
+    "Faction": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Sir Braford",
+    "CR": "1/2",
+    "Type": "humanoid (human)",
+    "Alignment": "N E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 13,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sir%20braford_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
   },
   {
     "Name": "Sir Talavar",
@@ -14712,9 +17532,16 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#skeleton_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Will of Orcus",
+      "The Tenebrous Stone",
+      "The Sunless Citadel",
+      "The Forge of Fury",
+      "The Lost City"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -14791,12 +17618,17 @@
     "Region": [
       "Heartlands",
       "Dungeons",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Cities"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#slaad%20tadpole_xmm",
     "Adventures": [
       "Phandelver and Below",
       "Rime of the Frostmaiden"
+    ],
+    "Adventure": [
+      "The Joy of Extradimensional Spaces",
+      "Reach for the Stars"
     ]
   },
   {
@@ -14860,9 +17692,12 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#smoke%20mephit_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Lost Dawn"
+    ],
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Heartlands"
     ],
     "Adventures": [
       "Tomb of Annihilation"
@@ -14912,6 +17747,28 @@
     ],
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Snurrevin",
+    "CR": "2",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#snurrevin_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Forge of Fury"
+    ],
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -14973,9 +17830,15 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#spectator_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Prisoner 13",
+      "For Whom the Void Calls",
+      "When a Star Falls"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Cities",
+      "Calimshan"
     ]
   },
   {
@@ -14993,9 +17856,17 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#specter_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Book of the Raven",
+      "Tockworth's Clockworks",
+      "Will of Orcus",
+      "The Lost Dawn",
+      "Tears Fall"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Heartlands",
+      "Cities"
     ]
   },
   {
@@ -15180,6 +18051,9 @@
       "Waterdeep Dragon Heist",
       "Baldur's Gate: Descent into Avernus",
       "Tomb of Annihilation"
+    ],
+    "Adventure": [
+      "The Stygian Gambit"
     ]
   },
   {
@@ -15282,10 +18156,17 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#spy_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Price of Beauty",
+      "The Stygian Gambit",
+      "Prisoner 13",
+      "Robber Baron",
+      "Fury Grove"
+    ],
     "Region": [
       "Calimshan",
-      "Cities"
+      "Cities",
+      "Heartlands"
     ]
   },
   {
@@ -15320,6 +18201,26 @@
     "Adventures": []
   },
   {
+    "Name": "Steam Mephit",
+    "CR": "1/4",
+    "Type": "elemental",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#steam%20mephit_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
+  },
+  {
     "Name": "Stegosaurus",
     "CR": "4",
     "Type": "Volo's Guide to Monsters",
@@ -15338,6 +18239,31 @@
     "Wisdom": 11,
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#stegosaurus_vgm"
+  },
+  {
+    "Name": "Stirge",
+    "CR": "1/8",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 8,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#stirge_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Reach for the Stars",
+      "The Forge of Fury",
+      "The Lost City"
+    ],
+    "Region": [
+      "Cities",
+      "Heartlands"
+    ]
   },
   {
     "Name": "Stone Giant",
@@ -15375,9 +18301,13 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#stone%20golem_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -15486,10 +18416,14 @@
     "Charisma": 20,
     "Statblock_Link": "https://5e.tools/bestiary.html#succubus_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Tenebrous Stone",
+      "The Forge of Fury"
+    ],
     "Region": [
       "Calimshan",
-      "Cities"
+      "Cities",
+      "Heartlands"
     ]
   },
   {
@@ -15536,6 +18470,50 @@
     ]
   },
   {
+    "Name": "Swarm of Animated Books",
+    "CR": "1/4",
+    "Type": "construct",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20animated%20books_cm",
+    "Faction": "",
+    "Adventure": [
+      "The Joy of Extradimensional Spaces"
+    ],
+    "Region": []
+  },
+  {
+    "Name": "Swarm of Bats",
+    "CR": "1/4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 12,
+    "Charisma": 4,
+    "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20bats_xmm",
+    "Faction": "",
+    "Adventure": [
+      "A Deep and Creeping Darkness",
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
     "Name": "Swarm of Campestris",
     "CR": "1",
     "Type": "Plant",
@@ -15545,6 +18523,76 @@
       "Heartlands"
     ],
     "Adventures": []
+  },
+  {
+    "Name": "Swarm of Crawling Claws",
+    "CR": "3",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 10,
+    "Charisma": 4,
+    "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20crawling%20claws_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Will of Orcus",
+      "Disinterred Danger"
+    ],
+    "Region": [
+      "Dungeons",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Swarm of Gibberlings",
+    "CR": "3",
+    "Type": "fiend",
+    "Alignment": "C E",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 7,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20gibberlings_qftis",
+    "Faction": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Swarm of Insects",
+    "CR": "1/2",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 7,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20insects_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Death at Sunset",
+      "The Drowning Forest"
+    ],
+    "Region": [
+      "Dungeons",
+      "Heartlands"
+    ]
   },
   {
     "Name": "Swarm of Mechanical Spiders",
@@ -15571,6 +18619,100 @@
     ]
   },
   {
+    "Name": "Swarm of Poisonous Snakes",
+    "CR": "2",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20poisonous%20snakes_mm",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Swarm of Rats",
+    "CR": "1/4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20rats_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel",
+      "The Hidden Shrine of Tamoachan",
+      "Mazfroth’s Mighty Digressions"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Swarm of Ravens",
+    "CR": "1/4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20ravens_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Weeping Goddess"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Swarm of Stirges",
+    "CR": "2",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 8,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20stirges_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Weeping Goddess",
+      "The Drowning Forest"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Swarm of Venomous Snakes",
     "CR": "2",
     "Type": "beast",
@@ -15589,6 +18731,26 @@
     "Region": [
       "Calimshan"
     ]
+  },
+  {
+    "Name": "Swarm of Wasps",
+    "CR": "1/2",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 7,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20wasps_mm",
+    "Faction": "",
+    "Adventure": [
+      "The Lost City"
+    ],
+    "Region": []
   },
   {
     "Name": "Swashbuckler",
@@ -15790,6 +18952,29 @@
     ]
   },
   {
+    "Name": "Tecuziztecatl",
+    "CR": "4",
+    "Type": "monstrosity",
+    "Alignment": "N",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 16,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tecuziztecatl_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
     "Name": "Telepathic Pentacle",
     "CR": "Unknown",
     "Type": "Unknown",
@@ -15873,6 +19058,29 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
+    ]
+  },
+  {
+    "Name": "Thorn Slinger",
+    "CR": "1/2",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#thorn%20slinger_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -15960,6 +19168,30 @@
     ]
   },
   {
+    "Name": "Thug",
+    "CR": "1/2",
+    "Type": "humanoid (any race)",
+    "Alignment": "L NX C NY E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#thug_mm",
+    "Faction": "",
+    "Adventure": [
+      "The Stygian Gambit",
+      "Mazfroth’s Mighty Digressions"
+    ],
+    "Region": [
+      "Cities",
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Thurstwell Vanthampur",
     "CR": "1/8",
     "Type": "humanoid (human)",
@@ -16035,6 +19267,51 @@
       "Heartlands"
     ],
     "Adventures": []
+  },
+  {
+    "Name": "Tixie Tockworth",
+    "CR": "7",
+    "Type": "humanoid (gnome)",
+    "Alignment": "C E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Int +6, Wis +2",
+    "Intelligence": 17,
+    "Wisdom": 9,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tixie%20tockworth_kftgv",
+    "Faction": "",
+    "Adventure": [
+      "Tockworth's Clockworks"
+    ],
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
+    "Name": "Tloques-Popolocas",
+    "CR": "5",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 6,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +6, Wis +3",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tloques-popolocas_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
+    ]
   },
   {
     "Name": "Tomb Guardian",
@@ -16117,10 +19394,17 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#tough_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Baker's Dozen",
+      "The Curse on Humble Hill",
+      "Robber Baron",
+      "The Eyes of Atar"
+    ],
     "Region": [
       "Calimshan",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -16138,9 +19422,56 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#tough%20boss_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Eyes of Atar"
+    ],
     "Region": [
-      "Cities"
+      "Cities",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Tower Hand",
+    "CR": "1/2",
+    "Type": "humanoid",
+    "Alignment": "A",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tower%20hand_qftis",
+    "Faction": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Tower Sage",
+    "CR": "1",
+    "Type": "humanoid",
+    "Alignment": "A",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 16,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tower%20sage_qftis",
+    "Faction": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -16280,11 +19611,15 @@
     "Charisma": 8,
     "Tags": [],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Heartlands"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#tribal%20warrior_mm",
     "Adventures": [
       "Rime of the Frostmaiden"
+    ],
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -16325,10 +19660,13 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#troglodyte_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Forge of Fury"
+    ],
     "Region": [
       "Dungeons",
-      "Cities"
+      "Cities",
+      "Heartlands"
     ],
     "Adventures": [
       "Waterdeep Dragon Heist",
@@ -16373,10 +19711,15 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#troll_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Drowning Forest",
+      "The Sunless Citadel",
+      "When a Star Falls"
+    ],
     "Region": [
       "Heartlands",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Calimshan"
     ]
   },
   {
@@ -16394,10 +19737,14 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#twig%20blight_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Death at Sunset",
+      "The Sunless Citadel"
+    ],
     "Region": [
       "Heartlands",
-      "Moonshae"
+      "Moonshae",
+      "Dungeons"
     ]
   },
   {
@@ -16644,10 +19991,15 @@
     "Charisma": 18,
     "Statblock_Link": "https://5e.tools/bestiary.html#vampire_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Will of Orcus",
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
       "Cities",
-      "Heartlands"
+      "Heartlands",
+      "Dungeons",
+      "Icewind Dale"
     ]
   },
   {
@@ -16725,9 +20077,13 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20spawn_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
-      "Cities"
+      "Cities",
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -16831,6 +20187,28 @@
     ]
   },
   {
+    "Name": "Varnyr",
+    "CR": "1/8",
+    "Type": "humanoid (elf)",
+    "Alignment": "C G",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#varnyr_cm",
+    "Faction": "",
+    "Adventure": [
+      "Shemshime's Bedtime Rhyme"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Vegepygmy",
     "CR": "1/4",
     "Type": "Volo's Guide to Monsters",
@@ -16905,9 +20283,12 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#venomous%20snake_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Death at Sunset"
+    ],
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Dungeons"
     ]
   },
   {
@@ -16954,6 +20335,33 @@
     ],
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Veteran",
+    "CR": "3",
+    "Type": "humanoid (any race)",
+    "Alignment": "A",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#veteran_mm",
+    "Faction": "",
+    "Adventure": [
+      "The Price of Beauty",
+      "Prisoner 13",
+      "The Sunless Citadel",
+      "The Forge of Fury",
+      "Mazfroth’s Mighty Digressions"
+    ],
+    "Region": [
+      "Heartlands",
+      "Cities"
     ]
   },
   {
@@ -17041,11 +20449,15 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#vine%20blight_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Death at Sunset",
+      "The Curse on Humble Hill"
+    ],
     "Region": [
       "Heartlands",
       "Moonshae",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Dungeons"
     ],
     "Adventures": [
       "Dragon of Icespire Peak"
@@ -17066,9 +20478,12 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#violet%20fungus_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Curse on Humble Hill"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -17221,6 +20636,28 @@
     "Adventures": []
   },
   {
+    "Name": "Warhorse Skeleton",
+    "CR": "1/2",
+    "Type": "undead",
+    "Alignment": "L E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 8,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#warhorse%20skeleton_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Book of the Raven"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
     "Name": "Warrior",
     "CR": "Unknown",
     "Type": "humanoid",
@@ -17267,6 +20704,48 @@
     ]
   },
   {
+    "Name": "Warrior Infantry",
+    "CR": "1/8",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 11,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#warrior%20infantry_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Robber Baron"
+    ],
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Warrior of Madarua",
+    "CR": "1/8",
+    "Type": "humanoid",
+    "Alignment": "C G",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#warrior%20of%20madarua_qftis",
+    "Faction": "",
+    "Adventure": [
+      "The Lost City"
+    ],
+    "Region": []
+  },
+  {
     "Name": "Warrior Veteran",
     "CR": "3",
     "Type": "humanoid",
@@ -17281,9 +20760,12 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#warrior%20veteran_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Tears Fall"
+    ],
     "Region": [
-      "Cities"
+      "Cities",
+      "Heartlands"
     ]
   },
   {
@@ -17301,9 +20783,12 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#water%20elemental_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "For Whom the Void Calls"
+    ],
     "Region": [
-      "Moonshae"
+      "Moonshae",
+      "Dungeons"
     ]
   },
   {
@@ -17321,7 +20806,10 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#water%20weird_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Price of Beauty",
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
       "Calimshan",
       "Moonshae",
@@ -17350,10 +20838,13 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#werebear_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Tears Fall"
+    ],
     "Region": [
       "Icewind Dale",
-      "Moonshae"
+      "Moonshae",
+      "Heartlands"
     ]
   },
   {
@@ -17371,10 +20862,35 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#wereboar_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Wolves of Amphail"
+    ],
     "Region": [
       "Heartlands",
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Werejaguar",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#werejaguar_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -17392,9 +20908,36 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#wererat_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Wolves of Amphail",
+      "Mazfroth’s Mighty Digressions",
+      "The Lost City"
+    ],
     "Region": [
-      "Cities"
+      "Cities",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Wereraven",
+    "CR": "2",
+    "Type": "humanoid (human, shapechanger)",
+    "Alignment": "Unknown",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 15,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#wereraven_vrgr",
+    "Faction": "",
+    "Adventure": [
+      "Book of the Raven"
+    ],
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -17412,9 +20955,13 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#weretiger_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Wolves of Amphail",
+      "The Hidden Shrine of Tamoachan"
+    ],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Heartlands"
     ]
   },
   {
@@ -17432,7 +20979,9 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#werewolf_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Wolves of Amphail"
+    ],
     "Region": [
       "Heartlands",
       "Moonshae"
@@ -17476,7 +21025,9 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#white%20dragon%20wyrmling_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
     "Region": [
       "Icewind Dale"
     ]
@@ -17496,10 +21047,18 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#wight_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Book of the Raven",
+      "The Tenebrous Stone",
+      "The Forge of Fury",
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City"
+    ],
     "Region": [
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -17520,6 +21079,30 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
+    ]
+  },
+  {
+    "Name": "Will-o'-Wisp",
+    "CR": "2",
+    "Type": "undead",
+    "Alignment": "C E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 9,
+    "InitiativeBonus": 9,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#will-o'-wisp_xmm",
+    "Faction": "",
+    "Adventure": [
+      "The Drowning Forest",
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -17556,6 +21139,9 @@
     "Adventures": [
       "Out of the Abyss",
       "Tomb of Annihilation"
+    ],
+    "Adventure": [
+      "For Whom the Void Calls"
     ]
   },
   {
@@ -17635,11 +21221,15 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#wolf_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Siege of Shalespire Priory",
+      "When a Star Falls"
+    ],
     "Region": [
       "Heartlands",
       "Icewind Dale",
-      "Moonshae"
+      "Moonshae",
+      "Calimshan"
     ]
   },
   {
@@ -17657,7 +21247,10 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#worg_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Siege of Shalespire Priory",
+      "The Drowning Forest"
+    ],
     "Region": [
       "Heartlands",
       "Icewind Dale",
@@ -17679,9 +21272,15 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#wraith_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Book of the Raven",
+      "Will of Orcus",
+      "Disinterred Danger",
+      "Tears Fall"
+    ],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -17724,6 +21323,29 @@
     "Wisdom": 16,
     "Charisma": 18,
     "Statblock_Link": "https://5e.tools/bestiary.html#xandala_toa"
+  },
+  {
+    "Name": "Xilonen",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#xilonen_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Hidden Shrine of Tamoachan"
+    ],
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
+    ]
   },
   {
     "Name": "Xorn",
@@ -18008,9 +21630,12 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#young%20black%20dragon_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "The Forge of Fury"
+    ],
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Heartlands"
     ]
   },
   {
@@ -18033,6 +21658,50 @@
       "Calimshan",
       "Heartlands",
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Young Brass Dragon",
+    "CR": "6",
+    "Type": "dragon (metallic)",
+    "Alignment": "C G",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +3, Wis +3",
+    "Intelligence": 12,
+    "Wisdom": 11,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#young%20brass%20dragon_xmm",
+    "Faction": "",
+    "Adventure": [
+      "For Whom the Void Calls"
+    ],
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Young Copper Dragon",
+    "CR": "7",
+    "Type": "dragon (metallic)",
+    "Alignment": "C G",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +4, Wis +4",
+    "Intelligence": 16,
+    "Wisdom": 13,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#young%20copper%20dragon_xmm",
+    "Faction": "",
+    "Adventure": [
+      "Tears Fall"
+    ],
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -18090,7 +21759,9 @@
     "Charisma": 19,
     "Statblock_Link": "https://5e.tools/bestiary.html#young%20red%20dragon_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "When a Star Falls"
+    ],
     "Region": [
       "Calimshan"
     ]
@@ -18228,9 +21899,13 @@
     "Name": "Yuan-ti Malison (Type 1)",
     "CR": "3",
     "Type": "Monster Manual (2014)",
-    "Adventure": "Tomb of Annihilation",
+    "Adventure": [
+      "Tomb of Annihilation",
+      "Death at Sunset"
+    ],
     "Region": [
-      "Calimshan"
+      "Calimshan",
+      "Dungeons"
     ],
     "Adventures": [
       "Tomb of Annihilation"
@@ -18368,6 +22043,48 @@
     ]
   },
   {
+    "Name": "Yusdrayl",
+    "CR": "1",
+    "Type": "humanoid (kobold)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yusdrayl_tftyp",
+    "Faction": "",
+    "Adventure": [
+      "The Sunless Citadel"
+    ],
+    "Region": []
+  },
+  {
+    "Name": "Zala Morphus",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#zala%20morphus_kftgv",
+    "Faction": "",
+    "Adventure": [
+      "Reach for the Stars"
+    ],
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
     "Name": "Zarak",
     "CR": "2",
     "Type": "Humanoid",
@@ -18388,6 +22105,26 @@
       "Heartlands"
     ],
     "Adventures": []
+  },
+  {
+    "Name": "Zargon the Returner",
+    "CR": "17",
+    "Type": "aberration",
+    "Alignment": "L E",
+    "PassivePerception": 20,
+    "PerceptionBonus": 10,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Dex +6, Cha +10",
+    "Intelligence": 14,
+    "Wisdom": 18,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#zargon%20the%20returner_qftis",
+    "Faction": "",
+    "Adventure": [
+      "The Lost City"
+    ],
+    "Region": []
   },
   {
     "Name": "Zhentarim Thug",
@@ -18511,10 +22248,19 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#zombie_xmm",
     "Faction": "",
-    "Adventure": "",
+    "Adventure": [
+      "Death at Sunset",
+      "Will of Orcus",
+      "The Tenebrous Stone",
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City",
+      "When a Star Falls"
+    ],
     "Region": [
       "Dungeons",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Heartlands",
+      "Calimshan"
     ]
   },
   {

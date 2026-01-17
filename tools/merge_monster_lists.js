@@ -10,6 +10,7 @@ const BALDURS_PATH = path.join(__dirname, '../data/baldurs_gate_encounters.json'
 const ABYSS_PATH = path.join(__dirname, '../data/out_of_the_abyss_encounters.json');
 const WITCHLIGHT_PATH = path.join(__dirname, '../data/witchlight_encounters.json');
 const TOMB_PATH = path.join(__dirname, '../data/tomb_encounters.json');
+const MAD_MAGE_PATH = path.join(__dirname, '../data/mad_mage_encounters.json');
 
 function mergeMonsters() {
     console.log('Reading main list...');
@@ -21,7 +22,7 @@ function mergeMonsters() {
         return;
     }
 
-    const filesToMerge = [PHANDELVER_PATH, ICEWIND_PATH, ICESPIRE_PATH, WATERDEEP_PATH, BALDURS_PATH, ABYSS_PATH, WITCHLIGHT_PATH, TOMB_PATH];
+    const filesToMerge = [PHANDELVER_PATH, ICEWIND_PATH, ICESPIRE_PATH, WATERDEEP_PATH, BALDURS_PATH, ABYSS_PATH, WITCHLIGHT_PATH, TOMB_PATH, MAD_MAGE_PATH];
     let addedCount = 0;
     let updatedCount = 0;
 

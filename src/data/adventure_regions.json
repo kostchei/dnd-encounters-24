@@ -63,6 +63,36 @@
             "all"
         ]
     },
+    "The Joy of Extradimensional Spaces": {
+        "regions": [
+            "cities"
+        ]
+    },
+    "Mazfroth’s Mighty Digressions": {
+        "regions": [
+            "cities"
+        ]
+    },
+    "Book of the Raven": {
+        "regions": [
+            "heartlands"
+        ]
+    },
+    "A Deep and Creeping Darkness": {
+        "regions": [
+            "heartlands"
+        ]
+    },
+    "Shemshime's Bedtime Rhyme": {
+        "regions": [
+            "cities"
+        ]
+    },
+    "The Price of Beauty": {
+        "regions": [
+            "heartlands"
+        ]
+    },
     "Quests from the Infinite Staircase": {
         "regions": [
             "all"
@@ -78,14 +108,99 @@
             "all"
         ]
     },
+    "Death at Sunset": {
+        "regions": [
+            "heartlands"
+        ]
+    },
+    "Baker's Dozen": {
+        "regions": [
+            "cities"
+        ]
+    },
+    "Will of Orcus": {
+        "regions": [
+            "dungeon"
+        ]
+    },
+    "For Whom the Void Calls": {
+        "regions": [
+            "calimshan"
+        ]
+    },
     "Keys from the Golden Vault": {
         "regions": [
             "all"
         ]
     },
+    "The Murkmire Malevolence": {
+        "regions": [
+            "cities"
+        ]
+    },
+    "The Stygian Gambit": {
+        "regions": [
+            "dungeon"
+        ]
+    },
+    "Reach for the Stars": {
+        "regions": [
+            "heartlands"
+        ]
+    },
+    "Prisoner 13": {
+        "regions": [
+            "icewind"
+        ]
+    },
+    "Tockworth's Clockworks": {
+        "regions": [
+            "dungeon"
+        ]
+    },
     "Adventures in Faerun": {
         "regions": [
             "all"
+        ]
+    },
+    "The Curse on Humble Hill": {
+        "regions": [
+            "heartlands"
+        ]
+    },
+    "Robber Baron": {
+        "regions": [
+            "heartlands"
+        ]
+    },
+    "The Weeping Goddess": {
+        "regions": [
+            "dungeon"
+        ]
+    },
+    "The Tenebrous Stone": {
+        "regions": [
+            "dungeon"
+        ]
+    },
+    "The Drowning Forest": {
+        "regions": [
+            "moonshae"
+        ]
+    },
+    "The Eyes of At'ar": {
+        "regions": [
+            "calimshan"
+        ]
+    },
+    "Wolves of Amphail": {
+        "regions": [
+            "heartlands"
+        ]
+    },
+    "Safehouse Standoff": {
+        "regions": [
+            "cities"
         ]
     }
 }
