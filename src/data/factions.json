@@ -1,0 +1,218 @@
+[
+    {
+        "name": "Cult of the Dragon",
+        "types": [
+            "humanoid",
+            "undead",
+            "dragon"
+        ],
+        "alignments": [
+            "evil"
+        ],
+        "description": "Conduct profane rituals to create dracoliches and expedite the apocalypse"
+    },
+    {
+        "name": "Emerald Enclave",
+        "types": [
+            "humanoid",
+            "plant",
+            "beast",
+            "celestial"
+        ],
+        "alignments": [
+            "good",
+            "neutral"
+        ],
+        "description": "Druids and survivalists maintaining balance between nature and civilization"
+    },
+    {
+        "name": "Harpers",
+        "types": [
+            "humanoid",
+            "fey",
+            "celestial"
+        ],
+        "alignments": [
+            "good"
+        ],
+        "description": "Skalds, sleuths, and spies aspiring to make Faerûn peaceful"
+    },
+    {
+        "name": "Lords' Alliance",
+        "types": [
+            "humanoid"
+        ],
+        "alignments": [
+            "good",
+            "lawful"
+        ],
+        "description": "Cities banded together to ensure prosperity"
+    },
+    {
+        "name": "Order of the Gauntlet",
+        "types": [
+            "humanoid",
+            "celestial"
+        ],
+        "alignments": [
+            "good"
+        ],
+        "description": "Zealous warriors who smite evil in all its forms"
+    },
+    {
+        "name": "Purple Dragon Knights",
+        "types": [
+            "dragon",
+            "humanoid"
+        ],
+        "alignments": [
+            "good"
+        ],
+        "description": "Cormyr's elite warriors bonded with amethyst dragons"
+    },
+    {
+        "name": "Red Wizards",
+        "types": [
+            "humanoid"
+        ],
+        "alignments": [
+            "evil"
+        ],
+        "description": "Masters of arcane magic questing for ancient artifacts"
+    },
+    {
+        "name": "Zhentarim",
+        "types": [
+            "humanoid",
+            "aberration"
+        ],
+        "alignments": [
+            "evil"
+        ],
+        "description": "Mercenaries where greed and pride are virtues"
+    },
+    {
+        "name": "Fire Knives",
+        "types": [
+            "humanoid"
+        ],
+        "alignments": [
+            "evil"
+        ],
+        "description": "Noble-born assassins, extortionists, and spies from Westgate"
+    },
+    {
+        "name": "Nine Golden Swords",
+        "types": [
+            "humanoid"
+        ],
+        "alignments": [
+            "evil"
+        ],
+        "description": "Crime syndicate based in Thesk controlling the Golden Way"
+    },
+    {
+        "name": "Shadow Thieves",
+        "types": [
+            "humanoid"
+        ],
+        "alignments": [
+            "evil"
+        ],
+        "description": "Largest thieves' guild in Faerûn based in Amn"
+    },
+    {
+        "name": "Xanathar Guild",
+        "types": [
+            "humanoid",
+            "aberration"
+        ],
+        "alignments": [
+            "evil"
+        ],
+        "description": "Criminal organization in Waterdeep led by a beholder"
+    },
+    {
+        "name": "Arcane Brotherhood",
+        "types": [
+            "humanoid"
+        ],
+        "alignments": [
+            "chaotic",
+            "evil"
+        ],
+        "description": "Cabal of powerful wizards in the Hosttower of the Arcane"
+    },
+    {
+        "name": "Aurora's Emporium",
+        "types": [
+            "humanoid"
+        ],
+        "alignments": [
+            "neutral"
+        ],
+        "description": "Merchant enterprise selling unusual and luxury goods"
+    },
+    {
+        "name": "Elemental Cults",
+        "types": [
+            "humanoid",
+            "elemental"
+        ],
+        "alignments": [
+            "evil"
+        ],
+        "description": "Doomsayers worshiping Elemental Evil in four forms"
+    },
+    {
+        "name": "Flaming Fist",
+        "types": [
+            "humanoid"
+        ],
+        "alignments": [
+            "any"
+        ],
+        "description": "Mercenary company and peacekeeping force of Baldur's Gate"
+    },
+    {
+        "name": "Kraken Society",
+        "types": [
+            "humanoid",
+            "monstrosity"
+        ],
+        "alignments": [
+            "evil"
+        ],
+        "description": "Servants of Slarkrethel trafficking information along the Sword Coast"
+    },
+    {
+        "name": "Order of Delvers",
+        "types": [
+            "humanoid"
+        ],
+        "alignments": [
+            "any"
+        ],
+        "description": "Explorers' guild dedicated to mapping Faerûn's depths"
+    },
+    {
+        "name": "Spellguard",
+        "types": [
+            "humanoid"
+        ],
+        "alignments": [
+            "any"
+        ],
+        "description": "Militaristic mages protecting Silverymoon"
+    },
+    {
+        "name": "Waterclock Guild",
+        "types": [
+            "humanoid"
+        ],
+        "alignments": [
+            "any"
+        ],
+        "description": "Artificers and artisans crafting Neverwinter's waterclocks"
+    }
+]

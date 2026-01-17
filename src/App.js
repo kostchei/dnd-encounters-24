@@ -1,8 +1,86 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import XP_TABLE from './data/enc_xp.json';
 import ENRICHED_MONSTERS from './data/enriched_monster_list.json';
+import FACTIONS from './data/factions.json';
 import { generateNewEncounter } from './new_encounter_system.js';
 import styles from './styles';
+
+// Create monster lookup map once at module level
+const MONSTER_MAP = new Map(ENRICHED_MONSTERS.map(m => [m.Name, m]));
+
+// Helper: Parse base type from monster type string (e.g., "humanoid (any race)" -> "humanoid")
+function parseBaseType(typeString) {
+  if (!typeString) return '';
+  // Extract the base type before any parentheses
+  const match = typeString.toLowerCase().match(/^([a-z]+)/);
+  return match ? match[1] : typeString.toLowerCase();
+}
+
+// Helper: Check if alignment matches faction requirements
+function alignmentMatches(monsterAlignment, factionAlignments) {
+  if (!monsterAlignment || factionAlignments.includes('any')) return true;
+
+  const align = monsterAlignment.toUpperCase();
+
+  // Check for evil (E in alignment)
+  const isEvil = align.includes('E') && !align.includes('ANY');
+  // Check for good (G in alignment)
+  const isGood = align.includes('G');
+  // Check for lawful (L in alignment)
+  const isLawful = align.includes('L');
+  // Check for chaotic (C in alignment)
+  const isChaotic = align.includes('C');
+  // Check for neutral (N in alignment, but not NE or NG)
+  const isNeutral = !isEvil && !isGood;
+
+  for (const req of factionAlignments) {
+    if (req === 'evil' && isEvil) return true;
+    if (req === 'good' && isGood) return true;
+    if (req === 'lawful' && isLawful && !isEvil) return true; // Lawful but not evil
+    if (req === 'chaotic' && isChaotic) return true;
+    if (req === 'neutral' && isNeutral) return true;
+  }
+
+  return false;
+}
+
+// Assign factions to monsters in an encounter
+function assignFactions(monsters) {
+  const assignments = new Map(); // monster index -> faction name
+
+  for (let i = 0; i < monsters.length; i++) {
+    const monster = monsters[i];
+    const data = MONSTER_MAP.get(monster.Name);
+
+    if (!data) continue;
+
+    // Filter 1: Intelligence >= 6
+    const intelligence = data.Intelligence ?? 0;
+    if (intelligence < 6) continue;
+
+    // Filter 2: 50% chance
+    if (Math.random() >= 0.5) continue;
+
+    // Find matching factions
+    const baseType = parseBaseType(data.Type);
+    const matchingFactions = FACTIONS.filter(faction => {
+      // Check type match
+      const typeMatches = faction.types.some(t => baseType.includes(t.toLowerCase()));
+      if (!typeMatches) return false;
+
+      // Check alignment match
+      return alignmentMatches(data.Alignment, faction.alignments);
+    });
+
+    if (matchingFactions.length > 0) {
+      // Pick a random faction from matches
+      const chosen = matchingFactions[Math.floor(Math.random() * matchingFactions.length)];
+      assignments.set(i, chosen.name);
+    }
+  }
+
+  return assignments;
+}
 
 // Region data with hex colors and weighted terrain probabilities
 // Each terrain entry is [terrain, weight] - weights are percentages
@@ -176,11 +254,74 @@ function Hexagon({ color, size = 50 }) {
 }
 
 // Helper function to format encounter result for display
-function formatEncounterResult(encounterResult, selectedTheme) {
+function formatEncounterResult(encounterResult, selectedTheme, factionMap = null) {
   if (encounterResult.error) {
     return `Error: ${encounterResult.error}`;
   }
 
+  // Build custom description if we have faction assignments
+  if (factionMap && factionMap.size > 0 && encounterResult.monsters) {
+    const monsters = encounterResult.monsters;
+
+    // Group monsters by name and track their faction assignments
+    const monsterGroups = new Map(); // name -> { count, factionCounts }
+
+    for (let i = 0; i < monsters.length; i++) {
+      const m = monsters[i];
+      const name = m.Name;
+      const cr = m.CR;
+      const key = `${name}|${cr}`;
+
+      if (!monsterGroups.has(key)) {
+        monsterGroups.set(key, { name, cr, count: 0, factionCounts: new Map() });
+      }
+
+      const group = monsterGroups.get(key);
+      group.count++;
+
+      // Track faction for this monster instance
+      const faction = factionMap.get(i);
+      if (faction) {
+        group.factionCounts.set(faction, (group.factionCounts.get(faction) || 0) + 1);
+      }
+    }
+
+    // Build description
+    const parts = [];
+    for (const [, group] of monsterGroups) {
+      let part = '';
+      if (group.count > 1) {
+        part = `${group.count}× ${group.name} (CR ${group.cr})`;
+      } else {
+        part = `${group.name} (CR ${group.cr})`;
+      }
+
+      // Add faction info if any
+      if (group.factionCounts.size > 0) {
+        const factionParts = [];
+        for (const [faction, count] of group.factionCounts) {
+          if (count === group.count) {
+            // All of this monster type are in this faction
+            factionParts.push(`faction ${faction}`);
+          } else {
+            // Only some are in this faction
+            factionParts.push(`${count} faction ${faction}`);
+          }
+        }
+        part += ` (${factionParts.join(', ')})`;
+      }
+
+      parts.push(part);
+    }
+
+    let result = parts.join(' + ');
+    if (selectedTheme === 'Any' && encounterResult.theme) {
+      result += ` [${encounterResult.theme} theme]`;
+    }
+    return result;
+  }
+
+  // Fallback to original description
   let result = encounterResult.description;
 
   if (selectedTheme === 'Any' && encounterResult.theme) {
@@ -189,6 +330,7 @@ function formatEncounterResult(encounterResult, selectedTheme) {
 
   return result;
 }
+
 
 function App() {
   // Region selection - 50/50 between heartlands and dungeon on load
@@ -219,6 +361,7 @@ function App() {
   const [initiativeResult, setInitiativeResult] = useState(null);
   const [perceptionResult, setPerceptionResult] = useState(null);
   const [stealthResult, setStealthResult] = useState(null);
+  const [factionResult, setFactionResult] = useState(null);
 
   // Calculate total XP from the party input
   const calculateTotalXP = useCallback(() => {
@@ -282,13 +425,13 @@ function App() {
       reaction = { roll: reactionRoll, attitude: 'Friendly', description: 'helpful, open, inclined to cooperate' };
     }
 
-    // Create lookup map for monster stats
-    const monsterMap = new Map(ENRICHED_MONSTERS.map(m => [m.Name, m]));
+    // Calculate initiative, perception, stealth using module-level map
+    const initiatives = calculateInitiatives(newEncounter.monsters, MONSTER_MAP);
+    const perception = calculatePerception(newEncounter.monsters, MONSTER_MAP);
+    const stealth = calculateStealth(newEncounter.monsters, MONSTER_MAP);
 
-    // Calculate initiative, perception, stealth
-    const initiatives = calculateInitiatives(newEncounter.monsters, monsterMap);
-    const perception = calculatePerception(newEncounter.monsters, monsterMap);
-    const stealth = calculateStealth(newEncounter.monsters, monsterMap);
+    // Assign factions to intelligent creatures
+    const factions = assignFactions(newEncounter.monsters);
 
     setFinalTerrain(regionTerrain);
     setEncounterDistance(distance);
@@ -296,14 +439,14 @@ function App() {
     setInitiativeResult(initiatives);
     setPerceptionResult(perception);
     setStealthResult(stealth);
+    setFactionResult(factions);
   };
 
   // Helper: Get alignment modifier
   function getReactionModifier(monsters) {
     if (!monsters || monsters.length === 0) return 0;
 
-    // Create lookup map if not exists (optimization: could be outside, but safe here)
-    const monsterMap = new Map(ENRICHED_MONSTERS.map(m => [m.Name, m]));
+    // Use module-level map for efficiency
 
     let allEvil = true;
     let anyEvil = false;
@@ -311,7 +454,7 @@ function App() {
     let allNeutral = true;
 
     for (const m of monsters) {
-      const data = monsterMap.get(m.Name);
+      const data = MONSTER_MAP.get(m.Name);
       const alignment = data ? (data.Alignment || "Unknown") : "Unknown";
 
       // Check for Evil (E) - excluding "Any" or "Unaligned" if they accidentally contain E (unlikely)
@@ -436,7 +579,7 @@ function App() {
             <div style={styles.encounterResult}>
               {encounterResult && (
                 <p>
-                  <span style={styles.emphasis}>Encounter:</span> {formatEncounterResult(encounterResult, 'Any')}
+                  <span style={styles.emphasis}>Encounter:</span> {formatEncounterResult(encounterResult, 'Any', factionResult)}
                 </p>
               )}
               {encounterResult && encounterResult.totalXP && (
