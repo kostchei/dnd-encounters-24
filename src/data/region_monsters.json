@@ -149,54 +149,106 @@
         ]
     },
     "cities": {
+        "0": [
+            "Crawling Claw",
+            "Floon Blagmaar",
+            "Magister Umbero Zastro",
+            "Talisolvanar “Tally” Fellbranch",
+            "Thorvin Twinbeard"
+        ],
         "1": [
             "Animated Armor",
+            "Kuo-toa Whip",
             "Pirate",
+            "Samara Strongbones",
+            "Scarecrow",
             "Skull Lasher of Myrkul",
             "Spy"
         ],
         "2": [
+            "Avi",
             "Bandit Captain",
             "Bard",
+            "Barnibus Blastwind",
             "Berserker",
             "Carrion Crawler",
             "Cultist Fanatic",
+            "Embric",
+            "Faerie Dragon (Older)",
+            "Fala Lefaliir",
+            "Griffon Cavalry Rider",
+            "Halfling Wererat",
             "Intellect Devourer",
+            "Kalain",
+            "Lady Gondafrey",
             "Mage Apprentice",
+            "Melannor Fellbranch",
             "Mimic",
             "Priest",
+            "Roscoe Underbough",
+            "Spined Devil",
+            "Valetta",
             "Wererat"
         ],
         "3": [
+            "Displacer Beast",
             "Doppelganger",
+            "Giant Mimic",
+            "Grell",
+            "Havia Quickknife",
             "Knight",
+            "Martial Arts Adept",
+            "Mookie Plush",
+            "Saeth Cromley",
             "Scout Captain",
+            "Swashbuckler",
             "Warrior Veteran",
             "Wight"
         ],
         "4": [
             "Couatl",
+            "Drow Gunslinger",
             "Ghost",
             "Guard Captain",
+            "Helmed Horror",
             "Incubus",
+            "Jalester Silvermane",
+            "Nimblewright",
+            "Soluun Xibrindas",
             "Succubus",
             "Tough Boss"
         ],
         "5": [
+            "Ammalia Cassalanter",
+            "Barlgura",
+            "Beholder Zombie",
+            "Black Viper",
+            "Drow Elite Warrior",
             "Drow Elite Warrior of Lolth",
             "Gladiator",
+            "Hrabbaz",
+            "Obliteros",
+            "Red Slaad",
             "Revenant",
             "Vampire Spawn"
         ],
         "6": [
             "Curate",
+            "Davil Starsong",
             "Invisible Stalker",
+            "Kaevja Cynavern",
+            "Losser Mirklav",
             "Mage",
+            "Manafret Cherryport",
             "Performer Maestro",
-            "Pirate Captain"
+            "Pirate Captain",
+            "Rishaal",
+            "Skeemo Weirdbottle"
         ],
         "7": [
             "Cultist of Bhaal",
+            "Drow Mage",
+            "Mind Flayer",
             "Oni",
             "Shield Guardian"
         ],
@@ -206,13 +258,23 @@
             "Berserker Commander",
             "Death Cultist",
             "Fiend Cultist",
+            "Istrid Horn",
+            "Manshoon's Simulacrum",
             "Phaerimm Agent",
-            "Vampire Nightbringer"
+            "Urstul Floxin",
+            "Vampire Nightbringer",
+            "Ziraj the Hunter"
         ],
         "9": [
+            "Ahmaergo",
             "Bone Devil",
             "Clay Golem",
             "Cultist of Bane",
+            "Durnan",
+            "Meloon Wardragon",
+            "Mirt",
+            "Remallia Haventree",
+            "Tashlyn Yafeera",
             "Young Silver Dragon"
         ],
         "10": [
@@ -222,6 +284,7 @@
             "Performer Legend",
             "Spy Master",
             "Vampire Warden",
+            "Victoro Cassalanter",
             "Warrior Commander"
         ],
         "11": [
@@ -234,8 +297,10 @@
             "Questing Knight"
         ],
         "13": [
+            "Beholder",
             "Manshoon",
             "Rakshasa",
+            "Vajra Safahr",
             "Vampire"
         ],
         "14": [
@@ -243,11 +308,19 @@
             "Vampire Infernalist"
         ],
         "15": [
+            "Jarlaxle Baenre",
             "Vampire Umbral Lord"
         ],
         "16": [
             "Adult Silver Dragon",
-            "Dead Three Scion"
+            "Dead Three Scion",
+            "Hlam"
+        ],
+        "17": [
+            "Laeral Silverhand"
+        ],
+        "18": [
+            "Walking Statue of Waterdeep"
         ],
         "21": [
             "Lich"
@@ -264,21 +337,41 @@
         "1/4": [
             "Animated Broom",
             "Apprentice Wizard",
-            "Kenku"
+            "Grum’shar",
+            "Hester Barch",
+            "Kenku",
+            "Kuo-toa",
+            "Troglodyte",
+            "Volothamp “Volo” Geddarm"
         ],
         "1/8": [
             "Bandit",
             "Cultist",
-            "Guard"
+            "Guard",
+            "Orond Gralhund",
+            "Ott Steeltoes",
+            "Yalah Gralhund"
         ],
         "1/2": [
             "Fist of Bane",
+            "Gas Spore",
+            "Gazer",
             "Necromite of Myrkul",
+            "Noska Ur’gray",
             "Sage",
-            "Shadow"
+            "Shadow",
+            "Swarm of Mechanical Spiders",
+            "Yorn the Terror"
         ]
     },
     "dungeon": {
+        "0": [
+            "Crawling Claw",
+            "Floon Blagmaar",
+            "Magister Umbero Zastro",
+            "Talisolvanar “Tally” Fellbranch",
+            "Thorvin Twinbeard"
+        ],
         "1": [
             "Animated Armor",
             "Death Dog",
@@ -288,27 +381,52 @@
             "Goblin Boss (Variant)",
             "Harpy",
             "Iarno “Glasstaff” Albrek",
+            "Kuo-toa Whip",
             "Psychic Gray Ooze",
+            "Samara Strongbones",
+            "Scarecrow",
             "Specter"
         ],
         "2": [
+            "Avi",
+            "Bard",
+            "Barnibus Blastwind",
             "Carrion Crawler",
+            "Embric",
+            "Faerie Dragon (Older)",
+            "Fala Lefaliir",
             "Gelatinous Cube",
             "Goblin Psi Brawler",
             "Grick",
+            "Griffon Cavalry Rider",
+            "Halfling Wererat",
+            "Intellect Devourer",
+            "Kalain",
+            "Lady Gondafrey",
+            "Melannor Fellbranch",
             "Mimic",
             "Nothic",
             "Ochre Jelly",
-            "Ogre"
+            "Ogre",
+            "Roscoe Underbough",
+            "Spined Devil",
+            "Valetta"
         ],
         "3": [
             "Basilisk",
+            "Displacer Beast",
             "Encephalon Gemmule",
+            "Giant Mimic",
             "Githyanki Warrior",
             "Grell",
+            "Havia Quickknife",
             "Hook Horror",
+            "Martial Arts Adept",
+            "Mookie Plush",
             "Phase Spider",
+            "Saeth Cromley",
             "Spectator",
+            "Swashbuckler",
             "Water Weird",
             "Wight"
         ],
@@ -316,19 +434,29 @@
             "Black Pudding",
             "Bone Naga",
             "Chuul",
+            "Drow Gunslinger",
             "Flameskull",
             "Ghost",
             "Goblin Psi Commander",
             "Grell Psychic",
             "Helmed Horror",
-            "Humanoid Mutate"
+            "Humanoid Mutate",
+            "Jalester Silvermane",
+            "Nimblewright",
+            "Soluun Xibrindas"
         ],
         "5": [
+            "Ammalia Cassalanter",
+            "Barlgura",
+            "Beholder Zombie",
+            "Black Viper",
             "Drow Elite Warrior",
             "Feral Ashenwight",
             "Fiendish Auger",
             "Flesh Golem",
+            "Hrabbaz",
             "Mezzoloth",
+            "Obliteros",
             "Otyugh",
             "Red Slaad",
             "Revenant",
@@ -337,14 +465,21 @@
             "Wraith"
         ],
         "6": [
+            "Davil Starsong",
             "Drider",
             "Galeb Duhr",
             "Ghast Gravecaller",
+            "Kaevja Cynavern",
+            "Losser Mirklav",
+            "Manafret Cherryport",
             "Medusa",
-            "Otyugh Mutate"
+            "Otyugh Mutate",
+            "Rishaal",
+            "Skeemo Weirdbottle"
         ],
         "7": [
             "Blue Slaad",
+            "Drow Mage",
             "Flesh Meld",
             "Grick Alpha",
             "Grick Ancient",
@@ -361,16 +496,26 @@
             "Cloaker",
             "Githyanki Knight",
             "Intellect Snare",
+            "Istrid Horn",
+            "Manshoon's Simulacrum",
             "Mind Flayer Prophet",
-            "Spirit Naga"
+            "Spirit Naga",
+            "Urstul Floxin",
+            "Ziraj the Hunter"
         ],
         "9": [
+            "Ahmaergo",
             "Bone Devil",
             "Clay Golem",
+            "Durnan",
             "Glabrezu",
             "Gray Slaad",
+            "Meloon Wardragon",
+            "Mirt",
             "Nycaloth",
-            "Oculorb"
+            "Oculorb",
+            "Remallia Haventree",
+            "Tashlyn Yafeera"
         ],
         "10": [
             "Aboleth",
@@ -378,6 +523,7 @@
             "Death Slaad",
             "Encephalon Cluster",
             "Stone Golem",
+            "Victoro Cassalanter",
             "Yochlol"
         ],
         "11": [
@@ -395,26 +541,31 @@
         "13": [
             "Beholder",
             "Nalfeshnee",
-            "Shadow Dragon"
+            "Shadow Dragon",
+            "Vajra Safahr"
         ],
         "14": [
             "Death Tyrant"
         ],
         "15": [
+            "Jarlaxle Baenre",
             "Purple Worm",
             "Refraction of Ilvaash"
         ],
         "16": [
+            "Hlam",
             "Iron Golem",
             "Marilith"
         ],
         "17": [
             "Adult Red Dragon",
-            "Dracolich"
+            "Dracolich",
+            "Laeral Silverhand"
         ],
         "18": [
             "Ancient Deep Dragon",
-            "Demilich"
+            "Demilich",
+            "Walking Statue of Waterdeep"
         ],
         "19": [
             "Balor"
@@ -434,30 +585,44 @@
         "30": [
             "Tarrasque"
         ],
+        "1/4": [
+            "Apprentice Wizard",
+            "Giant Centipede",
+            "Grimlock",
+            "Grum’shar",
+            "Hester Barch",
+            "Kenku",
+            "Kuo-toa",
+            "Needle Blight",
+            "Skeleton",
+            "Troglodyte",
+            "Violet Fungus",
+            "Volothamp “Volo” Geddarm",
+            "Zombie"
+        ],
         "1/2": [
             "Darkmantle",
             "Dwarf Skeleton",
+            "Gas Spore",
+            "Gazer",
             "Gray Ooze",
+            "Noska Ur’gray",
             "Piercer",
             "Redbrand Ruffian",
             "Rust Monster",
-            "Shadow"
+            "Shadow",
+            "Swarm of Mechanical Spiders",
+            "Yorn the Terror"
         ],
         "1/8": [
             "Flumph",
             "Giant Rat",
             "Goblin Minion",
             "Kobold Warrior",
-            "Slaad Tadpole"
-        ],
-        "1/4": [
-            "Giant Centipede",
-            "Grimlock",
-            "Needle Blight",
-            "Skeleton",
-            "Troglodyte",
-            "Violet Fungus",
-            "Zombie"
+            "Orond Gralhund",
+            "Ott Steeltoes",
+            "Slaad Tadpole",
+            "Yalah Gralhund"
         ]
     },
     "heartlands": {

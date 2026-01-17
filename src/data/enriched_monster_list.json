@@ -399,6 +399,30 @@
     ]
   },
   {
+    "Name": "Ahmaergo",
+    "CR": "9",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "L E",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Str +9, Con +6",
+    "Intelligence": 15,
+    "Wisdom": 14,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ahmaergo_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Ambitious Assassin",
     "CR": "5",
     "Type": "humanoid",
@@ -436,6 +460,30 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
+    ]
+  },
+  {
+    "Name": "Ammalia Cassalanter",
+    "CR": "5",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Int +6, Wis +4",
+    "Intelligence": 17,
+    "Wisdom": 12,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ammalia%20cassalanter_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -847,7 +895,11 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Cities"
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -1002,6 +1054,30 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
+    ]
+  },
+  {
+    "Name": "Avi",
+    "CR": "2",
+    "Type": "humanoid ([object Object])",
+    "Alignment": "N G",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#avi_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -1266,7 +1342,59 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Cities"
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Barlgura",
+    "CR": "5",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 5,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +5, Con +6",
+    "Intelligence": 7,
+    "Wisdom": 14,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#barlgura_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Barnibus Blastwind",
+    "CR": "2",
+    "Type": "humanoid (human)",
+    "Alignment": "L G",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Int +5, Wis +4",
+    "Intelligence": 17,
+    "Wisdom": 15,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#barnibus%20blastwind_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -1372,10 +1500,36 @@
     "Adventure": "",
     "Region": [
       "Dungeons",
-      "Heartlands"
+      "Heartlands",
+      "Cities"
     ],
     "Adventures": [
-      "Phandelver and Below"
+      "Phandelver and Below",
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Beholder Zombie",
+    "CR": "5",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "Wis +2",
+    "Intelligence": 3,
+    "Wisdom": 8,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#beholder%20zombie_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -1477,6 +1631,30 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
+    ]
+  },
+  {
+    "Name": "Black Viper",
+    "CR": "5",
+    "Type": "humanoid (human)",
+    "Alignment": "C N",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 7,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +7, Int +3",
+    "Intelligence": 11,
+    "Wisdom": 11,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#black%20viper_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -1862,7 +2040,8 @@
     ],
     "Adventures": [
       "Rime of the Frostmaiden",
-      "Dragon of Icespire Peak"
+      "Dragon of Icespire Peak",
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -2438,6 +2617,30 @@
     ]
   },
   {
+    "Name": "Crawling Claw",
+    "CR": "0",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 10,
+    "Charisma": 4,
+    "Statblock_Link": "https://5e.tools/bestiary.html#crawling%20claw_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Cult Fanatic",
     "CR": "2",
     "Type": "humanoid (any race)",
@@ -2687,6 +2890,30 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
+    ]
+  },
+  {
+    "Name": "Davil Starsong",
+    "CR": "6",
+    "Type": "humanoid (elf)",
+    "Alignment": "N",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +5, Cha +6",
+    "Intelligence": 16,
+    "Wisdom": 12,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#davil%20starsong_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -2958,7 +3185,12 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Heartlands"
+      "Heartlands",
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -3080,12 +3312,14 @@
     "Region": [
       "Heartlands",
       "Dungeons",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Cities"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#drow%20elite%20warrior_mm",
     "Adventures": [
       "Phandelver and Below",
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -3109,6 +3343,30 @@
     ]
   },
   {
+    "Name": "Drow Gunslinger",
+    "CR": "4",
+    "Type": "humanoid (elf)",
+    "Alignment": "A",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 8,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +6, Con +4, Wis +3",
+    "Intelligence": 11,
+    "Wisdom": 13,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#drow%20gunslinger_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Drow Mage",
     "CR": "7",
     "Type": "humanoid (elf)",
@@ -3124,11 +3382,14 @@
     "Charisma": 12,
     "Tags": [],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Cities",
+      "Dungeons"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#drow%20mage_mm",
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -3215,6 +3476,30 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20mind%20master_mpmm",
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Durnan",
+    "CR": "9",
+    "Type": "humanoid (human)",
+    "Alignment": "N",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Str +8, Con +8",
+    "Intelligence": 13,
+    "Wisdom": 12,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#durnan_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -3402,6 +3687,30 @@
     ]
   },
   {
+    "Name": "Embric",
+    "CR": "2",
+    "Type": "humanoid ([object Object])",
+    "Alignment": "N G",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#embric_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Empyrean",
     "CR": "23",
     "Type": "[object Object] (titan)",
@@ -3558,6 +3867,29 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#expert_dc"
   },
   {
+    "Name": "Faerie Dragon (Older)",
+    "CR": "2",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ],
+    "Statblock_Link": ""
+  },
+  {
     "Name": "Faerie Dragon Adult",
     "CR": "2",
     "Type": "dragon",
@@ -3595,6 +3927,30 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Fala Lefaliir",
+    "CR": "2",
+    "Type": "humanoid ([object Object])",
+    "Alignment": "C G",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 15,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#fala%20lefaliir_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -3851,6 +4207,30 @@
     ]
   },
   {
+    "Name": "Floon Blagmaar",
+    "CR": "0",
+    "Type": "humanoid (human)",
+    "Alignment": "N G",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 10,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#floon%20blagmaar_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Flumph",
     "CR": "1/8",
     "Type": "aberration",
@@ -4067,6 +4447,54 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
+    ]
+  },
+  {
+    "Name": "Gas Spore",
+    "CR": "1/2",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 5,
+    "PerceptionBonus": -5,
+    "StealthBonus": -5,
+    "InitiativeBonus": -5,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 1,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gas%20spore_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Gazer",
+    "CR": "1/2",
+    "Type": "aberration",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Wis +2",
+    "Intelligence": 3,
+    "Wisdom": 10,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gazer_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -4371,6 +4799,29 @@
     "Region": [
       "Heartlands"
     ]
+  },
+  {
+    "Name": "Giant Mimic",
+    "CR": "3",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Giant Owl",
@@ -5167,12 +5618,14 @@
     "Region": [
       "Heartlands",
       "Dungeons",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Cities"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#grell_xmm",
     "Adventures": [
       "Phandelver and Below",
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -5290,6 +5743,30 @@
     ]
   },
   {
+    "Name": "Griffon Cavalry Rider",
+    "CR": "2",
+    "Type": "humanoid (any race)",
+    "Alignment": "A",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#griffon%20cavalry%20rider_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Grimlock",
     "CR": "1/4",
     "Type": "aberration",
@@ -5308,6 +5785,29 @@
     "Region": [
       "Dungeons"
     ]
+  },
+  {
+    "Name": "Grum’shar",
+    "CR": "1/4",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Guard",
@@ -5433,6 +5933,29 @@
     ]
   },
   {
+    "Name": "Halfling Wererat",
+    "CR": "2",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ],
+    "Statblock_Link": ""
+  },
+  {
     "Name": "Hare",
     "CR": "0",
     "Type": "beast",
@@ -5495,6 +6018,29 @@
     "Region": [
       "Cities"
     ]
+  },
+  {
+    "Name": "Havia Quickknife",
+    "CR": "3",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Headless Iron Golem",
@@ -5578,11 +6124,37 @@
     "Region": [
       "Dungeons",
       "Heartlands",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Cities"
     ],
     "Adventures": [
       "Phandelver and Below",
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Hester Barch",
+    "CR": "1/4",
+    "Type": "humanoid (human)",
+    "Alignment": "L G",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hester%20barch_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -5643,6 +6215,30 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Hlam",
+    "CR": "16",
+    "Type": "humanoid (human)",
+    "Alignment": "L G",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 7,
+    "InitiativeBonus": 7,
+    "SavingThrows": "Str +5, Dex +12",
+    "Intelligence": 14,
+    "Wisdom": 21,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hlam_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -5725,6 +6321,30 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
+    ]
+  },
+  {
+    "Name": "Hrabbaz",
+    "CR": "5",
+    "Type": "humanoid (half-orc)",
+    "Alignment": "L E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Str +8, Con +6",
+    "Intelligence": 10,
+    "Wisdom": 14,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hrabbaz_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -6037,7 +6657,11 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Cities"
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -6109,6 +6733,30 @@
     ]
   },
   {
+    "Name": "Istrid Horn",
+    "CR": "8",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "L E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Con +5, Wis +6",
+    "Intelligence": 11,
+    "Wisdom": 17,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#istrid%20horn_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Jackalwere",
     "CR": "1/2",
     "Type": "fiend",
@@ -6126,6 +6774,102 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
+    ]
+  },
+  {
+    "Name": "Jalester Silvermane",
+    "CR": "4",
+    "Type": "humanoid (human)",
+    "Alignment": "L G",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Str +4, Con +3",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#jalester%20silvermane_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Jarlaxle Baenre",
+    "CR": "15",
+    "Type": "humanoid (elf)",
+    "Alignment": "C N",
+    "PassivePerception": 18,
+    "PerceptionBonus": 8,
+    "StealthBonus": 16,
+    "InitiativeBonus": 6,
+    "SavingThrows": "Dex +11, Wis +8",
+    "Intelligence": 20,
+    "Wisdom": 16,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#jarlaxle%20baenre_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Kaevja Cynavern",
+    "CR": "6",
+    "Type": "humanoid ([object Object])",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Int +6, Wis +4",
+    "Intelligence": 17,
+    "Wisdom": 12,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kaevja%20cynavern_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Kalain",
+    "CR": "2",
+    "Type": "humanoid (half-elf)",
+    "Alignment": "C E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +4, Wis +3",
+    "Intelligence": 10,
+    "Wisdom": 13,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kalain_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -6165,7 +6909,11 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Cities"
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -6313,6 +7061,102 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Kuo-toa",
+    "CR": "1/4",
+    "Type": "aberration",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kuo-toa_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Kuo-toa Whip",
+    "CR": "1",
+    "Type": "aberration",
+    "Alignment": "N E",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kuo-toa%20whip_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Lady Gondafrey",
+    "CR": "2",
+    "Type": "elemental",
+    "Alignment": "L G",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#lady%20gondafrey_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Laeral Silverhand",
+    "CR": "17",
+    "Type": "humanoid (human)",
+    "Alignment": "C G",
+    "PassivePerception": 21,
+    "PerceptionBonus": 11,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Int +11, Wis +11",
+    "Intelligence": 20,
+    "Wisdom": 20,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#laeral%20silverhand_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -6551,6 +7395,30 @@
     ]
   },
   {
+    "Name": "Losser Mirklav",
+    "CR": "6",
+    "Type": "humanoid ([object Object])",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Int +6, Wis +4",
+    "Intelligence": 17,
+    "Wisdom": 12,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#losser%20mirklav_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Mage",
     "CR": "6",
     "Type": "humanoid (wizard)",
@@ -6588,6 +7456,30 @@
     "Adventure": "",
     "Region": [
       "Cities"
+    ]
+  },
+  {
+    "Name": "Magister Umbero Zastro",
+    "CR": "0",
+    "Type": "humanoid (half-elf)",
+    "Alignment": "L N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#magister%20umbero%20zastro_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -6651,6 +7543,30 @@
     ]
   },
   {
+    "Name": "Manafret Cherryport",
+    "CR": "6",
+    "Type": "humanoid ([object Object])",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Int +6, Wis +4",
+    "Intelligence": 17,
+    "Wisdom": 12,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#manafret%20cherryport_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Manes",
     "CR": "1/8",
     "Type": "fiend (demon)",
@@ -6689,6 +7605,29 @@
     "Region": [
       "Cities"
     ]
+  },
+  {
+    "Name": "Manshoon's Simulacrum",
+    "CR": "8",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Manticore",
@@ -6754,6 +7693,30 @@
     ]
   },
   {
+    "Name": "Martial Arts Adept",
+    "CR": "3",
+    "Type": "humanoid (any race)",
+    "Alignment": "A",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 16,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#martial%20arts%20adept_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Mastiff",
     "CR": "1/8",
     "Type": "beast",
@@ -6812,6 +7775,54 @@
     "Region": [
       "Calimshan",
       "Dungeons"
+    ]
+  },
+  {
+    "Name": "Melannor Fellbranch",
+    "CR": "2",
+    "Type": "humanoid (half-elf)",
+    "Alignment": "C G",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 15,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#melannor%20fellbranch_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Meloon Wardragon",
+    "CR": "9",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Str +9, Con +6",
+    "Intelligence": 10,
+    "Wisdom": 14,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#meloon%20wardragon_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -6939,11 +7950,13 @@
     "Region": [
       "Dungeons",
       "Heartlands",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Cities"
     ],
     "Adventures": [
       "Phandelver and Below",
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -7043,6 +8056,53 @@
     "Adventures": [
       "Phandelver and Below"
     ]
+  },
+  {
+    "Name": "Mirt",
+    "CR": "9",
+    "Type": "humanoid (human)",
+    "Alignment": "C G",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 8,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +8, Wis +5",
+    "Intelligence": 15,
+    "Wisdom": 12,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mirt_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Mookie Plush",
+    "CR": "3",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Mountain Goat",
@@ -7284,6 +8344,30 @@
     ]
   },
   {
+    "Name": "Nimblewright",
+    "CR": "4",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +6",
+    "Intelligence": 8,
+    "Wisdom": 10,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#nimblewright_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Nimblewrite Hulk",
     "CR": "Unknown",
     "Type": "Unknown",
@@ -7322,6 +8406,29 @@
     "Region": [
       "Cities"
     ]
+  },
+  {
+    "Name": "Noska Ur’gray",
+    "CR": "1/2",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Nothic",
@@ -7366,6 +8473,30 @@
     ],
     "Adventures": [
       "Phandelver and Below"
+    ]
+  },
+  {
+    "Name": "Obliteros",
+    "CR": "5",
+    "Type": "beast",
+    "Alignment": "C E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#obliteros_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -7540,6 +8671,54 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#orc%20war%20chief_mm",
     "Adventures": [
       "Rime of the Frostmaiden"
+    ]
+  },
+  {
+    "Name": "Orond Gralhund",
+    "CR": "1/8",
+    "Type": "humanoid ([object Object])",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#orond%20gralhund_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Ott Steeltoes",
+    "CR": "1/8",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ott%20steeltoes_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -8330,12 +9509,14 @@
     "Region": [
       "Heartlands",
       "Dungeons",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Cities"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#red%20slaad_xmm",
     "Adventures": [
       "Phandelver and Below",
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -8521,6 +9702,30 @@
     ]
   },
   {
+    "Name": "Remallia Haventree",
+    "CR": "9",
+    "Type": "humanoid (elf)",
+    "Alignment": "C G",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Int +8, Wis +6",
+    "Intelligence": 18,
+    "Wisdom": 15,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#remallia%20haventree_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Remorhaz",
     "CR": "11",
     "Type": "monstrosity",
@@ -8586,6 +9791,29 @@
     ]
   },
   {
+    "Name": "Rishaal",
+    "CR": "6",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ],
+    "Statblock_Link": ""
+  },
+  {
     "Name": "Roc",
     "CR": "11",
     "Type": "monstrosity",
@@ -8649,6 +9877,29 @@
     "Region": [
       "Dungeons"
     ]
+  },
+  {
+    "Name": "Roscoe Underbough",
+    "CR": "2",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Rust Monster",
@@ -8728,6 +9979,30 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Saeth Cromley",
+    "CR": "3",
+    "Type": "humanoid ([object Object])",
+    "Alignment": "L G",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#saeth%20cromley_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -8831,6 +10106,30 @@
     ]
   },
   {
+    "Name": "Samara Strongbones",
+    "CR": "1",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#samara%20strongbones_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Satyr",
     "CR": "1/2",
     "Type": "fey",
@@ -8868,6 +10167,30 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Scarecrow",
+    "CR": "1",
+    "Type": "construct",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#scarecrow_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -9127,6 +10450,30 @@
     ]
   },
   {
+    "Name": "Skeemo Weirdbottle",
+    "CR": "6",
+    "Type": "humanoid (gnome)",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Int +6, Wis +4",
+    "Intelligence": 17,
+    "Wisdom": 12,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#skeemo%20weirdbottle_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Skeleton",
     "CR": "1/4",
     "Type": "undead",
@@ -9281,6 +10628,30 @@
     ]
   },
   {
+    "Name": "Soluun Xibrindas",
+    "CR": "4",
+    "Type": "humanoid (elf)",
+    "Alignment": "L E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 8,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +6, Con +4, Wis +3",
+    "Intelligence": 11,
+    "Wisdom": 13,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#soluun%20xibrindas_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Spectator",
     "CR": "3",
     "Type": "aberration (beholder)",
@@ -9429,6 +10800,30 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
+    ]
+  },
+  {
+    "Name": "Spined Devil",
+    "CR": "2",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 14,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#spined%20devil_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -9680,6 +11075,30 @@
     ]
   },
   {
+    "Name": "Swarm of Mechanical Spiders",
+    "CR": "1/2",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 7,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20mechanical%20spiders_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Swarm of Venomous Snakes",
     "CR": "2",
     "Type": "beast",
@@ -9698,6 +11117,53 @@
     "Region": [
       "Calimshan"
     ]
+  },
+  {
+    "Name": "Swashbuckler",
+    "CR": "3",
+    "Type": "humanoid (any race)",
+    "Alignment": "NX C G NY E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 11,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#swashbuckler_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Talisolvanar “Tally” Fellbranch",
+    "CR": "0",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Tarrasque",
@@ -9720,6 +11186,30 @@
       "Cities",
       "Dungeons",
       "Heartlands"
+    ]
+  },
+  {
+    "Name": "Tashlyn Yafeera",
+    "CR": "9",
+    "Type": "humanoid (human)",
+    "Alignment": "N",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Str +8, Con +6",
+    "Intelligence": 10,
+    "Wisdom": 14,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tashlyn%20yafeera_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -9763,6 +11253,30 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
+    ]
+  },
+  {
+    "Name": "Thorvin Twinbeard",
+    "CR": "0",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "L N",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 16,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#thorvin%20twinbeard_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -9971,7 +11485,11 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Cities"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -10080,6 +11598,78 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
+    ]
+  },
+  {
+    "Name": "Urstul Floxin",
+    "CR": "8",
+    "Type": "humanoid ([object Object])",
+    "Alignment": "L E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 9,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +6, Int +4",
+    "Intelligence": 13,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#urstul%20floxin_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Vajra Safahr",
+    "CR": "13",
+    "Type": "humanoid (human)",
+    "Alignment": "L N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Str +2, Dex +4, Con +3, Int +12, Wis +7, Cha +5",
+    "Intelligence": 20,
+    "Wisdom": 11,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vajra%20safahr_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
+    "Name": "Valetta",
+    "CR": "2",
+    "Type": "humanoid (dragonborn)",
+    "Alignment": "N",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 16,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#valetta_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -10327,6 +11917,30 @@
     ]
   },
   {
+    "Name": "Victoro Cassalanter",
+    "CR": "10",
+    "Type": "humanoid (half-elf)",
+    "Alignment": "L E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Con +6, Wis +7",
+    "Intelligence": 16,
+    "Wisdom": 17,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#victoro%20cassalanter_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Vine Blight",
     "CR": "1/2",
     "Type": "plant",
@@ -10389,6 +12003,53 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
+    ]
+  },
+  {
+    "Name": "Volothamp “Volo” Geddarm",
+    "CR": "1/4",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ],
+    "Statblock_Link": ""
+  },
+  {
+    "Name": "Walking Statue of Waterdeep",
+    "CR": "18",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "Con +14",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#walking%20statue%20of%20waterdeep_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
@@ -10818,6 +12479,30 @@
     ]
   },
   {
+    "Name": "Yalah Gralhund",
+    "CR": "1/8",
+    "Type": "humanoid ([object Object])",
+    "Alignment": "L E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 16,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yalah%20gralhund_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ]
+  },
+  {
     "Name": "Yestabrod",
     "CR": "4",
     "Type": "monstrosity",
@@ -10904,6 +12589,29 @@
     "Adventures": [
       "Phandelver and Below"
     ]
+  },
+  {
+    "Name": "Yorn the Terror",
+    "CR": "1/2",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
+    ],
+    "Statblock_Link": ""
   },
   {
     "Name": "Young Amethyst Dragon",
@@ -11148,6 +12856,30 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
+    ]
+  },
+  {
+    "Name": "Ziraj the Hunter",
+    "CR": "8",
+    "Type": "humanoid (half-orc)",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 7,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Wis +5, Cha +5",
+    "Intelligence": 11,
+    "Wisdom": 14,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ziraj%20the%20hunter_wdh",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
+      "Waterdeep Dragon Heist"
     ]
   },
   {
