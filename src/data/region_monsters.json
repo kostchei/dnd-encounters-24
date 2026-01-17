@@ -1,71 +1,149 @@
 {
     "calimshan": {
+        "0": [
+            "Almiraj",
+            "Chwinga",
+            "Crawling Claw",
+            "Flying Monkey"
+        ],
         "1": [
+            "Albino Dwarf Spirit Warrior",
+            "Aldani (Lobsterfolk)",
+            "Deinonychus",
+            "Eblis",
             "Fire Snake",
+            "Firenewt Warlock of Imix",
+            "Giant Strider",
+            "Goblin Boss",
+            "Grung Wildling",
+            "Kobold Scale Sorcerer",
             "Lion",
             "Lizardfolk Warden",
+            "Mantrap",
+            "Orvex Ocrammas",
             "Pirate",
+            "Pterafolk",
+            "Quadrone",
+            "Salida",
+            "Scarecrow",
             "Sphinx of Wonder",
-            "Spy"
+            "Spy",
+            "Su-monster",
+            "Tabaxi Hunter",
+            "Terracotta Warrior",
+            "Thorny",
+            "Yuan-ti Pureblood"
         ],
         "2": [
+            "Asharra",
             "Azer Sentinel",
             "Berserker",
             "Gargoyle",
+            "Grung Elite Warrior",
+            "Hew Hackinstone",
             "Lizardfolk Geomancer",
+            "Lizardfolk Shaman",
             "Ogre",
-            "Swarm of Venomous Snakes"
+            "Pentadrone",
+            "Quetzalcoatlus",
+            "Sea Hag",
+            "Spined Devil",
+            "Swarm of Venomous Snakes",
+            "Vegepygmy Chief",
+            "Yellow Musk Creeper",
+            "Yuan-ti Broodguard"
         ],
         "3": [
+            "Ankylosaurus Zombie",
+            "Assassin Vine",
+            "Flail Snail",
             "Giant Scorpion",
+            "Giant Snapping Turtle",
+            "Girallon Zombie",
             "Hell Hound",
             "Mummy",
             "Nightmare",
-            "Water Weird"
+            "Water Weird",
+            "Yuan-ti Malison",
+            "Yuan-ti Malison (Type 1)",
+            "Yuan-ti Malison (Type 2)",
+            "Yuan-ti Malison (Type 3)",
+            "Yuan-ti Priest"
         ],
         "4": [
             "Aarakocra Aeromancer",
+            "Bone Naga",
+            "Girallon",
             "Incubus",
+            "Kamadan",
             "Lamia",
+            "Liara Portyr",
             "Lizardfolk Sovereign",
+            "Orc War Chief",
             "Red Dragon Wyrmling",
+            "Sea Hag (Coven Variant)",
             "Shadow Demon",
-            "Succubus"
+            "Stegosaurus",
+            "Succubus",
+            "Withers",
+            "Yuan-ti Nightmare Speaker"
         ],
         "5": [
+            "Brontosaurus",
             "Cambion",
+            "Clay Gladiator",
+            "Dragonbait",
             "Earth Elemental",
             "Fire Elemental",
             "Mezzoloth",
+            "Night Hag",
             "Salamander",
+            "Shago",
             "Xorn"
         ],
         "6": [
             "Azer Pyromancer",
+            "Bodak",
             "Cyclops Sentry",
             "Invisible Stalker",
-            "Medusa"
+            "Medusa",
+            "Tomb Guardian"
         ],
         "7": [
+            "Artus Cimber",
             "Blue Slaad",
+            "Drow Mage",
+            "Night Hag (Coven Variant)",
+            "Ras Nsi",
             "Shield Guardian",
+            "Xandala",
             "Young Black Dragon",
             "Yuan-ti Abomination"
         ],
         "8": [
+            "Bag of Nails",
             "Chain Devil",
             "Hezrou",
+            "King of Feathers",
             "Sphinx of Secrets",
-            "Thri-kreen Psion"
+            "Thri-kreen Psion",
+            "Tyrannosaurus Zombie",
+            "Zindar"
         ],
         "9": [
+            "Champion",
             "Fire Giant",
             "Glabrezu",
+            "Gray Slaad",
+            "Gray Slaad (control gem variant)",
             "Nycaloth",
+            "Sekelok",
             "Young Blue Dragon"
         ],
         "10": [
             "Cyclops Oracle",
+            "Froghemoth",
+            "Giant Four-Armed Gargoyle",
             "Yochlol",
             "Young Red Dragon"
         ],
@@ -79,10 +157,13 @@
         "12": [
             "Arcanaloth",
             "Archmage",
-            "Erinyes"
+            "Erinyes",
+            "Stone Juggernaut",
+            "Syndra Silvane"
         ],
         "13": [
             "Adult White Dragon",
+            "Atropal",
             "Rakshasa",
             "Ultroloth"
         ],
@@ -114,9 +195,11 @@
             "Pit Fiend"
         ],
         "21": [
-            "Lich"
+            "Lich",
+            "Valindra Shadowmantle"
         ],
         "23": [
+            "Acererak",
             "Ancient Blue Dragon"
         ],
         "24": [
@@ -128,24 +211,44 @@
         ],
         "1/4": [
             "Aarakocra Skirmisher",
+            "Albino Dwarf Warrior",
             "Constrictor Snake",
+            "Dimetrodon",
             "Giant Venomous Snake",
-            "Smoke Mephit"
+            "Grung",
+            "Hadrosaurus",
+            "Kobold Inventor",
+            "Mud Mephit",
+            "Skeleton Key",
+            "Smoke Mephit",
+            "Tabaxi Minstrel",
+            "Vegepygmy",
+            "Velociraptor",
+            "Volothamp \"Volo\" Geddarm",
+            "Volothamp “Volo” Geddarm",
+            "Winged Kobold",
+            "Yellow Musk Zombie"
         ],
         "1/8": [
             "Camel",
             "Cultist",
             "Flying Snake",
             "Manes",
+            "Monodrone",
+            "Mwaxanaré",
             "Venomous Snake"
         ],
         "1/2": [
             "Dust Mephit",
+            "Firenewt Warrior",
             "Jackalwere",
+            "Jaculi",
             "Magma Mephit",
             "Magmin",
             "Performer",
-            "Tough"
+            "Tough",
+            "Tri-flower Frond",
+            "Zorbo"
         ]
     },
     "cities": {
@@ -1070,6 +1173,7 @@
     },
     "icewind": {
         "0": [
+            "Chwinga",
             "Fox",
             "Goat",
             "Hare",

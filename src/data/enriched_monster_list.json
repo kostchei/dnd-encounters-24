@@ -218,6 +218,26 @@
     ]
   },
   {
+    "Name": "Acererak",
+    "CR": "23",
+    "Type": "Undead",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 3,
+    "PerceptionBonus": 12,
+    "StealthBonus": 3,
+    "SavingThrows": "Con +12, Int +15, Wis +12",
+    "Intelligence": 27,
+    "Wisdom": 21,
+    "Charisma": 20,
+    "Statblock_Link": "https://5e.tools/bestiary.html#acererak_toa"
+  },
+  {
     "Name": "Adult Amethyst Dragon",
     "CR": "16",
     "Type": "dragon (gem)",
@@ -452,7 +472,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ahmaergo",
@@ -486,7 +507,88 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
+  },
+  {
+    "Name": "Albino Dwarf Spirit Warrior",
+    "CR": "1",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 1,
+    "PerceptionBonus": 4,
+    "StealthBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#albino%20dwarf%20spirit%20warrior_toa"
+  },
+  {
+    "Name": "Albino Dwarf Warrior",
+    "CR": "1/4",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 1,
+    "PerceptionBonus": 4,
+    "StealthBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#albino%20dwarf%20warrior_toa"
+  },
+  {
+    "Name": "Aldani (Lobsterfolk)",
+    "CR": "1",
+    "Type": "Monstrosity",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": -1,
+    "PerceptionBonus": 4,
+    "StealthBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 14,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#aldani%20(lobsterfolk)_toa"
+  },
+  {
+    "Name": "Almiraj",
+    "CR": "0",
+    "Type": "Beast",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 3,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 14,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#almiraj_toa"
   },
   {
     "Name": "Amarith Coppervein",
@@ -559,7 +661,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ammalia Cassalanter",
@@ -1026,6 +1129,26 @@
     ]
   },
   {
+    "Name": "Ankylosaurus Zombie",
+    "CR": "3",
+    "Type": "Undead",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": -1,
+    "PerceptionBonus": -2,
+    "StealthBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 6,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ankylosaurus%20zombie_toa"
+  },
+  {
     "Name": "Aphemia",
     "CR": "5",
     "Type": "monstrosity",
@@ -1095,7 +1218,8 @@
     "Adventures": [
       "Phandelver and Below",
       "Rime of the Frostmaiden",
-      "Baldur's Gate: Descent into Avernus"
+      "Baldur's Gate: Descent into Avernus",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -1231,6 +1355,26 @@
     ]
   },
   {
+    "Name": "Artus Cimber",
+    "CR": "7",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "SavingThrows": "Dex +5, Cha +7",
+    "Intelligence": 17,
+    "Wisdom": 16,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#artus%20cimber_toa"
+  },
+  {
     "Name": "Asha Vandree",
     "CR": "2",
     "Type": "Unknown",
@@ -1254,6 +1398,26 @@
     ]
   },
   {
+    "Name": "Asharra",
+    "CR": "2",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 7,
+    "StealthBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 17,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#asharra_toa"
+  },
+  {
     "Name": "Assassin",
     "CR": "8",
     "Type": "humanoid",
@@ -1273,6 +1437,46 @@
       "Cities",
       "Heartlands"
     ]
+  },
+  {
+    "Name": "Assassin Vine",
+    "CR": "3",
+    "Type": "Plant",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#assassin%20vine_toa"
+  },
+  {
+    "Name": "Atropal",
+    "CR": "13",
+    "Type": "Undead",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": -3,
+    "PerceptionBonus": 4,
+    "StealthBonus": -3,
+    "SavingThrows": "Con +11, Wis +9",
+    "Intelligence": 25,
+    "Wisdom": 19,
+    "Charisma": 24,
+    "Statblock_Link": "https://5e.tools/bestiary.html#atropal_toa"
   },
   {
     "Name": "Auril (First Form)",
@@ -1443,6 +1647,26 @@
     "Region": [
       "Calimshan"
     ]
+  },
+  {
+    "Name": "Bag of Nails",
+    "CR": "8",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 3,
+    "PerceptionBonus": 3,
+    "StealthBonus": 9,
+    "SavingThrows": "Dex +6, Int +4",
+    "Intelligence": 13,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bag%20of%20nails_toa"
   },
   {
     "Name": "Balhannoth",
@@ -1779,7 +2003,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Beast of Malar",
@@ -2154,6 +2379,26 @@
     ]
   },
   {
+    "Name": "Bodak",
+    "CR": "6",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 3,
+    "PerceptionBonus": 4,
+    "StealthBonus": 6,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 12,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bodak_vgm"
+  },
+  {
     "Name": "Boggle",
     "CR": "1/8",
     "Type": "Fey",
@@ -2202,7 +2447,11 @@
     "Faction": "",
     "Adventure": "",
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -2326,7 +2575,28 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
+  },
+  {
+    "Name": "Brontosaurus",
+    "CR": "5",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": -1,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "SavingThrows": "Con +6",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#brontosaurus_vgm"
   },
   {
     "Name": "Brown Bear",
@@ -2442,7 +2712,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Bullywug Bog Sage",
@@ -2472,7 +2743,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Bullywug Royal",
@@ -2482,7 +2754,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Cambion",
@@ -2536,7 +2809,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Carrion Crawler",
@@ -2677,6 +2951,26 @@
     "Adventures": [
       "Out of the Abyss"
     ]
+  },
+  {
+    "Name": "Champion",
+    "CR": "9",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 6,
+    "StealthBonus": 2,
+    "SavingThrows": "Str +9, Con +6",
+    "Intelligence": 10,
+    "Wisdom": 14,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#champion_vgm"
   },
   {
     "Name": "Character",
@@ -2953,8 +3247,8 @@
   },
   {
     "Name": "Chwinga",
-    "CR": "Unknown",
-    "Type": "Unknown",
+    "CR": "0",
+    "Type": "Elemental",
     "Size": "Medium",
     "Alignment": "Unknown",
     "PassivePerception": 10,
@@ -2967,11 +3261,13 @@
     "Charisma": 10,
     "Tags": [],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Calimshan"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#chwinga_cm",
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -2982,7 +3278,28 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
+  },
+  {
+    "Name": "Clay Gladiator",
+    "CR": "5",
+    "Type": "Construct",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "SavingThrows": "Str +7, Dex +5, Con +6",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#clay%20gladiator_toa"
   },
   {
     "Name": "Clay Golem",
@@ -3262,12 +3579,14 @@
     "Tags": [],
     "Region": [
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Calimshan"
     ],
     "Adventures": [
       "Waterdeep Dragon Heist",
       "Baldur's Gate: Descent into Avernus",
-      "Out of the Abyss"
+      "Out of the Abyss",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -3768,6 +4087,26 @@
     ]
   },
   {
+    "Name": "Deinonychus",
+    "CR": "1",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#deinonychus_vgm"
+  },
+  {
     "Name": "Demilich",
     "CR": "18",
     "Type": "undead",
@@ -3905,6 +4244,26 @@
     ]
   },
   {
+    "Name": "Dimetrodon",
+    "CR": "1/4",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#dimetrodon_vgm"
+  },
+  {
     "Name": "Dire Wolf",
     "CR": "1",
     "Type": "beast",
@@ -3980,7 +4339,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Djinni",
@@ -4062,6 +4422,26 @@
     "Region": [
       "Moonshae"
     ]
+  },
+  {
+    "Name": "Dragonbait",
+    "CR": "5",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 1,
+    "PerceptionBonus": 3,
+    "StealthBonus": 1,
+    "SavingThrows": "Wis +6, Cha +7",
+    "Intelligence": 14,
+    "Wisdom": 16,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#dragonbait_toa"
   },
   {
     "Name": "Drider",
@@ -4219,13 +4599,15 @@
     "Region": [
       "Icewind Dale",
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Calimshan"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#drow%20mage_mm",
     "Adventures": [
       "Rime of the Frostmaiden",
       "Waterdeep Dragon Heist",
-      "Out of the Abyss"
+      "Out of the Abyss",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -4681,6 +5063,26 @@
     ]
   },
   {
+    "Name": "Eblis",
+    "CR": "1",
+    "Type": "Monstrosity",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 3,
+    "PerceptionBonus": 4,
+    "StealthBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#eblis_toa"
+  },
+  {
     "Name": "Efreeti",
     "CR": "11",
     "Type": "elemental (genie)",
@@ -4806,7 +5208,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Embric",
@@ -4935,7 +5338,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Envy",
@@ -4945,7 +5349,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Erinyes",
@@ -5064,7 +5469,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Faerie Dragon Adult",
@@ -5349,8 +5755,49 @@
       "Dungeons"
     ],
     "Adventures": [
-      "Out of the Abyss"
+      "Out of the Abyss",
+      "Tomb of Annihilation"
     ]
+  },
+  {
+    "Name": "Firenewt Warlock of Imix",
+    "CR": "1",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 11,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#firenewt%20warlock%20of%20imix_vgm"
+  },
+  {
+    "Name": "Firenewt Warrior",
+    "CR": "1/2",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 1,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 11,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#firenewt%20warrior_vgm"
   },
   {
     "Name": "Fist of Bane",
@@ -5374,6 +5821,26 @@
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
     ]
+  },
+  {
+    "Name": "Flail Snail",
+    "CR": "3",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": -3,
+    "PerceptionBonus": 0,
+    "StealthBonus": -3,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#flail%20snail_vgm"
   },
   {
     "Name": "Flameskull",
@@ -5532,6 +5999,26 @@
     ]
   },
   {
+    "Name": "Flying Monkey",
+    "CR": "0",
+    "Type": "Beast",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#flying%20monkey_toa"
+  },
+  {
     "Name": "Flying Rocking Horse",
     "CR": "1/8",
     "Type": "Construct",
@@ -5539,7 +6026,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Flying Snake",
@@ -5631,6 +6119,26 @@
       "Out of the Abyss"
     ],
     "Statblock_Link": ""
+  },
+  {
+    "Name": "Froghemoth",
+    "CR": "10",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 1,
+    "PerceptionBonus": 9,
+    "StealthBonus": 5,
+    "SavingThrows": "Con +9, Wis +5",
+    "Intelligence": 2,
+    "Wisdom": 12,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#froghemoth_vgm"
   },
   {
     "Name": "Frost Druid",
@@ -6066,7 +6574,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Giant Eagle",
@@ -6107,6 +6616,26 @@
     "Region": [
       "Heartlands"
     ]
+  },
+  {
+    "Name": "Giant Four-Armed Gargoyle",
+    "CR": "10",
+    "Type": "Elemental",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "SavingThrows": "Wis +4",
+    "Intelligence": 6,
+    "Wisdom": 11,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20four-armed%20gargoyle_toa"
   },
   {
     "Name": "Giant Frog",
@@ -6286,7 +6815,28 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
+  },
+  {
+    "Name": "Giant Snapping Turtle",
+    "CR": "3",
+    "Type": "Beast",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 12,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20snapping%20turtle_toa"
   },
   {
     "Name": "Giant Spider",
@@ -6309,6 +6859,26 @@
     ]
   },
   {
+    "Name": "Giant Strider",
+    "CR": "1",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 1,
+    "PerceptionBonus": 1,
+    "StealthBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20strider_vgm"
+  },
+  {
     "Name": "Giant Swan",
     "CR": "1",
     "Type": "Beast",
@@ -6316,7 +6886,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Giant Venomous Snake",
@@ -6404,6 +6975,46 @@
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
     ]
+  },
+  {
+    "Name": "Girallon",
+    "CR": "4",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 3,
+    "PerceptionBonus": 3,
+    "StealthBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 12,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#girallon_vgm"
+  },
+  {
+    "Name": "Girallon Zombie",
+    "CR": "3",
+    "Type": "Undead",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 1,
+    "PerceptionBonus": -2,
+    "StealthBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 7,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#girallon%20zombie_toa"
   },
   {
     "Name": "Githyanki Knight",
@@ -6525,7 +7136,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Glasswork Golem",
@@ -6535,7 +7147,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Gloam",
@@ -6545,7 +7158,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Gnoll Demoniac",
@@ -6754,13 +7368,15 @@
       "Moonshae",
       "Dungeons",
       "Icewind Dale",
-      "Cities"
+      "Cities",
+      "Calimshan"
     ],
     "Adventures": [
       "Phandelver and Below",
       "Rime of the Frostmaiden",
       "Baldur's Gate: Descent into Avernus",
-      "Out of the Abyss"
+      "Out of the Abyss",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -7031,12 +7647,34 @@
     "Region": [
       "Heartlands",
       "Dungeons",
-      "Moonshae"
+      "Moonshae",
+      "Calimshan"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#gray%20slaad_xmm",
     "Adventures": [
-      "Phandelver and Below"
+      "Phandelver and Below",
+      "Tomb of Annihilation"
     ]
+  },
+  {
+    "Name": "Gray Slaad (control gem variant)",
+    "CR": "9",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": ""
   },
   {
     "Name": "Graz’zt",
@@ -7363,6 +8001,66 @@
     "Statblock_Link": ""
   },
   {
+    "Name": "Grung",
+    "CR": "1/4",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "SavingThrows": "Dex +4",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#grung_vgm"
+  },
+  {
+    "Name": "Grung Elite Warrior",
+    "CR": "2",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 3,
+    "PerceptionBonus": 2,
+    "StealthBonus": 5,
+    "SavingThrows": "Dex +5",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#grung%20elite%20warrior_vgm"
+  },
+  {
+    "Name": "Grung Wildling",
+    "CR": "1",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 3,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "SavingThrows": "Dex +5",
+    "Intelligence": 10,
+    "Wisdom": 15,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#grung%20wildling_vgm"
+  },
+  {
     "Name": "Guard",
     "CR": "1/8",
     "Type": "humanoid",
@@ -7441,6 +8139,26 @@
     "Region": [
       "Moonshae"
     ]
+  },
+  {
+    "Name": "Hadrosaurus",
+    "CR": "1/4",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hadrosaurus_vgm"
   },
   {
     "Name": "Half-Ogre",
@@ -7565,7 +8283,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Harengon Sniper",
@@ -7575,7 +8294,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Harpy",
@@ -7779,6 +8499,26 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ]
+  },
+  {
+    "Name": "Hew Hackinstone",
+    "CR": "2",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 1,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 11,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hew%20hackinstone_toa"
   },
   {
     "Name": "Hezrou",
@@ -8364,7 +9104,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Incubus",
@@ -8631,7 +9372,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Jackalwere",
@@ -8656,6 +9398,26 @@
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
     ]
+  },
+  {
+    "Name": "Jaculi",
+    "CR": "1/2",
+    "Type": "Beast",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 1,
+    "StealthBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 8,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#jaculi_toa"
   },
   {
     "Name": "Jade Spider",
@@ -8735,7 +9497,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Juiblex",
@@ -8809,6 +9572,26 @@
     ]
   },
   {
+    "Name": "Kamadan",
+    "CR": "4",
+    "Type": "Monstrosity",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 3,
+    "PerceptionBonus": 4,
+    "StealthBonus": 7,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 14,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kamadan_toa"
+  },
+  {
     "Name": "Karas Chembryl",
     "CR": "8",
     "Type": "humanoid",
@@ -8836,7 +9619,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Kenku",
@@ -8871,7 +9655,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Khalessa Draga",
@@ -8935,6 +9720,26 @@
     ]
   },
   {
+    "Name": "King of Feathers",
+    "CR": "8",
+    "Type": "Monstrosity",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 12,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#king%20of%20feathers_toa"
+  },
+  {
     "Name": "Knight",
     "CR": "3",
     "Type": "humanoid",
@@ -8976,6 +9781,46 @@
     "Adventures": [
       "Rime of the Frostmaiden"
     ]
+  },
+  {
+    "Name": "Kobold Inventor",
+    "CR": "1/4",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 7,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kobold%20inventor_vgm"
+  },
+  {
+    "Name": "Kobold Scale Sorcerer",
+    "CR": "1",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": -1,
+    "StealthBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 9,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kobold%20scale%20sorcerer_vgm"
   },
   {
     "Name": "Kobold Vampire Spawn",
@@ -9304,10 +10149,12 @@
     "Faction": "",
     "Tags": [],
     "Region": [
-      "Cities"
+      "Cities",
+      "Calimshan"
     ],
     "Adventures": [
-      "Baldur's Gate: Descent into Avernus"
+      "Baldur's Gate: Descent into Avernus",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -9430,7 +10277,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Lizardfolk Geomancer",
@@ -9451,6 +10299,26 @@
     "Region": [
       "Calimshan"
     ]
+  },
+  {
+    "Name": "Lizardfolk Shaman",
+    "CR": "2",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 4,
+    "StealthBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 15,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#lizardfolk%20shaman_mm"
   },
   {
     "Name": "Lizardfolk Sovereign",
@@ -9914,6 +10782,26 @@
     ]
   },
   {
+    "Name": "Mantrap",
+    "CR": "1",
+    "Type": "Plant",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 2,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mantrap_toa"
+  },
+  {
     "Name": "Marid",
     "CR": "11",
     "Type": "elemental (genie)",
@@ -10119,7 +11007,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Merfolk Skirmisher",
@@ -10251,7 +11140,8 @@
     ],
     "Adventures": [
       "Phandelver and Below",
-      "Baldur's Gate: Descent into Avernus"
+      "Baldur's Gate: Descent into Avernus",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -10434,7 +11324,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Mister Witch",
@@ -10444,7 +11335,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Molliver",
@@ -10454,7 +11346,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Monodrone",
@@ -10473,10 +11366,12 @@
     "Faction": "",
     "Tags": [],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Calimshan"
     ],
     "Adventures": [
-      "Out of the Abyss"
+      "Out of the Abyss",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -10567,10 +11462,12 @@
     "Region": [
       "Dungeons",
       "Moonshae",
-      "Heartlands"
+      "Heartlands",
+      "Calimshan"
     ],
     "Adventures": [
-      "Out of the Abyss"
+      "Out of the Abyss",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -10612,6 +11509,26 @@
     "Region": [
       "Calimshan"
     ]
+  },
+  {
+    "Name": "Mwaxanaré",
+    "CR": "1/8",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 12,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mwaxanar%c3%a9_toa"
   },
   {
     "Name": "Myconid Adult",
@@ -10888,11 +11805,33 @@
     "Adventure": "",
     "Region": [
       "Heartlands",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Calimshan"
     ],
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Tomb of Annihilation"
     ]
+  },
+  {
+    "Name": "Night Hag (Coven Variant)",
+    "CR": "7",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": ""
   },
   {
     "Name": "Nightblade",
@@ -11131,7 +12070,8 @@
     ],
     "Adventures": [
       "Phandelver and Below",
-      "Baldur's Gate: Descent into Avernus"
+      "Baldur's Gate: Descent into Avernus",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -11327,11 +12267,13 @@
     "Charisma": 16,
     "Tags": [],
     "Region": [
-      "Icewind Dale"
+      "Icewind Dale",
+      "Calimshan"
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#orc%20war%20chief_mm",
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -11403,6 +12345,26 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ]
+  },
+  {
+    "Name": "Orvex Ocrammas",
+    "CR": "1",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#orvex%20ocrammas_toa"
   },
   {
     "Name": "Ott Steeltoes",
@@ -11522,7 +12484,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Pegasus",
@@ -11543,6 +12506,26 @@
     "Region": [
       "Moonshae"
     ]
+  },
+  {
+    "Name": "Pentadrone",
+    "CR": "2",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#pentadrone_mm"
   },
   {
     "Name": "Performer",
@@ -11906,7 +12889,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Poltergeist",
@@ -12119,6 +13103,26 @@
     ]
   },
   {
+    "Name": "Pterafolk",
+    "CR": "1",
+    "Type": "Monstrosity",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 1,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#pterafolk_toa"
+  },
+  {
     "Name": "Pudding King",
     "CR": "4",
     "Type": "Unknown",
@@ -12159,6 +13163,26 @@
     "Region": [
       "Dungeons"
     ]
+  },
+  {
+    "Name": "Quadrone",
+    "CR": "1",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#quadrone_mm"
   },
   {
     "Name": "Quaggoth",
@@ -12280,6 +13304,26 @@
     ]
   },
   {
+    "Name": "Quetzalcoatlus",
+    "CR": "2",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 1,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#quetzalcoatlus_vgm"
+  },
+  {
     "Name": "Quickling",
     "CR": "1",
     "Type": "Volo's Guide to Monsters",
@@ -12298,7 +13342,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Rakshasa",
@@ -12320,6 +13365,26 @@
       "Calimshan",
       "Cities"
     ]
+  },
+  {
+    "Name": "Ras Nsi",
+    "CR": "7",
+    "Type": "Monstrosity",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 3,
+    "PerceptionBonus": 4,
+    "StealthBonus": 6,
+    "SavingThrows": "Con +6, Wis +7",
+    "Intelligence": 18,
+    "Wisdom": 18,
+    "Charisma": 21,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ras%20nsi_toa"
   },
   {
     "Name": "Reaper of Bhaal",
@@ -12767,7 +13832,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Rishaal",
@@ -13085,6 +14151,26 @@
     ]
   },
   {
+    "Name": "Salida",
+    "CR": "1",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 3,
+    "StealthBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#salida_toa"
+  },
+  {
     "Name": "Samara Strongbones",
     "CR": "1",
     "Type": "Unknown",
@@ -13166,10 +14252,12 @@
     "Tags": [],
     "Region": [
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Calimshan"
     ],
     "Adventures": [
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -13249,11 +14337,33 @@
     "Adventure": "",
     "Region": [
       "Moonshae",
-      "Icewind Dale"
+      "Icewind Dale",
+      "Calimshan"
     ],
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Tomb of Annihilation"
     ]
+  },
+  {
+    "Name": "Sea Hag (Coven Variant)",
+    "CR": "4",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": ""
   },
   {
     "Name": "Seal",
@@ -13279,6 +14389,26 @@
     ]
   },
   {
+    "Name": "Sekelok",
+    "CR": "9",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sekelok_toa"
+  },
+  {
     "Name": "Selenelion Twin",
     "CR": "2",
     "Type": "Humanoid",
@@ -13286,7 +14416,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Shadow",
@@ -13317,7 +14448,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Shadow Demon",
@@ -13344,7 +14476,8 @@
     "Adventures": [
       "Rime of the Frostmaiden",
       "Baldur's Gate: Descent into Avernus",
-      "Out of the Abyss"
+      "Out of the Abyss",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -13366,6 +14499,26 @@
     "Region": [
       "Dungeons"
     ]
+  },
+  {
+    "Name": "Shago",
+    "CR": "5",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#shago_toa"
   },
   {
     "Name": "Shaman",
@@ -13506,7 +14659,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Skabatha Nightshade",
@@ -13516,7 +14670,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Skeemo Weirdbottle",
@@ -13563,6 +14718,26 @@
     ]
   },
   {
+    "Name": "Skeleton Key",
+    "CR": "1/4",
+    "Type": "Undead",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#skeleton%20key_toa"
+  },
+  {
     "Name": "Skull Lasher of Myrkul",
     "CR": "1",
     "Type": "humanoid (human)",
@@ -13593,7 +14768,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Slaad Tadpole",
@@ -13687,6 +14863,9 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -13994,11 +15173,13 @@
     "Tags": [],
     "Region": [
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Calimshan"
     ],
     "Adventures": [
       "Waterdeep Dragon Heist",
-      "Baldur's Gate: Descent into Avernus"
+      "Baldur's Gate: Descent into Avernus",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -14135,7 +15316,28 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
+  },
+  {
+    "Name": "Stegosaurus",
+    "CR": "4",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": -1,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 11,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#stegosaurus_vgm"
   },
   {
     "Name": "Stone Giant",
@@ -14177,6 +15379,26 @@
     "Region": [
       "Dungeons"
     ]
+  },
+  {
+    "Name": "Stone Juggernaut",
+    "CR": "12",
+    "Type": "Construct",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 1,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#stone%20juggernaut_toa"
   },
   {
     "Name": "Storm Giant",
@@ -14226,7 +15448,28 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
+  },
+  {
+    "Name": "Su-monster",
+    "CR": "1",
+    "Type": "Monstrosity",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 13,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#su-monster_toa"
   },
   {
     "Name": "Succubus",
@@ -14300,7 +15543,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Swarm of Mechanical Spiders",
@@ -14394,6 +15638,26 @@
     ]
   },
   {
+    "Name": "Syndra Silvane",
+    "CR": "12",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#syndra%20silvane_toa"
+  },
+  {
     "Name": "Szashune",
     "CR": "10",
     "Type": "Unknown",
@@ -14414,6 +15678,46 @@
       "Out of the Abyss"
     ],
     "Statblock_Link": ""
+  },
+  {
+    "Name": "Tabaxi Hunter",
+    "CR": "1",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 3,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 14,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tabaxi%20hunter_toa"
+  },
+  {
+    "Name": "Tabaxi Minstrel",
+    "CR": "1/4",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 12,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tabaxi%20minstrel_toa"
   },
   {
     "Name": "Talisolvanar “Tally” Fellbranch",
@@ -14509,6 +15813,26 @@
     ]
   },
   {
+    "Name": "Terracotta Warrior",
+    "CR": "1",
+    "Type": "Construct",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#terracotta%20warrior_toa"
+  },
+  {
     "Name": "Thavius Kreeg",
     "CR": "1/2",
     "Type": "humanoid (human)",
@@ -14550,6 +15874,26 @@
     "Region": [
       "New Regional Addition"
     ]
+  },
+  {
+    "Name": "Thorny",
+    "CR": "1",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 1,
+    "PerceptionBonus": 4,
+    "StealthBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#thorny_vgm"
   },
   {
     "Name": "Thorvin Twinbeard",
@@ -14689,7 +16033,28 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
+  },
+  {
+    "Name": "Tomb Guardian",
+    "CR": "6",
+    "Type": "Construct",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": -1,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tomb%20guardian_toa"
   },
   {
     "Name": "Tomb Tapper",
@@ -14830,7 +16195,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Tree Blight",
@@ -14877,6 +16243,26 @@
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
     ]
+  },
+  {
+    "Name": "Tri-flower Frond",
+    "CR": "1/2",
+    "Type": "Plant",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 13,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tri-flower%20frond_toa"
   },
   {
     "Name": "Tribal Warrior",
@@ -15036,6 +16422,26 @@
     "Adventures": [
       "Out of the Abyss"
     ]
+  },
+  {
+    "Name": "Tyrannosaurus Zombie",
+    "CR": "8",
+    "Type": "Undead",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": -2,
+    "PerceptionBonus": -4,
+    "StealthBonus": -2,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 3,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tyrannosaurus%20zombie_toa"
   },
   {
     "Name": "Ulder Ravengard",
@@ -15202,6 +16608,26 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ]
+  },
+  {
+    "Name": "Valindra Shadowmantle",
+    "CR": "21",
+    "Type": "Tomb of Annihilation",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 3,
+    "PerceptionBonus": 9,
+    "StealthBonus": 3,
+    "SavingThrows": "Con +10, Int +12, Wis +9",
+    "Intelligence": 20,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#valindra%20shadowmantle_toa"
   },
   {
     "Name": "Vampire",
@@ -15403,6 +16829,66 @@
     "Adventures": [
       "Out of the Abyss"
     ]
+  },
+  {
+    "Name": "Vegepygmy",
+    "CR": "1/4",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 11,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vegepygmy_vgm"
+  },
+  {
+    "Name": "Vegepygmy Chief",
+    "CR": "2",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 12,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vegepygmy%20chief_vgm"
+  },
+  {
+    "Name": "Velociraptor",
+    "CR": "1/4",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#velociraptor_vgm"
   },
   {
     "Name": "Venomous Snake",
@@ -15629,6 +17115,29 @@
     ]
   },
   {
+    "Name": "Volothamp \"Volo\" Geddarm",
+    "CR": "1/4",
+    "Type": "humanoid (human)",
+    "Alignment": "C G",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Con +2, Wis +2",
+    "Intelligence": 15,
+    "Wisdom": 11,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#volothamp%20%22volo%22%20geddarm_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
     "Name": "Volothamp “Volo” Geddarm",
     "CR": "1/4",
     "Type": "Unknown",
@@ -15644,10 +17153,12 @@
     "Tags": [],
     "Region": [
       "Cities",
-      "Dungeons"
+      "Dungeons",
+      "Calimshan"
     ],
     "Adventures": [
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Tomb of Annihilation"
     ],
     "Statblock_Link": ""
   },
@@ -15706,7 +17217,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Warrior",
@@ -16018,7 +17530,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Winged Kobold",
@@ -16037,10 +17550,12 @@
     "Faction": "",
     "Tags": [],
     "Region": [
-      "Dungeons"
+      "Dungeons",
+      "Calimshan"
     ],
     "Adventures": [
-      "Out of the Abyss"
+      "Out of the Abyss",
+      "Tomb of Annihilation"
     ]
   },
   {
@@ -16071,7 +17586,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Witchlight Hand (Small)",
@@ -16081,7 +17597,28 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
+  },
+  {
+    "Name": "Withers",
+    "CR": "4",
+    "Type": "Undead",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 16,
+    "Wisdom": 13,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#withers_toa"
   },
   {
     "Name": "Wolf",
@@ -16167,6 +17704,26 @@
       "Heartlands",
       "Moonshae"
     ]
+  },
+  {
+    "Name": "Xandala",
+    "CR": "7",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 3,
+    "StealthBonus": 0,
+    "SavingThrows": "Int +7, Wis +6",
+    "Intelligence": 18,
+    "Wisdom": 16,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#xandala_toa"
   },
   {
     "Name": "Xorn",
@@ -16259,6 +17816,46 @@
       "Baldur's Gate: Descent into Avernus",
       "Out of the Abyss"
     ]
+  },
+  {
+    "Name": "Yellow Musk Creeper",
+    "CR": "2",
+    "Type": "Plant",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": -4,
+    "PerceptionBonus": 0,
+    "StealthBonus": -4,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yellow%20musk%20creeper_toa"
+  },
+  {
+    "Name": "Yellow Musk Zombie",
+    "CR": "1/4",
+    "Type": "Undead",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": -1,
+    "PerceptionBonus": -2,
+    "StealthBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 6,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yellow%20musk%20zombie_toa"
   },
   {
     "Name": "Yestabrod",
@@ -16579,12 +18176,35 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
     ]
   },
   {
+    "Name": "Yuan-ti Broodguard",
+    "CR": "2",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "SavingThrows": "Str +4, Dex +4, Wis +2",
+    "Intelligence": 6,
+    "Wisdom": 11,
+    "Charisma": 4,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20broodguard_vgm"
+  },
+  {
     "Name": "Yuan-ti Malison",
-    "CR": "Unknown",
-    "Type": "Unknown",
+    "CR": "3",
+    "Type": "Monster Manual (2014)",
     "Alignment": "Unknown",
     "PassivePerception": 0,
     "PerceptionBonus": 0,
@@ -16599,7 +18219,130 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
     ]
+  },
+  {
+    "Name": "Yuan-ti Malison (Type 1)",
+    "CR": "3",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 16,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%201)_xmm"
+  },
+  {
+    "Name": "Yuan-ti Malison (Type 2)",
+    "CR": "3",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 16,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%202)_xmm"
+  },
+  {
+    "Name": "Yuan-ti Malison (Type 3)",
+    "CR": "3",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 16,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%203)_xmm"
+  },
+  {
+    "Name": "Yuan-ti Nightmare Speaker",
+    "CR": "4",
+    "Type": "Volo's Guide to Monsters",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 2,
+    "PerceptionBonus": 1,
+    "StealthBonus": 4,
+    "SavingThrows": "Wis +3, Cha +5",
+    "Intelligence": 14,
+    "Wisdom": 12,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20nightmare%20speaker_vgm"
+  },
+  {
+    "Name": "Yuan-ti Priest",
+    "CR": "3",
+    "Type": "Monstrosity",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20priest_toa"
+  },
+  {
+    "Name": "Yuan-ti Pureblood",
+    "CR": "1",
+    "Type": "Monster Manual (2014)",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 1,
+    "PerceptionBonus": 3,
+    "StealthBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 12,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20pureblood_mm"
   },
   {
     "Name": "Yuk Yuk",
@@ -16632,7 +18375,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Zargash",
@@ -16642,7 +18386,8 @@
     "Region": [
       "Moonshae",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Zhentarim Thug",
@@ -16686,6 +18431,26 @@
     "Region": [
       "Heartlands"
     ]
+  },
+  {
+    "Name": "Zindar",
+    "CR": "8",
+    "Type": "Humanoid",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "SavingThrows": "Con +5, Wis +5",
+    "Intelligence": 16,
+    "Wisdom": 15,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#zindar_toa"
   },
   {
     "Name": "Ziraj the Hunter",
@@ -16751,6 +18516,26 @@
       "Dungeons",
       "Icewind Dale"
     ]
+  },
+  {
+    "Name": "Zorbo",
+    "CR": "1/2",
+    "Type": "Monstrosity",
+    "Adventure": "Tomb of Annihilation",
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ],
+    "InitiativeBonus": 0,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 12,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#zorbo_toa"
   },
   {
     "Name": "Zuggtmoy",

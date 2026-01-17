@@ -1,0 +1,2394 @@
+[
+  {
+    "Name": "Almiraj",
+    "CR": "0",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 14,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#almiraj_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Chwinga",
+    "CR": "0",
+    "Type": "elemental",
+    "Alignment": "N",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 7,
+    "InitiativeBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 16,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#chwinga_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Crawling Claw",
+    "CR": "0",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 10,
+    "Charisma": 4,
+    "Statblock_Link": "https://5e.tools/bestiary.html#crawling%20claw_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Flying Monkey",
+    "CR": "0",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#flying%20monkey_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Monodrone",
+    "CR": "1/8",
+    "Type": "construct",
+    "Alignment": "L N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#monodrone_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Mwaxanaré",
+    "CR": "1/8",
+    "Type": "humanoid (human)",
+    "Alignment": "L N",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 12,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mwaxanar%c3%a9_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Albino Dwarf Warrior",
+    "CR": "1/4",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "A",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 3,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#albino%20dwarf%20warrior_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Dimetrodon",
+    "CR": "1/4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#dimetrodon_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Grung",
+    "CR": "1/4",
+    "Type": "humanoid (grung)",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +4",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#grung_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Hadrosaurus",
+    "CR": "1/4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hadrosaurus_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Kobold Inventor",
+    "CR": "1/4",
+    "Type": "humanoid (kobold)",
+    "Alignment": "L E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 7,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kobold%20inventor_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Mud Mephit",
+    "CR": "1/4",
+    "Type": "elemental",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 3,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 11,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mud%20mephit_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Skeleton Key",
+    "CR": "1/4",
+    "Type": "Unknown",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#skeleton%20key_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Smoke Mephit",
+    "CR": "1/4",
+    "Type": "elemental",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#smoke%20mephit_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Tabaxi Minstrel",
+    "CR": "1/4",
+    "Type": "humanoid (tabaxi)",
+    "Alignment": "C G",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 12,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tabaxi%20minstrel_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Vegepygmy",
+    "CR": "1/4",
+    "Type": "plant",
+    "Alignment": "N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 11,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vegepygmy_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Velociraptor",
+    "CR": "1/4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#velociraptor_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Volothamp \"Volo\" Geddarm",
+    "CR": "1/4",
+    "Type": "humanoid (human)",
+    "Alignment": "C G",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Con +2, Wis +2",
+    "Intelligence": 15,
+    "Wisdom": 11,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#volothamp%20%22volo%22%20geddarm_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Winged Kobold",
+    "CR": "1/4",
+    "Type": "dragon",
+    "Alignment": "N",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 7,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#winged%20kobold_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Yellow Musk Zombie",
+    "CR": "1/4",
+    "Type": "undead",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 6,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yellow%20musk%20zombie_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Firenewt Warrior",
+    "CR": "1/2",
+    "Type": "humanoid (firenewt)",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 11,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#firenewt%20warrior_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Jaculi",
+    "CR": "1/2",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 8,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#jaculi_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Tri-flower Frond",
+    "CR": "1/2",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 13,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tri-flower%20frond_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Zorbo",
+    "CR": "1/2",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 12,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#zorbo_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Albino Dwarf Spirit Warrior",
+    "CR": "1",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "A",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 3,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#albino%20dwarf%20spirit%20warrior_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Aldani (Lobsterfolk)",
+    "CR": "1",
+    "Type": "monstrosity",
+    "Alignment": "L N",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 14,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#aldani%20(lobsterfolk)_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Deinonychus",
+    "CR": "1",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#deinonychus_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Eblis",
+    "CR": "1",
+    "Type": "monstrosity",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#eblis_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Fire Snake",
+    "CR": "1",
+    "Type": "elemental",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 10,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#fire%20snake_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Firenewt Warlock of Imix",
+    "CR": "1",
+    "Type": "humanoid (firenewt)",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 11,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#firenewt%20warlock%20of%20imix_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Giant Strider",
+    "CR": "1",
+    "Type": "monstrosity",
+    "Alignment": "N E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20strider_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Goblin Boss",
+    "CR": "1",
+    "Type": "fey (goblinoid)",
+    "Alignment": "C N",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 8,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20boss_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Grung Wildling",
+    "CR": "1",
+    "Type": "humanoid (grung)",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +5",
+    "Intelligence": 10,
+    "Wisdom": 15,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#grung%20wildling_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Kobold Scale Sorcerer",
+    "CR": "1",
+    "Type": "humanoid (kobold)",
+    "Alignment": "L E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 9,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kobold%20scale%20sorcerer_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Mantrap",
+    "CR": "1",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 2,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mantrap_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Orvex Ocrammas",
+    "CR": "1",
+    "Type": "humanoid (human)",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#orvex%20ocrammas_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Pterafolk",
+    "CR": "1",
+    "Type": "monstrosity",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#pterafolk_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Quadrone",
+    "CR": "1",
+    "Type": "construct",
+    "Alignment": "L N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#quadrone_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Salida",
+    "CR": "1",
+    "Type": "Unknown",
+    "Alignment": "N E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 3,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#salida_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Scarecrow",
+    "CR": "1",
+    "Type": "construct",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#scarecrow_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Su-monster",
+    "CR": "1",
+    "Type": "monstrosity",
+    "Alignment": "C E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 13,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#su-monster_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Tabaxi Hunter",
+    "CR": "1",
+    "Type": "humanoid (tabaxi)",
+    "Alignment": "C G",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 14,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tabaxi%20hunter_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Terracotta Warrior",
+    "CR": "1",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#terracotta%20warrior_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Thorny",
+    "CR": "1",
+    "Type": "plant",
+    "Alignment": "N",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 3,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#thorny_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Yuan-ti Pureblood",
+    "CR": "1",
+    "Type": "humanoid (yuan-ti)",
+    "Alignment": "N E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 3,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 12,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20pureblood_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Asharra",
+    "CR": "2",
+    "Type": "humanoid (aarakocra)",
+    "Alignment": "L N",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 17,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#asharra_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Grung Elite Warrior",
+    "CR": "2",
+    "Type": "humanoid (grung)",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +5",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#grung%20elite%20warrior_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Hew Hackinstone",
+    "CR": "2",
+    "Type": "humanoid (dwarf)",
+    "Alignment": "C N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 11,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#hew%20hackinstone_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Lizardfolk Shaman",
+    "CR": "2",
+    "Type": "humanoid (lizardfolk)",
+    "Alignment": "N",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 4,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 15,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#lizardfolk%20shaman_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Pentadrone",
+    "CR": "2",
+    "Type": "construct",
+    "Alignment": "L N",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#pentadrone_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Quetzalcoatlus",
+    "CR": "2",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#quetzalcoatlus_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Spined Devil",
+    "CR": "2",
+    "Type": "fiend (devil)",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 14,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#spined%20devil_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Vegepygmy Chief",
+    "CR": "2",
+    "Type": "plant",
+    "Alignment": "N",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 12,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vegepygmy%20chief_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Yellow Musk Creeper",
+    "CR": "2",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -4,
+    "InitiativeBonus": -4,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yellow%20musk%20creeper_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Yuan-ti Broodguard",
+    "CR": "2",
+    "Type": "humanoid (yuan-ti)",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Str +4, Dex +4, Wis +2",
+    "Intelligence": 6,
+    "Wisdom": 11,
+    "Charisma": 4,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20broodguard_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Ankylosaurus Zombie",
+    "CR": "3",
+    "Type": "undead",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 6,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ankylosaurus%20zombie_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Assassin Vine",
+    "CR": "3",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#assassin%20vine_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Flail Snail",
+    "CR": "3",
+    "Type": "elemental",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -3,
+    "InitiativeBonus": -3,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#flail%20snail_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Giant Snapping Turtle",
+    "CR": "3",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 12,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20snapping%20turtle_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Girallon Zombie",
+    "CR": "3",
+    "Type": "undead",
+    "Alignment": "C E",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 7,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#girallon%20zombie_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Yuan-ti Malison (Type 1)",
+    "CR": "3",
+    "Type": "monstrosity",
+    "Alignment": "N E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 16,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%201)_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Yuan-ti Malison (Type 1)",
+    "CR": "3",
+    "Type": "monstrosity",
+    "Alignment": "N E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 16,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%201)_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Yuan-ti Malison (Type 2)",
+    "CR": "3",
+    "Type": "monstrosity",
+    "Alignment": "N E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 16,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%202)_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Yuan-ti Malison (Type 3)",
+    "CR": "3",
+    "Type": "monstrosity",
+    "Alignment": "N E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 16,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%203)_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Yuan-ti Priest",
+    "CR": "3",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20priest_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Bone Naga",
+    "CR": "4",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 16,
+    "Wisdom": 15,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bone%20naga_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Girallon",
+    "CR": "4",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 12,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#girallon_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Kamadan",
+    "CR": "4",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 7,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 14,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#kamadan_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Liara Portyr",
+    "CR": "4",
+    "Type": "humanoid (human)",
+    "Alignment": "L E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Con +4, Wis +4",
+    "Intelligence": 14,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#liara%20portyr_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Orc War Chief",
+    "CR": "4",
+    "Type": "humanoid (orc)",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Str +6, Con +6, Wis +2",
+    "Intelligence": 11,
+    "Wisdom": 11,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#orc%20war%20chief_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Sea Hag",
+    "CR": "2",
+    "Type": "fey",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 12,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sea%20hag_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Shadow Demon",
+    "CR": "4",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 7,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +5, Cha +4",
+    "Intelligence": 14,
+    "Wisdom": 13,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#shadow%20demon_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Stegosaurus",
+    "CR": "4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 11,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#stegosaurus_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Withers",
+    "CR": "4",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 16,
+    "Wisdom": 13,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#withers_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Yuan-ti Nightmare Speaker",
+    "CR": "4",
+    "Type": "monstrosity (shapechanger, yuan-ti)",
+    "Alignment": "N E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Wis +3, Cha +5",
+    "Intelligence": 14,
+    "Wisdom": 12,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20nightmare%20speaker_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Brontosaurus",
+    "CR": "5",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "Con +6",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#brontosaurus_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Clay Gladiator",
+    "CR": "5",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Str +7, Dex +5, Con +6",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#clay%20gladiator_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Dragonbait",
+    "CR": "5",
+    "Type": "humanoid (saurial)",
+    "Alignment": "L G",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Wis +6, Cha +7",
+    "Intelligence": 14,
+    "Wisdom": 16,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#dragonbait_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Mezzoloth",
+    "CR": "5",
+    "Type": "fiend (yugoloth)",
+    "Alignment": "N E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 0,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 14,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#mezzoloth_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Shago",
+    "CR": "5",
+    "Type": "humanoid (human)",
+    "Alignment": "C G",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#shago_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Bodak",
+    "CR": "6",
+    "Type": "undead",
+    "Alignment": "C E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 6,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 12,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bodak_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Tomb Guardian",
+    "CR": "5",
+    "Type": "construct",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tomb%20guardian_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Artus Cimber",
+    "CR": "7",
+    "Type": "humanoid (human)",
+    "Alignment": "N G",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +5, Cha +7",
+    "Intelligence": 17,
+    "Wisdom": 16,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#artus%20cimber_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Drow Mage",
+    "CR": "7",
+    "Type": "humanoid (elf)",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 17,
+    "Wisdom": 13,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#drow%20mage_mm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Night Hag",
+    "CR": "5",
+    "Type": "fiend",
+    "Alignment": "N E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 5,
+    "InitiativeBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 16,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#night%20hag_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Ras Nsi",
+    "CR": "7",
+    "Type": "monstrosity (shapechanger, yuan-ti)",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 6,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Con +6, Wis +7",
+    "Intelligence": 18,
+    "Wisdom": 18,
+    "Charisma": 21,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ras%20nsi_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Xandala",
+    "CR": "7",
+    "Type": "humanoid (half-elf)",
+    "Alignment": "N E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Int +7, Wis +6",
+    "Intelligence": 18,
+    "Wisdom": 16,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#xandala_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Yuan-ti Abomination",
+    "CR": "7",
+    "Type": "monstrosity",
+    "Alignment": "N E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 6,
+    "InitiativeBonus": 6,
+    "SavingThrows": "",
+    "Intelligence": 17,
+    "Wisdom": 18,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20abomination_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Bag of Nails",
+    "CR": "8",
+    "Type": "humanoid (tabaxi)",
+    "Alignment": "C N",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 9,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +6, Int +4",
+    "Intelligence": 13,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bag%20of%20nails_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "King of Feathers",
+    "CR": "8",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 2,
+    "Wisdom": 12,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#king%20of%20feathers_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Tyrannosaurus Zombie",
+    "CR": "8",
+    "Type": "undead",
+    "Alignment": "U",
+    "PassivePerception": 6,
+    "PerceptionBonus": -4,
+    "StealthBonus": -2,
+    "InitiativeBonus": -2,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 3,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tyrannosaurus%20zombie_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Zindar",
+    "CR": "8",
+    "Type": "humanoid (half-dragon)",
+    "Alignment": "L G",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Con +5, Wis +5",
+    "Intelligence": 16,
+    "Wisdom": 15,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#zindar_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Champion",
+    "CR": "9",
+    "Type": "humanoid (any race)",
+    "Alignment": "A",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Str +9, Con +6",
+    "Intelligence": 10,
+    "Wisdom": 14,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#champion_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Gray Slaad",
+    "CR": "9",
+    "Type": "aberration",
+    "Alignment": "C N",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 3,
+    "InitiativeBonus": 7,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 8,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gray%20slaad_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Nycaloth",
+    "CR": "9",
+    "Type": "fiend (yugoloth)",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 10,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#nycaloth_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Sekelok",
+    "CR": "9",
+    "Type": "Unknown",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sekelok_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Froghemoth",
+    "CR": "10",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 19,
+    "PerceptionBonus": 9,
+    "StealthBonus": 5,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Con +9, Wis +5",
+    "Intelligence": 2,
+    "Wisdom": 12,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#froghemoth_vgm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Giant Four-Armed Gargoyle",
+    "CR": "10",
+    "Type": "elemental",
+    "Alignment": "C E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Wis +4",
+    "Intelligence": 6,
+    "Wisdom": 11,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20four-armed%20gargoyle_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Arcanaloth",
+    "CR": "12",
+    "Type": "fiend (yugoloth)",
+    "Alignment": "N E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 1,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Dex +5, Con +6, Int +9, Wis +7",
+    "Intelligence": 20,
+    "Wisdom": 16,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#arcanaloth_xmm",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Stone Juggernaut",
+    "CR": "12",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#stone%20juggernaut_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Syndra Silvane",
+    "CR": "12",
+    "Type": "humanoid (human)",
+    "Alignment": "L",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#syndra%20silvane_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Atropal",
+    "CR": "13",
+    "Type": "undead (titan)",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": -3,
+    "InitiativeBonus": -3,
+    "SavingThrows": "Con +11, Wis +9",
+    "Intelligence": 25,
+    "Wisdom": 19,
+    "Charisma": 24,
+    "Statblock_Link": "https://5e.tools/bestiary.html#atropal_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Valindra Shadowmantle",
+    "CR": "21",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 19,
+    "PerceptionBonus": 9,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Con +10, Int +12, Wis +9",
+    "Intelligence": 20,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#valindra%20shadowmantle_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  },
+  {
+    "Name": "Acererak",
+    "CR": "23",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 22,
+    "PerceptionBonus": 12,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Con +12, Int +15, Wis +12",
+    "Intelligence": 27,
+    "Wisdom": 21,
+    "Charisma": 20,
+    "Statblock_Link": "https://5e.tools/bestiary.html#acererak_toa",
+    "Faction": "",
+    "Tags": [],
+    "Region": [
+      "Calimshan"
+    ],
+    "Adventures": [
+      "Tomb of Annihilation"
+    ]
+  }
+]
