@@ -86,7 +86,7 @@ function run() {
                         "Statblock_Link": `https://5e.tools/bestiary.html#${encodeURIComponent(monster.name.toLowerCase())}_${monster.source.toLowerCase()}`,
                         "Faction": "",
                         "Adventure": "",
-                        "FoundIn": [] // Will be filled by region logic if I were doing that here, but I'll leave empty for now
+                        "Region": [] // Will be filled by region logic if I were doing that here, but I'll leave empty for now
                     };
 
                     enrichedList.push(entry);

@@ -204,7 +204,15 @@ function generateSolo(totalXP, actualTheme, region = null) {
   const regionLegendaries = getRegionMonstersByCR(bestFit.cr, sourceRegion)
     .filter(m => m.Name.includes('Dragon') || m.Name.includes('Remorhaz') ||
       m.Name.includes('Dracolich') || m.Name.includes('Turtle') ||
-      m.Name.includes('Lich') || m.Name.includes('Vampire')); // Expanded legendary keywords
+      m.Name.includes('Lich') || m.Name.includes('Vampire') ||
+      m.Name.includes('Thessalhydra') || m.Name.includes('Assassin') ||
+      m.Name.includes('Fleecemane') || m.Name.includes('Yestabrod') ||
+      m.Name.includes('Teeth') || m.Name.includes('Ghost') ||
+      m.Name.includes('Aboleth') || m.Name.includes('Slasher') ||
+      m.Name.includes('Shatterkeel') || m.Name.includes('Hag') ||
+      m.Name.includes('Lorthuun') || m.Name.includes('Chembryl') ||
+      m.Name.includes('Auril') || m.Name.includes('Maw') ||
+      m.Name.includes('Aphemia') || m.Name.includes('Rezmir')); // Expanded legendary keywords
 
   allOptions = [...allOptions, ...regionLegendaries];
 

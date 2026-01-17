@@ -15,8 +15,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#aarakocra_mm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -35,8 +35,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#aarakocra%20aeromancer_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -55,8 +55,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#aarakocra%20skirmisher_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -75,9 +75,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#aberrant%20cultist_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Cities",
+      "Dungeons"
     ]
   },
   {
@@ -96,8 +96,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#aboleth_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -116,8 +116,28 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#abominable%20yeti_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Adult Amethyst Dragon",
+    "CR": "16",
+    "Type": "dragon (gem)",
+    "Alignment": "N",
+    "PassivePerception": 23,
+    "PerceptionBonus": 13,
+    "StealthBonus": 7,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +7, Con +12, Wis +8, Cha +10",
+    "Intelligence": 19,
+    "Wisdom": 17,
+    "Charisma": 21,
+    "Statblock_Link": "https://5e.tools/bestiary.html#adult%20amethyst%20dragon_ftd",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -136,8 +156,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#adult%20black%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -156,8 +176,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#adult%20blue%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -176,8 +196,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#adult%20brass%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -196,8 +216,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#adult%20bronze%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -216,8 +236,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#adult%20copper%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -236,9 +256,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#adult%20gold%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Calimshan",
+      "Heartlands"
     ]
   },
   {
@@ -257,9 +277,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#adult%20green%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -278,10 +298,10 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#adult%20red%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Dungeons.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Calimshan",
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -300,10 +320,10 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#adult%20silver%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Cities",
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -322,9 +342,69 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#adult%20white%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Calimshan",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Ambitious Assassin",
+    "CR": "5",
+    "Type": "humanoid",
+    "Alignment": "N E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 10,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +7, Int +7",
+    "Intelligence": 18,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ambitious%20assassin_bmt",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
+    ]
+  },
+  {
+    "Name": "Amethyst Dragon Wyrmling",
+    "CR": "4",
+    "Type": "dragon (gem)",
+    "Alignment": "N",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Dex +2, Con +5, Wis +3, Cha +5",
+    "Intelligence": 16,
+    "Wisdom": 13,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#amethyst%20dragon%20wyrmling_ftd",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Ancient Amethyst Dragon",
+    "CR": "23",
+    "Type": "dragon (gem)",
+    "Alignment": "N",
+    "PassivePerception": 28,
+    "PerceptionBonus": 18,
+    "StealthBonus": 9,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +9, Con +15, Wis +11, Cha +13",
+    "Intelligence": 21,
+    "Wisdom": 19,
+    "Charisma": 23,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ancient%20amethyst%20dragon_ftd",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -343,8 +423,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ancient%20black%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -363,9 +443,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ancient%20blue%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Calimshan",
+      "Heartlands"
     ]
   },
   {
@@ -384,8 +464,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ancient%20brass%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -404,8 +484,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ancient%20bronze%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -424,8 +504,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ancient%20copper%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -444,8 +524,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ancient%20deep%20dragon_ftd",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -464,9 +544,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ancient%20gold%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Calimshan",
+      "Heartlands"
     ]
   },
   {
@@ -485,9 +565,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ancient%20green%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -506,10 +586,10 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ancient%20red%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Dungeons.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Calimshan",
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -528,9 +608,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ancient%20silver%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Cities",
+      "Heartlands"
     ]
   },
   {
@@ -549,10 +629,28 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ancient%20white%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
     ]
+  },
+  {
+    "Name": "Androsphinx",
+    "CR": "17",
+    "Type": "monstrosity",
+    "Alignment": "L N",
+    "PassivePerception": 20,
+    "PerceptionBonus": 10,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Dex +6, Con +11, Int +9, Wis +10",
+    "Intelligence": 16,
+    "Wisdom": 18,
+    "Charisma": 23,
+    "Statblock_Link": "https://5e.tools/bestiary.html#androsphinx_mm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": []
   },
   {
     "Name": "Animal Lord",
@@ -570,8 +668,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#animal%20lord_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -590,9 +688,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#animated%20armor_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Cities",
+      "Dungeons"
     ]
   },
   {
@@ -611,8 +709,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#animated%20broom_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -631,8 +729,28 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ankheg_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Aphemia",
+    "CR": "5",
+    "Type": "monstrosity",
+    "Alignment": "C E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +6, Cha +6",
+    "Intelligence": 13,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#aphemia_mot",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
     ]
   },
   {
@@ -651,8 +769,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#apprentice%20wizard_vgm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -671,9 +789,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#arcanaloth_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Calimshan",
+      "Dungeons"
     ]
   },
   {
@@ -692,9 +810,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#arch-hag_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Icewind Dale",
+      "Moonshae"
     ]
   },
   {
@@ -713,12 +831,12 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#archmage_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Dungeons.csv",
-      "Encounter spreadsheet - IceWind Dale.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Calimshan",
+      "Cities",
+      "Dungeons",
+      "Icewind Dale",
+      "Moonshae"
     ]
   },
   {
@@ -737,8 +855,8 @@
     "Statblock_Link": "",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -757,9 +875,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#archpriest_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -778,9 +896,29 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#assassin_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Cities",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Auril (First Form)",
+    "CR": "9",
+    "Type": "monstrosity",
+    "Alignment": "N E",
+    "PassivePerception": 26,
+    "PerceptionBonus": 16,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Con +9, Wis +12",
+    "Intelligence": 24,
+    "Wisdom": 26,
+    "Charisma": 28,
+    "Statblock_Link": "https://5e.tools/bestiary.html#auril%20(first%20form)_idrotf",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
     ]
   },
   {
@@ -799,8 +937,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#awakened%20tree_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -819,8 +957,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#awakened%20white%20moose_idrotf",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -839,8 +977,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#axe%20beak_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -859,8 +997,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#azer%20pyromancer_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -879,9 +1017,27 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#azer%20sentinel_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
+  },
+  {
+    "Name": "Balhannoth",
+    "CR": "11",
+    "Type": "aberration",
+    "Alignment": "C E",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "Con +8",
+    "Intelligence": 6,
+    "Wisdom": 15,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#balhannoth_mpmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": []
   },
   {
     "Name": "Balor",
@@ -899,9 +1055,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#balor_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Calimshan",
+      "Dungeons"
     ]
   },
   {
@@ -920,9 +1076,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#bandit_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Cities",
+      "Heartlands"
     ]
   },
   {
@@ -941,9 +1097,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#bandit%20captain_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Cities",
+      "Heartlands"
     ]
   },
   {
@@ -962,8 +1118,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#bandit%20crime%20lord_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -982,8 +1138,8 @@
     "Statblock_Link": "",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -1002,9 +1158,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#banshee_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Icewind Dale",
+      "Moonshae"
     ]
   },
   {
@@ -1023,8 +1179,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#bard_vgm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -1043,8 +1199,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#basilisk_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -1063,8 +1219,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#beast%20of%20malar_fraif",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -1083,10 +1239,10 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#behir_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Dungeons.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Calimshan",
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -1105,8 +1261,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#beholder_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -1125,9 +1281,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#berserker_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Calimshan",
+      "Cities"
     ]
   },
   {
@@ -1146,11 +1302,29 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#berserker%20commander_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Cities",
+      "Heartlands",
+      "Icewind Dale"
     ]
+  },
+  {
+    "Name": "Bheur Hag",
+    "CR": "7",
+    "Type": "fey",
+    "Alignment": "C E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 6,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Wis +4",
+    "Intelligence": 12,
+    "Wisdom": 13,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#bheur%20hag_mpmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": []
   },
   {
     "Name": "Black Bear",
@@ -1168,8 +1342,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#black%20bear_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -1188,8 +1362,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#black%20pudding_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -1208,8 +1382,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#blink%20dog_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -1228,8 +1402,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#blob%20of%20annihilation_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -1248,9 +1422,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#blood%20hawk_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Icewind Dale",
+      "Moonshae"
     ]
   },
   {
@@ -1269,9 +1443,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#blue%20slaad_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Calimshan",
+      "Icewind Dale"
     ]
   },
   {
@@ -1290,8 +1464,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#boar_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -1310,9 +1484,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#bone%20devil_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Cities",
+      "Dungeons"
     ]
   },
   {
@@ -1331,8 +1505,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#bone%20naga_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -1351,8 +1525,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#brazen%20gorgon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -1371,9 +1545,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#brown%20bear_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -1392,9 +1566,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#bugbear%20stalker_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -1413,9 +1587,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#bugbear%20warrior_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -1434,8 +1608,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#bulette_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -1454,8 +1628,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#bullywug%20bog%20sage_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -1474,8 +1648,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#cambion_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -1494,8 +1668,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#camel_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -1514,9 +1688,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#carrion%20crawler_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Cities",
+      "Dungeons"
     ]
   },
   {
@@ -1535,8 +1709,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#centaur%20warden_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -1555,9 +1729,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#chain%20devil_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Calimshan",
+      "Dungeons"
     ]
   },
   {
@@ -1576,9 +1750,9 @@
     "Statblock_Link": "",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Cities",
+      "Icewind Dale"
     ]
   },
   {
@@ -1597,8 +1771,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#chardalyn%20berserker_idrotf",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -1617,9 +1791,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#chimera_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -1638,8 +1812,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#chuul_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -1658,9 +1832,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#clay%20golem_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Cities",
+      "Dungeons"
     ]
   },
   {
@@ -1679,8 +1853,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#cloaker_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -1699,8 +1873,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#cloud%20giant_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -1719,8 +1893,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#colossus_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -1739,8 +1913,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#constrictor%20snake_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -1759,9 +1933,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#couatl_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Cities",
+      "Moonshae"
     ]
   },
   {
@@ -1780,9 +1954,9 @@
     "Statblock_Link": "",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -1801,9 +1975,9 @@
     "Statblock_Link": "",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -1822,8 +1996,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#crag%20cat_skt",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -1842,8 +2016,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#cult%20fanatic_mm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -1862,10 +2036,10 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#cultist_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Calimshan",
+      "Cities",
+      "Icewind Dale"
     ]
   },
   {
@@ -1884,8 +2058,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#cultist%20fanatic_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -1904,9 +2078,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#cultist%20hierophant_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Cities",
+      "Icewind Dale"
     ]
   },
   {
@@ -1925,8 +2099,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#cultist%20of%20bane_fraif",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -1945,8 +2119,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#cultist%20of%20bhaal_fraif",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -1965,8 +2139,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#cultist%20of%20myrkul_fraif",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -1985,8 +2159,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#curate_hotb",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -2005,10 +2179,10 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#cyclops%20oracle_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - IceWind Dale.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Calimshan",
+      "Icewind Dale",
+      "Moonshae"
     ]
   },
   {
@@ -2027,9 +2201,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#cyclops%20sentry_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Calimshan",
+      "Heartlands"
     ]
   },
   {
@@ -2048,8 +2222,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#dao_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -2068,8 +2242,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#darkmantle_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -2088,8 +2262,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#dead%20three%20scion_fraif",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -2108,9 +2282,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#death%20cultist_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Cities",
+      "Heartlands"
     ]
   },
   {
@@ -2129,8 +2303,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#death%20dog_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -2149,8 +2323,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#death%20knight_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -2169,8 +2343,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#death%20knight%20aspirant_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -2189,8 +2363,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#death%20slaad_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -2209,8 +2383,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#death%20tyrant_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -2229,10 +2403,10 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#demilich_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Dungeons.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Calimshan",
+      "Dungeons",
+      "Icewind Dale"
     ]
   },
   {
@@ -2251,8 +2425,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#deva_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -2271,9 +2445,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#dire%20wolf_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -2292,10 +2466,10 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#dire%20worg_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - IceWind Dale.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Icewind Dale",
+      "Moonshae"
     ]
   },
   {
@@ -2314,8 +2488,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#displacer%20beast_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -2334,8 +2508,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#djinni_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -2354,8 +2528,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#doppelganger_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -2374,9 +2548,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#dracolich_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Dungeons",
+      "Icewind Dale"
     ]
   },
   {
@@ -2395,8 +2569,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#dragon%20turtle_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -2415,8 +2589,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#drider_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -2435,8 +2609,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#drow%20elite%20warrior%20of%20lolth_fraif",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -2455,8 +2629,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#druid_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -2475,8 +2649,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#dryad_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -2495,8 +2669,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#dust%20mephit_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -2515,8 +2689,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#earth%20elemental_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -2535,9 +2709,27 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#efreeti_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
+  },
+  {
+    "Name": "Elder Brain",
+    "CR": "14",
+    "Type": "aberration (mind flayer)",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Int +10, Wis +9, Cha +12",
+    "Intelligence": 21,
+    "Wisdom": 19,
+    "Charisma": 24,
+    "Statblock_Link": "https://5e.tools/bestiary.html#elder%20brain_mpmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": []
   },
   {
     "Name": "Elder Tempest",
@@ -2555,8 +2747,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#elder%20tempest_mtf",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -2575,8 +2767,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#elemental%20cataclysm_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -2595,8 +2787,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#elemental%20cultist_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -2615,8 +2807,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#elemental%20cultist_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -2635,8 +2827,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#empyrean_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -2655,8 +2847,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#erinyes_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -2675,8 +2867,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ettercap_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -2695,8 +2887,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ettin_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -2715,8 +2907,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#faerie%20dragon%20adult_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -2735,8 +2927,28 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#faerie%20dragon%20youth_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Fate Hag",
+    "CR": "4",
+    "Type": "fey",
+    "Alignment": "N",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Con +3, Wis +6",
+    "Intelligence": 12,
+    "Wisdom": 18,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#fate%20hag_bmt",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
     ]
   },
   {
@@ -2755,8 +2967,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#fiend%20cultist_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -2775,8 +2987,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#fire%20elemental_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -2795,9 +3007,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#fire%20giant_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Calimshan",
+      "Heartlands"
     ]
   },
   {
@@ -2816,8 +3028,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#fire%20snake_mm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -2836,8 +3048,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#fist%20of%20bane_bgdia",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -2856,8 +3068,28 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#flameskull_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Fleecemane Lion",
+    "CR": "3",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Str +6, Con +4",
+    "Intelligence": 6,
+    "Wisdom": 14,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#fleecemane%20lion_mot",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
     ]
   },
   {
@@ -2876,8 +3108,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#flesh%20golem_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -2896,9 +3128,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#flying%20snake_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Calimshan",
+      "Moonshae"
     ]
   },
   {
@@ -2917,8 +3149,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#fomorian_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -2937,8 +3169,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#frost%20druid_idrotf",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -2957,8 +3189,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#frost%20giant_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -2977,8 +3209,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#frost%20giant%20skeleton_idrotf",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -2997,8 +3229,28 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#galeb%20duhr_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Gar Shatterkeel",
+    "CR": "9",
+    "Type": "humanoid",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 18,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#gar%20shatterkeel_pota",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
     ]
   },
   {
@@ -3017,8 +3269,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#gargoyle_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -3037,8 +3289,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#gelatinous%20cube_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -3057,8 +3309,8 @@
     "Statblock_Link": "",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -3077,8 +3329,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ghast%20gravecaller_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -3097,9 +3349,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ghost_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Cities",
+      "Dungeons"
     ]
   },
   {
@@ -3118,8 +3370,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ghoul_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -3138,9 +3390,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20ape_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Icewind Dale",
+      "Moonshae"
     ]
   },
   {
@@ -3159,8 +3411,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20axe%20beak_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -3179,9 +3431,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20badger_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -3200,8 +3452,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20boar_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -3220,8 +3472,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20centipede_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -3240,8 +3492,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20crab_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -3260,8 +3512,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20eagle_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -3280,8 +3532,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20elk_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -3300,8 +3552,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20frog_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -3320,8 +3572,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20hyena_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -3340,9 +3592,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20owl_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Icewind Dale",
+      "Moonshae"
     ]
   },
   {
@@ -3361,8 +3613,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20rat_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -3381,8 +3633,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20scorpion_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -3401,8 +3653,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20spider_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -3421,8 +3673,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20venomous%20snake_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -3441,8 +3693,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20walrus_idrotf",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -3461,9 +3713,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20weasel_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -3482,9 +3734,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#glabrezu_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Calimshan",
+      "Dungeons"
     ]
   },
   {
@@ -3503,8 +3755,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#gladiator_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -3523,8 +3775,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#gnoll%20demoniac_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -3543,8 +3795,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#gnoll%20fang%20of%20yeenoghu_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -3563,8 +3815,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#gnoll%20pack%20lord_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -3583,8 +3835,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#gnoll%20warrior_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -3603,8 +3855,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#goat_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -3623,9 +3875,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20boss_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -3644,9 +3896,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20minion_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Dungeons",
+      "Moonshae"
     ]
   },
   {
@@ -3665,9 +3917,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20warrior_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -3686,8 +3938,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#gorgon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -3706,9 +3958,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#goristro_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Calimshan",
+      "Icewind Dale"
     ]
   },
   {
@@ -3727,8 +3979,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#graveyard%20revenant_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -3747,8 +3999,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#gray%20ooze_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -3767,8 +4019,8 @@
     "Statblock_Link": "",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -3787,9 +4039,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#green%20hag_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -3808,8 +4060,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#grick_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -3828,8 +4080,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#grick%20ancient_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -3848,9 +4100,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#griffon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Icewind Dale",
+      "Moonshae"
     ]
   },
   {
@@ -3869,8 +4121,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#grimlock_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -3889,8 +4141,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#guard_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -3909,8 +4161,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#guard%20captain_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -3929,8 +4181,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#guardian%20naga_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -3949,8 +4201,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#gulthias%20blight_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -3969,8 +4221,8 @@
     "Statblock_Link": "",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -3989,9 +4241,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#harpy_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Dungeons",
+      "Moonshae"
     ]
   },
   {
@@ -4010,8 +4262,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#haunting%20revenant_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -4030,8 +4282,8 @@
     "Statblock_Link": "",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -4050,8 +4302,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#hell%20hound_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -4070,8 +4322,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#helmed%20horror_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -4090,8 +4342,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#hezrou_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -4110,8 +4362,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#hill%20giant_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -4130,8 +4382,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#hippogriff_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -4150,9 +4402,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#hobgoblin%20warlord_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -4171,9 +4423,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#hobgoblin%20warrior_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -4192,8 +4444,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#hook%20horror_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -4212,8 +4464,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#horned%20devil_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -4232,8 +4484,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#hydra_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -4252,8 +4504,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#hydra_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -4272,9 +4524,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ice%20devil_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Calimshan",
+      "Icewind Dale"
     ]
   },
   {
@@ -4293,8 +4545,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ice%20mephit_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -4313,9 +4565,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#incubus_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Calimshan",
+      "Cities"
     ]
   },
   {
@@ -4334,8 +4586,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#intellect%20devourer_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -4354,9 +4606,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#invisible%20stalker_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Calimshan",
+      "Cities"
     ]
   },
   {
@@ -4375,9 +4627,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#iron%20golem_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Calimshan",
+      "Dungeons"
     ]
   },
   {
@@ -4396,8 +4648,28 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#jackalwere_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Karas Chembryl",
+    "CR": "8",
+    "Type": "humanoid",
+    "Alignment": "N E",
+    "PassivePerception": 18,
+    "PerceptionBonus": 8,
+    "StealthBonus": 11,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Dex +8, Con +4, Int +7, Wis +5",
+    "Intelligence": 18,
+    "Wisdom": 15,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#karas%20chembryl_fraif",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
     ]
   },
   {
@@ -4416,9 +4688,27 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#kenku_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
+  },
+  {
+    "Name": "Ki-rin",
+    "CR": "12",
+    "Type": "celestial",
+    "Alignment": "L G",
+    "PassivePerception": 19,
+    "PerceptionBonus": 9,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 19,
+    "Wisdom": 20,
+    "Charisma": 20,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ki-rin_mpmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": []
   },
   {
     "Name": "Killer Whale",
@@ -4436,8 +4726,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#killer%20whale_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -4456,8 +4746,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#knight_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -4476,9 +4766,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#kobold%20warrior_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Dungeons",
+      "Icewind Dale"
     ]
   },
   {
@@ -4497,8 +4787,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#kraken_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -4517,8 +4807,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#lamia_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -4537,11 +4827,11 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#lich_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Dungeons.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Calimshan",
+      "Cities",
+      "Dungeons",
+      "Icewind Dale"
     ]
   },
   {
@@ -4560,9 +4850,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#lion_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Calimshan",
+      "Heartlands"
     ]
   },
   {
@@ -4581,8 +4871,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#lizardfolk%20geomancer_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -4601,8 +4891,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#lizardfolk%20sovereign_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -4621,8 +4911,28 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#lizardfolk%20warden_hotb",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Lorthuun",
+    "CR": "9",
+    "Type": "Unknown",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#lorthuun_oota",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
     ]
   },
   {
@@ -4641,8 +4951,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#mage_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -4661,8 +4971,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#mage%20apprentice_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -4681,8 +4991,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#magma%20mephit_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -4701,8 +5011,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#magmin_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -4721,8 +5031,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#mammoth_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -4741,8 +5051,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#manes_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -4761,8 +5071,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#manshoon_wdh",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -4781,9 +5091,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#manticore_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -4802,9 +5112,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#marid_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Calimshan",
+      "Moonshae"
     ]
   },
   {
@@ -4823,9 +5133,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#marilith_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Calimshan",
+      "Dungeons"
     ]
   },
   {
@@ -4844,8 +5154,28 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#mastiff_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Maw of Sekolah",
+    "CR": "7",
+    "Type": "monstrosity",
+    "Alignment": "N E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Str +8, Con +6",
+    "Intelligence": 2,
+    "Wisdom": 14,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#maw%20of%20sekolah_gos",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
     ]
   },
   {
@@ -4864,9 +5194,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#medusa_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Calimshan",
+      "Dungeons"
     ]
   },
   {
@@ -4885,8 +5215,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#merfolk%20skirmisher_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -4905,8 +5235,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#merfolk%20wavebender_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -4925,8 +5255,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#merrow_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -4945,8 +5275,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#mezzoloth_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -4965,9 +5295,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#mimic_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Cities",
+      "Dungeons"
     ]
   },
   {
@@ -4986,8 +5316,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -5006,8 +5336,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer%20arcanist_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -5026,8 +5356,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#mummy_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -5046,8 +5376,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#mummy%20lord_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -5066,9 +5396,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#nalfeshnee_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Dungeons",
+      "Heartlands"
     ]
   },
   {
@@ -5087,8 +5417,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#necromite%20of%20myrkul_bgdia",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -5107,9 +5437,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#needle%20blight_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Heartlands",
+      "Moonshae"
     ]
   },
   {
@@ -5128,8 +5458,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#night%20hag_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -5148,8 +5478,8 @@
     "Statblock_Link": "",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -5168,8 +5498,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#nightmare_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -5188,8 +5518,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#nightwalker_mtf",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -5208,8 +5538,8 @@
     "Statblock_Link": "",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -5228,8 +5558,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#noble%20prodigy_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -5248,8 +5578,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#nothic_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -5268,8 +5598,28 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#nycaloth_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Obzedat Ghost",
+    "CR": "8",
+    "Type": "undead",
+    "Alignment": "L E",
+    "PassivePerception": 18,
+    "PerceptionBonus": 8,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Int +7, Wis +8",
+    "Intelligence": 18,
+    "Wisdom": 20,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#obzedat%20ghost_ggr",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
     ]
   },
   {
@@ -5288,8 +5638,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ochre%20jelly_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -5308,11 +5658,11 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ogre_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Dungeons.csv",
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Calimshan",
+      "Dungeons",
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -5331,8 +5681,8 @@
     "Statblock_Link": "",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -5351,9 +5701,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#oni_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Cities",
+      "Heartlands"
     ]
   },
   {
@@ -5372,8 +5722,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#otyugh_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -5392,8 +5742,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#owlbear_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -5412,8 +5762,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#panther_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Heartlands"
     ]
   },
   {
@@ -5432,8 +5782,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#pegasus_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -5452,8 +5802,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#performer_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -5472,8 +5822,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#performer%20legend_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -5492,8 +5842,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#performer%20maestro_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -5512,8 +5862,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#phaerimm%20agent_fraif",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -5532,8 +5882,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#phaerimm%20elder_nf",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -5552,8 +5902,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#phase%20spider_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -5572,8 +5922,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#piercer_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -5592,9 +5942,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#pirate_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Calimshan",
+      "Cities"
     ]
   },
   {
@@ -5613,8 +5963,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#pirate%20admiral_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -5633,8 +5983,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#pirate%20captain_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -5653,9 +6003,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#pit%20fiend_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Calimshan",
+      "Dungeons"
     ]
   },
   {
@@ -5674,8 +6024,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#pixie_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -5694,8 +6044,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#pixie%20wonderbringer_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -5714,8 +6064,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#planetar_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -5734,8 +6084,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#polar%20bear_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -5754,8 +6104,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#polar%20serpent_fraif",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -5774,8 +6124,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#priest_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -5794,9 +6144,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#primeval%20owlbear_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -5815,8 +6165,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#pseudodragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -5835,8 +6185,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#purple%20worm_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -5855,8 +6205,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#quaggoth_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -5875,9 +6225,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#questing%20knight_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Cities",
+      "Heartlands"
     ]
   },
   {
@@ -5896,9 +6246,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#rakshasa_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Calimshan",
+      "Cities"
     ]
   },
   {
@@ -5917,8 +6267,28 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#red%20dragon%20wyrmling_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Reduced-Threat Aboleth",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#reduced-threat%20aboleth_tftyp",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
     ]
   },
   {
@@ -5937,8 +6307,28 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#reghed%20chieftain_idrotf",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Relentless Slasher",
+    "CR": "8",
+    "Type": "fiend",
+    "Alignment": "U",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Str +4, Dex +7, Con +5, Wis +5",
+    "Intelligence": 14,
+    "Wisdom": 15,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#relentless%20slasher_vrgr",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
     ]
   },
   {
@@ -5957,8 +6347,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#remorhaz_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -5977,9 +6367,29 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#revenant_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Heartlands.csv"
+    "Region": [
+      "Cities",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Rezmir",
+    "CR": "7",
+    "Type": "humanoid",
+    "Alignment": "N E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 9,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +6, Wis +4",
+    "Intelligence": 15,
+    "Wisdom": 12,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#rezmir_hotdq",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
     ]
   },
   {
@@ -5998,9 +6408,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#roc_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -6019,8 +6429,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#roper_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -6039,8 +6449,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#rust%20monster_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
+    "Region": [
+      "Dungeons"
     ]
   },
   {
@@ -6059,8 +6469,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#rusted%20berserker_fraif",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -6079,8 +6489,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#rusted%20wyrm_fraif",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -6099,8 +6509,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#saber-toothed%20tiger_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Icewind Dale"
     ]
   },
   {
@@ -6119,8 +6529,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#sage_cm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -6139,8 +6549,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#sahuagin%20baron_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -6159,8 +6569,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#sahuagin%20warrior_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -6179,8 +6589,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#salamander_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -6199,8 +6609,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#salamander%20inferno%20master_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
+    "Region": [
+      "Calimshan"
     ]
   },
   {
@@ -6219,8 +6629,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#satyr_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -6239,8 +6649,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#satyr%20revelmaster_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
+    "Region": [
+      "Moonshae"
     ]
   },
   {
@@ -6259,9 +6669,9 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#scout_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
     ]
   },
   {
@@ -6280,1820 +6690,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#scout%20captain_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
-    ]
-  },
-  {
-    "Name": "Sea Hag",
-    "CR": "2",
-    "Type": "fey",
-    "Alignment": "C E",
-    "PassivePerception": 11,
-    "PerceptionBonus": 1,
-    "StealthBonus": 1,
-    "InitiativeBonus": 1,
-    "SavingThrows": "",
-    "Intelligence": 12,
-    "Wisdom": 12,
-    "Charisma": 13,
-    "Statblock_Link": "https://5e.tools/bestiary.html#sea%20hag_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Shadow",
-    "CR": "1/2",
-    "Type": "undead",
-    "Alignment": "C E",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 6,
-    "InitiativeBonus": 2,
-    "SavingThrows": "",
-    "Intelligence": 6,
-    "Wisdom": 10,
-    "Charisma": 8,
-    "Statblock_Link": "https://5e.tools/bestiary.html#shadow_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Dungeons.csv"
-    ]
-  },
-  {
-    "Name": "Shadow Demon",
-    "CR": "4",
-    "Type": "fiend (demon)",
-    "Alignment": "C E",
-    "PassivePerception": 11,
-    "PerceptionBonus": 1,
-    "StealthBonus": 7,
-    "InitiativeBonus": 3,
-    "SavingThrows": "Dex +5, Cha +4",
-    "Intelligence": 14,
-    "Wisdom": 13,
-    "Charisma": 14,
-    "Statblock_Link": "https://5e.tools/bestiary.html#shadow%20demon_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
-    ]
-  },
-  {
-    "Name": "Shadow Dragon",
-    "CR": "13",
-    "Type": "dragon",
-    "Alignment": "C E",
-    "PassivePerception": 21,
-    "PerceptionBonus": 11,
-    "StealthBonus": 14,
-    "InitiativeBonus": 9,
-    "SavingThrows": "Dex +9, Wis +6",
-    "Intelligence": 14,
-    "Wisdom": 12,
-    "Charisma": 18,
-    "Statblock_Link": "https://5e.tools/bestiary.html#shadow%20dragon_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
-    ]
-  },
-  {
-    "Name": "Shaman",
-    "CR": "Unknown",
-    "Type": "Unknown",
-    "Alignment": "Unknown",
-    "PassivePerception": 0,
-    "PerceptionBonus": 0,
-    "StealthBonus": 0,
-    "InitiativeBonus": 0,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 10,
-    "Charisma": 10,
-    "Statblock_Link": "",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Shambling Mound",
-    "CR": "5",
-    "Type": "plant",
-    "Alignment": "U",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 3,
-    "InitiativeBonus": -1,
-    "SavingThrows": "",
-    "Intelligence": 5,
-    "Wisdom": 10,
-    "Charisma": 5,
-    "Statblock_Link": "https://5e.tools/bestiary.html#shambling%20mound_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Shield Guardian",
-    "CR": "7",
-    "Type": "construct",
-    "Alignment": "U",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": -1,
-    "InitiativeBonus": -1,
-    "SavingThrows": "",
-    "Intelligence": 7,
-    "Wisdom": 10,
-    "Charisma": 3,
-    "Statblock_Link": "https://5e.tools/bestiary.html#shield%20guardian_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Dungeons.csv"
-    ]
-  },
-  {
-    "Name": "Skeleton",
-    "CR": "1/4",
-    "Type": "undead",
-    "Alignment": "L E",
-    "PassivePerception": 9,
-    "PerceptionBonus": -1,
-    "StealthBonus": 3,
-    "InitiativeBonus": 3,
-    "SavingThrows": "",
-    "Intelligence": 6,
-    "Wisdom": 8,
-    "Charisma": 5,
-    "Statblock_Link": "https://5e.tools/bestiary.html#skeleton_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
-    ]
-  },
-  {
-    "Name": "Skull Lasher of Myrkul",
-    "CR": "1",
-    "Type": "humanoid (human)",
-    "Alignment": "N E",
-    "PassivePerception": 11,
-    "PerceptionBonus": 1,
-    "StealthBonus": 2,
-    "InitiativeBonus": 2,
-    "SavingThrows": "Wis +3",
-    "Intelligence": 16,
-    "Wisdom": 13,
-    "Charisma": 10,
-    "Statblock_Link": "https://5e.tools/bestiary.html#skull%20lasher%20of%20myrkul_bgdia",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
-    ]
-  },
-  {
-    "Name": "Smoke Mephit",
-    "CR": "1/4",
-    "Type": "elemental",
-    "Alignment": "N E",
-    "PassivePerception": 12,
-    "PerceptionBonus": 2,
-    "StealthBonus": 4,
-    "InitiativeBonus": 2,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 10,
-    "Charisma": 11,
-    "Statblock_Link": "https://5e.tools/bestiary.html#smoke%20mephit_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
-    ]
-  },
-  {
-    "Name": "Snow Golem",
-    "CR": "3",
-    "Type": "construct",
-    "Alignment": "U",
-    "PassivePerception": 8,
-    "PerceptionBonus": -2,
-    "StealthBonus": -2,
-    "InitiativeBonus": -2,
-    "SavingThrows": "",
-    "Intelligence": 1,
-    "Wisdom": 6,
-    "Charisma": 1,
-    "Statblock_Link": "https://5e.tools/bestiary.html#snow%20golem_idrotf",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Snowy Owlbear",
-    "CR": "Unknown",
-    "Type": "Unknown",
-    "Alignment": "Unknown",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 0,
-    "InitiativeBonus": 0,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 10,
-    "Charisma": 10,
-    "Statblock_Link": "https://5e.tools/bestiary.html#snowy%20owlbear_idrotf",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Solar",
-    "CR": "21",
-    "Type": "celestial (angel)",
-    "Alignment": "L G",
-    "PassivePerception": 24,
-    "PerceptionBonus": 14,
-    "StealthBonus": 6,
-    "InitiativeBonus": 13,
-    "SavingThrows": "",
-    "Intelligence": 25,
-    "Wisdom": 25,
-    "Charisma": 30,
-    "Statblock_Link": "https://5e.tools/bestiary.html#solar_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Spectator",
-    "CR": "3",
-    "Type": "aberration (beholder)",
-    "Alignment": "L N",
-    "PassivePerception": 16,
-    "PerceptionBonus": 6,
-    "StealthBonus": 2,
-    "InitiativeBonus": 2,
-    "SavingThrows": "",
-    "Intelligence": 13,
-    "Wisdom": 14,
-    "Charisma": 11,
-    "Statblock_Link": "https://5e.tools/bestiary.html#spectator_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
-    ]
-  },
-  {
-    "Name": "Specter",
-    "CR": "1",
-    "Type": "undead",
-    "Alignment": "C E",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 2,
-    "InitiativeBonus": 2,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 10,
-    "Charisma": 11,
-    "Statblock_Link": "https://5e.tools/bestiary.html#specter_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
-    ]
-  },
-  {
-    "Name": "Sphinx of Secrets",
-    "CR": "8",
-    "Type": "celestial",
-    "Alignment": "L N",
-    "PassivePerception": 17,
-    "PerceptionBonus": 7,
-    "StealthBonus": 2,
-    "InitiativeBonus": 5,
-    "SavingThrows": "",
-    "Intelligence": 18,
-    "Wisdom": 18,
-    "Charisma": 18,
-    "Statblock_Link": "https://5e.tools/bestiary.html#sphinx%20of%20secrets_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
-    ]
-  },
-  {
-    "Name": "Sphinx of Wonder",
-    "CR": "1",
-    "Type": "celestial",
-    "Alignment": "L G",
-    "PassivePerception": 11,
-    "PerceptionBonus": 1,
-    "StealthBonus": 5,
-    "InitiativeBonus": 3,
-    "SavingThrows": "",
-    "Intelligence": 15,
-    "Wisdom": 12,
-    "Charisma": 11,
-    "Statblock_Link": "https://5e.tools/bestiary.html#sphinx%20of%20wonder_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
-    ]
-  },
-  {
-    "Name": "Spirit Naga",
-    "CR": "8",
-    "Type": "fiend",
-    "Alignment": "C E",
-    "PassivePerception": 12,
-    "PerceptionBonus": 2,
-    "StealthBonus": 3,
-    "InitiativeBonus": 3,
-    "SavingThrows": "Dex +6, Con +5, Wis +5, Cha +6",
-    "Intelligence": 16,
-    "Wisdom": 15,
-    "Charisma": 16,
-    "Statblock_Link": "https://5e.tools/bestiary.html#spirit%20naga_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
-    ]
-  },
-  {
-    "Name": "Spore of Moander",
-    "CR": "12",
-    "Type": "plant",
-    "Alignment": "C E",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": -1,
-    "InitiativeBonus": 3,
-    "SavingThrows": "Str +10, Con +9",
-    "Intelligence": 4,
-    "Wisdom": 10,
-    "Charisma": 6,
-    "Statblock_Link": "https://5e.tools/bestiary.html#spore%20of%20moander_fraif",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Sprite",
-    "CR": "1/4",
-    "Type": "fey",
-    "Alignment": "N G",
-    "PassivePerception": 13,
-    "PerceptionBonus": 3,
-    "StealthBonus": 8,
-    "InitiativeBonus": 4,
-    "SavingThrows": "",
-    "Intelligence": 14,
-    "Wisdom": 13,
-    "Charisma": 11,
-    "Statblock_Link": "https://5e.tools/bestiary.html#sprite_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Spy",
-    "CR": "1",
-    "Type": "humanoid",
-    "Alignment": "N",
-    "PassivePerception": 16,
-    "PerceptionBonus": 6,
-    "StealthBonus": 6,
-    "InitiativeBonus": 4,
-    "SavingThrows": "",
-    "Intelligence": 12,
-    "Wisdom": 14,
-    "Charisma": 16,
-    "Statblock_Link": "https://5e.tools/bestiary.html#spy_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Cities.csv"
-    ]
-  },
-  {
-    "Name": "Spy Master",
-    "CR": "10",
-    "Type": "humanoid",
-    "Alignment": "N",
-    "PassivePerception": 21,
-    "PerceptionBonus": 11,
-    "StealthBonus": 13,
-    "InitiativeBonus": 9,
-    "SavingThrows": "Dex +9, Con +5, Int +8, Wis +7",
-    "Intelligence": 18,
-    "Wisdom": 16,
-    "Charisma": 16,
-    "Statblock_Link": "https://5e.tools/bestiary.html#spy%20master_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
-    ]
-  },
-  {
-    "Name": "Stone Giant",
-    "CR": "7",
-    "Type": "giant",
-    "Alignment": "N",
-    "PassivePerception": 14,
-    "PerceptionBonus": 4,
-    "StealthBonus": 5,
-    "InitiativeBonus": 5,
-    "SavingThrows": "Dex +5, Con +8, Wis +4",
-    "Intelligence": 10,
-    "Wisdom": 12,
-    "Charisma": 9,
-    "Statblock_Link": "https://5e.tools/bestiary.html#stone%20giant_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Stone Golem",
-    "CR": "10",
-    "Type": "construct",
-    "Alignment": "U",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": -1,
-    "InitiativeBonus": 3,
-    "SavingThrows": "",
-    "Intelligence": 3,
-    "Wisdom": 11,
-    "Charisma": 1,
-    "Statblock_Link": "https://5e.tools/bestiary.html#stone%20golem_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
-    ]
-  },
-  {
-    "Name": "Storm Giant",
-    "CR": "13",
-    "Type": "giant",
-    "Alignment": "C G",
-    "PassivePerception": 20,
-    "PerceptionBonus": 10,
-    "StealthBonus": 2,
-    "InitiativeBonus": 7,
-    "SavingThrows": "Str +14, Con +10, Wis +10, Cha +9",
-    "Intelligence": 16,
-    "Wisdom": 20,
-    "Charisma": 18,
-    "Statblock_Link": "https://5e.tools/bestiary.html#storm%20giant_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Storm Giant Quintessent",
-    "CR": "16",
-    "Type": "giant (storm giant)",
-    "Alignment": "C G",
-    "PassivePerception": 20,
-    "PerceptionBonus": 5,
-    "StealthBonus": 2,
-    "InitiativeBonus": 2,
-    "SavingThrows": "Str +14, Con +10, Wis +10, Cha +9",
-    "Intelligence": 17,
-    "Wisdom": 20,
-    "Charisma": 19,
-    "Statblock_Link": "https://5e.tools/bestiary.html#storm%20giant%20quintessent_vgm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Succubus",
-    "CR": "4",
-    "Type": "fiend",
-    "Alignment": "N E",
-    "PassivePerception": 15,
-    "PerceptionBonus": 5,
-    "StealthBonus": 7,
-    "InitiativeBonus": 3,
-    "SavingThrows": "",
-    "Intelligence": 15,
-    "Wisdom": 12,
-    "Charisma": 20,
-    "Statblock_Link": "https://5e.tools/bestiary.html#succubus_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Cities.csv"
-    ]
-  },
-  {
-    "Name": "Swanmay",
-    "CR": "3",
-    "Type": "fey",
-    "Alignment": "N G",
-    "PassivePerception": 15,
-    "PerceptionBonus": 5,
-    "StealthBonus": 4,
-    "InitiativeBonus": 4,
-    "SavingThrows": "Con +4, Wis +5",
-    "Intelligence": 10,
-    "Wisdom": 16,
-    "Charisma": 15,
-    "Statblock_Link": "https://5e.tools/bestiary.html#swanmay_fraif",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Swarm of Venomous Snakes",
-    "CR": "2",
-    "Type": "beast",
-    "Alignment": "U",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 4,
-    "InitiativeBonus": 4,
-    "SavingThrows": "",
-    "Intelligence": 1,
-    "Wisdom": 10,
-    "Charisma": 3,
-    "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20venomous%20snakes_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
-    ]
-  },
-  {
-    "Name": "Tarrasque",
-    "CR": "30",
-    "Type": "monstrosity (titan)",
-    "Alignment": "U",
-    "PassivePerception": 19,
-    "PerceptionBonus": 9,
-    "StealthBonus": 0,
-    "InitiativeBonus": 9,
-    "SavingThrows": "Dex +9, Int +5, Wis +9, Cha +9",
-    "Intelligence": 3,
-    "Wisdom": 11,
-    "Charisma": 11,
-    "Statblock_Link": "https://5e.tools/bestiary.html#tarrasque_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Dungeons.csv",
-      "Encounter spreadsheet - Heartlands.csv"
-    ]
-  },
-  {
-    "Name": "Thri-kreen Psion",
-    "CR": "8",
-    "Type": "monstrosity",
-    "Alignment": "N",
-    "PassivePerception": 14,
-    "PerceptionBonus": 4,
-    "StealthBonus": 8,
-    "InitiativeBonus": 5,
-    "SavingThrows": "Str +7, Dex +5, Con +5, Int +7",
-    "Intelligence": 19,
-    "Wisdom": 12,
-    "Charisma": 11,
-    "Statblock_Link": "https://5e.tools/bestiary.html#thri-kreen%20psion_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
-    ]
-  },
-  {
-    "Name": "Tiger",
-    "CR": "1",
-    "Type": "beast",
-    "Alignment": "U",
-    "PassivePerception": 13,
-    "PerceptionBonus": 3,
-    "StealthBonus": 7,
-    "InitiativeBonus": 3,
-    "SavingThrows": "",
-    "Intelligence": 3,
-    "Wisdom": 12,
-    "Charisma": 8,
-    "Statblock_Link": "https://5e.tools/bestiary.html#tiger_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
-    ]
-  },
-  {
-    "Name": "Tough",
-    "CR": "1/2",
-    "Type": "humanoid",
-    "Alignment": "N",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 1,
-    "InitiativeBonus": 1,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 10,
-    "Charisma": 11,
-    "Statblock_Link": "https://5e.tools/bestiary.html#tough_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Tough Boss",
-    "CR": "4",
-    "Type": "humanoid",
-    "Alignment": "N",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 2,
-    "InitiativeBonus": 2,
-    "SavingThrows": "Str +5, Con +5, Cha +2",
-    "Intelligence": 11,
-    "Wisdom": 10,
-    "Charisma": 11,
-    "Statblock_Link": "https://5e.tools/bestiary.html#tough%20boss_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
-    ]
-  },
-  {
-    "Name": "Treant",
-    "CR": "9",
-    "Type": "plant",
-    "Alignment": "C G",
-    "PassivePerception": 13,
-    "PerceptionBonus": 3,
-    "StealthBonus": -1,
-    "InitiativeBonus": 3,
-    "SavingThrows": "",
-    "Intelligence": 12,
-    "Wisdom": 16,
-    "Charisma": 12,
-    "Statblock_Link": "https://5e.tools/bestiary.html#treant_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Tree Blight",
-    "CR": "7",
-    "Type": "plant",
-    "Alignment": "N E",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 0,
-    "InitiativeBonus": 3,
-    "SavingThrows": "",
-    "Intelligence": 6,
-    "Wisdom": 10,
-    "Charisma": 3,
-    "Statblock_Link": "https://5e.tools/bestiary.html#tree%20blight_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv",
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Troglodyte",
-    "CR": "1/4",
-    "Type": "monstrosity",
-    "Alignment": "C E",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 4,
-    "InitiativeBonus": 0,
-    "SavingThrows": "",
-    "Intelligence": 6,
-    "Wisdom": 10,
-    "Charisma": 6,
-    "Statblock_Link": "https://5e.tools/bestiary.html#troglodyte_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
-    ]
-  },
-  {
-    "Name": "Troll",
-    "CR": "5",
-    "Type": "giant",
-    "Alignment": "C E",
-    "PassivePerception": 15,
-    "PerceptionBonus": 5,
-    "StealthBonus": 1,
-    "InitiativeBonus": 1,
-    "SavingThrows": "",
-    "Intelligence": 7,
-    "Wisdom": 9,
-    "Charisma": 7,
-    "Statblock_Link": "https://5e.tools/bestiary.html#troll_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Twig Blight",
-    "CR": "1/8",
-    "Type": "plant",
-    "Alignment": "N E",
-    "PassivePerception": 9,
-    "PerceptionBonus": -1,
-    "StealthBonus": 4,
-    "InitiativeBonus": 2,
-    "SavingThrows": "",
-    "Intelligence": 4,
-    "Wisdom": 8,
-    "Charisma": 3,
-    "Statblock_Link": "https://5e.tools/bestiary.html#twig%20blight_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Ultroloth",
-    "CR": "13",
-    "Type": "fiend (yugoloth)",
-    "Alignment": "N E",
-    "PassivePerception": 17,
-    "PerceptionBonus": 7,
-    "StealthBonus": 8,
-    "InitiativeBonus": 8,
-    "SavingThrows": "",
-    "Intelligence": 19,
-    "Wisdom": 15,
-    "Charisma": 18,
-    "Statblock_Link": "https://5e.tools/bestiary.html#ultroloth_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
-    ]
-  },
-  {
-    "Name": "Umber Hulk",
-    "CR": "5",
-    "Type": "monstrosity",
-    "Alignment": "C E",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 1,
-    "InitiativeBonus": 4,
-    "SavingThrows": "",
-    "Intelligence": 9,
-    "Wisdom": 10,
-    "Charisma": 10,
-    "Statblock_Link": "https://5e.tools/bestiary.html#umber%20hulk_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
-    ]
-  },
-  {
-    "Name": "Unicorn",
-    "CR": "5",
-    "Type": "celestial",
-    "Alignment": "L G",
-    "PassivePerception": 13,
-    "PerceptionBonus": 3,
-    "StealthBonus": 2,
-    "InitiativeBonus": 5,
-    "SavingThrows": "",
-    "Intelligence": 11,
-    "Wisdom": 17,
-    "Charisma": 16,
-    "Statblock_Link": "https://5e.tools/bestiary.html#unicorn_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Vampire",
-    "CR": "13",
-    "Type": "undead",
-    "Alignment": "L E",
-    "PassivePerception": 17,
-    "PerceptionBonus": 7,
-    "StealthBonus": 9,
-    "InitiativeBonus": 9,
-    "SavingThrows": "Dex +9, Con +9, Wis +7, Cha +9",
-    "Intelligence": 17,
-    "Wisdom": 15,
-    "Charisma": 18,
-    "Statblock_Link": "https://5e.tools/bestiary.html#vampire_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Heartlands.csv"
-    ]
-  },
-  {
-    "Name": "Vampire Familar",
-    "CR": "Unknown",
-    "Type": "Unknown",
-    "Alignment": "Unknown",
-    "PassivePerception": 0,
-    "PerceptionBonus": 0,
-    "StealthBonus": 0,
-    "InitiativeBonus": 0,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 10,
-    "Charisma": 10,
-    "Statblock_Link": "",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
-    ]
-  },
-  {
-    "Name": "Vampire Infernalist",
-    "CR": "14",
-    "Type": "undead (Wizard)",
-    "Alignment": "L E",
-    "PassivePerception": 18,
-    "PerceptionBonus": 8,
-    "StealthBonus": 8,
-    "InitiativeBonus": 8,
-    "SavingThrows": "Con +8, Int +10",
-    "Intelligence": 20,
-    "Wisdom": 16,
-    "Charisma": 18,
-    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20infernalist_abh",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
-    ]
-  },
-  {
-    "Name": "Vampire Nightbringer",
-    "CR": "8",
-    "Type": "undead",
-    "Alignment": "N E",
-    "PassivePerception": 15,
-    "PerceptionBonus": 5,
-    "StealthBonus": 7,
-    "InitiativeBonus": 4,
-    "SavingThrows": "Dex +7, Wis +5",
-    "Intelligence": 13,
-    "Wisdom": 14,
-    "Charisma": 15,
-    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20nightbringer_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
-    ]
-  },
-  {
-    "Name": "Vampire Spawn",
-    "CR": "5",
-    "Type": "undead",
-    "Alignment": "N E",
-    "PassivePerception": 13,
-    "PerceptionBonus": 3,
-    "StealthBonus": 6,
-    "InitiativeBonus": 3,
-    "SavingThrows": "Dex +6, Wis +3",
-    "Intelligence": 11,
-    "Wisdom": 10,
-    "Charisma": 12,
-    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20spawn_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
-    ]
-  },
-  {
-    "Name": "Vampire Umbral Lord",
-    "CR": "15",
-    "Type": "undead",
-    "Alignment": "L E",
-    "PassivePerception": 23,
-    "PerceptionBonus": 13,
-    "StealthBonus": 9,
-    "InitiativeBonus": 9,
-    "SavingThrows": "Str +10, Dex +9, Wis +8, Cha +10",
-    "Intelligence": 19,
-    "Wisdom": 16,
-    "Charisma": 21,
-    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20umbral%20lord_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Vampire Warden",
-    "CR": "10",
-    "Type": "undead",
-    "Alignment": "N E",
-    "PassivePerception": 20,
-    "PerceptionBonus": 10,
-    "StealthBonus": 2,
-    "InitiativeBonus": 6,
-    "SavingThrows": "Con +8, Wis +6",
-    "Intelligence": 10,
-    "Wisdom": 14,
-    "Charisma": 17,
-    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20warden_abh",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
-    ]
-  },
-  {
-    "Name": "Venomous Snake",
-    "CR": "1/8",
-    "Type": "beast",
-    "Alignment": "U",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 2,
-    "InitiativeBonus": 2,
-    "SavingThrows": "",
-    "Intelligence": 1,
-    "Wisdom": 10,
-    "Charisma": 3,
-    "Statblock_Link": "https://5e.tools/bestiary.html#venomous%20snake_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
-    ]
-  },
-  {
-    "Name": "Verbeeg Marauder",
-    "CR": "4",
-    "Type": "giant",
-    "Alignment": "N E",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 2,
-    "InitiativeBonus": 0,
-    "SavingThrows": "Dex +2, Con +5",
-    "Intelligence": 11,
-    "Wisdom": 10,
-    "Charisma": 9,
-    "Statblock_Link": "https://5e.tools/bestiary.html#verbeeg%20marauder_idrotf",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Vine Blight",
-    "CR": "1/2",
-    "Type": "plant",
-    "Alignment": "N E",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 1,
-    "InitiativeBonus": -1,
-    "SavingThrows": "",
-    "Intelligence": 5,
-    "Wisdom": 10,
-    "Charisma": 3,
-    "Statblock_Link": "https://5e.tools/bestiary.html#vine%20blight_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Violet Fungus",
-    "CR": "1/4",
-    "Type": "plant",
-    "Alignment": "U",
-    "PassivePerception": 6,
-    "PerceptionBonus": -4,
-    "StealthBonus": -5,
-    "InitiativeBonus": -5,
-    "SavingThrows": "",
-    "Intelligence": 1,
-    "Wisdom": 3,
-    "Charisma": 1,
-    "Statblock_Link": "https://5e.tools/bestiary.html#violet%20fungus_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
-    ]
-  },
-  {
-    "Name": "Violet Fungus Necrohulk",
-    "CR": "7",
-    "Type": "plant",
-    "Alignment": "N E",
-    "PassivePerception": 12,
-    "PerceptionBonus": 2,
-    "StealthBonus": 1,
-    "InitiativeBonus": 4,
-    "SavingThrows": "",
-    "Intelligence": 7,
-    "Wisdom": 14,
-    "Charisma": 10,
-    "Statblock_Link": "https://5e.tools/bestiary.html#violet%20fungus%20necrohulk_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
-    ]
-  },
-  {
-    "Name": "Warrior",
-    "CR": "Unknown",
-    "Type": "humanoid",
-    "Alignment": "Unknown",
-    "PassivePerception": 14,
-    "PerceptionBonus": 4,
-    "StealthBonus": 2,
-    "InitiativeBonus": 2,
-    "SavingThrows": "Con +5",
-    "Intelligence": 10,
-    "Wisdom": 12,
-    "Charisma": 10,
-    "Statblock_Link": "https://5e.tools/bestiary.html#warrior_slw",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Warrior Commander",
-    "CR": "10",
-    "Type": "humanoid",
-    "Alignment": "N",
-    "PassivePerception": 17,
-    "PerceptionBonus": 7,
-    "StealthBonus": 5,
-    "InitiativeBonus": 9,
-    "SavingThrows": "Str +9, Dex +9, Con +8, Wis +7",
-    "Intelligence": 14,
-    "Wisdom": 16,
-    "Charisma": 14,
-    "Statblock_Link": "https://5e.tools/bestiary.html#warrior%20commander_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Warrior Veteran",
-    "CR": "3",
-    "Type": "humanoid",
-    "Alignment": "N",
-    "PassivePerception": 12,
-    "PerceptionBonus": 2,
-    "StealthBonus": 1,
-    "InitiativeBonus": 3,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 11,
-    "Charisma": 10,
-    "Statblock_Link": "https://5e.tools/bestiary.html#warrior%20veteran_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
-    ]
-  },
-  {
-    "Name": "Water Elemental",
-    "CR": "5",
-    "Type": "elemental",
-    "Alignment": "N",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 2,
-    "InitiativeBonus": 2,
-    "SavingThrows": "",
-    "Intelligence": 5,
-    "Wisdom": 10,
-    "Charisma": 8,
-    "Statblock_Link": "https://5e.tools/bestiary.html#water%20elemental_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Water Weird",
-    "CR": "3",
-    "Type": "elemental",
-    "Alignment": "N",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 3,
-    "InitiativeBonus": 3,
-    "SavingThrows": "",
-    "Intelligence": 11,
-    "Wisdom": 10,
-    "Charisma": 10,
-    "Statblock_Link": "https://5e.tools/bestiary.html#water%20weird_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Werebear",
-    "CR": "5",
-    "Type": "monstrosity (lycanthrope)",
-    "Alignment": "N G",
-    "PassivePerception": 17,
-    "PerceptionBonus": 7,
-    "StealthBonus": 0,
-    "InitiativeBonus": 3,
-    "SavingThrows": "",
-    "Intelligence": 11,
-    "Wisdom": 12,
-    "Charisma": 12,
-    "Statblock_Link": "https://5e.tools/bestiary.html#werebear_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv",
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Wereboar",
-    "CR": "4",
-    "Type": "monstrosity (lycanthrope)",
-    "Alignment": "N E",
-    "PassivePerception": 12,
-    "PerceptionBonus": 2,
-    "StealthBonus": 0,
-    "InitiativeBonus": 2,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 11,
-    "Charisma": 8,
-    "Statblock_Link": "https://5e.tools/bestiary.html#wereboar_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Wererat",
-    "CR": "2",
-    "Type": "monstrosity (lycanthrope)",
-    "Alignment": "L E",
-    "PassivePerception": 14,
-    "PerceptionBonus": 4,
-    "StealthBonus": 5,
-    "InitiativeBonus": 3,
-    "SavingThrows": "",
-    "Intelligence": 11,
-    "Wisdom": 10,
-    "Charisma": 8,
-    "Statblock_Link": "https://5e.tools/bestiary.html#wererat_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
-    ]
-  },
-  {
-    "Name": "Weretiger",
-    "CR": "4",
-    "Type": "monstrosity (lycanthrope)",
-    "Alignment": "N",
-    "PassivePerception": 15,
-    "PerceptionBonus": 5,
-    "StealthBonus": 4,
-    "InitiativeBonus": 2,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 13,
-    "Charisma": 11,
-    "Statblock_Link": "https://5e.tools/bestiary.html#weretiger_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Werewolf",
-    "CR": "3",
-    "Type": "monstrosity (lycanthrope)",
-    "Alignment": "C E",
-    "PassivePerception": 14,
-    "PerceptionBonus": 4,
-    "StealthBonus": 4,
-    "InitiativeBonus": 4,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 11,
-    "Charisma": 10,
-    "Statblock_Link": "https://5e.tools/bestiary.html#werewolf_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "White Dragon Wyrmling",
-    "CR": "2",
-    "Type": "dragon (chromatic)",
-    "Alignment": "C E",
-    "PassivePerception": 14,
-    "PerceptionBonus": 4,
-    "StealthBonus": 2,
-    "InitiativeBonus": 2,
-    "SavingThrows": "Dex +2, Wis +2",
-    "Intelligence": 5,
-    "Wisdom": 10,
-    "Charisma": 11,
-    "Statblock_Link": "https://5e.tools/bestiary.html#white%20dragon%20wyrmling_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Wight",
-    "CR": "3",
-    "Type": "undead",
-    "Alignment": "N E",
-    "PassivePerception": 13,
-    "PerceptionBonus": 3,
-    "StealthBonus": 4,
-    "InitiativeBonus": 4,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 13,
-    "Charisma": 15,
-    "Statblock_Link": "https://5e.tools/bestiary.html#wight_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv",
-      "Encounter spreadsheet - Dungeons.csv"
-    ]
-  },
-  {
-    "Name": "Will-o-wisp",
-    "CR": "Unknown",
-    "Type": "Unknown",
-    "Alignment": "Unknown",
-    "PassivePerception": 0,
-    "PerceptionBonus": 0,
-    "StealthBonus": 0,
-    "InitiativeBonus": 0,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 10,
-    "Charisma": 10,
-    "Statblock_Link": "",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
-    ]
-  },
-  {
-    "Name": "Winter Wolf",
-    "CR": "3",
-    "Type": "monstrosity",
-    "Alignment": "N E",
-    "PassivePerception": 15,
-    "PerceptionBonus": 5,
-    "StealthBonus": 5,
-    "InitiativeBonus": 1,
-    "SavingThrows": "",
-    "Intelligence": 7,
-    "Wisdom": 12,
-    "Charisma": 8,
-    "Statblock_Link": "https://5e.tools/bestiary.html#winter%20wolf_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Wolf",
-    "CR": "1/4",
-    "Type": "beast",
-    "Alignment": "U",
-    "PassivePerception": 15,
-    "PerceptionBonus": 5,
-    "StealthBonus": 4,
-    "InitiativeBonus": 2,
-    "SavingThrows": "",
-    "Intelligence": 3,
-    "Wisdom": 12,
-    "Charisma": 6,
-    "Statblock_Link": "https://5e.tools/bestiary.html#wolf_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - IceWind Dale.csv",
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Worg",
-    "CR": "1/2",
-    "Type": "fey",
-    "Alignment": "N E",
-    "PassivePerception": 14,
-    "PerceptionBonus": 4,
-    "StealthBonus": 1,
-    "InitiativeBonus": 1,
-    "SavingThrows": "",
-    "Intelligence": 7,
-    "Wisdom": 11,
-    "Charisma": 8,
-    "Statblock_Link": "https://5e.tools/bestiary.html#worg_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - IceWind Dale.csv",
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Wraith",
-    "CR": "5",
-    "Type": "undead",
-    "Alignment": "N E",
-    "PassivePerception": 12,
-    "PerceptionBonus": 2,
-    "StealthBonus": 3,
-    "InitiativeBonus": 3,
-    "SavingThrows": "",
-    "Intelligence": 12,
-    "Wisdom": 14,
-    "Charisma": 15,
-    "Statblock_Link": "https://5e.tools/bestiary.html#wraith_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv"
-    ]
-  },
-  {
-    "Name": "Wyvern",
-    "CR": "6",
-    "Type": "dragon",
-    "Alignment": "U",
-    "PassivePerception": 14,
-    "PerceptionBonus": 4,
-    "StealthBonus": 0,
-    "InitiativeBonus": 0,
-    "SavingThrows": "",
-    "Intelligence": 5,
-    "Wisdom": 12,
-    "Charisma": 6,
-    "Statblock_Link": "https://5e.tools/bestiary.html#wyvern_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Xorn",
-    "CR": "5",
-    "Type": "elemental",
-    "Alignment": "N",
-    "PassivePerception": 16,
-    "PerceptionBonus": 6,
-    "StealthBonus": 6,
-    "InitiativeBonus": 0,
-    "SavingThrows": "",
-    "Intelligence": 11,
-    "Wisdom": 10,
-    "Charisma": 11,
-    "Statblock_Link": "https://5e.tools/bestiary.html#xorn_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
-    ]
-  },
-  {
-    "Name": "Yeti",
-    "CR": "3",
-    "Type": "monstrosity",
-    "Alignment": "C E",
-    "PassivePerception": 15,
-    "PerceptionBonus": 5,
-    "StealthBonus": 5,
-    "InitiativeBonus": 1,
-    "SavingThrows": "",
-    "Intelligence": 8,
-    "Wisdom": 12,
-    "Charisma": 7,
-    "Statblock_Link": "https://5e.tools/bestiary.html#yeti_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Yeti Tyke",
-    "CR": "1/8",
-    "Type": "monstrosity",
-    "Alignment": "chaotic silly",
-    "PassivePerception": 9,
-    "PerceptionBonus": -1,
-    "StealthBonus": 0,
-    "InitiativeBonus": 0,
-    "SavingThrows": "",
-    "Intelligence": 6,
-    "Wisdom": 8,
-    "Charisma": 5,
-    "Statblock_Link": "https://5e.tools/bestiary.html#yeti%20tyke_mgelft",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Yochlol",
-    "CR": "10",
-    "Type": "fiend (demon)",
-    "Alignment": "C E",
-    "PassivePerception": 12,
-    "PerceptionBonus": 2,
-    "StealthBonus": 4,
-    "InitiativeBonus": 8,
-    "SavingThrows": "Dex +8, Int +5, Wis +6, Cha +7",
-    "Intelligence": 13,
-    "Wisdom": 15,
-    "Charisma": 17,
-    "Statblock_Link": "https://5e.tools/bestiary.html#yochlol_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
-    ]
-  },
-  {
-    "Name": "Young Black Dragon",
-    "CR": "7",
-    "Type": "dragon (chromatic)",
-    "Alignment": "C E",
-    "PassivePerception": 16,
-    "PerceptionBonus": 6,
-    "StealthBonus": 5,
-    "InitiativeBonus": 5,
-    "SavingThrows": "Dex +5, Wis +3",
-    "Intelligence": 12,
-    "Wisdom": 11,
-    "Charisma": 15,
-    "Statblock_Link": "https://5e.tools/bestiary.html#young%20black%20dragon_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
-    ]
-  },
-  {
-    "Name": "Young Blue Dragon",
-    "CR": "9",
-    "Type": "dragon (chromatic)",
-    "Alignment": "L E",
-    "PassivePerception": 19,
-    "PerceptionBonus": 9,
-    "StealthBonus": 4,
-    "InitiativeBonus": 4,
-    "SavingThrows": "Dex +4, Wis +5",
-    "Intelligence": 14,
-    "Wisdom": 13,
-    "Charisma": 17,
-    "Statblock_Link": "https://5e.tools/bestiary.html#young%20blue%20dragon_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv",
-      "Encounter spreadsheet - Heartlands.csv",
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Young Gold Dragon",
-    "CR": "10",
-    "Type": "dragon (metallic)",
-    "Alignment": "L G",
-    "PassivePerception": 19,
-    "PerceptionBonus": 9,
-    "StealthBonus": 6,
-    "InitiativeBonus": 6,
-    "SavingThrows": "Dex +6, Wis +5",
-    "Intelligence": 16,
-    "Wisdom": 13,
-    "Charisma": 20,
-    "Statblock_Link": "https://5e.tools/bestiary.html#young%20gold%20dragon_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
-    ]
-  },
-  {
-    "Name": "Young Green Dragon",
-    "CR": "8",
-    "Type": "dragon (chromatic)",
-    "Alignment": "L E",
-    "PassivePerception": 17,
-    "PerceptionBonus": 7,
-    "StealthBonus": 4,
-    "InitiativeBonus": 4,
-    "SavingThrows": "Dex +4, Wis +4",
-    "Intelligence": 16,
-    "Wisdom": 13,
-    "Charisma": 15,
-    "Statblock_Link": "https://5e.tools/bestiary.html#young%20green%20dragon_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Moonshae.csv"
-    ]
-  },
-  {
-    "Name": "Young Red Dragon",
-    "CR": "10",
-    "Type": "dragon (chromatic)",
-    "Alignment": "C E",
-    "PassivePerception": 18,
-    "PerceptionBonus": 8,
-    "StealthBonus": 4,
-    "InitiativeBonus": 4,
-    "SavingThrows": "Dex +4, Wis +4",
-    "Intelligence": 14,
-    "Wisdom": 11,
-    "Charisma": 19,
-    "Statblock_Link": "https://5e.tools/bestiary.html#young%20red%20dragon_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
-    ]
-  },
-  {
-    "Name": "Young Remorhaz",
-    "CR": "5",
-    "Type": "monstrosity",
-    "Alignment": "U",
-    "PassivePerception": 10,
-    "PerceptionBonus": 0,
-    "StealthBonus": 1,
-    "InitiativeBonus": 1,
-    "SavingThrows": "",
-    "Intelligence": 3,
-    "Wisdom": 10,
-    "Charisma": 4,
-    "Statblock_Link": "https://5e.tools/bestiary.html#young%20remorhaz_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Young Silver Dragon",
-    "CR": "9",
-    "Type": "dragon (metallic)",
-    "Alignment": "L G",
-    "PassivePerception": 18,
-    "PerceptionBonus": 8,
-    "StealthBonus": 4,
-    "InitiativeBonus": 4,
-    "SavingThrows": "Dex +4, Wis +4",
-    "Intelligence": 14,
-    "Wisdom": 11,
-    "Charisma": 19,
-    "Statblock_Link": "https://5e.tools/bestiary.html#young%20silver%20dragon_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Cities.csv"
-    ]
-  },
-  {
-    "Name": "Young White Dragon",
-    "CR": "6",
-    "Type": "dragon (chromatic)",
-    "Alignment": "C E",
-    "PassivePerception": 16,
-    "PerceptionBonus": 6,
-    "StealthBonus": 3,
-    "InitiativeBonus": 3,
-    "SavingThrows": "Dex +3, Wis +3",
-    "Intelligence": 6,
-    "Wisdom": 11,
-    "Charisma": 12,
-    "Statblock_Link": "https://5e.tools/bestiary.html#young%20white%20dragon_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Yuan-ti Abomination",
-    "CR": "7",
-    "Type": "monstrosity",
-    "Alignment": "N E",
-    "PassivePerception": 17,
-    "PerceptionBonus": 7,
-    "StealthBonus": 6,
-    "InitiativeBonus": 6,
-    "SavingThrows": "",
-    "Intelligence": 17,
-    "Wisdom": 18,
-    "Charisma": 15,
-    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20abomination_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
-    ]
-  },
-  {
-    "Name": "Yuan-ti Malison",
-    "CR": "Unknown",
-    "Type": "Unknown",
-    "Alignment": "Unknown",
-    "PassivePerception": 0,
-    "PerceptionBonus": 0,
-    "StealthBonus": 0,
-    "InitiativeBonus": 0,
-    "SavingThrows": "",
-    "Intelligence": 10,
-    "Wisdom": 10,
-    "Charisma": 10,
-    "Statblock_Link": "",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Calimshan.csv"
-    ]
-  },
-  {
-    "Name": "Zhentilar Paladin of Bane",
-    "CR": "4",
-    "Type": "humanoid",
-    "Alignment": "L E",
-    "PassivePerception": 11,
-    "PerceptionBonus": 1,
-    "StealthBonus": 0,
-    "InitiativeBonus": 0,
-    "SavingThrows": "Str +5, Cha +5",
-    "Intelligence": 12,
-    "Wisdom": 13,
-    "Charisma": 17,
-    "Statblock_Link": "https://5e.tools/bestiary.html#zhentilar%20paladin%20of%20bane_fraif",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Heartlands.csv"
-    ]
-  },
-  {
-    "Name": "Zlan",
-    "CR": "18",
-    "Type": "undead (Wizard)",
-    "Alignment": "C E",
-    "PassivePerception": 20,
-    "PerceptionBonus": 10,
-    "StealthBonus": 1,
-    "InitiativeBonus": 7,
-    "SavingThrows": "Dex +7, Con +10, Int +11, Wis +10",
-    "Intelligence": 21,
-    "Wisdom": 18,
-    "Charisma": 14,
-    "Statblock_Link": "https://5e.tools/bestiary.html#zlan_fraif",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - IceWind Dale.csv"
-    ]
-  },
-  {
-    "Name": "Zombie",
-    "CR": "1/4",
-    "Type": "undead",
-    "Alignment": "N E",
-    "PassivePerception": 8,
-    "PerceptionBonus": -2,
-    "StealthBonus": -2,
-    "InitiativeBonus": -2,
-    "SavingThrows": "Wis +0",
-    "Intelligence": 3,
-    "Wisdom": 6,
-    "Charisma": 5,
-    "Statblock_Link": "https://5e.tools/bestiary.html#zombie_xmm",
-    "Faction": "",
-    "Adventure": "",
-    "FoundIn": [
-      "Encounter spreadsheet - Dungeons.csv",
-      "Encounter spreadsheet - IceWind Dale.csv"
+    "Region": [
+      "Cities"
     ]
   },
   {
@@ -8112,25 +6710,1002 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#sea%20fury_egw",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": []
+    "Region": []
   },
   {
-    "Name": "Androsphinx",
-    "CR": "17",
-    "Type": "monstrosity",
-    "Alignment": "L N",
-    "PassivePerception": 20,
-    "PerceptionBonus": 10,
-    "StealthBonus": 0,
-    "InitiativeBonus": 0,
-    "SavingThrows": "Dex +6, Con +11, Int +9, Wis +10",
-    "Intelligence": 16,
-    "Wisdom": 18,
-    "Charisma": 23,
-    "Statblock_Link": "https://5e.tools/bestiary.html#androsphinx_mm",
+    "Name": "Sea Hag",
+    "CR": "2",
+    "Type": "fey",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 12,
+    "Charisma": 13,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sea%20hag_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": []
+    "Region": [
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Shadow",
+    "CR": "1/2",
+    "Type": "undead",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 6,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#shadow_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Shadow Demon",
+    "CR": "4",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 7,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +5, Cha +4",
+    "Intelligence": 14,
+    "Wisdom": 13,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#shadow%20demon_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Shadow Dragon",
+    "CR": "13",
+    "Type": "dragon",
+    "Alignment": "C E",
+    "PassivePerception": 21,
+    "PerceptionBonus": 11,
+    "StealthBonus": 14,
+    "InitiativeBonus": 9,
+    "SavingThrows": "Dex +9, Wis +6",
+    "Intelligence": 14,
+    "Wisdom": 12,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#shadow%20dragon_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Shaman",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Shambling Mound",
+    "CR": "5",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 3,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 10,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#shambling%20mound_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Shield Guardian",
+    "CR": "7",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#shield%20guardian_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan",
+      "Cities",
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Skeleton",
+    "CR": "1/4",
+    "Type": "undead",
+    "Alignment": "L E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 8,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#skeleton_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Skull Lasher of Myrkul",
+    "CR": "1",
+    "Type": "humanoid (human)",
+    "Alignment": "N E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Wis +3",
+    "Intelligence": 16,
+    "Wisdom": 13,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#skull%20lasher%20of%20myrkul_bgdia",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
+    "Name": "Smoke Mephit",
+    "CR": "1/4",
+    "Type": "elemental",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#smoke%20mephit_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Snow Golem",
+    "CR": "3",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": -2,
+    "InitiativeBonus": -2,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 6,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#snow%20golem_idrotf",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Snowy Owlbear",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#snowy%20owlbear_idrotf",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Solar",
+    "CR": "21",
+    "Type": "celestial (angel)",
+    "Alignment": "L G",
+    "PassivePerception": 24,
+    "PerceptionBonus": 14,
+    "StealthBonus": 6,
+    "InitiativeBonus": 13,
+    "SavingThrows": "",
+    "Intelligence": 25,
+    "Wisdom": 25,
+    "Charisma": 30,
+    "Statblock_Link": "https://5e.tools/bestiary.html#solar_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Spectator",
+    "CR": "3",
+    "Type": "aberration (beholder)",
+    "Alignment": "L N",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 14,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#spectator_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Specter",
+    "CR": "1",
+    "Type": "undead",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#specter_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Sphinx of Secrets",
+    "CR": "8",
+    "Type": "celestial",
+    "Alignment": "L N",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 2,
+    "InitiativeBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 18,
+    "Wisdom": 18,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sphinx%20of%20secrets_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Sphinx of Wonder",
+    "CR": "1",
+    "Type": "celestial",
+    "Alignment": "L G",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 12,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sphinx%20of%20wonder_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Spirit Naga",
+    "CR": "8",
+    "Type": "fiend",
+    "Alignment": "C E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +6, Con +5, Wis +5, Cha +6",
+    "Intelligence": 16,
+    "Wisdom": 15,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#spirit%20naga_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Spore of Moander",
+    "CR": "12",
+    "Type": "plant",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Str +10, Con +9",
+    "Intelligence": 4,
+    "Wisdom": 10,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#spore%20of%20moander_fraif",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Sprite",
+    "CR": "1/4",
+    "Type": "fey",
+    "Alignment": "N G",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 8,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 14,
+    "Wisdom": 13,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#sprite_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Spy",
+    "CR": "1",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 6,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#spy_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan",
+      "Cities"
+    ]
+  },
+  {
+    "Name": "Spy Master",
+    "CR": "10",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 21,
+    "PerceptionBonus": 11,
+    "StealthBonus": 13,
+    "InitiativeBonus": 9,
+    "SavingThrows": "Dex +9, Con +5, Int +8, Wis +7",
+    "Intelligence": 18,
+    "Wisdom": 16,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#spy%20master_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
+    "Name": "Stone Giant",
+    "CR": "7",
+    "Type": "giant",
+    "Alignment": "N",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Dex +5, Con +8, Wis +4",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#stone%20giant_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands",
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Stone Golem",
+    "CR": "10",
+    "Type": "construct",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": -1,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 11,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#stone%20golem_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Storm Giant",
+    "CR": "13",
+    "Type": "giant",
+    "Alignment": "C G",
+    "PassivePerception": 20,
+    "PerceptionBonus": 10,
+    "StealthBonus": 2,
+    "InitiativeBonus": 7,
+    "SavingThrows": "Str +14, Con +10, Wis +10, Cha +9",
+    "Intelligence": 16,
+    "Wisdom": 20,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#storm%20giant_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Storm Giant Quintessent",
+    "CR": "16",
+    "Type": "giant (storm giant)",
+    "Alignment": "C G",
+    "PassivePerception": 20,
+    "PerceptionBonus": 5,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Str +14, Con +10, Wis +10, Cha +9",
+    "Intelligence": 17,
+    "Wisdom": 20,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#storm%20giant%20quintessent_vgm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Succubus",
+    "CR": "4",
+    "Type": "fiend",
+    "Alignment": "N E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 7,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 15,
+    "Wisdom": 12,
+    "Charisma": 20,
+    "Statblock_Link": "https://5e.tools/bestiary.html#succubus_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan",
+      "Cities"
+    ]
+  },
+  {
+    "Name": "Swanmay",
+    "CR": "3",
+    "Type": "fey",
+    "Alignment": "N G",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Con +4, Wis +5",
+    "Intelligence": 10,
+    "Wisdom": 16,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#swanmay_fraif",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Swarm of Venomous Snakes",
+    "CR": "2",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20venomous%20snakes_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Tarrasque",
+    "CR": "30",
+    "Type": "monstrosity (titan)",
+    "Alignment": "U",
+    "PassivePerception": 19,
+    "PerceptionBonus": 9,
+    "StealthBonus": 0,
+    "InitiativeBonus": 9,
+    "SavingThrows": "Dex +9, Int +5, Wis +9, Cha +9",
+    "Intelligence": 3,
+    "Wisdom": 11,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tarrasque_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan",
+      "Cities",
+      "Dungeons",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Thessalhydra",
+    "CR": "4",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 10,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#thessalhydra_hftt",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
+    ]
+  },
+  {
+    "Name": "Thousand Teeth",
+    "CR": "6",
+    "Type": "monstrosity",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 3,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Str +7, Con +6",
+    "Intelligence": 2,
+    "Wisdom": 10,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#thousand%20teeth_gos",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
+    ]
+  },
+  {
+    "Name": "Thri-kreen Psion",
+    "CR": "8",
+    "Type": "monstrosity",
+    "Alignment": "N",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 8,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Str +7, Dex +5, Con +5, Int +7",
+    "Intelligence": 19,
+    "Wisdom": 12,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#thri-kreen%20psion_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Tiger",
+    "CR": "1",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 7,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 12,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tiger_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Tough",
+    "CR": "1/2",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tough_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Tough Boss",
+    "CR": "4",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Str +5, Con +5, Cha +2",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tough%20boss_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
+    "Name": "Treant",
+    "CR": "9",
+    "Type": "plant",
+    "Alignment": "C G",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": -1,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 16,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#treant_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands",
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Tree Blight",
+    "CR": "7",
+    "Type": "plant",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#tree%20blight_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale",
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Troglodyte",
+    "CR": "1/4",
+    "Type": "monstrosity",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 4,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 10,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#troglodyte_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Troll",
+    "CR": "5",
+    "Type": "giant",
+    "Alignment": "C E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 9,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#troll_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Twig Blight",
+    "CR": "1/8",
+    "Type": "plant",
+    "Alignment": "N E",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 4,
+    "Wisdom": 8,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#twig%20blight_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands",
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Ultroloth",
+    "CR": "13",
+    "Type": "fiend (yugoloth)",
+    "Alignment": "N E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 8,
+    "InitiativeBonus": 8,
+    "SavingThrows": "",
+    "Intelligence": 19,
+    "Wisdom": 15,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#ultroloth_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Umber Hulk",
+    "CR": "5",
+    "Type": "monstrosity",
+    "Alignment": "C E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 9,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#umber%20hulk_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Unicorn",
+    "CR": "5",
+    "Type": "celestial",
+    "Alignment": "L G",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 2,
+    "InitiativeBonus": 5,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 17,
+    "Charisma": 16,
+    "Statblock_Link": "https://5e.tools/bestiary.html#unicorn_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Vampire",
+    "CR": "13",
+    "Type": "undead",
+    "Alignment": "L E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 9,
+    "InitiativeBonus": 9,
+    "SavingThrows": "Dex +9, Con +9, Wis +7, Cha +9",
+    "Intelligence": 17,
+    "Wisdom": 15,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vampire_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities",
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Vampire Familar",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
+    "Name": "Vampire Infernalist",
+    "CR": "14",
+    "Type": "undead (Wizard)",
+    "Alignment": "L E",
+    "PassivePerception": 18,
+    "PerceptionBonus": 8,
+    "StealthBonus": 8,
+    "InitiativeBonus": 8,
+    "SavingThrows": "Con +8, Int +10",
+    "Intelligence": 20,
+    "Wisdom": 16,
+    "Charisma": 18,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20infernalist_abh",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
+    "Name": "Vampire Nightbringer",
+    "CR": "8",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 7,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +7, Wis +5",
+    "Intelligence": 13,
+    "Wisdom": 14,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20nightbringer_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
+    "Name": "Vampire Spawn",
+    "CR": "5",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 6,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +6, Wis +3",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20spawn_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities"
+    ]
   },
   {
     "Name": "Vampire Spellcaster",
@@ -8148,7 +7723,48 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20spellcaster_mm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": []
+    "Region": []
+  },
+  {
+    "Name": "Vampire Umbral Lord",
+    "CR": "15",
+    "Type": "undead",
+    "Alignment": "L E",
+    "PassivePerception": 23,
+    "PerceptionBonus": 13,
+    "StealthBonus": 9,
+    "InitiativeBonus": 9,
+    "SavingThrows": "Str +10, Dex +9, Wis +8, Cha +10",
+    "Intelligence": 19,
+    "Wisdom": 16,
+    "Charisma": 21,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20umbral%20lord_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Vampire Warden",
+    "CR": "10",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 20,
+    "PerceptionBonus": 10,
+    "StealthBonus": 2,
+    "InitiativeBonus": 6,
+    "SavingThrows": "Con +8, Wis +6",
+    "Intelligence": 10,
+    "Wisdom": 14,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20warden_abh",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities"
+    ]
   },
   {
     "Name": "Vampire Warrior",
@@ -8166,78 +7782,862 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20warrior_mm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": []
+    "Region": []
   },
   {
-    "Name": "Balhannoth",
-    "CR": "11",
-    "Type": "aberration",
-    "Alignment": "C E",
-    "PassivePerception": 16,
-    "PerceptionBonus": 6,
-    "StealthBonus": -1,
-    "InitiativeBonus": -1,
-    "SavingThrows": "Con +8",
-    "Intelligence": 6,
-    "Wisdom": 15,
-    "Charisma": 8,
-    "Statblock_Link": "https://5e.tools/bestiary.html#balhannoth_mpmm",
+    "Name": "Venomous Snake",
+    "CR": "1/8",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#venomous%20snake_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": []
+    "Region": [
+      "Calimshan"
+    ]
   },
   {
-    "Name": "Bheur Hag",
+    "Name": "Verbeeg Marauder",
+    "CR": "4",
+    "Type": "giant",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Dex +2, Con +5",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 9,
+    "Statblock_Link": "https://5e.tools/bestiary.html#verbeeg%20marauder_idrotf",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Vine Blight",
+    "CR": "1/2",
+    "Type": "plant",
+    "Alignment": "N E",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": -1,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 10,
+    "Charisma": 3,
+    "Statblock_Link": "https://5e.tools/bestiary.html#vine%20blight_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands",
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Violet Fungus",
+    "CR": "1/4",
+    "Type": "plant",
+    "Alignment": "U",
+    "PassivePerception": 6,
+    "PerceptionBonus": -4,
+    "StealthBonus": -5,
+    "InitiativeBonus": -5,
+    "SavingThrows": "",
+    "Intelligence": 1,
+    "Wisdom": 3,
+    "Charisma": 1,
+    "Statblock_Link": "https://5e.tools/bestiary.html#violet%20fungus_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Violet Fungus Necrohulk",
     "CR": "7",
-    "Type": "fey",
+    "Type": "plant",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 14,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#violet%20fungus%20necrohulk_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Warrior",
+    "CR": "Unknown",
+    "Type": "humanoid",
+    "Alignment": "Unknown",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Con +5",
+    "Intelligence": 10,
+    "Wisdom": 12,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#warrior_slw",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Warrior Commander",
+    "CR": "10",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 5,
+    "InitiativeBonus": 9,
+    "SavingThrows": "Str +9, Dex +9, Con +8, Wis +7",
+    "Intelligence": 14,
+    "Wisdom": 16,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#warrior%20commander_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities",
+      "Heartlands",
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Warrior Veteran",
+    "CR": "3",
+    "Type": "humanoid",
+    "Alignment": "N",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 1,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#warrior%20veteran_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
+    "Name": "Water Elemental",
+    "CR": "5",
+    "Type": "elemental",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 10,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#water%20elemental_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Water Weird",
+    "CR": "3",
+    "Type": "elemental",
+    "Alignment": "N",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#water%20weird_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan",
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Werebear",
+    "CR": "5",
+    "Type": "monstrosity (lycanthrope)",
+    "Alignment": "N G",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 0,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 12,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#werebear_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale",
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Wereboar",
+    "CR": "4",
+    "Type": "monstrosity (lycanthrope)",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#wereboar_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands",
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Wererat",
+    "CR": "2",
+    "Type": "monstrosity (lycanthrope)",
+    "Alignment": "L E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 5,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#wererat_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
+    "Name": "Weretiger",
+    "CR": "4",
+    "Type": "monstrosity (lycanthrope)",
+    "Alignment": "N",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 13,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#weretiger_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Werewolf",
+    "CR": "3",
+    "Type": "monstrosity (lycanthrope)",
     "Alignment": "C E",
     "PassivePerception": 14,
     "PerceptionBonus": 4,
-    "StealthBonus": 6,
-    "InitiativeBonus": 3,
-    "SavingThrows": "Wis +4",
-    "Intelligence": 12,
-    "Wisdom": 13,
-    "Charisma": 16,
-    "Statblock_Link": "https://5e.tools/bestiary.html#bheur%20hag_mpmm",
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 11,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#werewolf_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": []
+    "Region": [
+      "Heartlands",
+      "Moonshae"
+    ]
   },
   {
-    "Name": "Elder Brain",
-    "CR": "14",
-    "Type": "aberration (mind flayer)",
-    "Alignment": "L E",
+    "Name": "White Dragon Wyrmling",
+    "CR": "2",
+    "Type": "dragon (chromatic)",
+    "Alignment": "C E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 2,
+    "InitiativeBonus": 2,
+    "SavingThrows": "Dex +2, Wis +2",
+    "Intelligence": 5,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#white%20dragon%20wyrmling_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Wight",
+    "CR": "3",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 13,
+    "PerceptionBonus": 3,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 13,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#wight_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities",
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Will-o-wisp",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Winter Wolf",
+    "CR": "3",
+    "Type": "monstrosity",
+    "Alignment": "N E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 5,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 12,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#winter%20wolf_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Wolf",
+    "CR": "1/4",
+    "Type": "beast",
+    "Alignment": "U",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 4,
+    "InitiativeBonus": 2,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#wolf_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands",
+      "Icewind Dale",
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Worg",
+    "CR": "1/2",
+    "Type": "fey",
+    "Alignment": "N E",
+    "PassivePerception": 14,
+    "PerceptionBonus": 4,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 7,
+    "Wisdom": 11,
+    "Charisma": 8,
+    "Statblock_Link": "https://5e.tools/bestiary.html#worg_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands",
+      "Icewind Dale",
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Wraith",
+    "CR": "5",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "",
+    "Intelligence": 12,
+    "Wisdom": 14,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#wraith_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Dungeons"
+    ]
+  },
+  {
+    "Name": "Wyvern",
+    "CR": "6",
+    "Type": "dragon",
+    "Alignment": "U",
     "PassivePerception": 14,
     "PerceptionBonus": 4,
     "StealthBonus": 0,
     "InitiativeBonus": 0,
-    "SavingThrows": "Int +10, Wis +9, Cha +12",
-    "Intelligence": 21,
-    "Wisdom": 19,
-    "Charisma": 24,
-    "Statblock_Link": "https://5e.tools/bestiary.html#elder%20brain_mpmm",
+    "SavingThrows": "",
+    "Intelligence": 5,
+    "Wisdom": 12,
+    "Charisma": 6,
+    "Statblock_Link": "https://5e.tools/bestiary.html#wyvern_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": []
+    "Region": [
+      "Heartlands",
+      "Moonshae"
+    ]
   },
   {
-    "Name": "Ki-rin",
-    "CR": "12",
-    "Type": "celestial",
+    "Name": "Xorn",
+    "CR": "5",
+    "Type": "elemental",
+    "Alignment": "N",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 6,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 11,
+    "Wisdom": 10,
+    "Charisma": 11,
+    "Statblock_Link": "https://5e.tools/bestiary.html#xorn_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Yestabrod",
+    "CR": "4",
+    "Type": "monstrosity",
+    "Alignment": "C E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 13,
+    "Wisdom": 15,
+    "Charisma": 10,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yestabrod_oota",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "New Regional Addition"
+    ]
+  },
+  {
+    "Name": "Yeti",
+    "CR": "3",
+    "Type": "monstrosity",
+    "Alignment": "C E",
+    "PassivePerception": 15,
+    "PerceptionBonus": 5,
+    "StealthBonus": 5,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 8,
+    "Wisdom": 12,
+    "Charisma": 7,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yeti_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Yeti Tyke",
+    "CR": "1/8",
+    "Type": "monstrosity",
+    "Alignment": "chaotic silly",
+    "PassivePerception": 9,
+    "PerceptionBonus": -1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 6,
+    "Wisdom": 8,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yeti%20tyke_mgelft",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Yochlol",
+    "CR": "10",
+    "Type": "fiend (demon)",
+    "Alignment": "C E",
+    "PassivePerception": 12,
+    "PerceptionBonus": 2,
+    "StealthBonus": 4,
+    "InitiativeBonus": 8,
+    "SavingThrows": "Dex +8, Int +5, Wis +6, Cha +7",
+    "Intelligence": 13,
+    "Wisdom": 15,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yochlol_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Young Amethyst Dragon",
+    "CR": "9",
+    "Type": "dragon (gem)",
+    "Alignment": "N",
+    "PassivePerception": 20,
+    "PerceptionBonus": 10,
+    "StealthBonus": 5,
+    "InitiativeBonus": 1,
+    "SavingThrows": "Dex +5, Con +9, Wis +6, Cha +8",
+    "Intelligence": 18,
+    "Wisdom": 15,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#young%20amethyst%20dragon_ftd",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Young Black Dragon",
+    "CR": "7",
+    "Type": "dragon (chromatic)",
+    "Alignment": "C E",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 5,
+    "InitiativeBonus": 5,
+    "SavingThrows": "Dex +5, Wis +3",
+    "Intelligence": 12,
+    "Wisdom": 11,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#young%20black%20dragon_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Young Blue Dragon",
+    "CR": "9",
+    "Type": "dragon (chromatic)",
+    "Alignment": "L E",
+    "PassivePerception": 19,
+    "PerceptionBonus": 9,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +4, Wis +5",
+    "Intelligence": 14,
+    "Wisdom": 13,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#young%20blue%20dragon_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan",
+      "Heartlands",
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Young Gold Dragon",
+    "CR": "10",
+    "Type": "dragon (metallic)",
     "Alignment": "L G",
     "PassivePerception": 19,
     "PerceptionBonus": 9,
-    "StealthBonus": 3,
-    "InitiativeBonus": 3,
-    "SavingThrows": "",
-    "Intelligence": 19,
-    "Wisdom": 20,
+    "StealthBonus": 6,
+    "InitiativeBonus": 6,
+    "SavingThrows": "Dex +6, Wis +5",
+    "Intelligence": 16,
+    "Wisdom": 13,
     "Charisma": 20,
-    "Statblock_Link": "https://5e.tools/bestiary.html#ki-rin_mpmm",
+    "Statblock_Link": "https://5e.tools/bestiary.html#young%20gold%20dragon_xmm",
     "Faction": "",
     "Adventure": "",
-    "FoundIn": []
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Young Green Dragon",
+    "CR": "8",
+    "Type": "dragon (chromatic)",
+    "Alignment": "L E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +4, Wis +4",
+    "Intelligence": 16,
+    "Wisdom": 13,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#young%20green%20dragon_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Moonshae"
+    ]
+  },
+  {
+    "Name": "Young Red Dragon",
+    "CR": "10",
+    "Type": "dragon (chromatic)",
+    "Alignment": "C E",
+    "PassivePerception": 18,
+    "PerceptionBonus": 8,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +4, Wis +4",
+    "Intelligence": 14,
+    "Wisdom": 11,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#young%20red%20dragon_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Young Remorhaz",
+    "CR": "5",
+    "Type": "monstrosity",
+    "Alignment": "U",
+    "PassivePerception": 10,
+    "PerceptionBonus": 0,
+    "StealthBonus": 1,
+    "InitiativeBonus": 1,
+    "SavingThrows": "",
+    "Intelligence": 3,
+    "Wisdom": 10,
+    "Charisma": 4,
+    "Statblock_Link": "https://5e.tools/bestiary.html#young%20remorhaz_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Young Silver Dragon",
+    "CR": "9",
+    "Type": "dragon (metallic)",
+    "Alignment": "L G",
+    "PassivePerception": 18,
+    "PerceptionBonus": 8,
+    "StealthBonus": 4,
+    "InitiativeBonus": 4,
+    "SavingThrows": "Dex +4, Wis +4",
+    "Intelligence": 14,
+    "Wisdom": 11,
+    "Charisma": 19,
+    "Statblock_Link": "https://5e.tools/bestiary.html#young%20silver%20dragon_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Cities"
+    ]
+  },
+  {
+    "Name": "Young White Dragon",
+    "CR": "6",
+    "Type": "dragon (chromatic)",
+    "Alignment": "C E",
+    "PassivePerception": 16,
+    "PerceptionBonus": 6,
+    "StealthBonus": 3,
+    "InitiativeBonus": 3,
+    "SavingThrows": "Dex +3, Wis +3",
+    "Intelligence": 6,
+    "Wisdom": 11,
+    "Charisma": 12,
+    "Statblock_Link": "https://5e.tools/bestiary.html#young%20white%20dragon_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Yuan-ti Abomination",
+    "CR": "7",
+    "Type": "monstrosity",
+    "Alignment": "N E",
+    "PassivePerception": 17,
+    "PerceptionBonus": 7,
+    "StealthBonus": 6,
+    "InitiativeBonus": 6,
+    "SavingThrows": "",
+    "Intelligence": 17,
+    "Wisdom": 18,
+    "Charisma": 15,
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20abomination_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Yuan-ti Malison",
+    "CR": "Unknown",
+    "Type": "Unknown",
+    "Alignment": "Unknown",
+    "PassivePerception": 0,
+    "PerceptionBonus": 0,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "",
+    "Intelligence": 10,
+    "Wisdom": 10,
+    "Charisma": 10,
+    "Statblock_Link": "",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Calimshan"
+    ]
+  },
+  {
+    "Name": "Zhentilar Paladin of Bane",
+    "CR": "4",
+    "Type": "humanoid",
+    "Alignment": "L E",
+    "PassivePerception": 11,
+    "PerceptionBonus": 1,
+    "StealthBonus": 0,
+    "InitiativeBonus": 0,
+    "SavingThrows": "Str +5, Cha +5",
+    "Intelligence": 12,
+    "Wisdom": 13,
+    "Charisma": 17,
+    "Statblock_Link": "https://5e.tools/bestiary.html#zhentilar%20paladin%20of%20bane_fraif",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Heartlands"
+    ]
+  },
+  {
+    "Name": "Zlan",
+    "CR": "18",
+    "Type": "undead (Wizard)",
+    "Alignment": "C E",
+    "PassivePerception": 20,
+    "PerceptionBonus": 10,
+    "StealthBonus": 1,
+    "InitiativeBonus": 7,
+    "SavingThrows": "Dex +7, Con +10, Int +11, Wis +10",
+    "Intelligence": 21,
+    "Wisdom": 18,
+    "Charisma": 14,
+    "Statblock_Link": "https://5e.tools/bestiary.html#zlan_fraif",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Icewind Dale"
+    ]
+  },
+  {
+    "Name": "Zombie",
+    "CR": "1/4",
+    "Type": "undead",
+    "Alignment": "N E",
+    "PassivePerception": 8,
+    "PerceptionBonus": -2,
+    "StealthBonus": -2,
+    "InitiativeBonus": -2,
+    "SavingThrows": "Wis +0",
+    "Intelligence": 3,
+    "Wisdom": 6,
+    "Charisma": 5,
+    "Statblock_Link": "https://5e.tools/bestiary.html#zombie_xmm",
+    "Faction": "",
+    "Adventure": "",
+    "Region": [
+      "Dungeons",
+      "Icewind Dale"
+    ]
   }
 ]

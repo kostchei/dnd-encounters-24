@@ -1,0 +1,5470 @@
+[
+  {
+    "name": "Captain N'ghathrod",
+    "source": "WDMM",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Fazrian",
+    "source": "WDMM",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Keresta Delvingstone",
+    "source": "WDMM",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Spirit Dragon Wyrmling",
+    "source": "FRAiF",
+    "cr": "2",
+    "type": "dragon",
+    "environment": [
+      "any"
+    ],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Faerie Dragon (Blue)",
+    "source": "MM",
+    "cr": "2",
+    "type": "dragon",
+    "environment": [
+      "forest"
+    ],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Faerie Dragon (Green)",
+    "source": "MM",
+    "cr": "2",
+    "type": "dragon",
+    "environment": [
+      "forest"
+    ],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Faerie Dragon (Indigo)",
+    "source": "MM",
+    "cr": "2",
+    "type": "dragon",
+    "environment": [
+      "forest"
+    ],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Faerie Dragon (Violet)",
+    "source": "MM",
+    "cr": "2",
+    "type": "dragon",
+    "environment": [
+      "forest"
+    ],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Sea Hag",
+    "source": "MM",
+    "cr": {
+      "cr": "2",
+      "coven": "4"
+    },
+    "type": "fey",
+    "environment": [
+      "underwater",
+      "coastal"
+    ],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Bol'bara",
+    "source": "EGW",
+    "cr": "3",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "goblinoid"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Green Hag",
+    "source": "MM",
+    "cr": {
+      "cr": "3",
+      "coven": "5"
+    },
+    "type": "fey",
+    "environment": [
+      "forest",
+      "swamp",
+      "hill"
+    ],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Fleecemane Lion",
+    "source": "MOT",
+    "cr": "3",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Merrenoloth",
+    "source": "MPMM",
+    "cr": "3",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "yugoloth"
+      ]
+    },
+    "environment": [
+      "coastal"
+    ],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Merrenoloth",
+    "source": "MTF",
+    "cr": "3",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "yugoloth"
+      ]
+    },
+    "environment": [
+      "coastal"
+    ],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Fate Hag",
+    "source": "BMT",
+    "cr": "4",
+    "type": "fey",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Thessalhydra",
+    "source": "HftT",
+    "cr": "4",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Yestabrod",
+    "source": "OotA",
+    "cr": "4",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ambitious Assassin",
+    "source": "BMT",
+    "cr": {
+      "cr": "5",
+      "lair": "6"
+    },
+    "type": "humanoid",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Night Hag",
+    "source": "MM",
+    "cr": {
+      "cr": "5",
+      "coven": "7"
+    },
+    "type": "fiend",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Unicorn",
+    "source": "MM",
+    "cr": "5",
+    "type": "celestial",
+    "environment": [
+      "forest"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Felidar",
+    "source": "PSZ",
+    "cr": "5",
+    "type": "celestial",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Unicorn",
+    "source": "XMM",
+    "cr": "5",
+    "type": "celestial",
+    "environment": [
+      "forest",
+      "planar, feywild"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Thousand Teeth",
+    "source": "GoS",
+    "cr": "6",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Annis Hag",
+    "source": "VGM",
+    "cr": {
+      "cr": "6",
+      "coven": "8"
+    },
+    "type": "fey",
+    "environment": [
+      "mountain",
+      "hill"
+    ],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Maw of Sekolah",
+    "source": "GoS",
+    "cr": "7",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Rezmir",
+    "source": "HotDQ",
+    "cr": "7",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "half-black dragon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Aerisi Kalinoth",
+    "source": "PotA",
+    "cr": "7",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "elf"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Bheur Hag",
+    "source": "VGM",
+    "cr": {
+      "cr": "7",
+      "coven": "9"
+    },
+    "type": "fey",
+    "environment": [
+      "arctic"
+    ],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Karas Chembryl",
+    "source": "FRAiF",
+    "cr": {
+      "cr": "8",
+      "xpLair": 5000
+    },
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "Human"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Young Spirit Dragon",
+    "source": "FRAiF",
+    "cr": "8",
+    "type": "dragon",
+    "environment": [
+      "any"
+    ],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Obzedat Ghost",
+    "source": "GGR",
+    "cr": "8",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Vampiric Jade Statue",
+    "source": "GoS",
+    "cr": "8",
+    "type": "construct",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Marlos Urnrayle",
+    "source": "PotA",
+    "cr": "8",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Relentless Slasher",
+    "source": "VRGR",
+    "cr": "8",
+    "type": "fiend",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Auril (First Form)",
+    "source": "IDRotF",
+    "cr": "9",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Gar Shatterkeel",
+    "source": "PotA",
+    "cr": "9",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "human"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Vanifer",
+    "source": "PotA",
+    "cr": "9",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "tiefling"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Murgaxor",
+    "source": "SCC",
+    "cr": "9",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "bullywug",
+        "warlock"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Kyrilla, Accursed Gorgon",
+    "source": "AitFR-DN",
+    "cr": "10",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Giff Warlord",
+    "source": "BAM",
+    "cr": "10",
+    "type": "humanoid",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Undying Councilor",
+    "source": "ERLW",
+    "cr": "10",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Auril (Second Form)",
+    "source": "IDRotF",
+    "cr": "10",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Saemon Havarian",
+    "source": "MaBJoV",
+    "cr": "10",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "human"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Aboleth",
+    "source": "MM",
+    "cr": "10",
+    "type": "aberration",
+    "environment": [
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Darkweaver",
+    "source": "MPP",
+    "cr": "10",
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Gishath, Sun's Avatar",
+    "source": "PSX",
+    "cr": "10",
+    "type": "beast",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Dullahan",
+    "source": "VRGR",
+    "cr": "10",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Aboleth",
+    "source": "XMM",
+    "cr": {
+      "cr": "10",
+      "xpLair": 7200
+    },
+    "type": "aberration",
+    "environment": [
+      "underdark",
+      "underwater"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Enchanting Infiltrator",
+    "source": "BMT",
+    "cr": {
+      "cr": "11",
+      "lair": "12"
+    },
+    "type": "fey",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Alyxian the Tormented",
+    "source": "CRCotN",
+    "cr": "11",
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Adult Deep Dragon",
+    "source": "FRAiF",
+    "cr": {
+      "cr": "11",
+      "xpLair": 8400
+    },
+    "type": "dragon",
+    "environment": [
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Deep Dragon",
+    "source": "FTD",
+    "cr": {
+      "cr": "11",
+      "lair": "12"
+    },
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Monstrous Peryton",
+    "source": "GoS",
+    "cr": "11",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Auril (Third Form)",
+    "source": "IDRotF",
+    "cr": "11",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Kagain",
+    "source": "MaBJoV",
+    "cr": "11",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "dwarf"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Gynosphinx",
+    "source": "MM",
+    "cr": "11",
+    "type": "monstrosity",
+    "environment": [
+      "desert"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Balhannoth",
+    "source": "MPMM",
+    "cr": "11",
+    "type": "aberration",
+    "environment": [
+      "coastal",
+      "mountain",
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Morkoth",
+    "source": "MPMM",
+    "cr": {
+      "cr": "11",
+      "lair": "12"
+    },
+    "type": "aberration",
+    "environment": [
+      "coastal",
+      "underwater"
+    ],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Balhannoth",
+    "source": "MTF",
+    "cr": "11",
+    "type": "aberration",
+    "environment": [
+      "coastal",
+      "mountain",
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Severin",
+    "source": "RoT",
+    "cr": "11",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "human"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Morkoth",
+    "source": "VGM",
+    "cr": {
+      "cr": "11",
+      "lair": "12"
+    },
+    "type": "aberration",
+    "environment": [
+      "underwater",
+      "coastal"
+    ],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Sphinx of Lore",
+    "source": "XMM",
+    "cr": {
+      "cr": "11",
+      "xpLair": 8400
+    },
+    "type": "celestial",
+    "environment": [
+      "desert",
+      "planar, upper"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Greater Shadow Horror",
+    "source": "AitFR-THP",
+    "cr": "12",
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Alyxian Aboleth",
+    "source": "CRCotN",
+    "cr": "12",
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Alyxian the Callous",
+    "source": "CRCotN",
+    "cr": "12",
+    "type": "celestial",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Sea Fury",
+    "source": "EGW",
+    "cr": {
+      "cr": "12",
+      "lair": "14"
+    },
+    "type": "fey",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Biha Babir",
+    "source": "FRAiF",
+    "cr": "12",
+    "type": {
+      "type": "elemental",
+      "tags": [
+        "Genie"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Adult Crystal Dragon",
+    "source": "FTD",
+    "cr": {
+      "cr": "12",
+      "lair": "13"
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Bakunawa",
+    "source": "JttRC",
+    "cr": "12",
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Riverine",
+    "source": "JttRC",
+    "cr": "12",
+    "type": "fey",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Archon of Falling Stars",
+    "source": "MOT",
+    "cr": "12",
+    "type": "celestial",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Ki-rin",
+    "source": "MPMM",
+    "cr": "12",
+    "type": "celestial",
+    "environment": [
+      "coastal",
+      "desert",
+      "grassland",
+      "mountain"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Warlord",
+    "source": "MPMM",
+    "cr": "12",
+    "type": {
+      "type": "humanoid"
+    },
+    "environment": [
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "The Gardener",
+    "source": "QftIS",
+    "cr": "12",
+    "type": {
+      "type": "fey",
+      "tags": [
+        "archfey",
+        "druid"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ki-rin",
+    "source": "VGM",
+    "cr": "12",
+    "type": "celestial",
+    "environment": [
+      "mountain",
+      "grassland",
+      "desert",
+      "coastal"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Warlord",
+    "source": "VGM",
+    "cr": "12",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "any race"
+      ]
+    },
+    "environment": [
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Relentless Juggernaut",
+    "source": "VRGR",
+    "cr": "12",
+    "type": "fiend",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Tyreus, Illusionist",
+    "source": "AitFR-FCD",
+    "cr": "13",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "human"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Adult Lunar Dragon",
+    "source": "BAM",
+    "cr": "13",
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Bak Mei",
+    "source": "CM",
+    "cr": "13",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "human"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Alyxian the Dispossessed",
+    "source": "CRCotN",
+    "cr": "13",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "human"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Adult Topaz Dragon",
+    "source": "FTD",
+    "cr": {
+      "cr": "13",
+      "lair": "14"
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Brass Dragon",
+    "source": "MM",
+    "cr": "13",
+    "type": "dragon",
+    "environment": [
+      "desert"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult White Dragon",
+    "source": "MM",
+    "cr": "13",
+    "type": "dragon",
+    "environment": [
+      "arctic"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Beholder",
+    "source": "MM",
+    "cr": {
+      "cr": "13",
+      "lair": "14"
+    },
+    "type": "aberration",
+    "environment": [
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Vampire",
+    "source": "MM",
+    "cr": "13",
+    "type": {
+      "type": "undead",
+      "tags": [
+        "shapechanger"
+      ]
+    },
+    "environment": [
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Criosphinx",
+    "source": "PSA",
+    "cr": "13",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Tarul Var",
+    "source": "TftYP",
+    "cr": "13",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Atropal",
+    "source": "ToA",
+    "cr": "13",
+    "type": {
+      "type": "undead",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Loup Garou",
+    "source": "VRGR",
+    "cr": "13",
+    "type": {
+      "type": "monstrosity",
+      "tags": [
+        "shapechanger"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Jabberwock",
+    "source": "WBtW",
+    "cr": "13",
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Muiral",
+    "source": "WDMM",
+    "cr": "13",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Adult Brass Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "13",
+      "xpLair": 11500
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [
+      "desert"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult White Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "13",
+      "xpLair": 11500
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [
+      "arctic"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Beholder",
+    "source": "XMM",
+    "cr": {
+      "cr": "13",
+      "xpLair": 11500
+    },
+    "type": "aberration",
+    "environment": [
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Shadow Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "13",
+      "xpLair": 11500
+    },
+    "type": "dragon",
+    "environment": [
+      "planar, shadowfell",
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Vampire",
+    "source": "XMM",
+    "cr": {
+      "cr": "13",
+      "xpLair": 11500
+    },
+    "type": "undead",
+    "environment": [
+      "underdark",
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Vampire Infernalist",
+    "source": "ABH",
+    "cr": {
+      "cr": "14",
+      "xpLair": 13000
+    },
+    "type": {
+      "type": "undead",
+      "tags": [
+        "Wizard"
+      ]
+    },
+    "environment": [
+      "planar, nine hells",
+      "underdark",
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Solar Dragon",
+    "source": "BAM",
+    "cr": "14",
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Hulgaz",
+    "source": "BMT",
+    "cr": "14",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Alyxian the Absolved",
+    "source": "CRCotN",
+    "cr": "14",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "human"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Greater Death Dragon",
+    "source": "DSotDQ",
+    "cr": "14",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Adult Emerald Dragon",
+    "source": "FTD",
+    "cr": {
+      "cr": "14",
+      "lair": "15"
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient Sea Serpent",
+    "source": "FTD",
+    "cr": "14",
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Archon of the Triumvirate",
+    "source": "GGR",
+    "cr": "14",
+    "type": "celestial",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Devkarin Lich",
+    "source": "GGR",
+    "cr": "14",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Juvenile Kraken",
+    "source": "GoS",
+    "cr": "14",
+    "type": {
+      "type": "monstrosity",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Thessalkraken",
+    "source": "IMR",
+    "cr": "14",
+    "type": {
+      "type": "monstrosity",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Black Dragon",
+    "source": "MM",
+    "cr": "14",
+    "type": "dragon",
+    "environment": [
+      "swamp"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Copper Dragon",
+    "source": "MM",
+    "cr": "14",
+    "type": "dragon",
+    "environment": [
+      "hill"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Death Tyrant",
+    "source": "MM",
+    "cr": {
+      "cr": "14",
+      "lair": "15"
+    },
+    "type": "undead",
+    "environment": [
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Elder Brain",
+    "source": "MPMM",
+    "cr": "14",
+    "type": {
+      "type": "aberration",
+      "tags": [
+        "mind flayer"
+      ]
+    },
+    "environment": [
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Githyanki Supreme Commander",
+    "source": "MPMM",
+    "cr": "14",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "gith"
+      ]
+    },
+    "environment": [
+      "desert",
+      "mountain",
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Githyanki Supreme Commander",
+    "source": "MTF",
+    "cr": "14",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "gith"
+      ]
+    },
+    "environment": [
+      "desert",
+      "mountain",
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Elder Brain",
+    "source": "VGM",
+    "cr": "14",
+    "type": "aberration",
+    "environment": [
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Zorak Lightdrinker",
+    "source": "WDMM",
+    "cr": "14",
+    "type": {
+      "type": "undead",
+      "tags": [
+        "shapechanger"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Adult Black Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "14",
+      "xpLair": 13000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [
+      "swamp"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Copper Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "14",
+      "xpLair": 13000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [
+      "hill"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Death Tyrant",
+    "source": "XMM",
+    "cr": {
+      "cr": "14",
+      "xpLair": 13000
+    },
+    "type": {
+      "type": "undead",
+      "tags": [
+        "beholder"
+      ]
+    },
+    "environment": [
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient Deep Crow",
+    "source": "AI",
+    "cr": "15",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Grim Champion of Pestilence",
+    "source": "BMT",
+    "cr": "15",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Fungal Servant",
+    "source": "CM",
+    "cr": "15",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Strahd von Zarovich",
+    "source": "CoS",
+    "cr": "15",
+    "type": {
+      "type": "undead",
+      "tags": [
+        "shapechanger"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Mordakhesh",
+    "source": "ERLW",
+    "cr": "15",
+    "type": "fiend",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Adult Spirit Dragon",
+    "source": "FRAiF",
+    "cr": {
+      "cr": "15",
+      "xpLair": 15000
+    },
+    "type": "dragon",
+    "environment": [
+      "any"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Moonstone Dragon",
+    "source": "FTD",
+    "cr": {
+      "cr": "15",
+      "lair": "16"
+    },
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Sapphire Dragon",
+    "source": "FTD",
+    "cr": {
+      "cr": "15",
+      "lair": "16"
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Gar Shatterkeel",
+    "source": "LR",
+    "cr": "15",
+    "type": "humanoid",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Bodhi Irenicus",
+    "source": "MaBJoV",
+    "cr": "15",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Sarevok",
+    "source": "MaBJoV",
+    "cr": "15",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "human"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Adult Bronze Dragon",
+    "source": "MM",
+    "cr": "15",
+    "type": "dragon",
+    "environment": [
+      "coastal"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Green Dragon",
+    "source": "MM",
+    "cr": "15",
+    "type": "dragon",
+    "environment": [
+      "forest"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Mummy Lord",
+    "source": "MM",
+    "cr": {
+      "cr": "15",
+      "lair": "16"
+    },
+    "type": "undead",
+    "environment": [
+      "desert"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Vampire Spellcaster",
+    "source": "MM",
+    "cr": "15",
+    "type": {
+      "type": "undead",
+      "tags": [
+        "shapechanger"
+      ]
+    },
+    "environment": [
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Vampire Warrior",
+    "source": "MM",
+    "cr": "15",
+    "type": {
+      "type": "undead",
+      "tags": [
+        "shapechanger"
+      ]
+    },
+    "environment": [
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Skull Lord",
+    "source": "MPMM",
+    "cr": "15",
+    "type": {
+      "type": "undead",
+      "tags": [
+        "sorcerer"
+      ]
+    },
+    "environment": [
+      "desert",
+      "swamp",
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Skull Lord",
+    "source": "MTF",
+    "cr": "15",
+    "type": "undead",
+    "environment": [
+      "desert",
+      "swamp",
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Refraction of Ilvaash",
+    "source": "PaBTSO",
+    "cr": "15",
+    "type": {
+      "type": "aberration",
+      "tags": [
+        "mind flayer"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Froghemoth Elder",
+    "source": "QftIS",
+    "cr": "15",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Sapphire Dragon",
+    "source": "SADS",
+    "cr": "15",
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Oracle of Strixhaven",
+    "source": "SCC",
+    "cr": "15",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "human",
+        "wizard"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Borthak",
+    "source": "VEoR",
+    "cr": "15",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Relentless Impaler",
+    "source": "VEoR",
+    "cr": "15",
+    "type": "fiend",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Strahd, Master of Death House",
+    "source": "VEoR",
+    "cr": "15",
+    "type": {
+      "type": "undead",
+      "tags": [
+        "vampire",
+        "wizard"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Jarlaxle Baenre",
+    "source": "WDH",
+    "cr": "15",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "elf"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Adult Bronze Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "15",
+      "xpLair": 15000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [
+      "coastal"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Green Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "15",
+      "xpLair": 15000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [
+      "forest"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Mummy Lord",
+    "source": "XMM",
+    "cr": {
+      "cr": "15",
+      "xpLair": 15000
+    },
+    "type": {
+      "type": "undead",
+      "tags": [
+        "cleric"
+      ]
+    },
+    "environment": [
+      "desert",
+      "swamp"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Vampire Umbral Lord",
+    "source": "XMM",
+    "cr": {
+      "cr": "15",
+      "xpLair": 15000
+    },
+    "type": "undead",
+    "environment": [
+      "underdark",
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Nintra Siotta",
+    "source": "CM",
+    "cr": "16",
+    "type": "fey",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Valin Sarnaster",
+    "source": "CM",
+    "cr": "16",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Dead Three Scion",
+    "source": "FRAiF",
+    "cr": "16",
+    "type": "humanoid",
+    "environment": [
+      "underdark",
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Adult Amethyst Dragon",
+    "source": "FTD",
+    "cr": {
+      "cr": "16",
+      "lair": "17"
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Zegana",
+    "source": "GGR",
+    "cr": "16",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "merfolk"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Nightmare Beast",
+    "source": "MCV1SC",
+    "cr": "16",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Adult Blue Dragon",
+    "source": "MM",
+    "cr": "16",
+    "type": "dragon",
+    "environment": [
+      "desert",
+      "coastal"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Silver Dragon",
+    "source": "MM",
+    "cr": "16",
+    "type": "dragon",
+    "environment": [
+      "mountain",
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ashen Rider",
+    "source": "MOT",
+    "cr": "16",
+    "type": "celestial",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Githzerai Anarch",
+    "source": "MPMM",
+    "cr": {
+      "cr": "16",
+      "lair": "17"
+    },
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "gith"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Phoenix",
+    "source": "MPMM",
+    "cr": "16",
+    "type": "elemental",
+    "environment": [
+      "desert",
+      "mountain"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Star Spawn Larva Mage",
+    "source": "MPMM",
+    "cr": "16",
+    "type": "aberration",
+    "environment": [
+      "mountain"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Storm Giant Quintessent",
+    "source": "MPMM",
+    "cr": "16",
+    "type": "giant",
+    "environment": [
+      "coastal",
+      "desert",
+      "mountain",
+      "underwater"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Titivilus",
+    "source": "MPMM",
+    "cr": "16",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Githzerai Anarch",
+    "source": "MTF",
+    "cr": "16",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "gith"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Phoenix",
+    "source": "MTF",
+    "cr": "16",
+    "type": "elemental",
+    "environment": [
+      "desert",
+      "mountain"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Star Spawn Larva Mage",
+    "source": "MTF",
+    "cr": "16",
+    "type": "aberration",
+    "environment": [
+      "mountain"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Titivilus",
+    "source": "MTF",
+    "cr": "16",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Daemogoth Titan",
+    "source": "SCC",
+    "cr": "16",
+    "type": "fiend",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Lhammaruntosz",
+    "source": "SDW",
+    "cr": "16",
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Storm Giant Quintessent",
+    "source": "VGM",
+    "cr": "16",
+    "type": {
+      "type": "giant",
+      "tags": [
+        "storm giant"
+      ]
+    },
+    "environment": [
+      "underwater",
+      "mountain",
+      "desert",
+      "coastal",
+      "arctic"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Hlam",
+    "source": "WDH",
+    "cr": "16",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "human"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Adult Blue Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "16",
+      "xpLair": 18000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [
+      "coastal",
+      "desert"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Silver Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "16",
+      "xpLair": 18000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [
+      "mountain",
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Hierophant Medusa",
+    "source": "BMT",
+    "cr": "17",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Otherworldly Corrupter",
+    "source": "BMT",
+    "cr": {
+      "cr": "17",
+      "lair": "18"
+    },
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Zikzokrishka",
+    "source": "CM",
+    "cr": "17",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Sarevok",
+    "source": "CoA",
+    "cr": "17",
+    "type": "humanoid",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Tyrant Shadow",
+    "source": "CoA",
+    "cr": "17",
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Draconic Shard",
+    "source": "FTD",
+    "cr": "17",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Lazav",
+    "source": "GGR",
+    "cr": "17",
+    "type": {
+      "type": "monstrosity",
+      "tags": [
+        "shapechanger"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Verminaard",
+    "source": "MCV2DC",
+    "cr": "17",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "cleric",
+        "human"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Adult Blue Dracolich",
+    "source": "MM",
+    "cr": "17",
+    "type": "undead",
+    "environment": [
+      "desert"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Gold Dragon",
+    "source": "MM",
+    "cr": "17",
+    "type": "dragon",
+    "environment": [
+      "grassland",
+      "forest"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Red Dragon",
+    "source": "MM",
+    "cr": "17",
+    "type": "dragon",
+    "environment": [
+      "mountain",
+      "hill"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Androsphinx",
+    "source": "MM",
+    "cr": "17",
+    "type": "monstrosity",
+    "environment": [
+      "desert"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Hythonia",
+    "source": "MOT",
+    "cr": "17",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Baernaloth",
+    "source": "MPP",
+    "cr": "17",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "yugoloth"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Zargon the Returner",
+    "source": "QftIS",
+    "cr": "17",
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Hertilod",
+    "source": "VEoR",
+    "cr": "17",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Adult Gold Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "17",
+      "xpLair": 20000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [
+      "forest",
+      "grassland"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Adult Red Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "17",
+      "xpLair": 20000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [
+      "hill",
+      "mountain"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Death Knight",
+    "source": "XMM",
+    "cr": "17",
+    "type": "undead",
+    "environment": [
+      "any"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Dracolich",
+    "source": "XMM",
+    "cr": {
+      "cr": "17",
+      "xpLair": 20000
+    },
+    "type": "undead",
+    "environment": [
+      "any"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Sphinx of Valor",
+    "source": "XMM",
+    "cr": {
+      "cr": "17",
+      "xpLair": 20000
+    },
+    "type": "celestial",
+    "environment": [
+      "desert",
+      "planar, upper"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Cosmic Horror",
+    "source": "BAM",
+    "cr": "18",
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Asteria",
+    "source": "BMT",
+    "cr": "18",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "human",
+        "paladin"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Euryale",
+    "source": "BMT",
+    "cr": "18",
+    "type": {
+      "type": "monstrosity",
+      "tags": [
+        "druid",
+        "medusa"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Malaxxix",
+    "source": "BMT",
+    "cr": "18",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "yugoloth"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Lichen Lich",
+    "source": "CM",
+    "cr": "18",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Awful Fisher",
+    "source": "CoA",
+    "cr": "18",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true
+  },
+  {
+    "name": "Waeloquay",
+    "source": "CoA",
+    "cr": "18",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "The Lord of Blades",
+    "source": "ERLW",
+    "cr": "18",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "warforged"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ancient Deep Dragon",
+    "source": "FRAiF",
+    "cr": {
+      "cr": "18",
+      "xpLair": 22000
+    },
+    "type": "dragon",
+    "environment": [
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Zlan",
+    "source": "FRAiF",
+    "cr": "18",
+    "type": {
+      "type": "undead",
+      "tags": [
+        "Wizard"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ancient Deep Dragon",
+    "source": "FTD",
+    "cr": {
+      "cr": "18",
+      "lair": "19"
+    },
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Hollow Dragon",
+    "source": "FTD",
+    "cr": "18",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Borborygmos",
+    "source": "GGR",
+    "cr": "18",
+    "type": "giant",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Trostani",
+    "source": "GGR",
+    "cr": "18",
+    "type": "fey",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Demilich",
+    "source": "MM",
+    "cr": {
+      "cr": "18",
+      "lair": "20"
+    },
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Sibriex",
+    "source": "MPMM",
+    "cr": "18",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Adult Time Dragon",
+    "source": "MPP",
+    "cr": {
+      "cr": "18",
+      "lair": "19"
+    },
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Sibriex",
+    "source": "MTF",
+    "cr": "18",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Olhydra",
+    "source": "PotA",
+    "cr": "18",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Yan-C-Bin",
+    "source": "PotA",
+    "cr": "18",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Archaic",
+    "source": "SCC",
+    "cr": "18",
+    "type": "celestial",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Demilich",
+    "source": "XMM",
+    "cr": {
+      "cr": "18",
+      "xpLair": 22000
+    },
+    "type": "undead",
+    "environment": [
+      "any"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient Lunar Dragon",
+    "source": "BAM",
+    "cr": "19",
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Lord Soth",
+    "source": "DSotDQ",
+    "cr": "19",
+    "type": {
+      "type": "undead",
+      "tags": [
+        "paladin"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ancient Crystal Dragon",
+    "source": "FTD",
+    "cr": {
+      "cr": "19",
+      "lair": "20"
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Polukranos",
+    "source": "MOT",
+    "cr": "19",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Bael",
+    "source": "MPMM",
+    "cr": "19",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Bael",
+    "source": "MTF",
+    "cr": "19",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Imix",
+    "source": "PotA",
+    "cr": "19",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Lesser Star Spawn Emissary",
+    "source": "VRGR",
+    "cr": "19",
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Grim Champion of Bloodshed",
+    "source": "BMT",
+    "cr": "20",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Styx Dragon",
+    "source": "CoA",
+    "cr": "20",
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Ancient Topaz Dragon",
+    "source": "FTD",
+    "cr": {
+      "cr": "20",
+      "lair": "21"
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Bhaal, Slayer",
+    "source": "MaBJoV",
+    "cr": "20",
+    "type": "humanoid",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Ancient Brass Dragon",
+    "source": "MM",
+    "cr": "20",
+    "type": "dragon",
+    "environment": [
+      "desert"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient White Dragon",
+    "source": "MM",
+    "cr": "20",
+    "type": "dragon",
+    "environment": [
+      "arctic"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Drow Matron Mother",
+    "source": "MPMM",
+    "cr": "20",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "cleric",
+        "elf"
+      ]
+    },
+    "environment": [
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Leviathan",
+    "source": "MPMM",
+    "cr": "20",
+    "type": "elemental",
+    "environment": [
+      "coastal",
+      "underwater"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Drow Matron Mother",
+    "source": "MTF",
+    "cr": "20",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "elf"
+      ]
+    },
+    "environment": [
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Leviathan",
+    "source": "MTF",
+    "cr": "20",
+    "type": "elemental",
+    "environment": [
+      "coastal",
+      "underwater"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Ogrémoch",
+    "source": "PotA",
+    "cr": "20",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Iggwilv the Witch Queen",
+    "source": "WBtW",
+    "cr": "20",
+    "type": {
+      "type": "fey",
+      "tags": [
+        "wizard"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ancient Brass Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "20",
+      "xpLair": 33000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [
+      "desert"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient White Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "20",
+      "xpLair": 33000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [
+      "arctic"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Animal Lord",
+    "source": "XMM",
+    "cr": "20",
+    "type": "celestial",
+    "environment": [
+      "planar, beastlands"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Ancient Solar Dragon",
+    "source": "BAM",
+    "cr": "21",
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Pazrodine",
+    "source": "BMT",
+    "cr": "21",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "moonstone"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Veiled Presence",
+    "source": "BMT",
+    "cr": {
+      "cr": "21",
+      "lair": "22"
+    },
+    "type": "celestial",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Brother Adramalech",
+    "source": "CoA",
+    "cr": "21",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Brother Morax",
+    "source": "CoA",
+    "cr": "21",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Buer",
+    "source": "CoA",
+    "cr": "21",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Fire Kraken",
+    "source": "CoA",
+    "cr": "21",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Valindra Shadowmantle",
+    "source": "FRAiF",
+    "cr": {
+      "cr": "21",
+      "xpLair": 41000
+    },
+    "type": {
+      "type": "undead",
+      "tags": [
+        "Wizard"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ancient Emerald Dragon",
+    "source": "FTD",
+    "cr": {
+      "cr": "21",
+      "lair": "22"
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient Moonstone Dragon",
+    "source": "FTD",
+    "cr": {
+      "cr": "21",
+      "lair": "22"
+    },
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Isperia",
+    "source": "GGR",
+    "cr": "21",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ancient Black Dragon",
+    "source": "MM",
+    "cr": "21",
+    "type": "dragon",
+    "environment": [
+      "swamp"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient Copper Dragon",
+    "source": "MM",
+    "cr": "21",
+    "type": "dragon",
+    "environment": [
+      "hill"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Lich",
+    "source": "MM",
+    "cr": {
+      "cr": "21",
+      "lair": "22"
+    },
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Solar",
+    "source": "MM",
+    "cr": "21",
+    "type": "celestial",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Arasta",
+    "source": "MOT",
+    "cr": "21",
+    "type": "monstrosity",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Astral Dreadnought",
+    "source": "MPMM",
+    "cr": "21",
+    "type": {
+      "type": "monstrosity",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Hutijin",
+    "source": "MPMM",
+    "cr": "21",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Moloch",
+    "source": "MPMM",
+    "cr": "21",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Molydeus",
+    "source": "MPMM",
+    "cr": "21",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Astral Dreadnought",
+    "source": "MTF",
+    "cr": "21",
+    "type": {
+      "type": "monstrosity",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Hutijin",
+    "source": "MTF",
+    "cr": "21",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Moloch",
+    "source": "MTF",
+    "cr": "21",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Molydeus",
+    "source": "MTF",
+    "cr": "21",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Valindra Shadowmantle",
+    "source": "ToA",
+    "cr": "21",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "False Lich",
+    "source": "VEoR",
+    "cr": "21",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Greater Star Spawn Emissary",
+    "source": "VRGR",
+    "cr": "21",
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Ancient Black Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "21",
+      "xpLair": 41000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [
+      "swamp"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient Copper Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "21",
+      "xpLair": 41000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [
+      "hill"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Arch-hag",
+    "source": "XMM",
+    "cr": {
+      "cr": "21",
+      "xpLair": 41000
+    },
+    "type": "fey",
+    "environment": [
+      "any"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Lich",
+    "source": "XMM",
+    "cr": {
+      "cr": "21",
+      "xpLair": 41000
+    },
+    "type": {
+      "type": "undead",
+      "tags": [
+        "wizard"
+      ]
+    },
+    "environment": [
+      "any"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Solar",
+    "source": "XMM",
+    "cr": "21",
+    "type": {
+      "type": "celestial",
+      "tags": [
+        "angel"
+      ]
+    },
+    "environment": [
+      "planar, upper"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Cradle of the Hill Scion",
+    "source": "BGG",
+    "cr": "22",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Scion of Grolantor",
+    "source": "BGG",
+    "cr": "22",
+    "type": {
+      "type": "giant",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Aurnozci",
+    "source": "BMT",
+    "cr": {
+      "cr": "22",
+      "lair": "23"
+    },
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Miirym",
+    "source": "CM",
+    "cr": "22",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Abigor",
+    "source": "CoA",
+    "cr": "22",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Greater Tyrant Shadow",
+    "source": "CoA",
+    "cr": "22",
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Belashyrra",
+    "source": "ERLW",
+    "cr": {
+      "cr": "22",
+      "lair": "23"
+    },
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Lady Illmarrow",
+    "source": "ERLW",
+    "cr": "22",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ancient Spirit Dragon",
+    "source": "FRAiF",
+    "cr": "22",
+    "type": "dragon",
+    "environment": [
+      "any"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Sammaster (Dracolich Form)",
+    "source": "FRAiF",
+    "cr": "22",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Sammaster (Lich Form)",
+    "source": "FRAiF",
+    "cr": "22",
+    "type": {
+      "type": "undead",
+      "tags": [
+        "Wizard"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ancient Sapphire Dragon",
+    "source": "FTD",
+    "cr": {
+      "cr": "22",
+      "lair": "23"
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Elder Brain Dragon",
+    "source": "FTD",
+    "cr": "22",
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Jarad Vod Savo",
+    "source": "GGR",
+    "cr": "22",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Cryonax",
+    "source": "MaBJoV",
+    "cr": "22",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Jon Irenicus",
+    "source": "MaBJoV",
+    "cr": "22",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ember",
+    "source": "MCV2DC",
+    "cr": "22",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "adult chromatic"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ancient Bronze Dragon",
+    "source": "MM",
+    "cr": "22",
+    "type": "dragon",
+    "environment": [
+      "coastal"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient Green Dragon",
+    "source": "MM",
+    "cr": "22",
+    "type": "dragon",
+    "environment": [
+      "forest"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Geryon",
+    "source": "MPMM",
+    "cr": {
+      "cr": "22",
+      "lair": "23"
+    },
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Zaratan",
+    "source": "MPMM",
+    "cr": "22",
+    "type": "elemental",
+    "environment": [
+      "desert",
+      "forest",
+      "grassland",
+      "hill",
+      "mountain",
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Geryon",
+    "source": "MTF",
+    "cr": "22",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Zaratan",
+    "source": "MTF",
+    "cr": "22",
+    "type": "elemental",
+    "environment": [
+      "desert",
+      "forest",
+      "grassland",
+      "hill",
+      "mountain",
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Shadrix Silverquill",
+    "source": "SCC",
+    "cr": "22",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "bard"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Illithilich",
+    "source": "VGM",
+    "cr": "22",
+    "type": "undead",
+    "environment": [
+      "underdark"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient Bronze Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "22",
+      "xpLair": 50000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [
+      "coastal"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient Green Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "22",
+      "xpLair": 50000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [
+      "forest"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Elemental Cataclysm",
+    "source": "XMM",
+    "cr": "22",
+    "type": {
+      "type": "elemental",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [
+      "planar, elemental chaos"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Cradle of the Stone Scion",
+    "source": "BGG",
+    "cr": "23",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Scion of Skoraeus",
+    "source": "BGG",
+    "cr": "23",
+    "type": {
+      "type": "giant",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient Amethyst Dragon",
+    "source": "FTD",
+    "cr": {
+      "cr": "23",
+      "lair": "24"
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Aurelia",
+    "source": "GGR",
+    "cr": "23",
+    "type": {
+      "type": "celestial",
+      "tags": [
+        "angel"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ssendam, Lord of Madness",
+    "source": "MaBJoV",
+    "cr": "23",
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ygorl, Lord of Entropy",
+    "source": "MFF",
+    "cr": "23",
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ancient Blue Dragon",
+    "source": "MM",
+    "cr": "23",
+    "type": "dragon",
+    "environment": [
+      "desert",
+      "coastal"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient Silver Dragon",
+    "source": "MM",
+    "cr": "23",
+    "type": "dragon",
+    "environment": [
+      "mountain",
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Empyrean",
+    "source": "MM",
+    "cr": "23",
+    "type": {
+      "type": "celestial",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Kraken",
+    "source": "MM",
+    "cr": "23",
+    "type": {
+      "type": "monstrosity",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [
+      "underwater"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Baphomet",
+    "source": "MPMM",
+    "cr": "23",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Elder Tempest",
+    "source": "MPMM",
+    "cr": "23",
+    "type": "elemental",
+    "environment": [
+      "arctic",
+      "coastal",
+      "grassland",
+      "hill",
+      "mountain"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Fraz-Urb'luu",
+    "source": "MPMM",
+    "cr": {
+      "cr": "23",
+      "lair": "24"
+    },
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Juiblex",
+    "source": "MPMM",
+    "cr": {
+      "cr": "23",
+      "lair": "24"
+    },
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Zuggtmoy",
+    "source": "MPMM",
+    "cr": "23",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Baphomet",
+    "source": "MTF",
+    "cr": "23",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Elder Tempest",
+    "source": "MTF",
+    "cr": "23",
+    "type": "elemental",
+    "environment": [
+      "arctic",
+      "coastal",
+      "grassland",
+      "hill",
+      "mountain"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Fraz-Urb'luu",
+    "source": "MTF",
+    "cr": {
+      "cr": "23",
+      "lair": "24"
+    },
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Juiblex",
+    "source": "MTF",
+    "cr": "23",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Zuggtmoy",
+    "source": "MTF",
+    "cr": "23",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Nafas",
+    "source": "QftIS",
+    "cr": "23",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Galazeth Prismari",
+    "source": "SCC",
+    "cr": "23",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "sorcerer"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Iymrith",
+    "source": "SKT",
+    "cr": "23",
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Maegera the Dawn Titan",
+    "source": "SKT",
+    "cr": "23",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Acererak",
+    "source": "ToA",
+    "cr": "23",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Kas the Betrayer",
+    "source": "VEoR",
+    "cr": "23",
+    "type": {
+      "type": "undead",
+      "tags": [
+        "vampire"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Windfall",
+    "source": "VEoR",
+    "cr": "23",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "bard",
+        "tiefling"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Halaster Blackcloak",
+    "source": "WDMM",
+    "cr": "23",
+    "type": {
+      "type": "humanoid",
+      "tags": [
+        "human"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ancient Blue Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "23",
+      "xpLair": 62000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [
+      "coastal",
+      "desert"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient Silver Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "23",
+      "xpLair": 62000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [
+      "mountain",
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Blob of Annihilation",
+    "source": "XMM",
+    "cr": "23",
+    "type": {
+      "type": "ooze",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [
+      "any"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Empyrean",
+    "source": "XMM",
+    "cr": "23",
+    "type": {
+      "type": {
+        "choose": [
+          "celestial",
+          "fiend"
+        ]
+      },
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [
+      "any"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Kraken",
+    "source": "XMM",
+    "cr": {
+      "cr": "23",
+      "xpLair": 62000
+    },
+    "type": {
+      "type": "monstrosity",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [
+      "underwater"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Cradle of the Frost Scion",
+    "source": "BGG",
+    "cr": "24",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Scion of Thrym",
+    "source": "BGG",
+    "cr": "24",
+    "type": {
+      "type": "giant",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Dyrrn",
+    "source": "ERLW",
+    "cr": "24",
+    "type": "aberration",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ancient Dragon Turtle",
+    "source": "FTD",
+    "cr": "24",
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Rakdos",
+    "source": "GGR",
+    "cr": "24",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Bhaal, Ravager",
+    "source": "MaBJoV",
+    "cr": "24",
+    "type": "beast",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Ancient Gold Dragon",
+    "source": "MM",
+    "cr": "24",
+    "type": "dragon",
+    "environment": [
+      "grassland",
+      "forest"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient Red Dragon",
+    "source": "MM",
+    "cr": "24",
+    "type": "dragon",
+    "environment": [
+      "mountain",
+      "hill"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Graz'zt",
+    "source": "MPMM",
+    "cr": "24",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Yeenoghu",
+    "source": "MPMM",
+    "cr": {
+      "cr": "24",
+      "lair": "25"
+    },
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Graz'zt",
+    "source": "MTF",
+    "cr": "24",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon",
+        "shapechanger"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Yeenoghu",
+    "source": "MTF",
+    "cr": "24",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Beledros Witherbloom",
+    "source": "SCC",
+    "cr": "24",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "druid"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Tanazir Quandrix",
+    "source": "SCC",
+    "cr": "24",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "wizard"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Miska the Wolf-Spider",
+    "source": "VEoR",
+    "cr": "24",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ancient Gold Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "24",
+      "xpLair": 75000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [
+      "forest",
+      "grassland"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Ancient Red Dragon",
+    "source": "XMM",
+    "cr": {
+      "cr": "24",
+      "xpLair": 75000
+    },
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [
+      "hill",
+      "mountain"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Bel",
+    "source": "BGDIA",
+    "cr": "25",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Kostchtchie",
+    "source": "BGDIA",
+    "cr": "25",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Cradle of the Fire Scion",
+    "source": "BGG",
+    "cr": "25",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Scion of Surtur",
+    "source": "BGG",
+    "cr": "25",
+    "type": {
+      "type": "giant",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Grim Champion of Desolation",
+    "source": "BMT",
+    "cr": "25",
+    "type": "undead",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Bel",
+    "source": "CoA",
+    "cr": "25",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Belial",
+    "source": "CoA",
+    "cr": "25",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Fierna",
+    "source": "CoA",
+    "cr": "25",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Glasya",
+    "source": "CoA",
+    "cr": "25",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Pazuzu",
+    "source": "MaBJoV",
+    "cr": "25",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Velomachus Lorehold",
+    "source": "SCC",
+    "cr": "25",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "wizard"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Klauth",
+    "source": "SKT",
+    "cr": "25",
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Slarkrethel",
+    "source": "SKT",
+    "cr": "25",
+    "type": {
+      "type": "monstrosity",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Colossus",
+    "source": "XMM",
+    "cr": "25",
+    "type": {
+      "type": "construct",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [
+      "any"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Cradle of the Cloud Scion",
+    "source": "BGG",
+    "cr": "26",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Scion of Memnor",
+    "source": "BGG",
+    "cr": "26",
+    "type": {
+      "type": "giant",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Baalzebul",
+    "source": "CoA",
+    "cr": "26",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Levistus",
+    "source": "CoA",
+    "cr": "26",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Mammon",
+    "source": "CoA",
+    "cr": "26",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Zariel",
+    "source": "CoA",
+    "cr": "26",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Amethyst Greatwyrm",
+    "source": "FTD",
+    "cr": "26",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Crystal Greatwyrm",
+    "source": "FTD",
+    "cr": "26",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Emerald Greatwyrm",
+    "source": "FTD",
+    "cr": "26",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Sapphire Greatwyrm",
+    "source": "FTD",
+    "cr": "26",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Topaz Greatwyrm",
+    "source": "FTD",
+    "cr": "26",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "gem"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Niv-Mizzet",
+    "source": "GGR",
+    "cr": "26",
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Baalzebul",
+    "source": "MaBJoV",
+    "cr": "26",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Tromokratis",
+    "source": "MOT",
+    "cr": "26",
+    "type": {
+      "type": "monstrosity",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Demogorgon",
+    "source": "MPMM",
+    "cr": "26",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Orcus",
+    "source": "MPMM",
+    "cr": "26",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Zariel",
+    "source": "MPMM",
+    "cr": "26",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Ancient Time Dragon",
+    "source": "MPP",
+    "cr": {
+      "cr": "26",
+      "lair": "27"
+    },
+    "type": "dragon",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Demogorgon",
+    "source": "MTF",
+    "cr": "26",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Orcus",
+    "source": "MTF",
+    "cr": "26",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "demon"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Zariel",
+    "source": "MTF",
+    "cr": "26",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Cradle of the Storm Scion",
+    "source": "BGG",
+    "cr": "27",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Scion of Stronmaus",
+    "source": "BGG",
+    "cr": "27",
+    "type": {
+      "type": "giant",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": false,
+    "hasLegendaryGroup": true
+  },
+  {
+    "name": "Dispater",
+    "source": "CoA",
+    "cr": "27",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Mephistopheles",
+    "source": "CoA",
+    "cr": "27",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Black Greatwyrm",
+    "source": "FTD",
+    "cr": "27",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Blue Greatwyrm",
+    "source": "FTD",
+    "cr": "27",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Green Greatwyrm",
+    "source": "FTD",
+    "cr": "27",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Red Greatwyrm",
+    "source": "FTD",
+    "cr": "27",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "White Greatwyrm",
+    "source": "FTD",
+    "cr": "27",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Mephistopheles",
+    "source": "MaBJoV",
+    "cr": "27",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Eriflamme",
+    "source": "CoA",
+    "cr": "28",
+    "type": "elemental",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true
+  },
+  {
+    "name": "Rak Tulkhesh",
+    "source": "ERLW",
+    "cr": "28",
+    "type": "fiend",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Sul Khatesh",
+    "source": "ERLW",
+    "cr": "28",
+    "type": "fiend",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Brass Greatwyrm",
+    "source": "FTD",
+    "cr": "28",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Bronze Greatwyrm",
+    "source": "FTD",
+    "cr": "28",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Copper Greatwyrm",
+    "source": "FTD",
+    "cr": "28",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Gold Greatwyrm",
+    "source": "FTD",
+    "cr": "28",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Silver Greatwyrm",
+    "source": "FTD",
+    "cr": "28",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Asmodeus",
+    "source": "CoA",
+    "cr": "30",
+    "type": {
+      "type": "fiend",
+      "tags": [
+        "devil"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Aspect of Bahamut",
+    "source": "FTD",
+    "cr": "30",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "metallic"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Aspect of Tiamat",
+    "source": "FTD",
+    "cr": "30",
+    "type": {
+      "type": "dragon",
+      "tags": [
+        "chromatic"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Tarrasque",
+    "source": "MM",
+    "cr": "30",
+    "type": {
+      "type": "monstrosity",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Elder Dinosaur",
+    "source": "PSX",
+    "cr": "30",
+    "type": {
+      "type": "monstrosity",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  },
+  {
+    "name": "Tiamat",
+    "source": "RoT",
+    "cr": "30",
+    "type": "fiend",
+    "environment": [],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false,
+    "isNpc": true,
+    "isNamedCreature": true
+  },
+  {
+    "name": "Tarrasque",
+    "source": "XMM",
+    "cr": "30",
+    "type": {
+      "type": "monstrosity",
+      "tags": [
+        "titan"
+      ]
+    },
+    "environment": [
+      "urban"
+    ],
+    "hasLegendaryActions": true,
+    "hasLegendaryGroup": false
+  }
+]

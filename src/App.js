@@ -60,6 +60,80 @@ function rollDice(numDice, sides) {
   return total;
 }
 
+// Calculate initiative for encounter - group by unique initiative bonus
+function calculateInitiatives(monsters, monsterMap) {
+  const initiativeGroups = new Map(); // bonus -> [monster names]
+
+  for (const m of monsters) {
+    const data = monsterMap.get(m.Name);
+    const bonus = data?.InitiativeBonus ?? 0;
+    if (!initiativeGroups.has(bonus)) {
+      initiativeGroups.set(bonus, []);
+    }
+    initiativeGroups.get(bonus).push(m.Name);
+  }
+
+  // Roll 1d20 + bonus for each unique bonus group
+  const results = [];
+  for (const [bonus, names] of initiativeGroups) {
+    const roll = rollDice(1, 20) + bonus;
+    results.push({ names, bonus, roll });
+  }
+
+  // Sort by roll descending
+  results.sort((a, b) => b.roll - a.roll);
+  return results;
+}
+
+// Calculate perception - roll for each, return highest (min = passive)
+function calculatePerception(monsters, monsterMap) {
+  let highest = 0;
+
+  for (const m of monsters) {
+    const data = monsterMap.get(m.Name);
+    const perceptionBonus = data?.PerceptionBonus ?? 0;
+    const passivePerception = data?.PassivePerception ?? 10;
+
+    const roll = rollDice(1, 20) + perceptionBonus;
+    const result = Math.max(roll, passivePerception);
+
+    if (result > highest) {
+      highest = result;
+    }
+  }
+
+  return highest;
+}
+
+// Calculate stealth - roll for each, return lowest
+// Monsters without StealthBonus use DEX modifier with disadvantage
+function calculateStealth(monsters, monsterMap) {
+  let lowest = Infinity;
+
+  for (const m of monsters) {
+    const data = monsterMap.get(m.Name);
+    const stealthBonus = data?.StealthBonus;
+
+    let roll;
+    if (stealthBonus != null && stealthBonus !== 0) {
+      // Has stealth proficiency
+      roll = rollDice(1, 20) + stealthBonus;
+    } else {
+      // No stealth - use DEX modifier with disadvantage (InitiativeBonus = DEX mod in 5e2024)
+      const dexMod = data?.InitiativeBonus ?? 0;
+      const roll1 = rollDice(1, 20) + dexMod;
+      const roll2 = rollDice(1, 20) + dexMod;
+      roll = Math.min(roll1, roll2); // disadvantage = take lower
+    }
+
+    if (roll < lowest) {
+      lowest = roll;
+    }
+  }
+
+  return lowest;
+}
+
 // Pick weighted random terrain from region's terrain list
 function pickWeightedTerrain(terrains) {
   const roll = Math.random() * 100;
@@ -142,6 +216,9 @@ function App() {
 
   // Store the reaction roll result
   const [reactionResult, setReactionResult] = useState(null);
+  const [initiativeResult, setInitiativeResult] = useState(null);
+  const [perceptionResult, setPerceptionResult] = useState(null);
+  const [stealthResult, setStealthResult] = useState(null);
 
   // Calculate total XP from the party input
   const calculateTotalXP = useCallback(() => {
@@ -205,9 +282,20 @@ function App() {
       reaction = { roll: reactionRoll, attitude: 'Friendly', description: 'helpful, open, inclined to cooperate' };
     }
 
+    // Create lookup map for monster stats
+    const monsterMap = new Map(ENRICHED_MONSTERS.map(m => [m.Name, m]));
+
+    // Calculate initiative, perception, stealth
+    const initiatives = calculateInitiatives(newEncounter.monsters, monsterMap);
+    const perception = calculatePerception(newEncounter.monsters, monsterMap);
+    const stealth = calculateStealth(newEncounter.monsters, monsterMap);
+
     setFinalTerrain(regionTerrain);
     setEncounterDistance(distance);
     setReactionResult(reaction);
+    setInitiativeResult(initiatives);
+    setPerceptionResult(perception);
+    setStealthResult(stealth);
   };
 
   // Helper: Get alignment modifier
@@ -366,6 +454,27 @@ function App() {
                 <p>
                   <span style={styles.emphasis}>Reaction:</span>{' '}
                   {reactionResult.attitude} ({reactionResult.roll}) — {reactionResult.description}
+                </p>
+              )}
+              {initiativeResult && initiativeResult.length > 0 && (
+                <p>
+                  <span style={styles.emphasis}>Initiative:</span>{' '}
+                  {initiativeResult.map((g, i) => (
+                    <span key={i}>
+                      {g.names.length > 1 ? g.names[0].split(' ')[0] + 's' : g.names[0]}: {g.roll}
+                      {i < initiativeResult.length - 1 ? ', ' : ''}
+                    </span>
+                  ))}
+                </p>
+              )}
+              {perceptionResult !== null && (
+                <p>
+                  <span style={styles.emphasis}>Perception (best):</span> {perceptionResult}
+                </p>
+              )}
+              {stealthResult !== null && stealthResult !== Infinity && (
+                <p>
+                  <span style={styles.emphasis}>Stealth (worst):</span> {stealthResult}
                 </p>
               )}
             </div>

@@ -5,13 +5,13 @@ const DATA_DIR = path.join(__dirname, 'data');
 const ENRICHED_FILE = path.join(__dirname, 'src/data/enriched_monster_list.json');
 const OUT_FILE = path.join(__dirname, 'src/data/region_monsters.json');
 
-const FILE_TO_REGION_MAP = {
-    'Encounter spreadsheet - Calimshan.csv': 'calimshan',
-    'Encounter spreadsheet - Cities.csv': 'cities',
-    'Encounter spreadsheet - Dungeons.csv': 'dungeon',
-    'Encounter spreadsheet - Heartlands.csv': 'heartlands',
-    'Encounter spreadsheet - IceWind Dale.csv': 'icewind',
-    'Encounter spreadsheet - Moonshae.csv': 'moonshae'
+const REGION_TO_KEY_MAP = {
+    'Calimshan': 'calimshan',
+    'Cities': 'cities',
+    'Dungeons': 'dungeon',
+    'Heartlands': 'heartlands',
+    'Icewind Dale': 'icewind',
+    'Moonshae': 'moonshae'
 };
 
 function main() {
@@ -33,14 +33,14 @@ function main() {
     const fullData = {};
 
     // Initialize regions
-    Object.values(FILE_TO_REGION_MAP).forEach(region => {
+    Object.values(REGION_TO_KEY_MAP).forEach(region => {
         fullData[region] = {};
     });
 
     let count = 0;
 
     enrichedData.forEach(monster => {
-        if (!monster.FoundIn || !Array.isArray(monster.FoundIn)) return;
+        if (!monster.Region || !Array.isArray(monster.Region)) return;
 
         const name = monster.Name;
         const cr = String(monster.CR || "Unknown");
@@ -49,8 +49,8 @@ function main() {
         // The original script skipped rows without CR.
         if (cr === "Unknown") return;
 
-        monster.FoundIn.forEach(filename => {
-            const regionKey = FILE_TO_REGION_MAP[filename];
+        monster.Region.forEach(filename => {
+            const regionKey = REGION_TO_KEY_MAP[filename];
             if (regionKey) {
                 if (!fullData[regionKey][cr]) {
                     fullData[regionKey][cr] = [];

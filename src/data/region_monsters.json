@@ -102,8 +102,7 @@
         "17": [
             "Adult Gold Dragon",
             "Adult Red Dragon",
-            "Goristro",
-            "Androsphinx"
+            "Goristro"
         ],
         "18": [
             "Demilich"
@@ -244,9 +243,7 @@
             "Vampire Infernalist"
         ],
         "15": [
-            "Vampire Umbral Lord",
-            "Vampire Spellcaster",
-            "Vampire Warrior"
+            "Vampire Umbral Lord"
         ],
         "16": [
             "Adult Silver Dragon",
@@ -351,8 +348,7 @@
         "11": [
             "Behir",
             "Death Knight Aspirant",
-            "Mind Flayer Arcanist",
-            "Balhannoth"
+            "Mind Flayer Arcanist"
         ],
         "12": [
             "Arcanaloth",
@@ -364,8 +360,7 @@
             "Shadow Dragon"
         ],
         "14": [
-            "Death Tyrant",
-            "Elder Brain"
+            "Death Tyrant"
         ],
         "15": [
             "Purple Worm"
@@ -449,6 +444,7 @@
             "Werewolf"
         ],
         "4": [
+            "Amethyst Dragon Wyrmling",
             "Ettin",
             "Gnoll Fang of Yeenoghu",
             "Wereboar",
@@ -483,6 +479,7 @@
         "9": [
             "Fire Giant",
             "Treant",
+            "Young Amethyst Dragon",
             "Young Blue Dragon"
         ],
         "10": [
@@ -497,8 +494,7 @@
         ],
         "12": [
             "Archpriest",
-            "Questing Knight",
-            "Ki-rin"
+            "Questing Knight"
         ],
         "13": [
             "Adult Brass Dragon",
@@ -513,6 +509,7 @@
             "Adult Green Dragon"
         ],
         "16": [
+            "Adult Amethyst Dragon",
             "Adult Silver Dragon"
         ],
         "17": [
@@ -532,6 +529,7 @@
             "Ancient Green Dragon"
         ],
         "23": [
+            "Ancient Amethyst Dragon",
             "Ancient Blue Dragon",
             "Ancient Silver Dragon"
         ],
@@ -613,8 +611,7 @@
             "Blue Slaad",
             "Giant Ape",
             "Primeval Owlbear",
-            "Tree Blight",
-            "Bheur Hag"
+            "Tree Blight"
         ],
         "8": [
             "Berserker Commander",
@@ -773,8 +770,7 @@
         "12": [
             "Archmage",
             "Archpriest",
-            "Spore of Moander",
-            "Sea Fury"
+            "Spore of Moander"
         ],
         "13": [
             "Storm Giant"

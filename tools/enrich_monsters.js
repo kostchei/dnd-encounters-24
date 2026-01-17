@@ -218,7 +218,11 @@ async function main() {
                     if (!monsterSourceMap.has(beast)) {
                         monsterSourceMap.set(beast, new Set());
                     }
-                    monsterSourceMap.get(beast).add(filename);
+                    // Simplify filename to region name
+                    const regionName = filename
+                        .replace('Encounter spreadsheet - ', '')
+                        .replace('.csv', '');
+                    monsterSourceMap.get(beast).add(regionName);
                 }
             }
         }
@@ -305,7 +309,7 @@ async function main() {
                 Statblock_Link: `https://5e.tools/bestiary.html#${encodeURIComponent(data.name).toLowerCase()}_${data.source.toLowerCase()}`,
                 Faction: "",
                 Adventure: "",
-                FoundIn: Array.from(monsterSourceMap.get(name) || [])
+                Region: Array.from(monsterSourceMap.get(name) || [])
             });
         } else {
             missing.push(name);
@@ -325,7 +329,7 @@ async function main() {
                 Statblock_Link: "",
                 Faction: "",
                 Adventure: "",
-                FoundIn: Array.from(monsterSourceMap.get(name) || [])
+                Region: Array.from(monsterSourceMap.get(name) || [])
             });
         }
     }
