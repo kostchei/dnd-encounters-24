@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import XP_TABLE from './data/enc_xp.json';
 import ENRICHED_MONSTERS from './data/enriched_monster_list.json';
 import FACTIONS from './data/factions.json';
+import ADVENTURE_REGIONS from './data/adventure_regions.json';
 import { generateNewEncounter } from './new_encounter_system.js';
 import styles from './styles';
 
@@ -99,6 +100,25 @@ function assignFactions(monsters) {
   }
 
   return assignments;
+}
+
+// Helper: Pick a random valid adventure for a monster in a specific region
+function pickAdventure(monsterName, regionId) {
+  const data = MONSTER_MAP.get(monsterName);
+  if (!data || !data.Adventures || data.Adventures.length === 0) return null;
+
+  // Filter adventures valid for this region
+  const validAdventures = data.Adventures.filter(advName => {
+    const advConfig = ADVENTURE_REGIONS[advName];
+    if (!advConfig) return false;
+    // Check if region matches or is "all"
+    return advConfig.regions.includes('all') || advConfig.regions.includes(regionId);
+  });
+
+  if (validAdventures.length === 0) return null;
+
+  // Pick one randomly
+  return validAdventures[Math.floor(Math.random() * validAdventures.length)];
 }
 
 
@@ -274,7 +294,7 @@ function Hexagon({ color, size = 50 }) {
 }
 
 // Helper function to format encounter result for display
-function formatEncounterResult(encounterResult, selectedTheme, factionMap = null) {
+function formatEncounterResult(encounterResult, selectedTheme, factionMap = null, regionId = null) {
   if (encounterResult.error) {
     return `Error: ${encounterResult.error}`;
   }
@@ -284,7 +304,8 @@ function formatEncounterResult(encounterResult, selectedTheme, factionMap = null
     const monsters = encounterResult.monsters;
 
     // Group monsters by name and track their faction assignments
-    const monsterGroups = new Map(); // name -> { count, factionCounts }
+    // name -> { count, factionCounts, adventure }
+    const monsterGroups = new Map();
 
     for (let i = 0; i < monsters.length; i++) {
       const m = monsters[i];
@@ -293,7 +314,7 @@ function formatEncounterResult(encounterResult, selectedTheme, factionMap = null
       const key = `${name}|${cr}`;
 
       if (!monsterGroups.has(key)) {
-        monsterGroups.set(key, { name, cr, count: 0, factionCounts: new Map() });
+        monsterGroups.set(key, { name, cr, count: 0, factionCounts: new Map(), adventure: null });
       }
 
       const group = monsterGroups.get(key);
@@ -303,6 +324,11 @@ function formatEncounterResult(encounterResult, selectedTheme, factionMap = null
       const faction = factionMap.get(i);
       if (faction) {
         group.factionCounts.set(faction, (group.factionCounts.get(faction) || 0) + 1);
+      }
+
+      // Pick adventure for the group (first valid one wins for consistency across group)
+      if (!group.adventure && regionId) {
+        group.adventure = pickAdventure(name, regionId);
       }
     }
 
@@ -316,19 +342,29 @@ function formatEncounterResult(encounterResult, selectedTheme, factionMap = null
         part = `${group.name} (CR ${group.cr})`;
       }
 
+      const distinctExtras = [];
+
+      // Add adventure info if any
+      if (group.adventure) {
+        distinctExtras.push(`from ${group.adventure}`);
+      }
+
       // Add faction info if any
       if (group.factionCounts.size > 0) {
         const factionParts = [];
         for (const [faction, count] of group.factionCounts) {
           if (count === group.count) {
-            // All of this monster type are in this faction
+            // All involved
             factionParts.push(`faction ${faction}`);
           } else {
-            // Only some are in this faction
             factionParts.push(`${count} faction ${faction}`);
           }
         }
-        part += ` (${factionParts.join(', ')})`;
+        distinctExtras.push(...factionParts);
+      }
+
+      if (distinctExtras.length > 0) {
+        part += ` (${distinctExtras.join(', ')})`;
       }
 
       parts.push(part);
@@ -610,7 +646,7 @@ function App() {
             <div style={styles.encounterResult}>
               {encounterResult && (
                 <p>
-                  <span style={styles.emphasis}>Encounter:</span> {formatEncounterResult(encounterResult, 'Any', factionResult)}
+                  <span style={styles.emphasis}>Encounter:</span> {formatEncounterResult(encounterResult, 'Any', factionResult, selectedRegion)}
                 </p>
               )}
               {encounterResult && encounterResult.totalXP && (
