@@ -44,9 +44,13 @@ function alignmentMatches(monsterAlignment, factionAlignments) {
   return false;
 }
 
-// Assign factions to monsters in an encounter
+// Assign factions to monsters in an encounter - ONE faction per encounter max
 function assignFactions(monsters) {
   const assignments = new Map(); // monster index -> faction name
+
+  // Step 1: Find all eligible monsters (Int >= 6)
+  const eligibleIndices = [];
+  const eligibleData = [];
 
   for (let i = 0; i < monsters.length; i++) {
     const monster = monsters[i];
@@ -54,33 +58,49 @@ function assignFactions(monsters) {
 
     if (!data) continue;
 
-    // Filter 1: Intelligence >= 6
     const intelligence = data.Intelligence ?? 0;
-    if (intelligence < 6) continue;
+    if (intelligence >= 6) {
+      eligibleIndices.push(i);
+      eligibleData.push(data);
+    }
+  }
 
-    // Filter 2: 50% chance
-    if (Math.random() >= 0.5) continue;
+  // No eligible creatures
+  if (eligibleIndices.length === 0) return assignments;
 
-    // Find matching factions
-    const baseType = parseBaseType(data.Type);
-    const matchingFactions = FACTIONS.filter(faction => {
-      // Check type match
+  // Step 2: 50% chance for the encounter to have a faction
+  if (Math.random() >= 0.5) return assignments;
+
+  // Step 3: Find factions that match ANY eligible creature
+  const matchingFactions = FACTIONS.filter(faction => {
+    return eligibleData.some(data => {
+      const baseType = parseBaseType(data.Type);
       const typeMatches = faction.types.some(t => baseType.includes(t.toLowerCase()));
       if (!typeMatches) return false;
-
-      // Check alignment match
       return alignmentMatches(data.Alignment, faction.alignments);
     });
+  });
 
-    if (matchingFactions.length > 0) {
-      // Pick a random faction from matches
-      const chosen = matchingFactions[Math.floor(Math.random() * matchingFactions.length)];
-      assignments.set(i, chosen.name);
+  if (matchingFactions.length === 0) return assignments;
+
+  // Step 4: Pick ONE faction for the whole encounter
+  const chosenFaction = matchingFactions[Math.floor(Math.random() * matchingFactions.length)];
+
+  // Step 5: Apply to all eligible creatures that match this faction
+  for (let j = 0; j < eligibleIndices.length; j++) {
+    const data = eligibleData[j];
+    const baseType = parseBaseType(data.Type);
+    const typeMatches = chosenFaction.types.some(t => baseType.includes(t.toLowerCase()));
+    const alignMatches = alignmentMatches(data.Alignment, chosenFaction.alignments);
+
+    if (typeMatches && alignMatches) {
+      assignments.set(eligibleIndices[j], chosenFaction.name);
     }
   }
 
   return assignments;
 }
+
 
 // Region data with hex colors and weighted terrain probabilities
 // Each terrain entry is [terrain, weight] - weights are percentages
