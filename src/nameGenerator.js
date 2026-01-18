@@ -19,7 +19,7 @@
 import regionNames from './data/region_names.json';
 import factionNames from './data/faction_names.json';
 import dragonNames from './data/dragon_names.json';
-import { generateProceduralName, generateFullProceduralName } from './nameGenerators/faerunNames';
+import { generateProceduralName } from './nameGenerators/faerunNames';
 
 // Utility functions
 const randomChoice = (arr) => arr[Math.floor(Math.random() * arr.length)];
@@ -247,7 +247,8 @@ export function generateDragonName(dragonType, cr, region = 'heartlands') {
     let dragonCategory;
     if (chromaticColors.includes(color)) dragonCategory = 'chromatic';
     else if (metallicColors.includes(color)) dragonCategory = 'metallic';
-    else dragonCategory = 'gem';
+    else if (gemColors.includes(color)) dragonCategory = 'gem';
+    else dragonCategory = 'chromatic';
 
     // Try to get a famous name first for higher CR
     const famousNames = dragonNames.famous?.[color] || [];
@@ -496,10 +497,12 @@ export function generateEncounterNames(creatures, defaultRegion = 'heartlands') 
 }
 
 // Export all functions
-export default {
+const nameGenerator = {
     generateName,
     generateDragonName,
     generateLegendaryName,
     generateFactionMemberName,
     generateEncounterNames
 };
+
+export default nameGenerator;

@@ -517,4 +517,5 @@ export {
     generateTurmicName
 };
 
-export default { generateProceduralName, generateFullProceduralName };
+const faerunNames = { generateProceduralName, generateFullProceduralName };
+export default faerunNames;
