@@ -463,10 +463,16 @@ function formatEncounterResult(encounterResult, selectedTheme, factionMap = null
           name: m.Name,
           cr: m.CR,
           count: 0,
-          statblockLink: data?.Statblock_Link || null
+          statblockLink: data?.Statblock_Link || null,
+          adventure: null
         });
       }
-      monsterGroups.get(key).count++;
+      const group = monsterGroups.get(key);
+      group.count++;
+      // Pick adventure for the group (first valid one wins)
+      if (!group.adventure && regionId) {
+        group.adventure = pickAdventure(m.Name, regionId);
+      }
     }
 
     const elements = [];
@@ -475,6 +481,7 @@ function formatEncounterResult(encounterResult, selectedTheme, factionMap = null
       if (idx > 0) elements.push(<span key={`sep-${idx}`}> + </span>);
 
       const countPrefix = group.count > 1 ? `${group.count}× ` : '';
+      const adventureStr = group.adventure ? ` (from ${group.adventure})` : '';
 
       elements.push(
         <span key={`monster-${idx}`}>
@@ -491,7 +498,7 @@ function formatEncounterResult(encounterResult, selectedTheme, factionMap = null
           ) : (
             group.name
           )}
-          {` (CR ${group.cr})`}
+          {` (CR ${group.cr})`}{adventureStr}
         </span>
       );
       idx++;

@@ -1,0 +1,40 @@
+{
+  "summary": {
+    "totalUniqueAdventuresInMonsterData": 7,
+    "totalConfiguredAdventures": 39,
+    "missingFromConfigCount": 0
+  },
+  "missingFromConfig": [],
+  "cr1Analysis": {
+    "icewind": {
+      "wouldDisplay": 7,
+      "wouldNotDisplay": 33,
+      "total": 40
+    },
+    "heartlands": {
+      "wouldDisplay": 4,
+      "wouldNotDisplay": 36,
+      "total": 40
+    },
+    "calimshan": {
+      "wouldDisplay": 21,
+      "wouldNotDisplay": 19,
+      "total": 40
+    },
+    "dungeon": {
+      "wouldDisplay": 15,
+      "wouldNotDisplay": 25,
+      "total": 40
+    },
+    "cities": {
+      "wouldDisplay": 6,
+      "wouldNotDisplay": 34,
+      "total": 40
+    },
+    "moonshae": {
+      "wouldDisplay": 0,
+      "wouldNotDisplay": 40,
+      "total": 40
+    }
+  }
+}
