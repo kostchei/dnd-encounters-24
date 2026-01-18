@@ -4,6 +4,7 @@ import ENRICHED_MONSTERS from './data/enriched_monster_list.json';
 import FACTIONS from './data/factions.json';
 import ADVENTURE_REGIONS from './data/adventure_regions.json';
 import { generateNewEncounter } from './new_encounter_system.js';
+import { generateName, generateDragonName, generateLegendaryName } from './nameGenerator';
 import styles from './styles';
 
 // Create monster lookup map once at module level
@@ -119,6 +120,58 @@ function pickAdventure(monsterName, regionId) {
 
   // Pick one randomly
   return validAdventures[Math.floor(Math.random() * validAdventures.length)];
+}
+
+// Legendary creature types that get special naming
+const LEGENDARY_TYPES = ['beholder', 'mind flayer', 'aboleth', 'lich', 'vampire', 'demon', 'devil'];
+
+// Generate names for encounter participants
+// Criteria: Intelligence >= 3 OR CR >= 11
+function generateNamesForEncounter(monsters, regionId) {
+  const names = new Map(); // monster index -> generated name
+
+  for (let i = 0; i < monsters.length; i++) {
+    const monster = monsters[i];
+    const data = MONSTER_MAP.get(monster.Name);
+    if (!data) continue;
+
+    const intelligence = data.Intelligence ?? 0;
+    const crStr = String(monster.CR || data.CR || '0');
+    const numericCR = crStr.includes('/')
+      ? eval(crStr)  // Handle "1/4", "1/2", etc.
+      : parseFloat(crStr);
+
+    // Check criteria: Intelligence >= 3 OR CR >= 11
+    if (intelligence < 3 && numericCR < 11) continue;
+
+    const lowerType = (data.Type || '').toLowerCase();
+    const lowerName = monster.Name.toLowerCase();
+    const gender = Math.random() < 0.5 ? 'male' : 'female';
+
+    let generatedName;
+
+    // Check if it's a dragon
+    if (lowerName.includes('dragon') || lowerType.includes('dragon')) {
+      generatedName = generateDragonName(monster.Name, numericCR, regionId);
+    }
+    // Check if it's a legendary creature type
+    else if (LEGENDARY_TYPES.some(lt => lowerName.includes(lt) || lowerType.includes(lt))) {
+      generatedName = generateLegendaryName(monster.Name, numericCR, regionId);
+    }
+    // Default: use regular name generator
+    else {
+      generatedName = generateName({
+        region: regionId,
+        gender: gender,
+        cr: numericCR,
+        creatureType: lowerType
+      });
+    }
+
+    names.set(i, { name: generatedName, monsterName: monster.Name });
+  }
+
+  return names;
 }
 
 
@@ -419,6 +472,7 @@ function App() {
   const [perceptionResult, setPerceptionResult] = useState(null);
   const [stealthResult, setStealthResult] = useState(null);
   const [factionResult, setFactionResult] = useState(null);
+  const [namesResult, setNamesResult] = useState(null);
 
   // Calculate total XP from the party input
   const calculateTotalXP = useCallback(() => {
@@ -501,6 +555,9 @@ function App() {
     // Assign factions to intelligent creatures
     const factions = assignFactions(newEncounter.monsters);
 
+    // Generate names for intelligent/powerful creatures
+    const names = generateNamesForEncounter(newEncounter.monsters, selectedRegion);
+
     setFinalTerrain(regionTerrain);
     setEncounterDistance(distance);
     setReactionResult(reaction);
@@ -508,6 +565,7 @@ function App() {
     setPerceptionResult(perception);
     setStealthResult(stealth);
     setFactionResult(factions);
+    setNamesResult(names);
   };
 
   // Helper: Get alignment modifier
@@ -646,9 +704,20 @@ function App() {
           {(encounterResult || (encounterDistance !== null && finalTerrain)) && (
             <div style={styles.encounterResult}>
               {encounterResult && (
-                <p>
-                  <span style={styles.emphasis}>Encounter:</span> {formatEncounterResult(encounterResult, 'Any', factionResult, selectedRegion)}
-                </p>
+                <>
+                  <p>
+                    <span style={styles.emphasis}>Encounter:</span> {formatEncounterResult(encounterResult, 'Any', factionResult, selectedRegion)}
+                  </p>
+                  {namesResult && namesResult.size > 0 && (
+                    <div style={styles.participantRoster}>
+                      {Array.from(namesResult.entries()).map(([idx, info]) => (
+                        <div key={idx} style={styles.participantName}>
+                          • {info.name} <span style={{ opacity: 0.7, fontSize: '0.85em' }}>({info.monsterName})</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </>
               )}
               {encounterResult && encounterResult.totalXP && (
                 <p>

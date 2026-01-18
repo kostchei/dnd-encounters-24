@@ -163,6 +163,20 @@ const styles = {
     borderTop: '1px solid var(--dnd-red)',
     letterSpacing: '0.5px',
   },
+
+  // Named participant roster - mobile friendly
+  participantRoster: {
+    marginTop: '0.5rem',
+    marginBottom: '0.5rem',
+    paddingLeft: '0.75rem',
+    borderLeft: '2px solid var(--gold)',
+  },
+  participantName: {
+    fontSize: '0.9rem',
+    color: 'var(--ink)',
+    marginBottom: '0.15rem',
+    lineHeight: '1.3',
+  },
 };
 
 export default styles;
