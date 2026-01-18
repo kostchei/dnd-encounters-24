@@ -446,6 +446,37 @@ function formatEncounterResult(encounterResult, selectedTheme, factionMap = null
   return result;
 }
 
+// Build JSON output for external app consumption
+function buildEncounterJSON(encounterResult, reactionResult, region, namesResult, factionResult) {
+  if (!encounterResult || !encounterResult.monsters) return null;
+
+  // Get current date in YYYY-MM-DD format
+  const today = new Date();
+  const dateStr = today.toISOString().split('T')[0];
+
+  // Map reaction attitude to lowercase
+  const reactionWord = reactionResult?.attitude?.toLowerCase() || 'indifferent';
+
+  // Build monsters array with names and factions if available
+  const monsters = encounterResult.monsters.map((m, idx) => {
+    const nameInfo = namesResult?.get(idx);
+    const faction = factionResult?.get(idx) || null;
+    return {
+      monsterType: m.Name,
+      cr: m.CR,
+      name: nameInfo?.name || null,
+      faction: faction
+    };
+  });
+
+  return {
+    monsters,
+    reaction: reactionWord,
+    date: dateStr,
+    hexType: region.name,
+    xpUsed: encounterResult.totalXP || 0
+  };
+}
 
 function App() {
   // Region selection - 50/50 between heartlands and dungeon on load
@@ -478,6 +509,7 @@ function App() {
   const [stealthResult, setStealthResult] = useState(null);
   const [factionResult, setFactionResult] = useState(null);
   const [namesResult, setNamesResult] = useState(null);
+  const [encounterJSON, setEncounterJSON] = useState(null);
 
   // Calculate total XP from the party input
   const calculateTotalXP = useCallback(() => {
@@ -571,6 +603,16 @@ function App() {
     setStealthResult(stealth);
     setFactionResult(factions);
     setNamesResult(names);
+
+    // Build JSON output for external consumption
+    const jsonOutput = buildEncounterJSON(
+      newEncounter,
+      reaction,
+      region,
+      names,
+      factions
+    );
+    setEncounterJSON(jsonOutput);
   };
 
   // Helper: Get alignment modifier
@@ -761,6 +803,25 @@ function App() {
                 <p>
                   <span style={styles.emphasis}>Stealth (worst):</span> {stealthResult}
                 </p>
+              )}
+              {encounterJSON && (
+                <div style={{ marginTop: '1rem', borderTop: '1px solid #ddd', paddingTop: '1rem' }}>
+                  <button
+                    onClick={() => {
+                      navigator.clipboard.writeText(JSON.stringify(encounterJSON, null, 2));
+                    }}
+                    style={{
+                      ...styles.generateButton,
+                      backgroundColor: '#4A4A4A',
+                      padding: '0.5rem 1rem',
+                      fontSize: '0.9rem'
+                    }}
+                    onMouseOver={(e) => e.target.style.backgroundColor = '#666'}
+                    onMouseOut={(e) => e.target.style.backgroundColor = '#4A4A4A'}
+                  >
+                    Copy JSON
+                  </button>
+                </div>
               )}
             </div>
           )}
