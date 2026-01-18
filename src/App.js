@@ -137,9 +137,14 @@ function generateNamesForEncounter(monsters, regionId) {
 
     const intelligence = data.Intelligence ?? 0;
     const crStr = String(monster.CR || data.CR || '0');
-    const numericCR = crStr.includes('/')
-      ? eval(crStr)  // Handle "1/4", "1/2", etc.
-      : parseFloat(crStr);
+    // Parse CR safely - handle fractions like "1/4", "1/2"
+    let numericCR;
+    if (crStr.includes('/')) {
+      const [num, denom] = crStr.split('/').map(Number);
+      numericCR = num / denom;
+    } else {
+      numericCR = parseFloat(crStr);
+    }
 
     // Check criteria: Intelligence >= 3 OR CR >= 11
     if (intelligence < 3 && numericCR < 11) continue;
