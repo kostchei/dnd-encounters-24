@@ -40,7 +40,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Aarakocra Skirmisher",
@@ -60,7 +61,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Aberrant Cultist",
@@ -81,7 +83,8 @@
     "Region": [
       "Cities",
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Aberrant Zealot",
@@ -126,7 +129,8 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#aberrant%20zealot%20(variant)_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#aberrant%20zealot%20(variant)_xmm",
+    "Adventures": []
   },
   {
     "Name": "Aboleth",
@@ -146,7 +150,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Abominable Yeti",
@@ -221,7 +226,6 @@
     "Name": "Acererak",
     "CR": "23",
     "Type": "Undead",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -252,14 +256,14 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#acolyte_mm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Heartlands"
+    ],
+    "Adventures": [
       "The Price of Beauty",
       "The Sunless Citadel",
       "The Forge of Fury",
       "Mazfroth’s Mighty Digressions"
-    ],
-    "Region": [
-      "Heartlands"
     ]
   },
   {
@@ -280,7 +284,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Adult Black Dragon",
@@ -300,7 +305,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Adult Blue Dragon",
@@ -320,7 +326,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Adult Brass Dragon",
@@ -340,7 +347,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Adult Bronze Dragon",
@@ -360,7 +368,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Adult Copper Dragon",
@@ -380,7 +389,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Adult Gold Dragon",
@@ -401,7 +411,8 @@
     "Region": [
       "Calimshan",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Adult Green Dragon",
@@ -422,7 +433,8 @@
     "Region": [
       "Heartlands",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Adult Red Dragon",
@@ -444,7 +456,8 @@
       "Calimshan",
       "Dungeons",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Adult Silver Dragon",
@@ -466,7 +479,8 @@
       "Cities",
       "Heartlands",
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Adult White Dragon",
@@ -487,18 +501,20 @@
     "Region": [
       "Calimshan",
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Agdon Longscarf",
     "CR": "2",
     "Type": "Fey",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#agdon%20longscarf_wbtw"
   },
   {
@@ -529,19 +545,19 @@
     "Name": "Alagarthas",
     "CR": "3",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#alagarthas_wbtw"
   },
   {
     "Name": "Albino Dwarf Spirit Warrior",
     "CR": "1",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -561,7 +577,6 @@
     "Name": "Albino Dwarf Warrior",
     "CR": "1/4",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -581,7 +596,6 @@
     "Name": "Aldani (Lobsterfolk)",
     "CR": "1",
     "Type": "Monstrosity",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -612,18 +626,17 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#allosaurus_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Murkmire Malevolence"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "The Murkmire Malevolence"
     ]
   },
   {
     "Name": "Almiraj",
     "CR": "0",
     "Type": "Beast",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -680,7 +693,8 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Amethyst Dragon Wyrmling",
@@ -700,18 +714,20 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Amidor the Dandelion",
     "CR": "1/2",
     "Type": "Plant",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#amidor%20the%20dandelion_wbtw"
   },
   {
@@ -798,12 +814,12 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#amphisbaena_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -873,7 +889,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ancient Black Dragon",
@@ -893,7 +910,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ancient Blue Dragon",
@@ -914,7 +932,8 @@
     "Region": [
       "Calimshan",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ancient Brass Dragon",
@@ -934,7 +953,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ancient Bronze Dragon",
@@ -954,7 +974,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ancient Copper Dragon",
@@ -974,7 +995,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ancient Deep Dragon",
@@ -994,7 +1016,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ancient Gold Dragon",
@@ -1015,7 +1038,8 @@
     "Region": [
       "Calimshan",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ancient Green Dragon",
@@ -1036,7 +1060,8 @@
     "Region": [
       "Heartlands",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ancient Red Dragon",
@@ -1058,7 +1083,8 @@
       "Calimshan",
       "Dungeons",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ancient Silver Dragon",
@@ -1079,7 +1105,8 @@
     "Region": [
       "Cities",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ancient White Dragon",
@@ -1100,7 +1127,8 @@
     "Region": [
       "Heartlands",
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Androsphinx",
@@ -1118,7 +1146,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#androsphinx_mm",
     "Faction": "",
     "Adventure": "",
-    "Region": []
+    "Region": [],
+    "Adventures": []
   },
   {
     "Name": "Animal Lord",
@@ -1138,7 +1167,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Animated Armor",
@@ -1155,17 +1185,17 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#animated%20armor_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Cities",
+      "Dungeons",
+      "Heartlands"
+    ],
+    "Adventures": [
       "The Murkmire Malevolence",
       "Reach for the Stars",
       "Tockworth's Clockworks",
       "The Forge of Fury",
       "The Lost City"
-    ],
-    "Region": [
-      "Cities",
-      "Dungeons",
-      "Heartlands"
     ]
   },
   {
@@ -1183,11 +1213,11 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#animated%20broom_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Joy of Extradimensional Spaces"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "The Joy of Extradimensional Spaces"
     ]
   },
   {
@@ -1205,10 +1235,10 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#animated%20chained%20library_cm",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Joy of Extradimensional Spaces"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Animated Table",
@@ -1225,11 +1255,11 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#animated%20table_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Forge of Fury"
     ]
   },
   {
@@ -1247,11 +1277,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#animatronic%20allosaurus_kftgv",
     "Faction": "",
-    "Adventure": [
-      "The Murkmire Malevolence"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "The Murkmire Malevolence"
     ]
   },
   {
@@ -1269,20 +1299,19 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#ankheg_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Murkmire Malevolence",
-      "The Lost City"
-    ],
     "Region": [
       "Heartlands",
       "Cities"
+    ],
+    "Adventures": [
+      "The Murkmire Malevolence",
+      "The Lost City"
     ]
   },
   {
     "Name": "Ankylosaurus Zombie",
     "CR": "3",
     "Type": "Undead",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -1316,7 +1345,8 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Apprentice Wizard",
@@ -1391,7 +1421,8 @@
     "Region": [
       "Icewind Dale",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Archduke Zariel of Avernus",
@@ -1438,7 +1469,8 @@
       "Dungeons",
       "Icewind Dale",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Archpreist",
@@ -1458,7 +1490,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Archpriest",
@@ -1479,7 +1512,8 @@
     "Region": [
       "Heartlands",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Arkhan the Cruel",
@@ -1508,7 +1542,6 @@
     "Name": "Artus Cimber",
     "CR": "7",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -1551,7 +1584,6 @@
     "Name": "Asharra",
     "CR": "2",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -1582,20 +1614,19 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#assassin_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Price of Beauty",
-      "The Eyes of Atar"
-    ],
     "Region": [
       "Cities",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Price of Beauty",
+      "The Eyes of Atar"
     ]
   },
   {
     "Name": "Assassin Vine",
     "CR": "3",
     "Type": "Plant",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -1615,7 +1646,6 @@
     "Name": "Atropal",
     "CR": "13",
     "Type": "Undead",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -1649,7 +1679,8 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Avi",
@@ -1690,12 +1721,12 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#awakened%20tree_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Price of Beauty"
-    ],
     "Region": [
       "Moonshae",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Price of Beauty"
     ]
   },
   {
@@ -1762,7 +1793,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Azer Pyromancer",
@@ -1782,7 +1814,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Azer Sentinel",
@@ -1802,7 +1835,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Baboon",
@@ -1819,21 +1853,20 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#baboon_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Stygian Gambit",
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Cities",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Stygian Gambit",
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
     "Name": "Bag of Nails",
     "CR": "8",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -1865,7 +1898,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#balhannoth_mpmm",
     "Faction": "",
     "Adventure": "",
-    "Region": []
+    "Region": [],
+    "Adventures": []
   },
   {
     "Name": "Balor",
@@ -1886,7 +1920,8 @@
     "Region": [
       "Calimshan",
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Bandit",
@@ -1903,15 +1938,15 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#bandit_xmm",
     "Faction": "",
-    "Adventure": [
-      "Baker's Dozen",
-      "Robber Baron",
-      "The Eyes of Atar"
-    ],
     "Region": [
       "Cities",
       "Heartlands",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Baker's Dozen",
+      "Robber Baron",
+      "The Eyes of Atar"
     ]
   },
   {
@@ -1929,12 +1964,12 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#bandit%20captain_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Eyes of Atar"
-    ],
     "Region": [
       "Cities",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Eyes of Atar"
     ]
   },
   {
@@ -1955,7 +1990,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Bandit Deceiver",
@@ -1972,12 +2008,12 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#bandit%20deceiver_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Eyes of Atar",
-      "Safehouse Standoff"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Eyes of Atar",
+      "Safehouse Standoff"
     ]
   },
   {
@@ -1998,7 +2034,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Banshee",
@@ -2015,12 +2052,12 @@
     "Charisma": 17,
     "Statblock_Link": "https://5e.tools/bestiary.html#banshee_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Lost City"
-    ],
     "Region": [
       "Icewind Dale",
       "Moonshae"
+    ],
+    "Adventures": [
+      "The Lost City"
     ]
   },
   {
@@ -2139,7 +2176,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Basilisk (Infant)",
@@ -2212,12 +2250,13 @@
     "Name": "Bavlorna Blightstraw",
     "CR": "7",
     "Type": "Fey",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#bavlorna%20blightstraw_wbtw"
   },
   {
@@ -2238,7 +2277,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Behir",
@@ -2255,14 +2295,14 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#behir_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Murkmire Malevolence"
-    ],
     "Region": [
       "Calimshan",
       "Dungeons",
       "Heartlands",
       "Cities"
+    ],
+    "Adventures": [
+      "The Murkmire Malevolence"
     ]
   },
   {
@@ -2354,10 +2394,10 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#belak%20the%20outcast_tftyp",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Berserker",
@@ -2378,7 +2418,8 @@
     "Region": [
       "Calimshan",
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Berserker Commander",
@@ -2400,7 +2441,8 @@
       "Cities",
       "Heartlands",
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Bheur Hag",
@@ -2418,7 +2460,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#bheur%20hag_mpmm",
     "Faction": "",
     "Adventure": "",
-    "Region": []
+    "Region": [],
+    "Adventures": []
   },
   {
     "Name": "Black Bear",
@@ -2438,7 +2481,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Black Gauntlet of Bane",
@@ -2478,16 +2522,16 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#black%20pudding_xmm",
     "Faction": "",
-    "Adventure": [
-      "A Deep and Creeping Darkness",
-      "Tockworth's Clockworks",
-      "Will of Orcus",
-      "The Lost City"
-    ],
     "Region": [
       "Dungeons",
       "Heartlands",
       "Cities"
+    ],
+    "Adventures": [
+      "A Deep and Creeping Darkness",
+      "Tockworth's Clockworks",
+      "Will of Orcus",
+      "The Lost City"
     ]
   },
   {
@@ -2532,7 +2576,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Blob of Annihilation",
@@ -2552,7 +2597,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Blood Hawk",
@@ -2573,7 +2619,8 @@
     "Region": [
       "Icewind Dale",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Blue Slaad",
@@ -2590,9 +2637,6 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#blue%20slaad_xmm",
     "Faction": "",
-    "Adventure": [
-      "For Whom the Void Calls"
-    ],
     "Region": [
       "Calimshan",
       "Icewind Dale",
@@ -2601,7 +2645,8 @@
     ],
     "Adventures": [
       "Phandelver and Below",
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "For Whom the Void Calls"
     ]
   },
   {
@@ -2619,19 +2664,18 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#boar_xmm",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Heartlands",
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
     "Name": "Bodak",
     "CR": "6",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -2651,12 +2695,13 @@
     "Name": "Boggle",
     "CR": "1/8",
     "Type": "Fey",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#boggle_wbtw"
   },
   {
@@ -2678,7 +2723,8 @@
     "Region": [
       "Cities",
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Bone Naga",
@@ -2792,7 +2838,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Bridesmaid of Zuggtmoy",
@@ -2821,19 +2868,19 @@
     "Name": "Brigganock",
     "CR": "1/8",
     "Type": "Fey",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#brigganock_wbtw"
   },
   {
     "Name": "Brontosaurus",
     "CR": "5",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -2864,12 +2911,12 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#brown%20bear_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Forge of Fury"
     ]
   },
   {
@@ -2887,14 +2934,14 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#bugbear_mm",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks",
-      "The Sunless Citadel",
-      "When a Star Falls"
-    ],
     "Region": [
       "Cities",
       "Calimshan"
+    ],
+    "Adventures": [
+      "Tockworth's Clockworks",
+      "The Sunless Citadel",
+      "When a Star Falls"
     ]
   },
   {
@@ -2912,12 +2959,12 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#bugbear%20stalker_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Drowning Forest"
-    ],
     "Region": [
       "Heartlands",
       "Moonshae"
+    ],
+    "Adventures": [
+      "The Drowning Forest"
     ]
   },
   {
@@ -2935,15 +2982,15 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#bugbear%20warrior_xmm",
     "Faction": "",
-    "Adventure": [
-      "Baker's Dozen",
-      "The Siege of Shalespire Priory",
-      "The Drowning Forest"
-    ],
     "Region": [
       "Heartlands",
       "Moonshae",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Baker's Dozen",
+      "The Siege of Shalespire Priory",
+      "The Drowning Forest"
     ]
   },
   {
@@ -2964,7 +3011,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Bulezau",
@@ -2993,12 +3041,13 @@
     "Name": "Bullywug",
     "CR": "1/4",
     "Type": "Monster Manual (2014)",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#bullywug_wbtw"
   },
   {
@@ -3019,30 +3068,33 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Bullywug Knight",
     "CR": "3",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#bullywug%20knight_wbtw"
   },
   {
     "Name": "Bullywug Royal",
     "CR": "3",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#bullywug%20royal_wbtw"
   },
   {
@@ -3060,10 +3112,10 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#calcryx_tftyp",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Cambion",
@@ -3080,17 +3132,15 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#cambion_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Price of Beauty",
-      "Disinterred Danger"
-    ],
     "Region": [
       "Calimshan",
       "Cities",
       "Heartlands"
     ],
     "Adventures": [
-      "Baldur's Gate: Descent into Avernus"
+      "Baldur's Gate: Descent into Avernus",
+      "The Price of Beauty",
+      "Disinterred Danger"
     ]
   },
   {
@@ -3111,18 +3161,20 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Campestri",
     "CR": "0",
     "Type": "Plant",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#campestri_wbtw"
   },
   {
@@ -3140,9 +3192,6 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#carrion%20crawler_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Lost City"
-    ],
     "Region": [
       "Cities",
       "Dungeons",
@@ -3154,7 +3203,8 @@
       "Dragon of Icespire Peak",
       "Waterdeep Dragon Heist",
       "Baldur's Gate: Descent into Avernus",
-      "Out of the Abyss"
+      "Out of the Abyss",
+      "The Lost City"
     ]
   },
   {
@@ -3172,10 +3222,10 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#cat_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Joy of Extradimensional Spaces"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Cave Badger",
@@ -3238,12 +3288,12 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#centaur%20mummy_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -3264,7 +3314,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Chain Devil",
@@ -3285,7 +3336,8 @@
     "Region": [
       "Calimshan",
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Chamberlain of Zuggtmoy",
@@ -3314,7 +3366,6 @@
     "Name": "Champion",
     "CR": "9",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -3345,10 +3396,10 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#champion%20of%20gorm_qftis",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Lost City"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Champion of Madarua",
@@ -3365,10 +3416,10 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#champion%20of%20madarua_qftis",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Lost City"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Champion of Usamigaras",
@@ -3385,10 +3436,10 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#champion%20of%20usamigaras_qftis",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Lost City"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Character",
@@ -3409,7 +3460,8 @@
     "Region": [
       "Cities",
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Chardalyn Berserker",
@@ -3503,7 +3555,8 @@
     "Region": [
       "Heartlands",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Chimeric Cat",
@@ -3638,7 +3691,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Chuul Spore Servant",
@@ -3692,19 +3746,19 @@
     "Name": "Clapperclaw the Scarecrow",
     "CR": "1/2",
     "Type": "Construct",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#clapperclaw%20the%20scarecrow_wbtw"
   },
   {
     "Name": "Clay Gladiator",
     "CR": "5",
     "Type": "Construct",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -3739,7 +3793,8 @@
     "Region": [
       "Cities",
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Cloaker",
@@ -3756,12 +3811,12 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#cloaker_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks"
-    ],
     "Region": [
       "Dungeons",
       "Cities"
+    ],
+    "Adventures": [
+      "Tockworth's Clockworks"
     ]
   },
   {
@@ -3805,11 +3860,11 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#clockwork%20defender_kftgv",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Tockworth's Clockworks"
     ]
   },
   {
@@ -3827,11 +3882,11 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#clockwork%20observer_kftgv",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Tockworth's Clockworks"
     ]
   },
   {
@@ -3852,7 +3907,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Cockatrice",
@@ -3869,11 +3925,11 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#cockatrice_xmm",
     "Faction": "",
-    "Adventure": [
-      "Baker's Dozen"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "Baker's Dozen"
     ]
   },
   {
@@ -3917,7 +3973,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Commoner",
@@ -3934,7 +3991,14 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#commoner_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Heartlands",
+      "Cities",
+      "Dungeons",
+      "Icewind Dale",
+      "Calimshan"
+    ],
+    "Adventures": [
       "Shemshime's Bedtime Rhyme",
       "The Price of Beauty",
       "The Murkmire Malevolence",
@@ -3952,13 +4016,6 @@
       "The Hidden Shrine of Tamoachan",
       "The Lost City",
       "When a Star Falls"
-    ],
-    "Region": [
-      "Heartlands",
-      "Cities",
-      "Dungeons",
-      "Icewind Dale",
-      "Calimshan"
     ]
   },
   {
@@ -3976,15 +4033,15 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#constrictor%20snake_xmm",
     "Faction": "",
-    "Adventure": [
-      "Death at Sunset",
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Calimshan",
       "Dungeons",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Death at Sunset",
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -4002,14 +4059,14 @@
     "Charisma": 18,
     "Statblock_Link": "https://5e.tools/bestiary.html#couatl_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Cities",
       "Moonshae",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -4055,7 +4112,8 @@
     "Region": [
       "Heartlands",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "CR 19 Placeholder",
@@ -4076,7 +4134,8 @@
     "Region": [
       "Heartlands",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Crag Cat",
@@ -4127,9 +4186,7 @@
       "Waterdeep Dragon Heist",
       "Baldur's Gate: Descent into Avernus",
       "Out of the Abyss",
-      "Tomb of Annihilation"
-    ],
-    "Adventure": [
+      "Tomb of Annihilation",
       "The Joy of Extradimensional Spaces",
       "Book of the Raven",
       "Reach for the Stars",
@@ -4174,18 +4231,16 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#cult%20fanatic_mm",
     "Faction": "",
-    "Adventure": [
-      "Reach for the Stars",
-      "The Hidden Shrine of Tamoachan",
-      "The Lost City"
-    ],
     "Region": [
       "Icewind Dale",
       "Cities",
       "Heartlands"
     ],
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Reach for the Stars",
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City"
     ]
   },
   {
@@ -4203,17 +4258,15 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#cultist_xmm",
     "Faction": "",
-    "Adventure": [
-      "Reach for the Stars",
-      "The Lost City"
-    ],
     "Region": [
       "Calimshan",
       "Cities",
       "Icewind Dale"
     ],
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "Reach for the Stars",
+      "The Lost City"
     ]
   },
   {
@@ -4231,16 +4284,16 @@
     "Charisma": 13,
     "Statblock_Link": "https://5e.tools/bestiary.html#cultist%20fanatic_xmm",
     "Faction": "",
-    "Adventure": [
-      "Will of Orcus",
-      "The Weeping Goddess",
-      "The Lost Dawn",
-      "Tears Fall"
-    ],
     "Region": [
       "Cities",
       "Dungeons",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Will of Orcus",
+      "The Weeping Goddess",
+      "The Lost Dawn",
+      "Tears Fall"
     ]
   },
   {
@@ -4262,7 +4315,8 @@
     "Region": [
       "Cities",
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Cultist of Bane",
@@ -4282,7 +4336,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Cultist of Bhaal",
@@ -4302,7 +4357,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Cultist of Myrkul",
@@ -4322,7 +4378,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Curate",
@@ -4342,7 +4399,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Cyclops Oracle",
@@ -4364,7 +4422,8 @@
       "Calimshan",
       "Icewind Dale",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Cyclops Sentry",
@@ -4385,7 +4444,8 @@
     "Region": [
       "Calimshan",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Dao",
@@ -4405,30 +4465,33 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Darkling",
     "CR": "1/2",
     "Type": "Fey",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#darkling_wbtw"
   },
   {
     "Name": "Darkling Elder",
     "CR": "2",
     "Type": "Fey",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#darkling%20elder_wbtw"
   },
   {
@@ -4446,12 +4509,12 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#darkmantle_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks"
-    ],
     "Region": [
       "Dungeons",
       "Cities"
+    ],
+    "Adventures": [
+      "Tockworth's Clockworks"
     ]
   },
   {
@@ -4496,7 +4559,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Death Cultist",
@@ -4517,7 +4581,8 @@
     "Region": [
       "Cities",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Death Dog",
@@ -4534,12 +4599,12 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#death%20dog_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Curse on Humble Hill"
-    ],
     "Region": [
       "Dungeons",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Curse on Humble Hill"
     ]
   },
   {
@@ -4557,16 +4622,14 @@
     "Charisma": 18,
     "Statblock_Link": "https://5e.tools/bestiary.html#death%20knight_xmm",
     "Faction": "",
-    "Adventure": [
-      "Will of Orcus"
-    ],
     "Region": [
       "Icewind Dale",
       "Cities",
       "Dungeons"
     ],
     "Adventures": [
-      "Baldur's Gate: Descent into Avernus"
+      "Baldur's Gate: Descent into Avernus",
+      "Will of Orcus"
     ]
   },
   {
@@ -4587,7 +4650,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Death Slaad",
@@ -4675,20 +4739,19 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#deep%20gnome%20(svirfneblin)_mm",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks",
-      "When a Star Falls"
-    ],
     "Region": [
       "Cities",
       "Calimshan"
+    ],
+    "Adventures": [
+      "Tockworth's Clockworks",
+      "When a Star Falls"
     ]
   },
   {
     "Name": "Deinonychus",
     "CR": "1",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -4813,11 +4876,11 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#derro%20apprentice_qftis",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
@@ -4835,11 +4898,11 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#derro%20raider_qftis",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
@@ -4880,11 +4943,11 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#derwyth_qftis",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
@@ -4905,13 +4968,13 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Dimetrodon",
     "CR": "1/4",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -4942,16 +5005,16 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#dire%20wolf_xmm",
     "Faction": "",
-    "Adventure": [
-      "Fury Grove",
-      "The Forge of Fury",
-      "When a Star Falls",
-      "The Lost City"
-    ],
     "Region": [
       "Heartlands",
       "Moonshae",
       "Calimshan"
+    ],
+    "Adventures": [
+      "Fury Grove",
+      "The Forge of Fury",
+      "When a Star Falls",
+      "The Lost City"
     ]
   },
   {
@@ -4974,7 +5037,8 @@
       "Heartlands",
       "Icewind Dale",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Displacer Beast",
@@ -4991,11 +5055,6 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#displacer%20beast_xmm",
     "Faction": "",
-    "Adventure": [
-      "Fury Grove",
-      "The Lost Dawn",
-      "When a Star Falls"
-    ],
     "Region": [
       "Heartlands",
       "Cities",
@@ -5003,19 +5062,23 @@
       "Calimshan"
     ],
     "Adventures": [
-      "Waterdeep Dragon Heist"
+      "Waterdeep Dragon Heist",
+      "Fury Grove",
+      "The Lost Dawn",
+      "When a Star Falls"
     ]
   },
   {
     "Name": "Displacer Beast Kitten",
     "CR": "1/8",
     "Type": "Monstrosity",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#displacer%20beast%20kitten_wbtw"
   },
   {
@@ -5036,7 +5099,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Doppelganger",
@@ -5053,14 +5117,14 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#doppelganger_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan",
-      "The Lost City"
-    ],
     "Region": [
       "Cities",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City"
     ]
   },
   {
@@ -5078,11 +5142,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#dr.%20cassee%20dannell_kftgv",
     "Faction": "",
-    "Adventure": [
-      "The Murkmire Malevolence"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "The Murkmire Malevolence"
     ]
   },
   {
@@ -5104,7 +5168,8 @@
     "Region": [
       "Dungeons",
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Dragon Turtle",
@@ -5124,13 +5189,13 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Dragonbait",
     "CR": "5",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -5161,10 +5226,10 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#dragonpriest_tftyp",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Drider",
@@ -5184,7 +5249,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Drider (variant)",
@@ -5246,11 +5312,11 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#drow_mm",
     "Faction": "",
-    "Adventure": [
-      "The Price of Beauty"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Price of Beauty"
     ]
   },
   {
@@ -5300,7 +5366,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Drow Gunslinger",
@@ -5416,15 +5483,15 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#druid_xmm",
     "Faction": "",
-    "Adventure": [
-      "Shemshime's Bedtime Rhyme",
-      "The Sunless Citadel",
-      "When a Star Falls"
-    ],
     "Region": [
       "Moonshae",
       "Heartlands",
       "Calimshan"
+    ],
+    "Adventures": [
+      "Shemshime's Bedtime Rhyme",
+      "The Sunless Citadel",
+      "When a Star Falls"
     ]
   },
   {
@@ -5442,13 +5509,13 @@
     "Charisma": 18,
     "Statblock_Link": "https://5e.tools/bestiary.html#dryad_xmm",
     "Faction": "",
-    "Adventure": [
-      "Death at Sunset",
-      "Baker's Dozen"
-    ],
     "Region": [
       "Moonshae",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Death at Sunset",
+      "Baker's Dozen"
     ]
   },
   {
@@ -5466,12 +5533,12 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#duergar_mm",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury",
-      "The Lost City"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Forge of Fury",
+      "The Lost City"
     ]
   },
   {
@@ -5673,11 +5740,11 @@
     "Charisma": 13,
     "Statblock_Link": "https://5e.tools/bestiary.html#duergar%20spy_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Forge of Fury"
     ]
   },
   {
@@ -5811,10 +5878,10 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#durnn_tftyp",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Dust Mephit",
@@ -5831,11 +5898,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#dust%20mephit_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Lost City"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "The Lost City"
     ]
   },
   {
@@ -5879,19 +5946,18 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#earth%20elemental_xmm",
     "Faction": "",
-    "Adventure": [
-      "For Whom the Void Calls"
-    ],
     "Region": [
       "Calimshan",
       "Dungeons"
+    ],
+    "Adventures": [
+      "For Whom the Void Calls"
     ]
   },
   {
     "Name": "Eblis",
     "CR": "1",
     "Type": "Monstrosity",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -5925,7 +5991,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Elder Brain",
@@ -5943,7 +6010,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#elder%20brain_mpmm",
     "Faction": "",
     "Adventure": "",
-    "Region": []
+    "Region": [],
+    "Adventures": []
   },
   {
     "Name": "Elder Tempest",
@@ -5963,7 +6031,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Eldritch Horror Hatchling",
@@ -5980,11 +6049,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#eldritch%20horror%20hatchling_kftgv",
     "Faction": "",
-    "Adventure": [
-      "The Murkmire Malevolence"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "The Murkmire Malevolence"
     ]
   },
   {
@@ -6005,7 +6074,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Elemental Cultist",
@@ -6025,7 +6095,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Elemental Cultist",
@@ -6045,7 +6116,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Elk",
@@ -6062,23 +6134,24 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#elk_xmm",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
     "Name": "Elkhorn",
     "CR": "2",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#elkhorn_wbtw"
   },
   {
@@ -6146,7 +6219,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Encephalon Cluster",
@@ -6204,24 +6278,26 @@
     "Name": "Endelyn Moongrave",
     "CR": "6",
     "Type": "Fey",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#endelyn%20moongrave_wbtw"
   },
   {
     "Name": "Envy",
     "CR": "5",
     "Type": "Monstrosity",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#envy_wbtw"
   },
   {
@@ -6242,7 +6318,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Erky Timbers",
@@ -6259,10 +6336,10 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#erky%20timbers_tftyp",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Ettercap",
@@ -6279,11 +6356,11 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#ettercap_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Drowning Forest"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Drowning Forest"
     ]
   },
   {
@@ -6304,7 +6381,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Expert",
@@ -6370,21 +6448,22 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#faerie%20dragon%20(orange)_mm",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Joy of Extradimensional Spaces"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Faerie Dragon (Younger)",
     "CR": "1",
     "Type": "Monster Manual (2014)",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#faerie%20dragon%20(younger)_wbtw"
   },
   {
@@ -6405,7 +6484,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Faerie Dragon Youth",
@@ -6425,7 +6505,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Fala Lefaliir",
@@ -6469,7 +6550,8 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Female Steeder",
@@ -6536,7 +6618,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Fiendish Auger",
@@ -6626,7 +6709,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Fire Giant",
@@ -6647,7 +6731,8 @@
     "Region": [
       "Calimshan",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Fire Snake",
@@ -6664,23 +6749,20 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#fire%20snake_mm",
     "Faction": "",
-    "Adventure": [
-      "The Sunless Citadel"
-    ],
     "Region": [
       "Calimshan",
       "Dungeons"
     ],
     "Adventures": [
       "Out of the Abyss",
-      "Tomb of Annihilation"
+      "Tomb of Annihilation",
+      "The Sunless Citadel"
     ]
   },
   {
     "Name": "Firenewt Warlock of Imix",
     "CR": "1",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -6700,7 +6782,6 @@
     "Name": "Firenewt Warrior",
     "CR": "1/2",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -6743,7 +6824,6 @@
     "Name": "Flail Snail",
     "CR": "3",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -6774,11 +6854,11 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#flameskull_xmm",
     "Faction": "",
-    "Adventure": [
-      "Will of Orcus"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "Will of Orcus"
     ]
   },
   {
@@ -6796,11 +6876,11 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#flaming%20skeleton_xmm",
     "Faction": "",
-    "Adventure": [
-      "Will of Orcus"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "Will of Orcus"
     ]
   },
   {
@@ -6821,7 +6901,8 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Flesh Golem",
@@ -6841,7 +6922,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Flesh Meld",
@@ -6943,7 +7025,6 @@
     "Name": "Flying Monkey",
     "CR": "0",
     "Type": "Beast",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -6963,12 +7044,13 @@
     "Name": "Flying Rocking Horse",
     "CR": "1/8",
     "Type": "Construct",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#flying%20rocking%20horse_wbtw"
   },
   {
@@ -6990,7 +7072,8 @@
     "Region": [
       "Calimshan",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Flying Sword",
@@ -7007,12 +7090,12 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#flying%20sword_mm",
     "Faction": "",
-    "Adventure": [
-      "The Joy of Extradimensional Spaces",
-      "Reach for the Stars"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "The Joy of Extradimensional Spaces",
+      "Reach for the Stars"
     ]
   },
   {
@@ -7078,11 +7161,11 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#fragment%20of%20krokulmar_kftgv",
     "Faction": "",
-    "Adventure": [
-      "Reach for the Stars"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Reach for the Stars"
     ]
   },
   {
@@ -7111,7 +7194,6 @@
     "Name": "Froghemoth",
     "CR": "10",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -7168,7 +7250,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Frost Giant Skeleton",
@@ -7208,9 +7291,6 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#galeb%20duhr_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks"
-    ],
     "Region": [
       "Moonshae",
       "Heartlands",
@@ -7219,7 +7299,8 @@
     ],
     "Adventures": [
       "Phandelver and Below",
-      "Out of the Abyss"
+      "Out of the Abyss",
+      "Tockworth's Clockworks"
     ]
   },
   {
@@ -7240,7 +7321,8 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Gargoyle",
@@ -7257,15 +7339,15 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#gargoyle_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Calimshan",
+      "Heartlands"
+    ],
+    "Adventures": [
       "Book of the Raven",
       "The Price of Beauty",
       "The Lost City",
       "When a Star Falls"
-    ],
-    "Region": [
-      "Calimshan",
-      "Heartlands"
     ]
   },
   {
@@ -7292,9 +7374,7 @@
     ],
     "Adventures": [
       "Waterdeep Dragon Heist",
-      "Out of the Abyss"
-    ],
-    "Adventure": [
+      "Out of the Abyss",
       "The Hidden Shrine of Tamoachan"
     ]
   },
@@ -7359,11 +7439,11 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#gelatinous%20cube_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Lost City"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "The Lost City"
     ]
   },
   {
@@ -7381,13 +7461,13 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#ghast_xmm",
     "Faction": "",
-    "Adventure": [
-      "Will of Orcus",
-      "The Tenebrous Stone"
-    ],
     "Region": [
       "Dungeons",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Will of Orcus",
+      "The Tenebrous Stone"
     ]
   },
   {
@@ -7408,7 +7488,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ghast Gravecaller",
@@ -7425,11 +7506,11 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#ghast%20gravecaller_xmm",
     "Faction": "",
-    "Adventure": [
-      "Will of Orcus"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "Will of Orcus"
     ]
   },
   {
@@ -7447,16 +7528,16 @@
     "Charisma": 17,
     "Statblock_Link": "https://5e.tools/bestiary.html#ghost_xmm",
     "Faction": "",
-    "Adventure": [
-      "Reach for the Stars",
-      "Will of Orcus",
-      "The Forge of Fury",
-      "The Lost City"
-    ],
     "Region": [
       "Cities",
       "Dungeons",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Reach for the Stars",
+      "Will of Orcus",
+      "The Forge of Fury",
+      "The Lost City"
     ]
   },
   {
@@ -7474,17 +7555,17 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#ghoul_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Dungeons",
+      "Heartlands",
+      "Cities"
+    ],
+    "Adventures": [
       "Book of the Raven",
       "Reach for the Stars",
       "Will of Orcus",
       "The Tenebrous Stone",
       "The Lost City"
-    ],
-    "Region": [
-      "Dungeons",
-      "Heartlands",
-      "Cities"
     ]
   },
   {
@@ -7506,7 +7587,8 @@
     "Region": [
       "Icewind Dale",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Giant Axe Beak",
@@ -7526,7 +7608,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Giant Badger",
@@ -7547,7 +7630,8 @@
     "Region": [
       "Heartlands",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Giant Bat",
@@ -7564,14 +7648,14 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20bat_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan",
-      "When a Star Falls"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale",
       "Calimshan"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan",
+      "When a Star Falls"
     ]
   },
   {
@@ -7589,11 +7673,11 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20boar_xmm",
     "Faction": "",
-    "Adventure": [
-      "Fury Grove"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "Fury Grove"
     ]
   },
   {
@@ -7611,12 +7695,12 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20centipede_xmm",
     "Faction": "",
-    "Adventure": [
-      "Death at Sunset",
-      "The Lost City"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "Death at Sunset",
+      "The Lost City"
     ]
   },
   {
@@ -7634,13 +7718,13 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20constrictor%20snake_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan",
-      "The Lost City"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City"
     ]
   },
   {
@@ -7661,7 +7745,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Giant Crayfish",
@@ -7678,24 +7763,25 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20crayfish_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
     "Name": "Giant Dragonfly",
     "CR": "1/2",
     "Type": "Beast",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20dragonfly_wbtw"
   },
   {
@@ -7713,12 +7799,12 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20eagle_xmm",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Moonshae",
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
@@ -7739,7 +7825,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Giant Fire Beetle",
@@ -7756,20 +7843,19 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20fire%20beetle_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan",
-      "The Lost City"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City"
     ]
   },
   {
     "Name": "Giant Four-Armed Gargoyle",
     "CR": "10",
     "Type": "Elemental",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -7800,14 +7886,14 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20frog_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Sunless Citadel",
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Moonshae",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Sunless Citadel",
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -7825,11 +7911,11 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20goat_xmm",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
@@ -7847,12 +7933,12 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20hyena_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -7870,12 +7956,12 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20lightning%20eel_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -7893,16 +7979,16 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20lizard_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks",
-      "The Forge of Fury",
-      "The Lost City",
-      "When a Star Falls"
-    ],
     "Region": [
       "Cities",
       "Heartlands",
       "Calimshan"
+    ],
+    "Adventures": [
+      "Tockworth's Clockworks",
+      "The Forge of Fury",
+      "The Lost City",
+      "When a Star Falls"
     ]
   },
   {
@@ -7943,13 +8029,13 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20owl_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tears Fall"
-    ],
     "Region": [
       "Icewind Dale",
       "Moonshae",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Tears Fall"
     ]
   },
   {
@@ -7967,14 +8053,14 @@
     "Charisma": 4,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20rat_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Sunless Citadel",
-      "Mazfroth’s Mighty Digressions",
-      "The Lost City"
-    ],
     "Region": [
       "Dungeons",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Sunless Citadel",
+      "Mazfroth’s Mighty Digressions",
+      "The Lost City"
     ]
   },
   {
@@ -8041,25 +8127,26 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Giant Snail",
     "CR": "1/4",
     "Type": "Beast",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20snail_wbtw"
   },
   {
     "Name": "Giant Snapping Turtle",
     "CR": "3",
     "Type": "Beast",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -8090,21 +8177,20 @@
     "Charisma": 4,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20spider_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Drowning Forest",
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Dungeons",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Drowning Forest",
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
     "Name": "Giant Strider",
     "CR": "1",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -8135,23 +8221,24 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20subterranean%20lizard_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Forge of Fury"
     ]
   },
   {
     "Name": "Giant Swan",
     "CR": "1",
     "Type": "Beast",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20swan_wbtw"
   },
   {
@@ -8169,12 +8256,12 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20venomous%20snake_xmm",
     "Faction": "",
-    "Adventure": [
-      "Death at Sunset"
-    ],
     "Region": [
       "Calimshan",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Death at Sunset"
     ]
   },
   {
@@ -8215,13 +8302,13 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20weasel_xmm",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Heartlands",
       "Moonshae",
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
@@ -8239,12 +8326,12 @@
     "Charisma": 4,
     "Statblock_Link": "https://5e.tools/bestiary.html#giant%20wolf%20spider_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -8262,15 +8349,15 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#gibbering%20mouther_xmm",
     "Faction": "",
-    "Adventure": [
-      "Reach for the Stars",
-      "The Hidden Shrine of Tamoachan",
-      "The Lost City"
-    ],
     "Region": [
       "Cities",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Reach for the Stars",
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City"
     ]
   },
   {
@@ -8288,11 +8375,11 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#gibberling_qftis",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
@@ -8333,18 +8420,17 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#gingwatzim_cm",
     "Faction": "",
-    "Adventure": [
-      "Mazfroth’s Mighty Digressions"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "Mazfroth’s Mighty Digressions"
     ]
   },
   {
     "Name": "Girallon",
     "CR": "4",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -8364,7 +8450,6 @@
     "Name": "Girallon Zombie",
     "CR": "3",
     "Type": "Undead",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -8401,9 +8486,7 @@
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#githyanki%20knight_xmm",
     "Adventures": [
-      "Phandelver and Below"
-    ],
-    "Adventure": [
+      "Phandelver and Below",
       "For Whom the Void Calls"
     ]
   },
@@ -8473,7 +8556,8 @@
     "Region": [
       "Calimshan",
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Gladiator",
@@ -8490,48 +8574,51 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#gladiator_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tears Fall"
-    ],
     "Region": [
       "Cities",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Tears Fall"
     ]
   },
   {
     "Name": "Glass Pegasus",
     "CR": "2",
     "Type": "Construct",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#glass%20pegasus_wbtw"
   },
   {
     "Name": "Glasswork Golem",
     "CR": "2",
     "Type": "Construct",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#glasswork%20golem_wbtw"
   },
   {
     "Name": "Gloam",
     "CR": "0",
     "Type": "Undead",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#gloam_wbtw"
   },
   {
@@ -8552,7 +8639,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Gnoll Fang of Yeenoghu",
@@ -8652,7 +8740,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Gnome Ceremorph",
@@ -8718,7 +8807,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Goblin",
@@ -8735,10 +8825,10 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#goblin_mm",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Goblin Boss",
@@ -8755,11 +8845,6 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20boss_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks",
-      "The Siege of Shalespire Priory",
-      "The Drowning Forest"
-    ],
     "Region": [
       "Heartlands",
       "Moonshae",
@@ -8773,7 +8858,10 @@
       "Rime of the Frostmaiden",
       "Baldur's Gate: Descent into Avernus",
       "Out of the Abyss",
-      "Tomb of Annihilation"
+      "Tomb of Annihilation",
+      "Tockworth's Clockworks",
+      "The Siege of Shalespire Priory",
+      "The Drowning Forest"
     ]
   },
   {
@@ -8797,7 +8885,8 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20boss%20(variant)_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20boss%20(variant)_xmm",
+    "Adventures": []
   },
   {
     "Name": "Goblin Commoner",
@@ -8814,10 +8903,10 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20commoner_tftyp",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Goblin Hexer",
@@ -8834,11 +8923,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20hexer_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Drowning Forest"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Drowning Forest"
     ]
   },
   {
@@ -8860,7 +8949,8 @@
     "Region": [
       "Dungeons",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Goblin Psi Brawler",
@@ -8931,14 +9021,14 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20warrior_xmm",
     "Faction": "",
-    "Adventure": [
-      "Baker's Dozen",
-      "The Siege of Shalespire Priory"
-    ],
     "Region": [
       "Heartlands",
       "Moonshae",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Baker's Dozen",
+      "The Siege of Shalespire Priory"
     ]
   },
   {
@@ -8956,11 +9046,11 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#gold%20dragon%20wyrmling_xmm",
     "Faction": "",
-    "Adventure": [
-      "Baker's Dozen"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "Baker's Dozen"
     ]
   },
   {
@@ -9029,7 +9119,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Goristro",
@@ -9050,7 +9141,8 @@
     "Region": [
       "Calimshan",
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Graveyard Revenant",
@@ -9070,7 +9162,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Gray Ooze",
@@ -9087,15 +9180,15 @@
     "Charisma": 2,
     "Statblock_Link": "https://5e.tools/bestiary.html#gray%20ooze_xmm",
     "Faction": "",
-    "Adventure": [
-      "Reach for the Stars",
-      "Tockworth's Clockworks",
-      "The Forge of Fury"
-    ],
     "Region": [
       "Dungeons",
       "Cities",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Reach for the Stars",
+      "Tockworth's Clockworks",
+      "The Forge of Fury"
     ]
   },
   {
@@ -9131,7 +9224,6 @@
     "Name": "Gray Slaad (control gem variant)",
     "CR": "9",
     "Type": "Monster Manual (2014)",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -9184,11 +9276,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#great%20ulfe_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Forge of Fury"
     ]
   },
   {
@@ -9209,7 +9301,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Green Dragon Wyrmling",
@@ -9226,11 +9319,11 @@
     "Charisma": 13,
     "Statblock_Link": "https://5e.tools/bestiary.html#green%20dragon%20wyrmling_xmm",
     "Faction": "",
-    "Adventure": [
-      "Death at Sunset"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "Death at Sunset"
     ]
   },
   {
@@ -9248,14 +9341,14 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#green%20hag_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Price of Beauty",
-      "Baker's Dozen"
-    ],
     "Region": [
       "Heartlands",
       "Moonshae",
       "Dungeons"
+    ],
+    "Adventures": [
+      "The Price of Beauty",
+      "Baker's Dozen"
     ]
   },
   {
@@ -9311,9 +9404,7 @@
       "Phandelver and Below",
       "Rime of the Frostmaiden",
       "Waterdeep Dragon Heist",
-      "Out of the Abyss"
-    ],
-    "Adventure": [
+      "Out of the Abyss",
       "Tockworth's Clockworks"
     ]
   },
@@ -9358,10 +9449,10 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#grenl_tftyp",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Grick",
@@ -9378,14 +9469,14 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#grick_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks",
-      "The Forge of Fury"
-    ],
     "Region": [
       "Dungeons",
       "Cities",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Tockworth's Clockworks",
+      "The Forge of Fury"
     ]
   },
   {
@@ -9431,7 +9522,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Griffon",
@@ -9448,16 +9540,14 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#griffon_xmm",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Icewind Dale",
       "Moonshae",
       "Calimshan"
     ],
     "Adventures": [
-      "Rime of the Frostmaiden"
+      "Rime of the Frostmaiden",
+      "When a Star Falls"
     ]
   },
   {
@@ -9502,7 +9592,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Grisha",
@@ -9554,7 +9645,6 @@
     "Name": "Grung",
     "CR": "1/4",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -9574,7 +9664,6 @@
     "Name": "Grung Elite Warrior",
     "CR": "2",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -9594,7 +9683,6 @@
     "Name": "Grung Wildling",
     "CR": "1",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -9625,17 +9713,17 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#guard_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Cities",
+      "Dungeons",
+      "Calimshan"
+    ],
+    "Adventures": [
       "The Murkmire Malevolence",
       "Death at Sunset",
       "The Sunless Citadel",
       "The Lost City",
       "When a Star Falls"
-    ],
-    "Region": [
-      "Cities",
-      "Dungeons",
-      "Calimshan"
     ]
   },
   {
@@ -9656,7 +9744,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Guardian Naga",
@@ -9676,7 +9765,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Guardian of Gorm",
@@ -9693,10 +9783,10 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#guardian%20of%20gorm_qftis",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Lost City"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Gulthias Blight",
@@ -9716,7 +9806,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Guthash",
@@ -9733,16 +9824,15 @@
     "Charisma": 4,
     "Statblock_Link": "https://5e.tools/bestiary.html#guthash_tftyp",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Hadrosaurus",
     "CR": "1/4",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -9773,11 +9863,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#hag%20of%20the%20fetid%20gaze_cm",
     "Faction": "",
-    "Adventure": [
-      "The Price of Beauty"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Price of Beauty"
     ]
   },
   {
@@ -9899,24 +9989,26 @@
     "Name": "Harengon Brigand",
     "CR": "1/8",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#harengon%20brigand_wbtw"
   },
   {
     "Name": "Harengon Sniper",
     "CR": "1/4",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#harengon%20sniper_wbtw"
   },
   {
@@ -9938,7 +10030,8 @@
     "Region": [
       "Dungeons",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Haunting Revenant",
@@ -9958,7 +10051,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Havia Quickknife",
@@ -9998,11 +10092,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#headless%20body_kftgv",
     "Faction": "",
-    "Adventure": [
-      "Reach for the Stars"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Reach for the Stars"
     ]
   },
   {
@@ -10046,7 +10140,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Hell Hound",
@@ -10063,12 +10158,12 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#hell%20hound_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Price of Beauty"
-    ],
     "Region": [
       "Calimshan",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Price of Beauty"
     ]
   },
   {
@@ -10109,9 +10204,6 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#helmed%20horror_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Dungeons",
       "Heartlands",
@@ -10122,7 +10214,8 @@
       "Phandelver and Below",
       "Rime of the Frostmaiden",
       "Waterdeep Dragon Heist",
-      "Baldur's Gate: Descent into Avernus"
+      "Baldur's Gate: Descent into Avernus",
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -10153,7 +10246,6 @@
     "Name": "Hew Hackinstone",
     "CR": "2",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -10187,7 +10279,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Hill Giant",
@@ -10204,11 +10297,11 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#hill%20giant_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tears Fall"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "Tears Fall"
     ]
   },
   {
@@ -10229,7 +10322,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Hlam",
@@ -10270,11 +10364,11 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#hobgoblin_mm",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel",
       "The Lost City"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Hobgoblin Captain",
@@ -10297,9 +10391,7 @@
       "Heartlands"
     ],
     "Adventures": [
-      "Baldur's Gate: Descent into Avernus"
-    ],
-    "Adventure": [
+      "Baldur's Gate: Descent into Avernus",
       "Tears Fall",
       "Prisoner 13"
     ]
@@ -10319,16 +10411,14 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#hobgoblin%20warlord_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Lost City"
-    ],
     "Region": [
       "Heartlands",
       "Moonshae",
       "Cities"
     ],
     "Adventures": [
-      "Baldur's Gate: Descent into Avernus"
+      "Baldur's Gate: Descent into Avernus",
+      "The Lost City"
     ]
   },
   {
@@ -10346,15 +10436,15 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#hobgoblin%20warrior_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Siege of Shalespire Priory",
-      "Tears Fall",
-      "Prisoner 13"
-    ],
     "Region": [
       "Heartlands",
       "Moonshae",
       "Cities"
+    ],
+    "Adventures": [
+      "The Siege of Shalespire Priory",
+      "Tears Fall",
+      "Prisoner 13"
     ]
   },
   {
@@ -10395,10 +10485,10 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#homunculus_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Joy of Extradimensional Spaces"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Hook Horror",
@@ -10415,18 +10505,16 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#hook%20horror_xmm",
     "Faction": "",
-    "Adventure": [
-      "Reach for the Stars",
-      "Tockworth's Clockworks",
-      "When a Star Falls"
-    ],
     "Region": [
       "Dungeons",
       "Cities",
       "Calimshan"
     ],
     "Adventures": [
-      "Out of the Abyss"
+      "Out of the Abyss",
+      "Reach for the Stars",
+      "Tockworth's Clockworks",
+      "When a Star Falls"
     ]
   },
   {
@@ -10558,7 +10646,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Hrabbaz",
@@ -10628,7 +10717,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Hydra",
@@ -10648,7 +10738,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Hypnos Magen",
@@ -10692,7 +10783,8 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": "https://5e.tools/bestiary.html#iarno%20%E2%80%9Cglasstaff%E2%80%9D%20albrek_xmm"
+    "Statblock_Link": "https://5e.tools/bestiary.html#iarno%20%E2%80%9Cglasstaff%E2%80%9D%20albrek_xmm",
+    "Adventures": []
   },
   {
     "Name": "Ice Devil",
@@ -10713,7 +10805,8 @@
     "Region": [
       "Calimshan",
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ice Mephit",
@@ -10730,13 +10823,13 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#ice%20mephit_xmm",
     "Faction": "",
-    "Adventure": [
-      "Baker's Dozen",
-      "The Sunless Citadel"
-    ],
     "Region": [
       "Icewind Dale",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Baker's Dozen",
+      "The Sunless Citadel"
     ]
   },
   {
@@ -10814,12 +10907,13 @@
     "Name": "Iggwilv the Witch Queen",
     "CR": "20",
     "Type": "Fey",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#iggwilv%20the%20witch%20queen_wbtw"
   },
   {
@@ -10837,12 +10931,12 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#imp_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Joy of Extradimensional Spaces",
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "The Joy of Extradimensional Spaces",
+      "When a Star Falls"
     ]
   },
   {
@@ -10864,7 +10958,8 @@
     "Region": [
       "Calimshan",
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Infected Elder Brain",
@@ -10982,13 +11077,13 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#invisible%20stalker_xmm",
     "Faction": "",
-    "Adventure": [
-      "For Whom the Void Calls"
-    ],
     "Region": [
       "Calimshan",
       "Cities",
       "Dungeons"
+    ],
+    "Adventures": [
+      "For Whom the Void Calls"
     ]
   },
   {
@@ -11033,7 +11128,8 @@
     "Region": [
       "Calimshan",
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Istrid Horn",
@@ -11109,12 +11205,13 @@
     "Name": "Jabberwock",
     "CR": "13",
     "Type": "Dragon",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#jabberwock_wbtw"
   },
   {
@@ -11132,25 +11229,22 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#jackalwere_xmm",
     "Faction": "",
-    "Adventure": [
-      "Mazfroth’s Mighty Digressions",
-      "The Lost City",
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan",
       "Cities",
       "Heartlands"
     ],
     "Adventures": [
-      "Baldur's Gate: Descent into Avernus"
+      "Baldur's Gate: Descent into Avernus",
+      "Mazfroth’s Mighty Digressions",
+      "The Lost City",
+      "When a Star Falls"
     ]
   },
   {
     "Name": "Jaculi",
     "CR": "1/2",
     "Type": "Beast",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -11240,12 +11334,13 @@
     "Name": "Jingle Jangle",
     "CR": "1/4",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#jingle%20jangle_wbtw"
   },
   {
@@ -11263,10 +11358,10 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#jot_tftyp",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Juiblex",
@@ -11306,11 +11401,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#juvenile%20eldritch%20horror_kftgv",
     "Faction": "",
-    "Adventure": [
-      "The Murkmire Malevolence"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "The Murkmire Malevolence"
     ]
   },
   {
@@ -11328,11 +11423,11 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#k'tulah_cm",
     "Faction": "",
-    "Adventure": [
-      "Shemshime's Bedtime Rhyme"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "Shemshime's Bedtime Rhyme"
     ]
   },
   {
@@ -11350,11 +11445,11 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#kaarghaz_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Forge of Fury"
     ]
   },
   {
@@ -11420,19 +11515,18 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#kalka-kylla_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
     "Name": "Kamadan",
     "CR": "4",
     "Type": "Monstrosity",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -11466,7 +11560,8 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Kavoda",
@@ -11483,23 +11578,24 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#kavoda_kftgv",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Tockworth's Clockworks"
     ]
   },
   {
     "Name": "Kelek",
     "CR": "5",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#kelek_wbtw"
   },
   {
@@ -11517,10 +11613,6 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#kenku_xmm",
     "Faction": "",
-    "Adventure": [
-      "Shemshime's Bedtime Rhyme",
-      "The Weeping Goddess"
-    ],
     "Region": [
       "Cities",
       "Dungeons",
@@ -11528,19 +11620,22 @@
     ],
     "Adventures": [
       "Waterdeep Dragon Heist",
-      "Baldur's Gate: Descent into Avernus"
+      "Baldur's Gate: Descent into Avernus",
+      "Shemshime's Bedtime Rhyme",
+      "The Weeping Goddess"
     ]
   },
   {
     "Name": "Kettlesteam the Kenku",
     "CR": "1",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#kettlesteam%20the%20kenku_wbtw"
   },
   {
@@ -11582,7 +11677,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#ki-rin_mpmm",
     "Faction": "",
     "Adventure": "",
-    "Region": []
+    "Region": [],
+    "Adventures": []
   },
   {
     "Name": "Killer Whale",
@@ -11602,13 +11698,13 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "King of Feathers",
     "CR": "8",
     "Type": "Monstrosity",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -11639,17 +11735,17 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#knight_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Cities",
+      "Heartlands",
+      "Calimshan"
+    ],
+    "Adventures": [
       "The Price of Beauty",
       "Reach for the Stars",
       "The Siege of Shalespire Priory",
       "Mazfroth’s Mighty Digressions",
       "When a Star Falls"
-    ],
-    "Region": [
-      "Cities",
-      "Heartlands",
-      "Calimshan"
     ]
   },
   {
@@ -11690,10 +11786,10 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#kobold_mm",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Kobold Commoner",
@@ -11710,16 +11806,15 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#kobold%20commoner_tftyp",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Kobold Inventor",
     "CR": "1/4",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -11739,7 +11834,6 @@
     "Name": "Kobold Scale Sorcerer",
     "CR": "1",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -11799,18 +11893,20 @@
     "Region": [
       "Dungeons",
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Korred",
     "CR": "7",
     "Type": "Fey",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#korred_wbtw"
   },
   {
@@ -11854,7 +11950,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Krull",
@@ -11990,11 +12087,11 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#lacedon%20ghoul_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Weeping Goddess"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Weeping Goddess"
     ]
   },
   {
@@ -12060,14 +12157,14 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#lamia_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Eyes of Atar",
-      "Mazfroth’s Mighty Digressions",
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Eyes of Atar",
+      "Mazfroth’s Mighty Digressions",
+      "When a Star Falls"
     ]
   },
   {
@@ -12133,14 +12230,14 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#lich_xmm",
     "Faction": "",
-    "Adventure": [
-      "Will of Orcus"
-    ],
     "Region": [
       "Calimshan",
       "Cities",
       "Dungeons",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Will of Orcus"
     ]
   },
   {
@@ -12158,12 +12255,12 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#lion_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Stygian Gambit"
-    ],
     "Region": [
       "Calimshan",
       "Cities"
+    ],
+    "Adventures": [
+      "The Stygian Gambit"
     ]
   },
   {
@@ -12239,12 +12336,13 @@
     "Name": "Living Doll",
     "CR": "2",
     "Type": "Construct",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#living%20doll_wbtw"
   },
   {
@@ -12262,11 +12360,11 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#lizard_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Tockworth's Clockworks"
     ]
   },
   {
@@ -12287,13 +12385,13 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Lizardfolk Shaman",
     "CR": "2",
     "Type": "Monster Manual (2014)",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -12327,7 +12425,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Lizardfolk Warden",
@@ -12347,7 +12446,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Lonelywood Banshee",
@@ -12501,12 +12601,12 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#mage_xmm",
     "Faction": "",
-    "Adventure": [
-      "Prisoner 13",
-      "Tockworth's Clockworks"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Prisoner 13",
+      "Tockworth's Clockworks"
     ]
   },
   {
@@ -12524,13 +12624,13 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#mage%20apprentice_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Curse on Humble Hill",
-      "Tears Fall"
-    ],
     "Region": [
       "Cities",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Curse on Humble Hill",
+      "Tears Fall"
     ]
   },
   {
@@ -12548,10 +12648,10 @@
     "Charisma": 13,
     "Statblock_Link": "https://5e.tools/bestiary.html#mage%20of%20usamigaras_qftis",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Lost City"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Magister Umbero Zastro",
@@ -12595,7 +12695,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Magmin",
@@ -12615,7 +12716,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Mahadi the Rakshasa",
@@ -12681,7 +12783,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Manafret Cherryport",
@@ -12751,7 +12854,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Manshoon's Simulacrum",
@@ -12791,19 +12895,18 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#manticore_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Eyes of Atar"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Eyes of Atar"
     ]
   },
   {
     "Name": "Mantrap",
     "CR": "1",
     "Type": "Plant",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -12838,7 +12941,8 @@
     "Region": [
       "Calimshan",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Marilith",
@@ -12859,7 +12963,8 @@
     "Region": [
       "Calimshan",
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Markos Delphi",
@@ -12876,11 +12981,11 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#markos%20delphi_kftgv",
     "Faction": "",
-    "Adventure": [
-      "Reach for the Stars"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Reach for the Stars"
     ]
   },
   {
@@ -12906,9 +13011,7 @@
       "Icewind Dale"
     ],
     "Adventures": [
-      "Waterdeep Dragon Heist"
-    ],
-    "Adventure": [
+      "Waterdeep Dragon Heist",
       "The Hidden Shrine of Tamoachan"
     ]
   },
@@ -12927,11 +13030,11 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#maschin-i-bozorg_qftis",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
@@ -12972,15 +13075,15 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#mastiff_xmm",
     "Faction": "",
-    "Adventure": [
-      "Death at Sunset",
-      "Robber Baron",
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Dungeons",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Death at Sunset",
+      "Robber Baron",
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -13001,7 +13104,8 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Medusa",
@@ -13018,14 +13122,14 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#medusa_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Price of Beauty",
-      "The Drowning Forest"
-    ],
     "Region": [
       "Calimshan",
       "Dungeons",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Price of Beauty",
+      "The Drowning Forest"
     ]
   },
   {
@@ -13043,11 +13147,11 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#meenlock_vgm",
     "Faction": "",
-    "Adventure": [
-      "A Deep and Creeping Darkness"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "A Deep and Creeping Darkness"
     ]
   },
   {
@@ -13113,23 +13217,24 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#memory%20web_qftis",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
     "Name": "Mercion",
     "CR": "3",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#mercion_wbtw"
   },
   {
@@ -13150,7 +13255,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Merfolk Wavebender",
@@ -13170,7 +13276,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Merregon",
@@ -13213,7 +13320,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Mev Flintknapper",
@@ -13281,7 +13389,13 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#mimic_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Cities",
+      "Dungeons",
+      "Heartlands",
+      "Calimshan"
+    ],
+    "Adventures": [
       "The Joy of Extradimensional Spaces",
       "The Murkmire Malevolence",
       "Reach for the Stars",
@@ -13290,12 +13404,6 @@
       "Mazfroth’s Mighty Digressions",
       "The Lost City",
       "When a Star Falls"
-    ],
-    "Region": [
-      "Cities",
-      "Dungeons",
-      "Heartlands",
-      "Calimshan"
     ]
   },
   {
@@ -13313,10 +13421,10 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#mimic%20chair_cm",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Joy of Extradimensional Spaces"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Mind Flayer",
@@ -13333,9 +13441,6 @@
     "Charisma": 17,
     "Statblock_Link": "https://5e.tools/bestiary.html#mind%20flayer_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Lost City"
-    ],
     "Region": [
       "Dungeons",
       "Heartlands",
@@ -13346,7 +13451,8 @@
       "Phandelver and Below",
       "Rime of the Frostmaiden",
       "Waterdeep Dragon Heist",
-      "Out of the Abyss"
+      "Out of the Abyss",
+      "The Lost City"
     ]
   },
   {
@@ -13367,7 +13473,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Mind Flayer Clairvoyant",
@@ -13462,11 +13569,11 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#minotaur%20skeleton_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Stygian Gambit"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "The Stygian Gambit"
     ]
   },
   {
@@ -13497,24 +13604,26 @@
     "Name": "Mister Light",
     "CR": "3",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#mister%20light_wbtw"
   },
   {
     "Name": "Mister Witch",
     "CR": "3",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#mister%20witch_wbtw"
   },
   {
@@ -13532,11 +13641,11 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#modron%20duodrone_xmm",
     "Faction": "",
-    "Adventure": [
-      "For Whom the Void Calls"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "For Whom the Void Calls"
     ]
   },
   {
@@ -13554,11 +13663,11 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#modron%20quadrone_xmm",
     "Faction": "",
-    "Adventure": [
-      "For Whom the Void Calls"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "For Whom the Void Calls"
     ]
   },
   {
@@ -13576,23 +13685,24 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#modron%20tridrone_xmm",
     "Faction": "",
-    "Adventure": [
-      "For Whom the Void Calls"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "For Whom the Void Calls"
     ]
   },
   {
     "Name": "Molliver",
     "CR": "3",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#molliver_wbtw"
   },
   {
@@ -13713,9 +13823,7 @@
     ],
     "Adventures": [
       "Out of the Abyss",
-      "Tomb of Annihilation"
-    ],
-    "Adventure": [
+      "Tomb of Annihilation",
       "Death at Sunset"
     ]
   },
@@ -13734,16 +13842,16 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#mummy_xmm",
     "Faction": "",
-    "Adventure": [
-      "Baker's Dozen",
-      "Will of Orcus",
-      "The Drowning Forest",
-      "The Lost City"
-    ],
     "Region": [
       "Calimshan",
       "Dungeons",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Baker's Dozen",
+      "Will of Orcus",
+      "The Drowning Forest",
+      "The Lost City"
     ]
   },
   {
@@ -13761,19 +13869,18 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#mummy%20lord_xmm",
     "Faction": "",
-    "Adventure": [
-      "Will of Orcus"
-    ],
     "Region": [
       "Calimshan",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Will of Orcus"
     ]
   },
   {
     "Name": "Mwaxanaré",
     "CR": "1/8",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -13834,9 +13941,7 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#myconid%20sovereign_xmm",
     "Adventures": [
       "Rime of the Frostmaiden",
-      "Out of the Abyss"
-    ],
-    "Adventure": [
+      "Out of the Abyss",
       "The Lost City"
     ]
   },
@@ -13855,11 +13960,11 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#myconid%20spore%20servant_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Curse on Humble Hill"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Curse on Humble Hill"
     ]
   },
   {
@@ -13900,12 +14005,12 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#nahual_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -13923,11 +14028,11 @@
     "Charisma": 18,
     "Statblock_Link": "https://5e.tools/bestiary.html#naiad_mot",
     "Faction": "",
-    "Adventure": [
-      "The Price of Beauty"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Price of Beauty"
     ]
   },
   {
@@ -13949,7 +14054,8 @@
     "Region": [
       "Dungeons",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Nalfeshnee (Summoner Variant)",
@@ -14108,12 +14214,12 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#nereid_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -14169,7 +14275,6 @@
     "Name": "Night Hag (Coven Variant)",
     "CR": "7",
     "Type": "Monster Manual (2014)",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -14203,7 +14308,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Nightmare",
@@ -14223,7 +14329,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Nightwalker",
@@ -14243,7 +14350,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Nimblewright",
@@ -14287,7 +14395,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Nimira",
@@ -14304,11 +14413,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#nimira_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Forge of Fury"
     ]
   },
   {
@@ -14349,7 +14458,12 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#noble_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Heartlands",
+      "Cities",
+      "Dungeons"
+    ],
+    "Adventures": [
       "Shemshime's Bedtime Rhyme",
       "The Price of Beauty",
       "The Murkmire Malevolence",
@@ -14359,11 +14473,6 @@
       "Wolves of Amphail",
       "The Sunless Citadel",
       "The Forge of Fury"
-    ],
-    "Region": [
-      "Heartlands",
-      "Cities",
-      "Dungeons"
     ]
   },
   {
@@ -14384,7 +14493,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Noska Ur’gray",
@@ -14424,12 +14534,12 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#nothic_xmm",
     "Faction": "",
-    "Adventure": [
-      "Reach for the Stars"
-    ],
     "Region": [
       "Dungeons",
       "Cities"
+    ],
+    "Adventures": [
+      "Reach for the Stars"
     ]
   },
   {
@@ -14525,7 +14635,8 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ochre Jelly",
@@ -14542,13 +14653,13 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#ochre%20jelly_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Dungeons",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -14590,18 +14701,18 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#ogre_xmm",
     "Faction": "",
-    "Adventure": [
-      "Baker's Dozen",
-      "The Siege of Shalespire Priory",
-      "The Forge of Fury",
-      "When a Star Falls",
-      "The Lost City"
-    ],
     "Region": [
       "Calimshan",
       "Dungeons",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Baker's Dozen",
+      "The Siege of Shalespire Priory",
+      "The Forge of Fury",
+      "When a Star Falls",
+      "The Lost City"
     ]
   },
   {
@@ -14619,11 +14730,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#ogre%20skeleton_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Forge of Fury"
     ]
   },
   {
@@ -14641,11 +14752,11 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#ogre%20zombie_xmm",
     "Faction": "",
-    "Adventure": [
-      "Will of Orcus"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "Will of Orcus"
     ]
   },
   {
@@ -14666,7 +14777,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ogrillon Ogre",
@@ -14683,11 +14795,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#ogrillon%20ogre_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Siege of Shalespire Priory"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Siege of Shalespire Priory"
     ]
   },
   {
@@ -14705,13 +14817,13 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#oni_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Cities",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -14729,11 +14841,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#orc_mm",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Forge of Fury"
     ]
   },
   {
@@ -14759,9 +14871,7 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#orc%20eye%20of%20gruumsh_mm",
     "Adventures": [
       "Rime of the Frostmaiden",
-      "Out of the Abyss"
-    ],
-    "Adventure": [
+      "Out of the Abyss",
       "The Forge of Fury"
     ]
   },
@@ -14834,9 +14944,7 @@
       "Heartlands"
     ],
     "Adventures": [
-      "Out of the Abyss"
-    ],
-    "Adventure": [
+      "Out of the Abyss",
       "The Forge of Fury"
     ]
   },
@@ -14868,7 +14976,6 @@
     "Name": "Orvex Ocrammas",
     "CR": "1",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -14926,7 +15033,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Otyugh Mutate",
@@ -14969,11 +15077,11 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#owlbear_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Lost City"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Lost City"
     ]
   },
   {
@@ -14991,25 +15099,26 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#panther_xmm",
     "Faction": "",
-    "Adventure": [
-      "Wolves of Amphail",
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Wolves of Amphail",
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
     "Name": "Paper Bird",
     "CR": "0",
     "Type": "Construct",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#paper%20bird_wbtw"
   },
   {
@@ -15030,13 +15139,13 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Pentadrone",
     "CR": "2",
     "Type": "Monster Manual (2014)",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -15070,7 +15179,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Performer Legend",
@@ -15090,7 +15200,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Performer Maestro",
@@ -15110,7 +15221,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Peryton",
@@ -15134,9 +15246,7 @@
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#peryton_xmm",
     "Adventures": [
-      "Rime of the Frostmaiden"
-    ],
-    "Adventure": [
+      "Rime of the Frostmaiden",
       "Wolves of Amphail"
     ]
   },
@@ -15155,12 +15265,12 @@
     "Charisma": 18,
     "Statblock_Link": "https://5e.tools/bestiary.html#phaerimm%20agent_fraif",
     "Faction": "",
-    "Adventure": [
-      "The Eyes of Atar"
-    ],
     "Region": [
       "Cities",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Eyes of Atar"
     ]
   },
   {
@@ -15181,7 +15291,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Phase Spider",
@@ -15201,7 +15312,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Piercer",
@@ -15247,7 +15359,8 @@
     "Region": [
       "Calimshan",
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Pirate Admiral",
@@ -15267,7 +15380,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Pirate Captain",
@@ -15287,7 +15401,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Pit Fiend",
@@ -15308,7 +15423,8 @@
     "Region": [
       "Calimshan",
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Pixie",
@@ -15325,14 +15441,13 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#pixie_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Lost City"
-    ],
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [
+      "The Lost City"
+    ]
   },
   {
     "Name": "Pixie Wonderbringer",
@@ -15352,7 +15467,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Planetar",
@@ -15372,7 +15488,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Poisonous Snake",
@@ -15389,10 +15506,10 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#poisonous%20snake_mm",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Lost City"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Polar Bear",
@@ -15412,7 +15529,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Polar Serpent",
@@ -15432,18 +15550,20 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Pollenella the Honeybee",
     "CR": "0",
     "Type": "Beast",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#pollenella%20the%20honeybee_wbtw"
   },
   {
@@ -15470,9 +15590,7 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#poltergeist_xmm",
     "Adventures": [
       "Rime of the Frostmaiden",
-      "Out of the Abyss"
-    ],
-    "Adventure": [
+      "Out of the Abyss",
       "Book of the Raven",
       "Tockworth's Clockworks"
     ]
@@ -15492,17 +15610,17 @@
     "Charisma": 13,
     "Statblock_Link": "https://5e.tools/bestiary.html#priest_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Cities",
+      "Heartlands"
+    ],
+    "Adventures": [
       "The Price of Beauty",
       "The Siege of Shalespire Priory",
       "The Weeping Goddess",
       "The Sunless Citadel",
       "The Forge of Fury",
       "The Lost City"
-    ],
-    "Region": [
-      "Cities",
-      "Heartlands"
     ]
   },
   {
@@ -15520,14 +15638,14 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#priest%20acolyte_xmm",
     "Faction": "",
-    "Adventure": [
-      "Death at Sunset",
-      "Robber Baron",
-      "The Siege of Shalespire Priory"
-    ],
     "Region": [
       "Dungeons",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Death at Sunset",
+      "Robber Baron",
+      "The Siege of Shalespire Priory"
     ]
   },
   {
@@ -15549,7 +15667,8 @@
     "Region": [
       "Heartlands",
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Prince Livid",
@@ -15611,11 +15730,11 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#prisoner%2013_kftgv",
     "Faction": "",
-    "Adventure": [
-      "Prisoner 13"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Prisoner 13"
     ]
   },
   {
@@ -15636,7 +15755,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Psionic Ashenwight",
@@ -15721,7 +15841,6 @@
     "Name": "Pterafolk",
     "CR": "1",
     "Type": "Monstrosity",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -15777,13 +15896,13 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Quadrone",
     "CR": "1",
     "Type": "Monster Manual (2014)",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -15889,11 +16008,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#quasit_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Joy of Extradimensional Spaces",
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Quenthel Baenre",
@@ -15937,13 +16056,13 @@
     "Region": [
       "Cities",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Quetzalcoatlus",
     "CR": "2",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -15963,24 +16082,26 @@
     "Name": "Quickling",
     "CR": "1",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#quickling_wbtw"
   },
   {
     "Name": "Raezil",
     "CR": "1",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#raezil_wbtw"
   },
   {
@@ -16002,13 +16123,13 @@
     "Region": [
       "Calimshan",
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Ras Nsi",
     "CR": "7",
     "Type": "Monstrosity",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -16039,11 +16160,11 @@
     "Charisma": 4,
     "Statblock_Link": "https://5e.tools/bestiary.html#rat_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Forge of Fury"
     ]
   },
   {
@@ -16061,11 +16182,11 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#raven_xmm",
     "Faction": "",
-    "Adventure": [
-      "Book of the Raven"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "Book of the Raven"
     ]
   },
   {
@@ -16109,7 +16230,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Red Slaad",
@@ -16208,7 +16330,8 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Refraction of Ilvaash",
@@ -16369,7 +16492,8 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Remallia Haventree",
@@ -16413,7 +16537,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Revenant",
@@ -16458,7 +16583,8 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Rihuud",
@@ -16510,12 +16636,13 @@
     "Name": "Ringlerun",
     "CR": "5",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#ringlerun_wbtw"
   },
   {
@@ -16560,7 +16687,8 @@
     "Region": [
       "Heartlands",
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Rock Gnome Recluse",
@@ -16601,14 +16729,14 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#roper_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury",
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Dungeons",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Forge of Fury",
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -16649,16 +16777,16 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#rug%20of%20smothering_mm",
     "Faction": "",
-    "Adventure": [
-      "Reach for the Stars",
-      "Baker's Dozen",
-      "The Forge of Fury",
-      "Mazfroth’s Mighty Digressions"
-    ],
     "Region": [
       "Cities",
       "Dungeons",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Reach for the Stars",
+      "Baker's Dozen",
+      "The Forge of Fury",
+      "Mazfroth’s Mighty Digressions"
     ]
   },
   {
@@ -16676,11 +16804,11 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#rust%20monster_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Lost City"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "The Lost City"
     ]
   },
   {
@@ -16701,7 +16829,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Rusted Wyrm",
@@ -16721,7 +16850,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Saber-Toothed Tiger",
@@ -16738,12 +16868,12 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#saber-toothed%20tiger_xmm",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Icewind Dale",
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
@@ -16785,11 +16915,11 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#sage_cm",
     "Faction": "",
-    "Adventure": [
-      "The Joy of Extradimensional Spaces"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "The Joy of Extradimensional Spaces"
     ]
   },
   {
@@ -16810,7 +16940,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Sahuagin Warrior",
@@ -16830,7 +16961,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Salamander",
@@ -16850,7 +16982,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Salamander Inferno Master",
@@ -16870,13 +17003,13 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Salida",
     "CR": "1",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -16934,7 +17067,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Satyr Revelmaster",
@@ -16954,7 +17088,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Scarecrow",
@@ -16980,9 +17115,7 @@
     ],
     "Adventures": [
       "Waterdeep Dragon Heist",
-      "Tomb of Annihilation"
-    ],
-    "Adventure": [
+      "Tomb of Annihilation",
       "Book of the Raven",
       "The Price of Beauty",
       "The Murkmire Malevolence"
@@ -17003,7 +17136,13 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#scout_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Heartlands",
+      "Icewind Dale",
+      "Dungeons",
+      "Calimshan"
+    ],
+    "Adventures": [
       "The Price of Beauty",
       "Death at Sunset",
       "Robber Baron",
@@ -17012,12 +17151,6 @@
       "The Sunless Citadel",
       "The Hidden Shrine of Tamoachan",
       "When a Star Falls"
-    ],
-    "Region": [
-      "Heartlands",
-      "Icewind Dale",
-      "Dungeons",
-      "Calimshan"
     ]
   },
   {
@@ -17038,7 +17171,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Sea Fury",
@@ -17056,7 +17190,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#sea%20fury_egw",
     "Faction": "",
     "Adventure": "",
-    "Region": []
+    "Region": [],
+    "Adventures": []
   },
   {
     "Name": "Sea Hag",
@@ -17088,7 +17223,6 @@
     "Name": "Sea Hag (Coven Variant)",
     "CR": "4",
     "Type": "Monster Manual (2014)",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -17131,7 +17265,6 @@
     "Name": "Sekelok",
     "CR": "9",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -17151,12 +17284,13 @@
     "Name": "Selenelion Twin",
     "CR": "2",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#selenelion%20twin_wbtw"
   },
   {
@@ -17174,30 +17308,31 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#shadow_xmm",
     "Faction": "",
-    "Adventure": [
-      "Shemshime's Bedtime Rhyme",
-      "The Weeping Goddess",
-      "The Sunless Citadel",
-      "When a Star Falls",
-      "The Lost City"
-    ],
     "Region": [
       "Cities",
       "Dungeons",
       "Heartlands",
       "Calimshan"
+    ],
+    "Adventures": [
+      "Shemshime's Bedtime Rhyme",
+      "The Weeping Goddess",
+      "The Sunless Citadel",
+      "When a Star Falls",
+      "The Lost City"
     ]
   },
   {
     "Name": "Shadow (Variant)",
     "CR": "1/2",
     "Type": "Fey",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#shadow%20(variant)_wbtw"
   },
   {
@@ -17215,9 +17350,6 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#shadow%20demon_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Lost Dawn"
-    ],
     "Region": [
       "Calimshan",
       "Icewind Dale",
@@ -17229,7 +17361,8 @@
       "Rime of the Frostmaiden",
       "Baldur's Gate: Descent into Avernus",
       "Out of the Abyss",
-      "Tomb of Annihilation"
+      "Tomb of Annihilation",
+      "The Lost Dawn"
     ]
   },
   {
@@ -17250,13 +17383,13 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Shago",
     "CR": "5",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -17290,7 +17423,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Shambling Mound",
@@ -17307,14 +17441,14 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#shambling%20mound_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks",
-      "For Whom the Void Calls"
-    ],
     "Region": [
       "Moonshae",
       "Cities",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Tockworth's Clockworks",
+      "For Whom the Void Calls"
     ]
   },
   {
@@ -17332,10 +17466,10 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#sharwyn%20hucrele_tftyp",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Shedrak of the Eyes",
@@ -17398,11 +17532,11 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#shemshime_cm",
     "Faction": "",
-    "Adventure": [
-      "Shemshime's Bedtime Rhyme"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "Shemshime's Bedtime Rhyme"
     ]
   },
   {
@@ -17420,13 +17554,13 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#shield%20guardian_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks"
-    ],
     "Region": [
       "Calimshan",
       "Cities",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Tockworth's Clockworks"
     ]
   },
   {
@@ -17467,11 +17601,11 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#silver%20dragon%20wyrmling_xmm",
     "Faction": "",
-    "Adventure": [
-      "Will of Orcus"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "Will of Orcus"
     ]
   },
   {
@@ -17489,11 +17623,11 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#sion_qftis",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
@@ -17511,33 +17645,35 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#sir%20braford_tftyp",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Sir Talavar",
     "CR": "2",
     "Type": "Dragon",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#sir%20talavar_wbtw"
   },
   {
     "Name": "Skabatha Nightshade",
     "CR": "8",
     "Type": "Fey",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#skabatha%20nightshade_wbtw"
   },
   {
@@ -17579,23 +17715,22 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#skeleton_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Dungeons",
+      "Heartlands"
+    ],
+    "Adventures": [
       "Will of Orcus",
       "The Tenebrous Stone",
       "The Sunless Citadel",
       "The Forge of Fury",
       "The Lost City"
-    ],
-    "Region": [
-      "Dungeons",
-      "Heartlands"
     ]
   },
   {
     "Name": "Skeleton Key",
     "CR": "1/4",
     "Type": "Undead",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -17638,12 +17773,13 @@
     "Name": "Skylla",
     "CR": "2",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#skylla_wbtw"
   },
   {
@@ -17672,9 +17808,7 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#slaad%20tadpole_xmm",
     "Adventures": [
       "Phandelver and Below",
-      "Rime of the Frostmaiden"
-    ],
-    "Adventure": [
+      "Rime of the Frostmaiden",
       "The Joy of Extradimensional Spaces",
       "Reach for the Stars"
     ]
@@ -17740,15 +17874,13 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#smoke%20mephit_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Lost Dawn"
-    ],
     "Region": [
       "Calimshan",
       "Heartlands"
     ],
     "Adventures": [
-      "Tomb of Annihilation"
+      "Tomb of Annihilation",
+      "The Lost Dawn"
     ]
   },
   {
@@ -17812,11 +17944,11 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#snurrevin_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Forge of Fury"
     ]
   },
   {
@@ -17837,7 +17969,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Soluun Xibrindas",
@@ -17878,15 +18011,15 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#spectator_xmm",
     "Faction": "",
-    "Adventure": [
-      "Prisoner 13",
-      "For Whom the Void Calls",
-      "When a Star Falls"
-    ],
     "Region": [
       "Dungeons",
       "Cities",
       "Calimshan"
+    ],
+    "Adventures": [
+      "Prisoner 13",
+      "For Whom the Void Calls",
+      "When a Star Falls"
     ]
   },
   {
@@ -17904,17 +18037,17 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#specter_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Dungeons",
+      "Heartlands",
+      "Cities"
+    ],
+    "Adventures": [
       "Book of the Raven",
       "Tockworth's Clockworks",
       "Will of Orcus",
       "The Lost Dawn",
       "Tears Fall"
-    ],
-    "Region": [
-      "Dungeons",
-      "Heartlands",
-      "Cities"
     ]
   },
   {
@@ -18006,7 +18139,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Sphinx of Wonder",
@@ -18026,7 +18160,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Spider King",
@@ -18098,9 +18233,7 @@
     "Adventures": [
       "Waterdeep Dragon Heist",
       "Baldur's Gate: Descent into Avernus",
-      "Tomb of Annihilation"
-    ],
-    "Adventure": [
+      "Tomb of Annihilation",
       "The Stygian Gambit"
     ]
   },
@@ -18122,7 +18255,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Spitting Mimic",
@@ -18167,7 +18301,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Sprite",
@@ -18187,7 +18322,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Spy",
@@ -18204,17 +18340,17 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#spy_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Calimshan",
+      "Cities",
+      "Heartlands"
+    ],
+    "Adventures": [
       "The Price of Beauty",
       "The Stygian Gambit",
       "Prisoner 13",
       "Robber Baron",
       "Fury Grove"
-    ],
-    "Region": [
-      "Calimshan",
-      "Cities",
-      "Heartlands"
     ]
   },
   {
@@ -18235,18 +18371,20 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Squirt the Oilcan",
     "CR": "1/4",
     "Type": "Construct",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#squirt%20the%20oilcan_wbtw"
   },
   {
@@ -18264,16 +18402,15 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#steam%20mephit_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Stegosaurus",
     "CR": "4",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -18304,14 +18441,14 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#stirge_xmm",
     "Faction": "",
-    "Adventure": [
-      "Reach for the Stars",
-      "The Forge of Fury",
-      "The Lost City"
-    ],
     "Region": [
       "Cities",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Reach for the Stars",
+      "The Forge of Fury",
+      "The Lost City"
     ]
   },
   {
@@ -18333,7 +18470,8 @@
     "Region": [
       "Heartlands",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Stone Golem",
@@ -18350,20 +18488,19 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#stone%20golem_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Dungeons",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
     "Name": "Stone Juggernaut",
     "CR": "12",
     "Type": "Construct",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -18397,7 +18534,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Storm Giant Quintessent",
@@ -18417,25 +18555,26 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Strongheart",
     "CR": "4",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#strongheart_wbtw"
   },
   {
     "Name": "Su-monster",
     "CR": "1",
     "Type": "Monstrosity",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -18466,14 +18605,14 @@
     "Charisma": 20,
     "Statblock_Link": "https://5e.tools/bestiary.html#succubus_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Tenebrous Stone",
-      "The Forge of Fury"
-    ],
     "Region": [
       "Calimshan",
       "Cities",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Tenebrous Stone",
+      "The Forge of Fury"
     ]
   },
   {
@@ -18517,7 +18656,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Swarm of Animated Books",
@@ -18534,10 +18674,10 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20animated%20books_cm",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Joy of Extradimensional Spaces"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Swarm of Bats",
@@ -18554,25 +18694,26 @@
     "Charisma": 4,
     "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20bats_xmm",
     "Faction": "",
-    "Adventure": [
-      "A Deep and Creeping Darkness",
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "A Deep and Creeping Darkness",
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
     "Name": "Swarm of Campestris",
     "CR": "1",
     "Type": "Plant",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20campestris_wbtw"
   },
   {
@@ -18590,13 +18731,13 @@
     "Charisma": 4,
     "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20crawling%20claws_xmm",
     "Faction": "",
-    "Adventure": [
-      "Will of Orcus",
-      "Disinterred Danger"
-    ],
     "Region": [
       "Dungeons",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Will of Orcus",
+      "Disinterred Danger"
     ]
   },
   {
@@ -18614,11 +18755,11 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20gibberlings_qftis",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
@@ -18636,13 +18777,13 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20insects_xmm",
     "Faction": "",
-    "Adventure": [
-      "Death at Sunset",
-      "The Drowning Forest"
-    ],
     "Region": [
       "Dungeons",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Death at Sunset",
+      "The Drowning Forest"
     ]
   },
   {
@@ -18684,13 +18825,13 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20poisonous%20snakes_mm",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan",
-      "The Lost City"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City"
     ]
   },
   {
@@ -18708,14 +18849,14 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20rats_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Sunless Citadel",
-      "The Hidden Shrine of Tamoachan",
-      "Mazfroth’s Mighty Digressions"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Sunless Citadel",
+      "The Hidden Shrine of Tamoachan",
+      "Mazfroth’s Mighty Digressions"
     ]
   },
   {
@@ -18733,11 +18874,11 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20ravens_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Weeping Goddess"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Weeping Goddess"
     ]
   },
   {
@@ -18755,12 +18896,12 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20stirges_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Weeping Goddess",
-      "The Drowning Forest"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Weeping Goddess",
+      "The Drowning Forest"
     ]
   },
   {
@@ -18781,7 +18922,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Swarm of Wasps",
@@ -18798,10 +18940,10 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20wasps_mm",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Lost City"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Swashbuckler",
@@ -18854,7 +18996,6 @@
     "Name": "Syndra Silvane",
     "CR": "12",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -18896,7 +19037,6 @@
     "Name": "Tabaxi Hunter",
     "CR": "1",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -18916,7 +19056,6 @@
     "Name": "Tabaxi Minstrel",
     "CR": "1/4",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -18976,7 +19115,8 @@
       "Cities",
       "Dungeons",
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Tashlyn Yafeera",
@@ -19017,12 +19157,12 @@
     "Charisma": 13,
     "Statblock_Link": "https://5e.tools/bestiary.html#tecuziztecatl_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -19052,7 +19192,6 @@
     "Name": "Terracotta Warrior",
     "CR": "1",
     "Type": "Construct",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -19109,7 +19248,8 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Thorn Slinger",
@@ -19126,19 +19266,18 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#thorn%20slinger_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
     "Name": "Thorny",
     "CR": "1",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -19196,7 +19335,8 @@
     "Adventure": "",
     "Region": [
       "New Regional Addition"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Thri-kreen Psion",
@@ -19216,7 +19356,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Thug",
@@ -19233,13 +19374,13 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#thug_mm",
     "Faction": "",
-    "Adventure": [
-      "The Stygian Gambit",
-      "Mazfroth’s Mighty Digressions"
-    ],
     "Region": [
       "Cities",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Stygian Gambit",
+      "Mazfroth’s Mighty Digressions"
     ]
   },
   {
@@ -19306,18 +19447,20 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Tin Soldier",
     "CR": "1",
     "Type": "Construct",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#tin%20soldier_wbtw"
   },
   {
@@ -19335,11 +19478,11 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#tixie%20tockworth_kftgv",
     "Faction": "",
-    "Adventure": [
-      "Tockworth's Clockworks"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Tockworth's Clockworks"
     ]
   },
   {
@@ -19357,19 +19500,18 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#tloques-popolocas_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
     "Name": "Tomb Guardian",
     "CR": "6",
     "Type": "Construct",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -19446,17 +19588,17 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#tough_xmm",
     "Faction": "",
-    "Adventure": [
-      "Baker's Dozen",
-      "The Curse on Humble Hill",
-      "Robber Baron",
-      "The Eyes of Atar"
-    ],
     "Region": [
       "Calimshan",
       "Icewind Dale",
       "Dungeons",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Baker's Dozen",
+      "The Curse on Humble Hill",
+      "Robber Baron",
+      "The Eyes of Atar"
     ]
   },
   {
@@ -19474,12 +19616,12 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#tough%20boss_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Eyes of Atar"
-    ],
     "Region": [
       "Cities",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Eyes of Atar"
     ]
   },
   {
@@ -19497,11 +19639,11 @@
     "Charisma": 9,
     "Statblock_Link": "https://5e.tools/bestiary.html#tower%20hand_qftis",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
@@ -19519,11 +19661,11 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#tower%20sage_qftis",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
@@ -19568,18 +19710,20 @@
     "Region": [
       "Heartlands",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Treant Sapling",
     "CR": "2",
     "Type": "Plant",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#treant%20sapling_wbtw"
   },
   {
@@ -19632,7 +19776,6 @@
     "Name": "Tri-flower Frond",
     "CR": "1/2",
     "Type": "Plant",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -19669,9 +19812,7 @@
     ],
     "Statblock_Link": "https://5e.tools/bestiary.html#tribal%20warrior_mm",
     "Adventures": [
-      "Rime of the Frostmaiden"
-    ],
-    "Adventure": [
+      "Rime of the Frostmaiden",
       "The Hidden Shrine of Tamoachan"
     ]
   },
@@ -19713,9 +19854,6 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#troglodyte_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury"
-    ],
     "Region": [
       "Dungeons",
       "Cities",
@@ -19723,7 +19861,8 @@
     ],
     "Adventures": [
       "Waterdeep Dragon Heist",
-      "Out of the Abyss"
+      "Out of the Abyss",
+      "The Forge of Fury"
     ]
   },
   {
@@ -19764,15 +19903,15 @@
     "Charisma": 7,
     "Statblock_Link": "https://5e.tools/bestiary.html#troll_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Drowning Forest",
-      "The Sunless Citadel",
-      "When a Star Falls"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale",
       "Calimshan"
+    ],
+    "Adventures": [
+      "The Drowning Forest",
+      "The Sunless Citadel",
+      "When a Star Falls"
     ]
   },
   {
@@ -19790,14 +19929,14 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#twig%20blight_xmm",
     "Faction": "",
-    "Adventure": [
-      "Death at Sunset",
-      "The Sunless Citadel"
-    ],
     "Region": [
       "Heartlands",
       "Moonshae",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Death at Sunset",
+      "The Sunless Citadel"
     ]
   },
   {
@@ -19827,7 +19966,6 @@
     "Name": "Tyrannosaurus Zombie",
     "CR": "8",
     "Type": "Undead",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -19935,7 +20073,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Urstul Floxin",
@@ -20013,7 +20152,6 @@
     "Name": "Valindra Shadowmantle",
     "CR": "21",
     "Type": "Tomb of Annihilation",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -20044,15 +20182,15 @@
     "Charisma": 18,
     "Statblock_Link": "https://5e.tools/bestiary.html#vampire_xmm",
     "Faction": "",
-    "Adventure": [
-      "Will of Orcus",
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Cities",
       "Heartlands",
       "Dungeons",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Will of Orcus",
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -20073,7 +20211,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Vampire Infernalist",
@@ -20093,7 +20232,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Vampire Nightbringer",
@@ -20113,7 +20253,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Vampire Spawn",
@@ -20130,13 +20271,13 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20spawn_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Cities",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -20155,7 +20296,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20spellcaster_mm",
     "Faction": "",
     "Adventure": "",
-    "Region": []
+    "Region": [],
+    "Adventures": []
   },
   {
     "Name": "Vampire Umbral Lord",
@@ -20176,7 +20318,8 @@
     "Region": [
       "Cities",
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Vampire Warden",
@@ -20196,7 +20339,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Vampire Warrior",
@@ -20214,7 +20358,8 @@
     "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20warrior_mm",
     "Faction": "",
     "Adventure": "",
-    "Region": []
+    "Region": [],
+    "Adventures": []
   },
   {
     "Name": "Vampiric Ixitxachitl",
@@ -20254,18 +20399,17 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#varnyr_cm",
     "Faction": "",
-    "Adventure": [
-      "Shemshime's Bedtime Rhyme"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "Shemshime's Bedtime Rhyme"
     ]
   },
   {
     "Name": "Vegepygmy",
     "CR": "1/4",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -20285,7 +20429,6 @@
     "Name": "Vegepygmy Chief",
     "CR": "2",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -20305,7 +20448,6 @@
     "Name": "Velociraptor",
     "CR": "1/4",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -20336,12 +20478,12 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#venomous%20snake_xmm",
     "Faction": "",
-    "Adventure": [
-      "Death at Sunset"
-    ],
     "Region": [
       "Calimshan",
       "Dungeons"
+    ],
+    "Adventures": [
+      "Death at Sunset"
     ]
   },
   {
@@ -20405,16 +20547,16 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#veteran_mm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Heartlands",
+      "Cities"
+    ],
+    "Adventures": [
       "The Price of Beauty",
       "Prisoner 13",
       "The Sunless Citadel",
       "The Forge of Fury",
       "Mazfroth’s Mighty Digressions"
-    ],
-    "Region": [
-      "Heartlands",
-      "Cities"
     ]
   },
   {
@@ -20502,10 +20644,6 @@
     "Charisma": 3,
     "Statblock_Link": "https://5e.tools/bestiary.html#vine%20blight_xmm",
     "Faction": "",
-    "Adventure": [
-      "Death at Sunset",
-      "The Curse on Humble Hill"
-    ],
     "Region": [
       "Heartlands",
       "Moonshae",
@@ -20513,7 +20651,9 @@
       "Dungeons"
     ],
     "Adventures": [
-      "Dragon of Icespire Peak"
+      "Dragon of Icespire Peak",
+      "Death at Sunset",
+      "The Curse on Humble Hill"
     ]
   },
   {
@@ -20531,12 +20671,12 @@
     "Charisma": 1,
     "Statblock_Link": "https://5e.tools/bestiary.html#violet%20fungus_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Curse on Humble Hill"
-    ],
     "Region": [
       "Dungeons",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Curse on Humble Hill"
     ]
   },
   {
@@ -20557,7 +20697,8 @@
     "Adventure": "",
     "Region": [
       "Dungeons"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Vizeran DeVir",
@@ -20681,12 +20822,13 @@
     "Name": "Warduke",
     "CR": "5",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#warduke_wbtw"
   },
   {
@@ -20704,11 +20846,11 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#warhorse%20skeleton_xmm",
     "Faction": "",
-    "Adventure": [
-      "Book of the Raven"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "Book of the Raven"
     ]
   },
   {
@@ -20755,7 +20897,8 @@
       "Cities",
       "Heartlands",
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Warrior Infantry",
@@ -20772,11 +20915,11 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#warrior%20infantry_xmm",
     "Faction": "",
-    "Adventure": [
-      "Robber Baron"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "Robber Baron"
     ]
   },
   {
@@ -20794,10 +20937,10 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#warrior%20of%20madarua_qftis",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Lost City"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Warrior Veteran",
@@ -20814,12 +20957,12 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#warrior%20veteran_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tears Fall"
-    ],
     "Region": [
       "Cities",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Tears Fall"
     ]
   },
   {
@@ -20837,12 +20980,12 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#water%20elemental_xmm",
     "Faction": "",
-    "Adventure": [
-      "For Whom the Void Calls"
-    ],
     "Region": [
       "Moonshae",
       "Dungeons"
+    ],
+    "Adventures": [
+      "For Whom the Void Calls"
     ]
   },
   {
@@ -20860,10 +21003,6 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#water%20weird_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Price of Beauty",
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Calimshan",
       "Moonshae",
@@ -20874,7 +21013,9 @@
     "Adventures": [
       "Phandelver and Below",
       "Rime of the Frostmaiden",
-      "Out of the Abyss"
+      "Out of the Abyss",
+      "The Price of Beauty",
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -20892,13 +21033,13 @@
     "Charisma": 12,
     "Statblock_Link": "https://5e.tools/bestiary.html#werebear_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tears Fall"
-    ],
     "Region": [
       "Icewind Dale",
       "Moonshae",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Tears Fall"
     ]
   },
   {
@@ -20916,12 +21057,12 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#wereboar_xmm",
     "Faction": "",
-    "Adventure": [
-      "Wolves of Amphail"
-    ],
     "Region": [
       "Heartlands",
       "Moonshae"
+    ],
+    "Adventures": [
+      "Wolves of Amphail"
     ]
   },
   {
@@ -20939,12 +21080,12 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#werejaguar_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -20962,14 +21103,14 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#wererat_xmm",
     "Faction": "",
-    "Adventure": [
-      "Wolves of Amphail",
-      "Mazfroth’s Mighty Digressions",
-      "The Lost City"
-    ],
     "Region": [
       "Cities",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Wolves of Amphail",
+      "Mazfroth’s Mighty Digressions",
+      "The Lost City"
     ]
   },
   {
@@ -20987,11 +21128,11 @@
     "Charisma": 14,
     "Statblock_Link": "https://5e.tools/bestiary.html#wereraven_vrgr",
     "Faction": "",
-    "Adventure": [
-      "Book of the Raven"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "Book of the Raven"
     ]
   },
   {
@@ -21009,13 +21150,13 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#weretiger_xmm",
     "Faction": "",
-    "Adventure": [
-      "Wolves of Amphail",
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Icewind Dale",
       "Heartlands"
+    ],
+    "Adventures": [
+      "Wolves of Amphail",
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -21033,12 +21174,12 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#werewolf_xmm",
     "Faction": "",
-    "Adventure": [
-      "Wolves of Amphail"
-    ],
     "Region": [
       "Heartlands",
       "Moonshae"
+    ],
+    "Adventures": [
+      "Wolves of Amphail"
     ]
   },
   {
@@ -21079,11 +21220,11 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#white%20dragon%20wyrmling_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Sunless Citadel"
-    ],
     "Region": [
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Sunless Citadel"
     ]
   },
   {
@@ -21101,18 +21242,18 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#wight_xmm",
     "Faction": "",
-    "Adventure": [
-      "Book of the Raven",
-      "The Tenebrous Stone",
-      "The Forge of Fury",
-      "The Hidden Shrine of Tamoachan",
-      "The Lost City"
-    ],
     "Region": [
       "Cities",
       "Dungeons",
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "Book of the Raven",
+      "The Tenebrous Stone",
+      "The Forge of Fury",
+      "The Hidden Shrine of Tamoachan",
+      "The Lost City"
     ]
   },
   {
@@ -21133,7 +21274,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Will-o'-Wisp",
@@ -21150,25 +21292,26 @@
     "Charisma": 11,
     "Statblock_Link": "https://5e.tools/bestiary.html#will-o'-wisp_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Drowning Forest",
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Drowning Forest",
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
     "Name": "Will-o’-Wisp (Variant)",
     "CR": "2",
     "Type": "Undead",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#will-o%E2%80%99-wisp%20(variant)_wbtw"
   },
   {
@@ -21193,9 +21336,7 @@
     ],
     "Adventures": [
       "Out of the Abyss",
-      "Tomb of Annihilation"
-    ],
-    "Adventure": [
+      "Tomb of Annihilation",
       "For Whom the Void Calls"
     ]
   },
@@ -21217,37 +21358,39 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Witchlight Hand",
     "CR": "1/8",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#witchlight%20hand_wbtw"
   },
   {
     "Name": "Witchlight Hand (Small)",
     "CR": "1/8",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#witchlight%20hand%20(small)_wbtw"
   },
   {
     "Name": "Withers",
     "CR": "4",
     "Type": "Undead",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -21278,15 +21421,15 @@
     "Charisma": 6,
     "Statblock_Link": "https://5e.tools/bestiary.html#wolf_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Siege of Shalespire Priory",
-      "When a Star Falls"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale",
       "Moonshae",
       "Calimshan"
+    ],
+    "Adventures": [
+      "The Siege of Shalespire Priory",
+      "When a Star Falls"
     ]
   },
   {
@@ -21304,14 +21447,14 @@
     "Charisma": 8,
     "Statblock_Link": "https://5e.tools/bestiary.html#worg_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Siege of Shalespire Priory",
-      "The Drowning Forest"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale",
       "Moonshae"
+    ],
+    "Adventures": [
+      "The Siege of Shalespire Priory",
+      "The Drowning Forest"
     ]
   },
   {
@@ -21329,15 +21472,15 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#wraith_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Dungeons",
+      "Heartlands"
+    ],
+    "Adventures": [
       "Book of the Raven",
       "Will of Orcus",
       "Disinterred Danger",
       "Tears Fall"
-    ],
-    "Region": [
-      "Dungeons",
-      "Heartlands"
     ]
   },
   {
@@ -21359,13 +21502,13 @@
     "Region": [
       "Heartlands",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Xandala",
     "CR": "7",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -21396,12 +21539,12 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#xilonen_tftyp",
     "Faction": "",
-    "Adventure": [
-      "The Hidden Shrine of Tamoachan"
-    ],
     "Region": [
       "Heartlands",
       "Icewind Dale"
+    ],
+    "Adventures": [
+      "The Hidden Shrine of Tamoachan"
     ]
   },
   {
@@ -21422,7 +21565,8 @@
     "Adventure": "",
     "Region": [
       "Calimshan"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Yalah Gralhund",
@@ -21500,7 +21644,6 @@
     "Name": "Yellow Musk Creeper",
     "CR": "2",
     "Type": "Plant",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -21520,7 +21663,6 @@
     "Name": "Yellow Musk Zombie",
     "CR": "1/4",
     "Type": "Undead",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -21578,7 +21720,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Yeti Tyke",
@@ -21670,7 +21813,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Young Black Dragon",
@@ -21687,12 +21831,12 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#young%20black%20dragon_xmm",
     "Faction": "",
-    "Adventure": [
-      "The Forge of Fury"
-    ],
     "Region": [
       "Calimshan",
       "Heartlands"
+    ],
+    "Adventures": [
+      "The Forge of Fury"
     ]
   },
   {
@@ -21715,7 +21859,8 @@
       "Calimshan",
       "Heartlands",
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Young Brass Dragon",
@@ -21732,11 +21877,11 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#young%20brass%20dragon_xmm",
     "Faction": "",
-    "Adventure": [
-      "For Whom the Void Calls"
-    ],
     "Region": [
       "Dungeons"
+    ],
+    "Adventures": [
+      "For Whom the Void Calls"
     ]
   },
   {
@@ -21754,11 +21899,11 @@
     "Charisma": 15,
     "Statblock_Link": "https://5e.tools/bestiary.html#young%20copper%20dragon_xmm",
     "Faction": "",
-    "Adventure": [
-      "Tears Fall"
-    ],
     "Region": [
       "Heartlands"
+    ],
+    "Adventures": [
+      "Tears Fall"
     ]
   },
   {
@@ -21779,7 +21924,8 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Young Green Dragon",
@@ -21799,7 +21945,8 @@
     "Adventure": "",
     "Region": [
       "Moonshae"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Young Red Dragon",
@@ -21816,11 +21963,11 @@
     "Charisma": 19,
     "Statblock_Link": "https://5e.tools/bestiary.html#young%20red%20dragon_xmm",
     "Faction": "",
-    "Adventure": [
-      "When a Star Falls"
-    ],
     "Region": [
       "Calimshan"
+    ],
+    "Adventures": [
+      "When a Star Falls"
     ]
   },
   {
@@ -21864,7 +22011,8 @@
     "Adventure": "",
     "Region": [
       "Cities"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Young White Dragon",
@@ -21884,7 +22032,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Yuan-ti Abomination",
@@ -21913,7 +22062,6 @@
     "Name": "Yuan-ti Broodguard",
     "CR": "2",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -21956,16 +22104,13 @@
     "Name": "Yuan-ti Malison (Type 1)",
     "CR": "3",
     "Type": "Monster Manual (2014)",
-    "Adventure": [
-      "Tomb of Annihilation",
-      "Death at Sunset"
-    ],
     "Region": [
       "Calimshan",
       "Dungeons"
     ],
     "Adventures": [
-      "Tomb of Annihilation"
+      "Tomb of Annihilation",
+      "Death at Sunset"
     ],
     "InitiativeBonus": 2,
     "PerceptionBonus": 3,
@@ -21980,7 +22125,6 @@
     "Name": "Yuan-ti Malison (Type 2)",
     "CR": "3",
     "Type": "Monster Manual (2014)",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -22000,7 +22144,6 @@
     "Name": "Yuan-ti Malison (Type 3)",
     "CR": "3",
     "Type": "Monster Manual (2014)",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -22020,7 +22163,6 @@
     "Name": "Yuan-ti Nightmare Speaker",
     "CR": "4",
     "Type": "Volo's Guide to Monsters",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -22040,7 +22182,6 @@
     "Name": "Yuan-ti Priest",
     "CR": "3",
     "Type": "Monstrosity",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -22060,7 +22201,6 @@
     "Name": "Yuan-ti Pureblood",
     "CR": "1",
     "Type": "Monster Manual (2014)",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -22114,10 +22254,10 @@
     "Charisma": 16,
     "Statblock_Link": "https://5e.tools/bestiary.html#yusdrayl_tftyp",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Sunless Citadel"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Zala Morphus",
@@ -22134,35 +22274,37 @@
     "Charisma": 10,
     "Statblock_Link": "https://5e.tools/bestiary.html#zala%20morphus_kftgv",
     "Faction": "",
-    "Adventure": [
-      "Reach for the Stars"
-    ],
     "Region": [
       "Cities"
+    ],
+    "Adventures": [
+      "Reach for the Stars"
     ]
   },
   {
     "Name": "Zarak",
     "CR": "2",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#zarak_wbtw"
   },
   {
     "Name": "Zargash",
     "CR": "3",
     "Type": "Humanoid",
-    "Adventure": "The Wild Beyond The Witchlight",
     "Region": [
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": [],
+    "Adventures": [
+      "The Wild Beyond The Witchlight"
+    ],
     "Statblock_Link": "https://5e.tools/bestiary.html#zargash_wbtw"
   },
   {
@@ -22180,10 +22322,10 @@
     "Charisma": 18,
     "Statblock_Link": "https://5e.tools/bestiary.html#zargon%20the%20returner_qftis",
     "Faction": "",
-    "Adventure": [
+    "Region": [],
+    "Adventures": [
       "The Lost City"
-    ],
-    "Region": []
+    ]
   },
   {
     "Name": "Zhentarim Thug",
@@ -22226,13 +22368,13 @@
     "Adventure": "",
     "Region": [
       "Heartlands"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Zindar",
     "CR": "8",
     "Type": "Humanoid",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],
@@ -22290,7 +22432,8 @@
     "Adventure": "",
     "Region": [
       "Icewind Dale"
-    ]
+    ],
+    "Adventures": []
   },
   {
     "Name": "Zombie",
@@ -22307,26 +22450,25 @@
     "Charisma": 5,
     "Statblock_Link": "https://5e.tools/bestiary.html#zombie_xmm",
     "Faction": "",
-    "Adventure": [
+    "Region": [
+      "Dungeons",
+      "Icewind Dale",
+      "Heartlands",
+      "Calimshan"
+    ],
+    "Adventures": [
       "Death at Sunset",
       "Will of Orcus",
       "The Tenebrous Stone",
       "The Hidden Shrine of Tamoachan",
       "The Lost City",
       "When a Star Falls"
-    ],
-    "Region": [
-      "Dungeons",
-      "Icewind Dale",
-      "Heartlands",
-      "Calimshan"
     ]
   },
   {
     "Name": "Zorbo",
     "CR": "1/2",
     "Type": "Monstrosity",
-    "Adventure": "Tomb of Annihilation",
     "Region": [
       "Calimshan"
     ],

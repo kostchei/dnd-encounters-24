@@ -106,10 +106,24 @@ function assignFactions(monsters) {
 // Helper: Pick a random valid adventure for a monster in a specific region
 function pickAdventure(monsterName, regionId) {
   const data = MONSTER_MAP.get(monsterName);
-  if (!data || !data.Adventures || data.Adventures.length === 0) return null;
+  if (!data) return null;
+
+  // Collect adventures from both 'Adventures' (array) and 'Adventure' (string or array)
+  let allAdventures = [];
+  if (data.Adventures && data.Adventures.length > 0) {
+    allAdventures = [...data.Adventures];
+  }
+  if (data.Adventure) {
+    const advList = Array.isArray(data.Adventure) ? data.Adventure : [data.Adventure];
+    advList.forEach(a => {
+      if (a && !allAdventures.includes(a)) allAdventures.push(a);
+    });
+  }
+
+  if (allAdventures.length === 0) return null;
 
   // Filter adventures valid for this region
-  const validAdventures = data.Adventures.filter(advName => {
+  const validAdventures = allAdventures.filter(advName => {
     const advConfig = ADVENTURE_REGIONS[advName];
     if (!advConfig) return false;
     // Check if region matches or is "all"
