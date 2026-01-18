@@ -126,7 +126,7 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#aberrant%20zealot%20(variant)_xmm"
   },
   {
     "Name": "Aboleth",
@@ -498,7 +498,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#agdon%20longscarf_wbtw"
   },
   {
     "Name": "Ahmaergo",
@@ -533,7 +534,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#alagarthas_wbtw"
   },
   {
     "Name": "Albino Dwarf Spirit Warrior",
@@ -709,7 +711,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#amidor%20the%20dandelion_wbtw"
   },
   {
     "Name": "Ammalia Cassalanter",
@@ -778,7 +781,7 @@
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#amnizu%20(summoner%20variant)_bgdia"
   },
   {
     "Name": "Amphisbaena",
@@ -1450,7 +1453,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#archpreist_xmm",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -1990,7 +1993,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#bandit%20deciever_xmm",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -2158,7 +2161,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#basilisk%20(infant)_oota"
   },
   {
     "Name": "Basilisk (Young)",
@@ -2180,7 +2183,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#basilisk%20(young)_oota"
   },
   {
     "Name": "Battlehammer Dwarf",
@@ -2214,7 +2217,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#bavlorna%20blightstraw_wbtw"
   },
   {
     "Name": "Beast of Malar",
@@ -2652,7 +2656,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#boggle_wbtw"
   },
   {
     "Name": "Bone Devil",
@@ -2821,7 +2826,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#brigganock_wbtw"
   },
   {
     "Name": "Brontosaurus",
@@ -2992,7 +2998,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#bullywug_wbtw"
   },
   {
     "Name": "Bullywug Bog Sage",
@@ -3023,7 +3030,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#bullywug%20knight_wbtw"
   },
   {
     "Name": "Bullywug Royal",
@@ -3034,7 +3042,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#bullywug%20royal_wbtw"
   },
   {
     "Name": "Calcryx",
@@ -3113,7 +3122,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#campestri_wbtw"
   },
   {
     "Name": "Carrion Crawler",
@@ -3393,7 +3403,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#character_xmm",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -3687,7 +3697,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#clapperclaw%20the%20scarecrow_wbtw"
   },
   {
     "Name": "Clay Gladiator",
@@ -4038,7 +4049,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#cr%2018%20placeholder_xmm",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -4059,7 +4070,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#cr%2019%20placeholder_xmm",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -4405,7 +4416,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#darkling_wbtw"
   },
   {
     "Name": "Darkling Elder",
@@ -4416,7 +4428,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#darkling%20elder_wbtw"
   },
   {
     "Name": "Darkmantle",
@@ -5002,7 +5015,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#displacer%20beast%20kitten_wbtw"
   },
   {
     "Name": "Djinni",
@@ -5192,7 +5206,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#drider%20(variant)_oota"
   },
   {
     "Name": "Droki",
@@ -6064,7 +6078,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#elkhorn_wbtw"
   },
   {
     "Name": "Embric",
@@ -6194,7 +6209,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#endelyn%20moongrave_wbtw"
   },
   {
     "Name": "Envy",
@@ -6205,7 +6221,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#envy_wbtw"
   },
   {
     "Name": "Erinyes",
@@ -6336,7 +6353,7 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#faerie%20dragon%20(older)_wdh"
   },
   {
     "Name": "Faerie Dragon (Orange)",
@@ -6367,7 +6384,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#faerie%20dragon%20(younger)_wbtw"
   },
   {
     "Name": "Faerie Dragon Adult",
@@ -6950,7 +6968,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#flying%20rocking%20horse_wbtw"
   },
   {
     "Name": "Flying Snake",
@@ -7086,7 +7105,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#fraz-urb%E2%80%99luu_oota"
   },
   {
     "Name": "Froghemoth",
@@ -7299,7 +7318,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#gash%20the%20gnoll_oota"
   },
   {
     "Name": "Gazer",
@@ -7384,7 +7403,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#ghast%20grave%20caller_xmm",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -7676,7 +7695,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20dragonfly_wbtw"
   },
   {
     "Name": "Giant Eagle",
@@ -7906,7 +7926,7 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20mimic_wdh"
   },
   {
     "Name": "Giant Owl",
@@ -8032,7 +8052,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20snail_wbtw"
   },
   {
     "Name": "Giant Snapping Turtle",
@@ -8130,7 +8151,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#giant%20swan_wbtw"
   },
   {
     "Name": "Giant Venomous Snake",
@@ -8485,7 +8507,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#glass%20pegasus_wbtw"
   },
   {
     "Name": "Glasswork Golem",
@@ -8496,7 +8519,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#glasswork%20golem_wbtw"
   },
   {
     "Name": "Gloam",
@@ -8507,7 +8531,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#gloam_wbtw"
   },
   {
     "Name": "Gnoll Demoniac",
@@ -8772,7 +8797,7 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#goblin%20boss%20(variant)_xmm"
   },
   {
     "Name": "Goblin Commoner",
@@ -9120,7 +9145,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#gray%20slaad%20(control%20gem%20variant)_toa"
   },
   {
     "Name": "Graz’zt",
@@ -9142,7 +9167,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#graz%E2%80%99zt_oota"
   },
   {
     "Name": "Great Ulfe",
@@ -9179,7 +9204,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#great%20warrior_xmm",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -9523,7 +9548,7 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#grum%E2%80%99shar_wdh"
   },
   {
     "Name": "Grung",
@@ -9768,7 +9793,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#half-ogre_bgdia",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -9822,7 +9847,7 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#halfling%20wererat_wdh"
   },
   {
     "Name": "Hanne Hallen",
@@ -9879,7 +9904,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#harengon%20brigand_wbtw"
   },
   {
     "Name": "Harengon Sniper",
@@ -9890,7 +9916,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#harengon%20sniper_wbtw"
   },
   {
     "Name": "Harpy",
@@ -9954,7 +9981,7 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#havia%20quickknife_wdh"
   },
   {
     "Name": "Headless Body",
@@ -10014,7 +10041,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#healer_xmm",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -10422,7 +10449,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#hook%20horror%20(infant)_oota"
   },
   {
     "Name": "Hook Horror (Juvenile)",
@@ -10444,7 +10471,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#hook%20horror%20(juvenile)_oota"
   },
   {
     "Name": "Hook Horror (Young)",
@@ -10466,7 +10493,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#hook%20horror%20(young)_oota"
   },
   {
     "Name": "Hook Horror Spore Servant",
@@ -10511,7 +10538,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#horgar%20steelshadow%20v_oota"
   },
   {
     "Name": "Horned Devil",
@@ -10665,7 +10692,7 @@
       "Heartlands",
       "Dungeons"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#iarno%20%E2%80%9Cglasstaff%E2%80%9D%20albrek_xmm"
   },
   {
     "Name": "Ice Devil",
@@ -10792,7 +10819,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#iggwilv%20the%20witch%20queen_wbtw"
   },
   {
     "Name": "Imp",
@@ -11086,7 +11114,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#jabberwock_wbtw"
   },
   {
     "Name": "Jackalwere",
@@ -11157,7 +11186,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#jade%20spider_oota"
   },
   {
     "Name": "Jalester Silvermane",
@@ -11216,7 +11245,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#jingle%20jangle_wbtw"
   },
   {
     "Name": "Jot",
@@ -11469,7 +11499,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#kelek_wbtw"
   },
   {
     "Name": "Kenku",
@@ -11509,7 +11540,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#kettlesteam%20the%20kenku_wbtw"
   },
   {
     "Name": "Khalessa Draga",
@@ -11778,7 +11810,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#korred_wbtw"
   },
   {
     "Name": "Kostchtchie",
@@ -12211,7 +12244,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#living%20doll_wbtw"
   },
   {
     "Name": "Lizard",
@@ -12358,7 +12392,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#lords%E2%80%99%20alliance%20guard_oota"
   },
   {
     "Name": "Lords’ Alliance Spy",
@@ -12380,7 +12414,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#lords%E2%80%99%20alliance%20spy_oota"
   },
   {
     "Name": "Lorthuun",
@@ -12450,7 +12484,7 @@
     "Adventures": [
       "Baldur's Gate: Descent into Avernus"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#madcap_bgdia"
   },
   {
     "Name": "Mage",
@@ -12740,7 +12774,7 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#manshoon's%20simulacrum_wdh"
   },
   {
     "Name": "Manticore",
@@ -13095,7 +13129,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#mercion_wbtw"
   },
   {
     "Name": "Merfolk Skirmisher",
@@ -13467,7 +13502,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#mister%20light_wbtw"
   },
   {
     "Name": "Mister Witch",
@@ -13478,7 +13514,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#mister%20witch_wbtw"
   },
   {
     "Name": "Modron Duodrone",
@@ -13555,7 +13592,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#molliver_wbtw"
   },
   {
     "Name": "Monodrone",
@@ -13603,7 +13641,7 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#mookie%20plush_wdh"
   },
   {
     "Name": "Mortlock Vanthampur",
@@ -13933,7 +13971,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#nalfeshnee%20(summoner%20variant)_oota"
   },
   {
     "Name": "Narrak",
@@ -14145,7 +14183,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#night%20hag%20(coven%20variant)_toa"
   },
   {
     "Name": "Nightblade",
@@ -14160,7 +14198,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#nightblade_xmm",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -14244,7 +14282,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#nimblewrite%20hulk_xmm",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -14369,7 +14407,7 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#noska%20ur%E2%80%99gray_wdh"
   },
   {
     "Name": "Nothic",
@@ -14623,7 +14661,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#ogrillon_xmm",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -14971,7 +15009,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#paper%20bird_wbtw"
   },
   {
     "Name": "Pegasus",
@@ -15404,7 +15443,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#pollenella%20the%20honeybee_wbtw"
   },
   {
     "Name": "Poltergeist",
@@ -15531,7 +15571,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#prince%20livid_oota"
   },
   {
     "Name": "Princess Ebonmire",
@@ -15717,7 +15757,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#pudding%20king_oota"
   },
   {
     "Name": "Purple Worm",
@@ -15928,7 +15968,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#quickling_wbtw"
   },
   {
     "Name": "Raezil",
@@ -15939,7 +15980,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#raezil_wbtw"
   },
   {
     "Name": "Rakshasa",
@@ -16473,7 +16515,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#ringlerun_wbtw"
   },
   {
     "Name": "Rishaal",
@@ -16496,7 +16539,7 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#rishaal_wdh"
   },
   {
     "Name": "Roc",
@@ -16589,7 +16632,7 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#roscoe%20underbough_wdh"
   },
   {
     "Name": "Rug of Smothering",
@@ -17059,7 +17102,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#sea%20hag%20(coven%20variant)_toa"
   },
   {
     "Name": "Seal",
@@ -17113,7 +17156,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#selenelion%20twin_wbtw"
   },
   {
     "Name": "Shadow",
@@ -17153,7 +17197,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#shadow%20(variant)_wbtw"
   },
   {
     "Name": "Shadow Demon",
@@ -17240,7 +17285,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#shaman_xmm",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -17480,7 +17525,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#sir%20talavar_wbtw"
   },
   {
     "Name": "Skabatha Nightshade",
@@ -17491,7 +17537,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#skabatha%20nightshade_wbtw"
   },
   {
     "Name": "Skeemo Weirdbottle",
@@ -17596,7 +17643,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#skylla_wbtw"
   },
   {
     "Name": "Slaad Tadpole",
@@ -17891,7 +17939,7 @@
     "Adventures": [
       "Dragon of Icespire Peak"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#spellcaster%20-%20healer_dip"
   },
   {
     "Name": "Spellcaster - Mage",
@@ -17915,7 +17963,7 @@
     "Adventures": [
       "Dragon of Icespire Peak"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#spellcaster%20-%20mage_dip"
   },
   {
     "Name": "Sperm Whale",
@@ -18198,7 +18246,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#squirt%20the%20oilcan_wbtw"
   },
   {
     "Name": "Steam Mephit",
@@ -18379,7 +18428,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#strongheart_wbtw"
   },
   {
     "Name": "Su-monster",
@@ -18522,7 +18572,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#swarm%20of%20campestris_wbtw"
   },
   {
     "Name": "Swarm of Crawling Claws",
@@ -18839,7 +18890,7 @@
     "Adventures": [
       "Out of the Abyss"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#szashune_oota"
   },
   {
     "Name": "Tabaxi Hunter",
@@ -18902,7 +18953,7 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#talisolvanar%20%E2%80%9Ctally%E2%80%9D%20fellbranch_wdh"
   },
   {
     "Name": "Tarrasque",
@@ -19266,7 +19317,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#tin%20soldier_wbtw"
   },
   {
     "Name": "Tixie Tockworth",
@@ -19527,7 +19579,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#treant%20sapling_wbtw"
   },
   {
     "Name": "Tree Blight",
@@ -20015,7 +20068,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#vampire%20familar_xmm",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -20575,7 +20628,7 @@
       "Waterdeep Dragon Heist",
       "Tomb of Annihilation"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#volothamp%20%E2%80%9Cvolo%E2%80%9D%20geddarm_wdh"
   },
   {
     "Name": "Walking Statue of Waterdeep",
@@ -20633,7 +20686,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#warduke_wbtw"
   },
   {
     "Name": "Warhorse Skeleton",
@@ -21074,7 +21128,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#will-o-wisp_xmm",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -21114,7 +21168,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#will-o%E2%80%99-wisp%20(variant)_wbtw"
   },
   {
     "Name": "Winged Kobold",
@@ -21173,7 +21228,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#witchlight%20hand_wbtw"
   },
   {
     "Name": "Witchlight Hand (Small)",
@@ -21184,7 +21240,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#witchlight%20hand%20(small)_wbtw"
   },
   {
     "Name": "Withers",
@@ -21593,7 +21650,7 @@
     "Adventures": [
       "Waterdeep Dragon Heist"
     ],
-    "Statblock_Link": ""
+    "Statblock_Link": "https://5e.tools/bestiary.html#yorn%20the%20terror_wdh"
   },
   {
     "Name": "Young Amethyst Dragon",
@@ -21885,7 +21942,7 @@
     "Intelligence": 10,
     "Wisdom": 10,
     "Charisma": 10,
-    "Statblock_Link": "",
+    "Statblock_Link": "https://5e.tools/bestiary.html#yuan-ti%20malison_toa",
     "Faction": "",
     "Adventure": "",
     "Region": [
@@ -22093,7 +22150,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#zarak_wbtw"
   },
   {
     "Name": "Zargash",
@@ -22104,7 +22162,8 @@
       "Moonshae",
       "Heartlands"
     ],
-    "Adventures": []
+    "Adventures": [],
+    "Statblock_Link": "https://5e.tools/bestiary.html#zargash_wbtw"
   },
   {
     "Name": "Zargon the Returner",

@@ -353,9 +353,10 @@ function Hexagon({ color, size = 50 }) {
 }
 
 // Helper function to format encounter result for display
+// Returns React elements with monster names as hyperlinks to 5etools
 function formatEncounterResult(encounterResult, selectedTheme, factionMap = null, regionId = null) {
   if (encounterResult.error) {
-    return `Error: ${encounterResult.error}`;
+    return <span>Error: {encounterResult.error}</span>;
   }
 
   // Build custom description if we have faction assignments
@@ -363,7 +364,7 @@ function formatEncounterResult(encounterResult, selectedTheme, factionMap = null
     const monsters = encounterResult.monsters;
 
     // Group monsters by name and track their faction assignments
-    // name -> { count, factionCounts, adventure }
+    // name -> { count, factionCounts, adventure, statblockLink }
     const monsterGroups = new Map();
 
     for (let i = 0; i < monsters.length; i++) {
@@ -373,7 +374,9 @@ function formatEncounterResult(encounterResult, selectedTheme, factionMap = null
       const key = `${name}|${cr}`;
 
       if (!monsterGroups.has(key)) {
-        monsterGroups.set(key, { name, cr, count: 0, factionCounts: new Map(), adventure: null });
+        const data = MONSTER_MAP.get(name);
+        const statblockLink = data?.Statblock_Link || null;
+        monsterGroups.set(key, { name, cr, count: 0, factionCounts: new Map(), adventure: null, statblockLink });
       }
 
       const group = monsterGroups.get(key);
@@ -391,15 +394,11 @@ function formatEncounterResult(encounterResult, selectedTheme, factionMap = null
       }
     }
 
-    // Build description
-    const parts = [];
+    // Build description as React elements
+    const elements = [];
+    let idx = 0;
     for (const [, group] of monsterGroups) {
-      let part = '';
-      if (group.count > 1) {
-        part = `${group.count}× ${group.name} (CR ${group.cr})`;
-      } else {
-        part = `${group.name} (CR ${group.cr})`;
-      }
+      if (idx > 0) elements.push(<span key={`sep-${idx}`}> + </span>);
 
       const distinctExtras = [];
 
@@ -413,7 +412,6 @@ function formatEncounterResult(encounterResult, selectedTheme, factionMap = null
         const factionParts = [];
         for (const [faction, count] of group.factionCounts) {
           if (count === group.count) {
-            // All involved
             factionParts.push(`faction ${faction}`);
           } else {
             factionParts.push(`${count} faction ${faction}`);
@@ -422,28 +420,98 @@ function formatEncounterResult(encounterResult, selectedTheme, factionMap = null
         distinctExtras.push(...factionParts);
       }
 
-      if (distinctExtras.length > 0) {
-        part += ` (${distinctExtras.join(', ')})`;
-      }
+      const extrasStr = distinctExtras.length > 0 ? ` (${distinctExtras.join(', ')})` : '';
+      const countPrefix = group.count > 1 ? `${group.count}× ` : '';
 
-      parts.push(part);
+      elements.push(
+        <span key={`monster-${idx}`}>
+          {countPrefix}
+          {group.statblockLink ? (
+            <a
+              href={group.statblockLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: '#58180D', textDecoration: 'underline' }}
+            >
+              {group.name}
+            </a>
+          ) : (
+            group.name
+          )}
+          {` (CR ${group.cr})`}{extrasStr}
+        </span>
+      );
+      idx++;
     }
 
-    let result = parts.join(' + ');
     if (selectedTheme === 'Any' && encounterResult.theme) {
-      result += ` [${encounterResult.theme} theme]`;
+      elements.push(<span key="theme"> [{encounterResult.theme} theme]</span>);
     }
-    return result;
+
+    return <>{elements}</>;
   }
 
-  // Fallback to original description
+  // Fallback: parse the description and add links for known monsters
+  if (encounterResult.monsters && encounterResult.monsters.length > 0) {
+    // Group monsters for display
+    const monsterGroups = new Map();
+    for (const m of encounterResult.monsters) {
+      const key = `${m.Name}|${m.CR}`;
+      if (!monsterGroups.has(key)) {
+        const data = MONSTER_MAP.get(m.Name);
+        monsterGroups.set(key, {
+          name: m.Name,
+          cr: m.CR,
+          count: 0,
+          statblockLink: data?.Statblock_Link || null
+        });
+      }
+      monsterGroups.get(key).count++;
+    }
+
+    const elements = [];
+    let idx = 0;
+    for (const [, group] of monsterGroups) {
+      if (idx > 0) elements.push(<span key={`sep-${idx}`}> + </span>);
+
+      const countPrefix = group.count > 1 ? `${group.count}× ` : '';
+
+      elements.push(
+        <span key={`monster-${idx}`}>
+          {countPrefix}
+          {group.statblockLink ? (
+            <a
+              href={group.statblockLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: '#58180D', textDecoration: 'underline' }}
+            >
+              {group.name}
+            </a>
+          ) : (
+            group.name
+          )}
+          {` (CR ${group.cr})`}
+        </span>
+      );
+      idx++;
+    }
+
+    if (selectedTheme === 'Any' && encounterResult.theme) {
+      elements.push(<span key="theme"> [{encounterResult.theme} theme]</span>);
+    }
+
+    return <>{elements}</>;
+  }
+
+  // Ultimate fallback to original description
   let result = encounterResult.description;
 
   if (selectedTheme === 'Any' && encounterResult.theme) {
     result += ` [${encounterResult.theme} theme]`;
   }
 
-  return result;
+  return <span>{result}</span>;
 }
 
 // Build JSON output for external app consumption
