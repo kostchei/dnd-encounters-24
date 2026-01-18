@@ -346,7 +346,6 @@
 **Region:** Heartlands
 
 ## Keys from the Golden Vault
-**Region:** Cities
 ### The Murkmire Malevolence
 - [ ] Dr. Cassee Dannell
 - [ ] Eldritch Horror Hatchling
@@ -363,6 +362,8 @@
 - [ ] mimic
 - [ ] noble
 - [ ] scarecrow
+**Region:** Heartlands
+
 ### The Stygian Gambit
 - [ ] Baboon
 - [ ] Commoner
@@ -374,6 +375,8 @@
 - [ ] noble
 - [ ] spy
 - [ ] thug
+**Region:** Calimshan
+
 ### Reach for the Stars
 - [ ] Crawling Claw
 - [ ] Cultist
@@ -397,6 +400,8 @@
 - [ ] nothic
 - [ ] rug of smothering
 - [ ] slaad tadpole
+**Region:** Dungeons
+
 ### Prisoner 13
 - [ ] Commoner
 - [ ] Hobgoblin Captain
@@ -407,6 +412,8 @@
 - [ ] noble
 - [ ] spectator
 - [ ] spy
+**Region:** Dungeons
+
 ### Tockworth's Clockworks
 - [ ] Clockwork Defender
 - [ ] Clockwork Observer
@@ -437,9 +444,9 @@
 - [ ] shambling mound
 - [ ] shield guardian
 - [ ] specter
+**Region:** Dungeons
 
 ## Dragon Delves
-**Region:** Dungeons
 ### Death at Sunset
 - [ ] Commoner
 - [ ] Constrictor Snake
@@ -459,6 +466,8 @@
 - [ ] Vine Blight
 - [ ] Yuan-ti Malison (Type 1)
 - [ ] Zombie
+**Region:** Heartlands
+
 ### Baker's Dozen
 - [ ] Animated Rug of Smothering
 - [ ] Bandit
@@ -473,6 +482,8 @@
 - [ ] Mummy
 - [ ] Ogre
 - [ ] Tough
+**Region:** Heartlands
+
 ### Will of Orcus
 - [ ] Black Pudding
 - [ ] Commoner
@@ -495,6 +506,8 @@
 - [ ] Zombie
 - [ ] ghast
 - [ ] vampire
+**Region:** Dungeons
+
 ### For Whom the Void Calls
 - [ ] Blue Slaad
 - [ ] Earth Elemental
@@ -509,9 +522,9 @@
 - [ ] Water Elemental
 - [ ] Winged Kobold
 - [ ] Young Brass Dragon
+**Region:** Calimshan
 
 ## Forgotten Realms: Adventures in Faerun
-**Region:** Heartlands
 ### The Curse on Humble Hill
 - [ ] Death Dog
 - [ ] Mage Apprentice
@@ -519,6 +532,8 @@
 - [ ] Tough
 - [ ] Vine Blight
 - [ ] Violet Fungus
+**Region:** Heartlands
+
 ### Robber Baron
 - [ ] Bandit
 - [ ] Mastiff
@@ -527,6 +542,8 @@
 - [ ] Spy
 - [ ] Tough
 - [ ] Warrior Infantry
+**Region:** Heartlands
+
 ### The Siege of Shalespire Priory
 - [ ] Bugbear Warrior
 - [ ] Commoner
@@ -540,6 +557,8 @@
 - [ ] Priest Acolyte
 - [ ] Wolf
 - [ ] Worg
+**Region:** Heartlands
+
 ### The Weeping Goddess
 - [ ] Cultist Fanatic
 - [ ] Kenku
@@ -548,11 +567,15 @@
 - [ ] Shadow
 - [ ] Swarm of Ravens
 - [ ] Swarm of Stirges
+**Region:** Heartlands
+
 ### Fury Grove
 - [ ] Dire Wolf
 - [ ] Displacer Beast
 - [ ] Giant Boar
 - [ ] Spy
+**Region:** Heartlands
+
 ### The Tenebrous Stone
 - [ ] Ghast
 - [ ] Ghoul
@@ -560,11 +583,15 @@
 - [ ] Succubus
 - [ ] Wight
 - [ ] Zombie
+**Region:** Heartlands
+
 ### Disinterred Danger
 - [ ] Cambion
 - [ ] Crawling Claw
 - [ ] Swarm of Crawling Claws
 - [ ] Wraith
+**Region:** Heartlands
+
 ### The Drowning Forest
 - [ ] Bugbear Stalker
 - [ ] Bugbear Warrior
@@ -579,12 +606,16 @@
 - [ ] Troll
 - [ ] Will-o'-Wisp
 - [ ] Worg
+**Region:** Heartlands
+
 ### The Lost Dawn
 - [ ] Cultist Fanatic
 - [ ] Displacer Beast
 - [ ] Shadow Demon
 - [ ] Smoke Mephit
 - [ ] Specter
+**Region:** Heartlands
+
 ### Wolves of Amphail
 - [ ] Commoner
 - [ ] Noble
@@ -595,6 +626,8 @@
 - [ ] Wererat
 - [ ] Weretiger
 - [ ] Werewolf
+**Region:** Heartlands
+
 ### The Eyes of Atar
 - [ ] Assassin
 - [ ] Bandit
@@ -607,8 +640,12 @@
 - [ ] Scout
 - [ ] Tough
 - [ ] Tough Boss
+**Region:** Heartlands
+
 ### Safehouse Standoff
 - [ ] Bandit Deceiver
+**Region:** Heartlands
+
 ### Tears Fall
 - [ ] Cultist Fanatic
 - [ ] Giant Owl
@@ -622,3 +659,4 @@
 - [ ] Werebear
 - [ ] Wraith
 - [ ] Young Copper Dragon
+**Region:** Heartlands

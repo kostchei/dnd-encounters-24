@@ -1,0 +1,664 @@
+{
+    "patterns": {
+        "chromatic": {
+            "prefixes": [
+                "Aurg",
+                "Chuth",
+                "Iymr",
+                "Klauth",
+                "Araug",
+                "Venth",
+                "Thax",
+                "Skorth",
+                "Azhor",
+                "Brimm",
+                "Corm",
+                "Drax",
+                "Fang",
+                "Gorr",
+                "Heth",
+                "Jarv",
+                "Keth",
+                "Lorn",
+                "Morv",
+                "Neth",
+                "Orth",
+                "Pyrr",
+                "Qorv",
+                "Rath",
+                "Senth",
+                "Torv",
+                "Ulth",
+                "Vex",
+                "Wyrm",
+                "Xeth",
+                "Yorth",
+                "Zenth"
+            ],
+            "suffixes": [
+                "rax",
+                "thax",
+                "viir",
+                "maug",
+                "deth",
+                "kur",
+                "drex",
+                "moth",
+                "skar",
+                "vex",
+                "dorn",
+                "fex",
+                "grim",
+                "hex",
+                "jex",
+                "karn",
+                "lax",
+                "mex",
+                "nox",
+                "pex",
+                "qorn",
+                "rex",
+                "sorn",
+                "tex",
+                "urx",
+                "vorn",
+                "wex",
+                "xorn",
+                "yrx",
+                "zax"
+            ]
+        },
+        "metallic": {
+            "prefixes": [
+                "Lareth",
+                "Palarandusk",
+                "Glim",
+                "Aurin",
+                "Silv",
+                "Copp",
+                "Bron",
+                "Mithe",
+                "Vael",
+                "Aerth",
+                "Bright",
+                "Celest",
+                "Dawn",
+                "Ether",
+                "Frost",
+                "Glint",
+                "Halo",
+                "Iris",
+                "Jewel",
+                "Kirin",
+                "Light",
+                "Moon",
+                "Nova",
+                "Opal",
+                "Pearl",
+                "Quartz",
+                "Radiant",
+                "Star",
+                "Topaz",
+                "Umbra",
+                "Vesper",
+                "Zephyr"
+            ],
+            "suffixes": [
+                "gold",
+                "wing",
+                "scale",
+                "heart",
+                "bright",
+                "shine",
+                "gleam",
+                "frost",
+                "star",
+                "moon",
+                "sun",
+                "ray",
+                "light",
+                "glow",
+                "bane",
+                "ward",
+                "guard",
+                "keep",
+                "helm",
+                "hand",
+                "brow",
+                "song",
+                "whisper",
+                "dream",
+                "hope",
+                "grace",
+                "noble",
+                "fair",
+                "wise",
+                "true"
+            ]
+        },
+        "gem": {
+            "prefixes": [
+                "Amer",
+                "Cryst",
+                "Emeral",
+                "Sapp",
+                "Topa",
+                "Ameth",
+                "Rubi",
+                "Onyx",
+                "Opal",
+                "Jade",
+                "Pearl",
+                "Quartz",
+                "Diamond",
+                "Obsid",
+                "Garnet",
+                "Turq",
+                "Carn",
+                "Beryl",
+                "Jasper",
+                "Agate",
+                "Malachit",
+                "Lazul",
+                "Citrin",
+                "Zircon",
+                "Spinel",
+                "Peridat",
+                "Tourmal",
+                "Aquamar",
+                "Moonst",
+                "Sunst"
+            ],
+            "suffixes": [
+                "shard",
+                "facet",
+                "gleam",
+                "spark",
+                "mind",
+                "thought",
+                "dream",
+                "vision",
+                "sight",
+                "gaze",
+                "focus",
+                "clarity",
+                "wisdom",
+                "insight",
+                "psyche",
+                "nexus",
+                "prism",
+                "crystal",
+                "gem",
+                "stone",
+                "core",
+                "heart",
+                "soul",
+                "essence",
+                "aura",
+                "radiance",
+                "brilliance",
+                "luster",
+                "shimmer",
+                "glitter"
+            ]
+        }
+    },
+    "titles": {
+        "ancient": [
+            "the Terrible",
+            "the Undying",
+            "Scourge of the North",
+            "the Eternal",
+            "the Magnificent",
+            "Doom of Kingdoms",
+            "the World Ender",
+            "the Ancient One",
+            "Bane of Heroes",
+            "the Cataclysm",
+            "Ruiner of Realms",
+            "the Primordial",
+            "the Immortal",
+            "Destroyer of Nations",
+            "the Legendary",
+            "the Mythic",
+            "Herald of Destruction",
+            "the Unforgotten",
+            "Lord of the Wyrms",
+            "the First Flame"
+        ],
+        "adult": [
+            "the Cunning",
+            "the Crimson",
+            "Wyrm of the Mountains",
+            "the Fearsome",
+            "the Ravenous",
+            "the Dread",
+            "the Merciless",
+            "the Cunning",
+            "the Proud",
+            "the Wise",
+            "Slayer of Knights",
+            "the Hungry",
+            "the Wrathful",
+            "the Tempest",
+            "the Gilded",
+            "the Hoarded",
+            "Master of Flame",
+            "the Dreaded",
+            "the Mighty",
+            "the Glorious",
+            "the Terrible",
+            "the Magnificent",
+            "the Splendid"
+        ],
+        "young": [
+            "Flamescale",
+            "Icefang",
+            "Stormwing",
+            "Shadowclaw",
+            "Venomtooth",
+            "Quickwing",
+            "Swiftstrike",
+            "Firebrand",
+            "Frostbite",
+            "Thundermaw",
+            "Brightscale",
+            "Darkwing",
+            "Sharpfang",
+            "Ironhide",
+            "Stonescale",
+            "Cloudchaser",
+            "Nightstalker",
+            "Sunseeker",
+            "Stargazer",
+            "Moonhunter"
+        ],
+        "wyrmling": [
+            "the Young",
+            "the Hatchling",
+            "the Eager",
+            "the Swift",
+            "the Curious"
+        ]
+    },
+    "famous": {
+        "red": [
+            "Klauth",
+            "Ashardalon",
+            "Themberchaud",
+            "Imvaernarhro",
+            "Hoondarrh",
+            "Balagos",
+            "Chardalyn",
+            "Flashburn",
+            "Inferno"
+        ],
+        "blue": [
+            "Iymrith",
+            "Lennithon",
+            "Arauthator",
+            "Glazhael",
+            "Uldrak",
+            "Stormwing",
+            "Thunderjaw",
+            "Skysplitter"
+        ],
+        "green": [
+            "Chuth",
+            "Venomfang",
+            "Claugiyliamatar",
+            "Viridian",
+            "Emeraldas",
+            "Toxica",
+            "Verdithrax",
+            "Chlorine"
+        ],
+        "black": [
+            "Voaraghamanthar",
+            "Waervaerendor",
+            "Dretchroyaster",
+            "Shadowmire",
+            "Acidmaw",
+            "Blackscale",
+            "Rotfang"
+        ],
+        "white": [
+            "Arauthator",
+            "Iceclaws",
+            "Icingdeath",
+            "Freezefang",
+            "Blizzardfang",
+            "Frostbite",
+            "Snowdrift",
+            "Icewind"
+        ],
+        "gold": [
+            "Palarandusk",
+            "Aurinax",
+            "Lareth",
+            "Solaris",
+            "Goldenwing",
+            "Sunscale",
+            "Radiance",
+            "Brightfire"
+        ],
+        "silver": [
+            "Silvanus",
+            "Otaaryliakkarnos",
+            "Mithralwing",
+            "Moonshadow",
+            "Starlight",
+            "Silvergleam",
+            "Frostshine"
+        ],
+        "bronze": [
+            "Nymmurh",
+            "Tazmikella",
+            "Stormrider",
+            "Wavecrest",
+            "Tidewalker",
+            "Thundercall",
+            "Seaspray"
+        ],
+        "copper": [
+            "Ilnezhara",
+            "Redscale",
+            "Sunbronze",
+            "Desertwind",
+            "Sandrider",
+            "Copperback",
+            "Dustwing"
+        ],
+        "brass": [
+            "Zelifarn",
+            "Sandscale",
+            "Dawnfire",
+            "Heatwave",
+            "Mirage",
+            "Sunspot",
+            "Warmbreeze"
+        ],
+        "amethyst": [
+            "Eldenser",
+            "Crystalmind",
+            "Voidgazer",
+            "Psyshard",
+            "Thoughtweaver",
+            "Mindkeeper"
+        ],
+        "emerald": [
+            "Verdantscale",
+            "Forestkeeper",
+            "Dreamweaver",
+            "Visionseeker",
+            "Greenmind"
+        ],
+        "sapphire": [
+            "Deepazure",
+            "Oceanmind",
+            "Wavethought",
+            "Tidedreamer",
+            "Blueheart"
+        ],
+        "topaz": [
+            "Sunmind",
+            "Goldthought",
+            "Brightdream",
+            "Warmheart",
+            "Dawnsight"
+        ],
+        "crystal": [
+            "Prismshard",
+            "Clearmind",
+            "Purethought",
+            "Lightkeeper",
+            "Truthgazer"
+        ]
+    },
+    "byColor": {
+        "red": {
+            "traits": [
+                "fiery",
+                "wrathful",
+                "proud",
+                "greedy",
+                "dominating"
+            ],
+            "lairTypes": [
+                "volcano",
+                "mountain",
+                "cavern",
+                "ruin"
+            ],
+            "regionAffinity": [
+                "calimshan",
+                "heartlands"
+            ]
+        },
+        "blue": {
+            "traits": [
+                "cunning",
+                "vain",
+                "territorial",
+                "patient",
+                "scheming"
+            ],
+            "lairTypes": [
+                "desert",
+                "coast",
+                "ruin",
+                "underground"
+            ],
+            "regionAffinity": [
+                "calimshan",
+                "cities"
+            ]
+        },
+        "green": {
+            "traits": [
+                "manipulative",
+                "deceitful",
+                "cruel",
+                "patient",
+                "territorial"
+            ],
+            "lairTypes": [
+                "forest",
+                "jungle",
+                "swamp",
+                "ruin"
+            ],
+            "regionAffinity": [
+                "heartlands",
+                "moonshae"
+            ]
+        },
+        "black": {
+            "traits": [
+                "sadistic",
+                "cowardly",
+                "vile",
+                "patient",
+                "cunning"
+            ],
+            "lairTypes": [
+                "swamp",
+                "marsh",
+                "ruin",
+                "underground"
+            ],
+            "regionAffinity": [
+                "moonshae",
+                "dungeons"
+            ]
+        },
+        "white": {
+            "traits": [
+                "bestial",
+                "primal",
+                "territorial",
+                "simple",
+                "savage"
+            ],
+            "lairTypes": [
+                "glacier",
+                "tundra",
+                "mountain",
+                "ice cave"
+            ],
+            "regionAffinity": [
+                "icewind_dale"
+            ]
+        },
+        "gold": {
+            "traits": [
+                "wise",
+                "just",
+                "proud",
+                "patient",
+                "protective"
+            ],
+            "lairTypes": [
+                "any",
+                "mountain",
+                "castle",
+                "sanctuary"
+            ],
+            "regionAffinity": [
+                "heartlands",
+                "cities"
+            ]
+        },
+        "silver": {
+            "traits": [
+                "friendly",
+                "curious",
+                "protective",
+                "kind",
+                "wise"
+            ],
+            "lairTypes": [
+                "mountain",
+                "cloud",
+                "castle",
+                "sanctuary"
+            ],
+            "regionAffinity": [
+                "icewind_dale",
+                "heartlands"
+            ]
+        },
+        "bronze": {
+            "traits": [
+                "curious",
+                "honorable",
+                "martial",
+                "protective",
+                "bold"
+            ],
+            "lairTypes": [
+                "coast",
+                "island",
+                "shipwreck",
+                "lighthouse"
+            ],
+            "regionAffinity": [
+                "moonshae",
+                "cities"
+            ]
+        },
+        "copper": {
+            "traits": [
+                "witty",
+                "playful",
+                "clever",
+                "mischievous",
+                "friendly"
+            ],
+            "lairTypes": [
+                "desert",
+                "mountain",
+                "canyon",
+                "cave"
+            ],
+            "regionAffinity": [
+                "calimshan",
+                "heartlands"
+            ]
+        },
+        "brass": {
+            "traits": [
+                "talkative",
+                "friendly",
+                "curious",
+                "sociable",
+                "helpful"
+            ],
+            "lairTypes": [
+                "desert",
+                "wasteland",
+                "dune",
+                "oasis"
+            ],
+            "regionAffinity": [
+                "calimshan"
+            ]
+        }
+    },
+    "titles_by_cr": {
+        "30": [
+            "World Ender",
+            "the Destroyer",
+            "Doom of Empires",
+            "the Cataclysm",
+            "Godslayer"
+        ],
+        "24": [
+            "the Eternal",
+            "Ruiner of Kingdoms",
+            "the Magnificent",
+            "Bane of Heroes"
+        ],
+        "20": [
+            "the Terrible",
+            "the Undying",
+            "Scourge of Lands",
+            "the Ancient"
+        ],
+        "17": [
+            "the Dread",
+            "the Mighty",
+            "the Legendary",
+            "Master of Flame"
+        ],
+        "13": [
+            "the Cunning",
+            "the Fearsome",
+            "the Proud",
+            "Wyrm of the Vale"
+        ],
+        "10": [
+            "the Fierce",
+            "the Bold",
+            "the Swift",
+            "the Hungry"
+        ],
+        "7": [
+            "Flamescale",
+            "Stormwing",
+            "Shadowclaw",
+            "the Young"
+        ],
+        "4": [
+            "the Hatchling",
+            "the Eager",
+            "the Swift",
+            "Young One"
+        ],
+        "2": [
+            "Little One",
+            "the Hatchling",
+            "the Newborn"
+        ]
+    }
+}

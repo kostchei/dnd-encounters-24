@@ -1,0 +1,842 @@
+{
+    "Cult of the Dragon": {
+        "titles": [
+            "the Wyrmspeaker",
+            "Dragon Cultist",
+            "Wearer of Purple",
+            "Dragonsoul",
+            "Dragonfang",
+            "Wyrmkeeper"
+        ],
+        "epithets": [
+            "Servant of Tiamat",
+            "Voice of the Dragon Queen",
+            "Keeper of the Draakhorn",
+            "Herald of the Rising Wyrm"
+        ],
+        "names": {
+            "male": [
+                "Rezmir",
+                "Langdedrosa",
+                "Azbara",
+                "Varram",
+                "Neronvain",
+                "Galvan",
+                "Borngray",
+                "Severin",
+                "Talis",
+                "Frulam"
+            ],
+            "female": [
+                "Mondath",
+                "Rezmir",
+                "Talis",
+                "Varram",
+                "Naergoth",
+                "Wyrmlord",
+                "Rath",
+                "Blagothkus",
+                "Glazhael",
+                "Chuth"
+            ]
+        }
+    },
+    "Emerald Enclave": {
+        "titles": [
+            "Springwarden",
+            "Naturewarden",
+            "Autumnreeve",
+            "Winterstalker",
+            "Summerstrider",
+            "Greenwarden"
+        ],
+        "epithets": [
+            "Voice of the Wild",
+            "Defender of the Balance",
+            "Speaker to Beasts",
+            "Guardian of the Green"
+        ],
+        "names": {
+            "male": [
+                "Delaan",
+                "Morgur",
+                "Rishaal",
+                "Gauntlgrym",
+                "Emerald",
+                "Thoril",
+                "Gwaeron",
+                "Mielikki",
+                "Silvanus",
+                "Eldath"
+            ],
+            "female": [
+                "Nestra",
+                "Delaan",
+                "Shalendra",
+                "Tharra",
+                "Lorelei",
+                "Celaena",
+                "Willow",
+                "Bramble",
+                "Ivy",
+                "Fern"
+            ]
+        }
+    },
+    "Harpers": {
+        "titles": [
+            "Harper Agent",
+            "Senior Harper",
+            "Harper Spy",
+            "Harpshadow",
+            "Those Who Harp",
+            "Bright Candle"
+        ],
+        "epithets": [
+            "Walker of the Twilight Hall",
+            "Keeper of Secrets",
+            "Watcher in the Shadows",
+            "Defender of the Innocent"
+        ],
+        "names": {
+            "male": [
+                "Leosin",
+                "Remi",
+                "Zelenn",
+                "Mirt",
+                "Remallia",
+                "Storm",
+                "Bran",
+                "Khelben",
+                "Elminster",
+                "Danilo"
+            ],
+            "female": [
+                "Laeral",
+                "Dove",
+                "Storm",
+                "Cylyria",
+                "Eaerlraun",
+                "Mirella",
+                "Thalia",
+                "Arilyn",
+                "Penelope",
+                "Lucia"
+            ]
+        }
+    },
+    "Lords' Alliance": {
+        "titles": [
+            "Marshal",
+            "Commander",
+            "Lord's Agent",
+            "Alliance Envoy",
+            "Shield of the Lords",
+            "Warden of the Sword Coast"
+        ],
+        "epithets": [
+            "Defender of Civilization",
+            "Voice of the Lords",
+            "Protector of the Realm",
+            "Knight of the Alliance"
+        ],
+        "names": {
+            "male": [
+                "Dagult",
+                "Laeral",
+                "Connerad",
+                "Melandrach",
+                "Ulder",
+                "Taern",
+                "Neverember",
+                "Silmerhelve",
+                "Bladesemmer",
+                "Thann"
+            ],
+            "female": [
+                "Silverhand",
+                "Duvessa",
+                "Taern",
+                "Laskar",
+                "Otilia",
+                "Nidalia",
+                "Darva",
+                "Remallia",
+                "Jelvus",
+                "Hartwell"
+            ]
+        }
+    },
+    "Order of the Gauntlet": {
+        "titles": [
+            "Chevall",
+            "Marcheon",
+            "Whitehawk",
+            "Vindicator",
+            "Doomguide",
+            "Holy Avenger"
+        ],
+        "epithets": [
+            "Fist of Righteousness",
+            "Smiter of Evil",
+            "Champion of Justice",
+            "Hammer of the Dawn"
+        ],
+        "names": {
+            "male": [
+                "Ontharr",
+                "Daran",
+                "Edermath",
+                "Savra",
+                "Thurl",
+                "Erned",
+                "Grimguard",
+                "Mordai",
+                "Paladin",
+                "Crusader"
+            ],
+            "female": [
+                "Belabranta",
+                "Savra",
+                "Elia",
+                "Kianna",
+                "Valor",
+                "Hope",
+                "Dawn",
+                "Mercy",
+                "Grace",
+                "Faith"
+            ]
+        }
+    },
+    "Purple Dragon Knights": {
+        "titles": [
+            "Purple Dragon Knight",
+            "War Wizard",
+            "Royal Knight",
+            "Defender of Cormyr",
+            "Sword of the Crown",
+            "Shield of the Purple Dragon"
+        ],
+        "epithets": [
+            "Champion of Cormyr",
+            "Bearer of the Dragon Standard",
+            "Knight of the Crown",
+            "Defender of Suzail"
+        ],
+        "names": {
+            "male": [
+                "Foril",
+                "Azoun",
+                "Thomdor",
+                "Vangerdahast",
+                "Cormyr",
+                "Obarsyk",
+                "Rhauligan",
+                "Bhereu",
+                "Dauneth",
+                "Emlar"
+            ],
+            "female": [
+                "Tanalasta",
+                "Alusair",
+                "Filfaeril",
+                "Luthana",
+                "Shandril",
+                "Myrmeen",
+                "Alphonse",
+                "Lusheene",
+                "Florian",
+                "Immril"
+            ]
+        }
+    },
+    "Red Wizards": {
+        "titles": [
+            "the Red Wizard",
+            "Tharchion",
+            "Zulkir",
+            "Red Wizard Acolyte",
+            "Thayan Knight",
+            "Master of the Academy"
+        ],
+        "epithets": [
+            "Chosen of Szass Tam",
+            "Lord of the Thayan Enclave",
+            "Master of the Red",
+            "Archmage of Thay"
+        ],
+        "names": {
+            "male": [
+                "Szass",
+                "Lauzoril",
+                "Yaphyll",
+                "Aznar",
+                "Nevron",
+                "Samas",
+                "Druxus",
+                "Malark",
+                "Bareris",
+                "Aoth"
+            ],
+            "female": [
+                "Mythrellan",
+                "Thessaly",
+                "Dmitra",
+                "Lallara",
+                "Zola",
+                "Chathari",
+                "Tammith",
+                "Chathi",
+                "Umara",
+                "Sefris"
+            ]
+        }
+    },
+    "Zhentarim": {
+        "titles": [
+            "the Black Network Agent",
+            "Zhent Operative",
+            "Dark Hand",
+            "Fang of the Network",
+            "Shadow Merchant",
+            "Blackguard"
+        ],
+        "epithets": [
+            "Hand of Bane",
+            "Lord of the Darkhold",
+            "Master of Shadows",
+            "Prince of Lies"
+        ],
+        "names": {
+            "male": [
+                "Fzoul",
+                "Manshoon",
+                "Ashemmi",
+                "Sememmon",
+                "Orgauth",
+                "Clariburnus",
+                "Davil",
+                "Soluun",
+                "Yagra",
+                "Ziraj"
+            ],
+            "female": [
+                "Ashemmi",
+                "Sahil",
+                "Arkhan",
+                "Jamna",
+                "Carlon",
+                "Istrid",
+                "Soluun",
+                "Davil",
+                "Varram",
+                "Naergoth"
+            ]
+        }
+    },
+    "Fire Knives": {
+        "titles": [
+            "Fire Knife Assassin",
+            "Shadow of Westgate",
+            "Noble Blade",
+            "Silent Flame",
+            "Dagger of the Night",
+            "Whisper"
+        ],
+        "epithets": [
+            "Death's Hand",
+            "Shadow of Nobility",
+            "Executioner of Westgate",
+            "The Unseen Blade"
+        ],
+        "names": {
+            "male": [
+                "Cormyr",
+                "Westgate",
+                "Blade",
+                "Shadow",
+                "Flame",
+                "Smoke",
+                "Dagger",
+                "Venom",
+                "Spite",
+                "Malice"
+            ],
+            "female": [
+                "Sable",
+                "Onyx",
+                "Raven",
+                "Midnight",
+                "Silk",
+                "Velvet",
+                "Poison",
+                "Widow",
+                "Shade",
+                "Wraith"
+            ]
+        }
+    },
+    "Nine Golden Swords": {
+        "titles": [
+            "Golden Sword",
+            "Merchant Prince",
+            "Trade Master",
+            "Caravan Lord",
+            "Guild Master",
+            "Voice of the Nine"
+        ],
+        "epithets": [
+            "Master of the Golden Way",
+            "Lord of Trade",
+            "Keeper of the Coffers",
+            "Prince of Commerce"
+        ],
+        "names": {
+            "male": [
+                "Thesk",
+                "Golen",
+                "Kai",
+                "Tuan",
+                "Huo",
+                "Jin",
+                "Li",
+                "Wei",
+                "Feng",
+                "Rong"
+            ],
+            "female": [
+                "Mei",
+                "Ling",
+                "Xia",
+                "Lotus",
+                "Pearl",
+                "Jade",
+                "Ruby",
+                "Amber",
+                "Rose",
+                "Lily"
+            ]
+        }
+    },
+    "Shadow Thieves": {
+        "titles": [
+            "Shadow Thief",
+            "Guildmaster",
+            "Shadowmaster",
+            "Nightblade",
+            "Whisper",
+            "Ghost of Amn"
+        ],
+        "epithets": [
+            "Lord of Shadows",
+            "Master of Whispers",
+            "Prince of Thieves",
+            "Keeper of the Night"
+        ],
+        "names": {
+            "male": [
+                "Athkatla",
+                "Aran",
+                "Linvail",
+                "Renal",
+                "Bloodscalp",
+                "Bodhi",
+                "Irenicus",
+                "Saemon",
+                "Havarian",
+                "Edwin"
+            ],
+            "female": [
+                "Viconia",
+                "Jaheira",
+                "Imoen",
+                "Nalia",
+                "Aerie",
+                "Mazzy",
+                "Hexxat",
+                "Clara",
+                "Lucia",
+                "Neira"
+            ]
+        }
+    },
+    "Xanathar Guild": {
+        "titles": [
+            "Xanathar Agent",
+            "Eye of the Beholder",
+            "Guild Operative",
+            "Beholder's Hand",
+            "Watcher",
+            "Thrall of Xanathar"
+        ],
+        "epithets": [
+            "Servant of the Beholder",
+            "Eye of the Guild",
+            "Hand of the All-Seeing",
+            "Voice of the Eye Tyrant"
+        ],
+        "names": {
+            "male": [
+                "Nihiloor",
+                "Ahmaergo",
+                "Noska",
+                "Krentz",
+                "Thorvin",
+                "Ott",
+                "Gralhund",
+                "Skeemo",
+                "Davil",
+                "Harko"
+            ],
+            "female": [
+                "Skeema",
+                "Ahmaera",
+                "Nosk",
+                "Yagra",
+                "Ziraj",
+                "Istrid",
+                "Thrakkus",
+                "Nar'l",
+                "Tissina",
+                "Sylvia"
+            ]
+        }
+    },
+    "Arcane Brotherhood": {
+        "titles": [
+            "Overwizard",
+            "Mage Most Arcane",
+            "Artificer",
+            "Warlock Knight",
+            "Tower Mage",
+            "Arcane Adept"
+        ],
+        "epithets": [
+            "Lord of the Hosttower",
+            "Master of Arcane Might",
+            "Keeper of Forbidden Knowledge",
+            "Archmage of the North"
+        ],
+        "names": {
+            "male": [
+                "Arklem",
+                "Greeth",
+                "Valindra",
+                "Dzaan",
+                "Avarice",
+                "Vellynne",
+                "Nass",
+                "Khorith",
+                "Zelenn",
+                "Maccath"
+            ],
+            "female": [
+                "Valindra",
+                "Maccath",
+                "Avarice",
+                "Vellynne",
+                "Dzaan",
+                "Luskan",
+                "Illusk",
+                "Arcane",
+                "Tower",
+                "Frost"
+            ]
+        }
+    },
+    "Aurora's Emporium": {
+        "titles": [
+            "Aurora Agent",
+            "Traveling Merchant",
+            "Exotic Goods Dealer",
+            "Purveyor of Wonders",
+            "Catalogue Master",
+            "Trade Representative"
+        ],
+        "epithets": [
+            "Bearer of Rarities",
+            "Collector of the Exotic",
+            "Master of Fine Goods",
+            "Merchant of Marvels"
+        ],
+        "names": {
+            "male": [
+                "Volothamp",
+                "Renaer",
+                "Volo",
+                "Durnan",
+                "Mirt",
+                "Hlam",
+                "Floon",
+                "Jeryth",
+                "Davil",
+                "Eldon"
+            ],
+            "female": [
+                "Aurora",
+                "Fala",
+                "Tashlyn",
+                "Yalah",
+                "Istrid",
+                "Ammalia",
+                "Brianne",
+                "Savra",
+                "Remallia",
+                "Jalester"
+            ]
+        }
+    },
+    "Elemental Cults": {
+        "titles": [
+            "Eternal Flame Prophet",
+            "Crushing Wave Reaver",
+            "Howling Hatred Initiate",
+            "Black Earth Guard",
+            "Elemental Priest",
+            "Cult Fanatic"
+        ],
+        "epithets": [
+            "Voice of the Elder Elemental Eye",
+            "Herald of Elemental Destruction",
+            "Servant of the Princes",
+            "Bringer of the Apocalypse"
+        ],
+        "names": {
+            "male": [
+                "Marlos",
+                "Aerisi",
+                "Gar",
+                "Vanifer",
+                "Windharrow",
+                "Miraj",
+                "Bastian",
+                "Thurl",
+                "Shoalar",
+                "Jolliver"
+            ],
+            "female": [
+                "Aerisi",
+                "Vanifer",
+                "Gar",
+                "Hellenrae",
+                "Wiggan",
+                "Shoalar",
+                "Thurl",
+                "Bastian",
+                "Miraj",
+                "Elizar"
+            ]
+        }
+    },
+    "Flaming Fist": {
+        "titles": [
+            "Fist Captain",
+            "Fist Marshal",
+            "Flaming Fist Mercenary",
+            "Blaze",
+            "Duke's Guard",
+            "Gate Warden"
+        ],
+        "epithets": [
+            "Defender of Baldur's Gate",
+            "Champion of the Fist",
+            "Shield of the Wide",
+            "Sword of the Gate"
+        ],
+        "names": {
+            "male": [
+                "Ulder",
+                "Ravengard",
+                "Abdel",
+                "Adrian",
+                "Fist",
+                "Flame",
+                "Blaze",
+                "Steel",
+                "Iron",
+                "Sword"
+            ],
+            "female": [
+                "Liara",
+                "Portyr",
+                "Florentia",
+                "Durinbold",
+                "Jhasso",
+                "Silvershield",
+                "Vanthampur",
+                "Rael",
+                "Alba",
+                "Vanna"
+            ]
+        }
+    },
+    "Kraken Society": {
+        "titles": [
+            "Kraken Priest",
+            "Deep One",
+            "Tentacle Agent",
+            "Voice of Slarkrethel",
+            "Tide Master",
+            "Abyssal Servant"
+        ],
+        "epithets": [
+            "Chosen of the Kraken",
+            "Herald of the Deep",
+            "Master of the Crushing Depths",
+            "Speaker to the Ancient One"
+        ],
+        "names": {
+            "male": [
+                "Slarkrethel",
+                "Hekaton",
+                "Iymrith",
+                "Klauth",
+                "Slark",
+                "Depths",
+                "Abyss",
+                "Tentacle",
+                "Wave",
+                "Storm"
+            ],
+            "female": [
+                "Serissa",
+                "Mirran",
+                "Nym",
+                "Ning",
+                "Cressida",
+                "Neri",
+                "Shelly",
+                "Marina",
+                "Coral",
+                "Pearl"
+            ]
+        }
+    },
+    "Order of Delvers": {
+        "titles": [
+            "Master Delver",
+            "Subterranean Scout",
+            "Tunnel Runner",
+            "Deep Explorer",
+            "Cartographer of Depths",
+            "Underdark Guide"
+        ],
+        "epithets": [
+            "Mapper of the Unknown",
+            "Explorer of the Depths",
+            "Keeper of Lost Maps",
+            "Guide to the Underdark"
+        ],
+        "names": {
+            "male": [
+                "Bruenor",
+                "Delver",
+                "Deep",
+                "Stone",
+                "Tunnel",
+                "Cave",
+                "Rock",
+                "Ore",
+                "Gem",
+                "Crystal"
+            ],
+            "female": [
+                "Cattie",
+                "Brie",
+                "Regis",
+                "Wulfgar",
+                "Drizzt",
+                "Mithral",
+                "Diamond",
+                "Ruby",
+                "Amethyst",
+                "Jade"
+            ]
+        }
+    },
+    "Spellguard": {
+        "titles": [
+            "Spellguard Knight",
+            "Warden Mage",
+            "Abjurer",
+            "Mystic Theurge",
+            "Shield Wizard",
+            "Silverymoon Guardian"
+        ],
+        "epithets": [
+            "Defender of Silverymoon",
+            "Keeper of the Moonbridge",
+            "Guardian of the Lady's Will",
+            "Warden of the Silver Marches"
+        ],
+        "names": {
+            "male": [
+                "Taern",
+                "Hornblade",
+                "Silverymoon",
+                "Moon",
+                "Silver",
+                "Star",
+                "Night",
+                "Dawn",
+                "Light",
+                "Guard"
+            ],
+            "female": [
+                "Alustriel",
+                "Laeral",
+                "Dove",
+                "Storm",
+                "Silverhand",
+                "Luna",
+                "Stella",
+                "Aurora",
+                "Celeste",
+                "Diana"
+            ]
+        }
+    },
+    "Waterclock Guild": {
+        "titles": [
+            "Master Clockmaker",
+            "Artificer",
+            "Gear Smith",
+            "Timekeeper",
+            "Guild Artisan",
+            "Neverwinter Craftsman"
+        ],
+        "epithets": [
+            "Master of Mechanisms",
+            "Keeper of Neverwinter",
+            "Guardian of the Clocks",
+            "Artisan of Time"
+        ],
+        "names": {
+            "male": [
+                "Neverember",
+                "Neverwinter",
+                "Clock",
+                "Gear",
+                "Cog",
+                "Spring",
+                "Copper",
+                "Bronze",
+                "Brass",
+                "Iron"
+            ],
+            "female": [
+                "Liset",
+                "Seldra",
+                "Sabine",
+                "Clockwork",
+                "Tink",
+                "Gilda",
+                "Mira",
+                "Nyx",
+                "Petra",
+                "Luna"
+            ]
+        }
+    }
+}
